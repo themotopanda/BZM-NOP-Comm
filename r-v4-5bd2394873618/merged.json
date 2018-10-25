@@ -1,0 +1,116 @@
+{
+ "settings": {
+  "env": {
+   "TAURUS_SESSIONS_INDEX": 1, 
+   "TAURUS_SESSIONS_TOTAL": 1, 
+   "TAURUS_LOCATIONS_TOTAL": 1, 
+   "TAURUS_LOCATIONS_INDEX": 1, 
+   "TAURUS_EXECUTIONS_TOTAL": 1, 
+   "TAURUS_EXECUTIONS_INDEX": 1
+  }
+ }, 
+ "reporting": [
+  {
+   "session-id": "r-v4-5bd2394873618", 
+   "test-id": 6382363, 
+   "send-data": false, 
+   "upload-artifacts": false, 
+   "module": "blazemeter", 
+   "signature": "ci12NC01YmQyMzk0ODczNjE4OjE1NDE3MTM1MjQ6NTk0YjQ2ZThjMzg2ZTllYmMwOTdkN2YyN2YyNmY1ZmRiNTg2NWZlMGRhMTRlMzEzNDg4OTlhZGJlOTNkMjZkOWVhNzZlMzEzODgwM2ExZjI4M2RiNmU4N2VhMGE4YTM3ZmQ2ZThlMTA1MzlhZWE0NzBkMjU4MTVlNzUyNTIwM2Q=", 
+   "user-id": 407077
+  }
+ ], 
+ "modules": {
+  "cloud-utils": {
+   "jetlag-download": "https://s3.amazonaws.com/blazemeter-jetlag/snapshots/jetlag-1.6.6-2018-08-12-14-47-jar-with-dependencies.jar", 
+   "commands-channel": {
+    "url": "https://a.blazemeter.com/api/v4/taurus/{session_id}/poll"
+   }, 
+   "jetlag-url": "https://data.blazemeter.com/submit.php?signature={signature}&session_id={session_id}&user_id={user_id}&test_id={test_id}", 
+   "session": {
+    "master_id": 1.84e+07, 
+    "user_id": 407077, 
+    "session_token": "********", 
+    "session_id": "r-v4-5bd2394873618", 
+    "signature": "ci12NC01YmQyMzk0ODczNjE4OjE1NDE3MTM1MjQ6NTk0YjQ2ZThjMzg2ZTllYmMwOTdkN2YyN2YyNmY1ZmRiNTg2NWZlMGRhMTRlMzEzNDg4OTlhZGJlOTNkMjZkOWVhNzZlMzEzODgwM2ExZjI4M2RiNmU4N2VhMGE4YTM3ZmQ2ZThlMTA1MzlhZWE0NzBkMjU4MTVlNzUyNTIwM2Q=", 
+    "test_id": 6382363
+   }, 
+   "jetlag-args": "-max_labels 100", 
+   "status-notify-url": "https://a.blazemeter.com/api/v4/taurus/r-v4-5bd2394873618/notify", 
+   "aws-params": {
+    "data-path": "users/407077/tests/6382363/reports/r-v4-5bd2394873618/data", 
+    "url": "s3://blazemeter/users/407077/tests/6382363/reports/r-v4-5bd2394873618/", 
+    "region": "us-east-1", 
+    "token": "********", 
+    "bucket-name": "blazemeter", 
+    "secret": "********", 
+    "key-id": "ASIA27ZZ6HCKWQVR45EH"
+   }, 
+   "delayed-start": false, 
+   "start-limit-exceeded-shutdown": false, 
+   "sleep-after": 0, 
+   "start-allow-limit": "1ms", 
+   "session-token": "********"
+  }, 
+  "periodic-uploader": {
+   "upload_interval": 60, 
+   "enabled": true
+  }, 
+  "blazemeter": {
+   "data-address": "https://data.blazemeter.com", 
+   "address": "https://a.blazemeter.com"
+  }, 
+  "passfail": {
+   "class": "bzt.engine.Reporter"
+  }, 
+  "jmeter": {
+   "version": "auto"
+  }, 
+  "version-switch": {
+   "switch-java": "8"
+  }
+ }, 
+ "provisioning": "local", 
+ "scenarios": {
+  "default-scenario-6382363": {
+   "force-parent-sample": false, 
+   "script": "NOP_SC2.jmx"
+  }
+ }, 
+ "services": [
+  {
+   "aws-params": {
+    "data-path": "users/407077/tests/6382363/reports/r-v4-5bd2394873618/data", 
+    "url": "s3://blazemeter/users/407077/tests/6382363/reports/r-v4-5bd2394873618/", 
+    "region": "us-east-1", 
+    "token": "********", 
+    "bucket-name": "blazemeter", 
+    "secret": "********", 
+    "key-id": "ASIA27ZZ6HCKWQVR45EH"
+   }, 
+   "module": "s3downloader"
+  }, 
+  {
+   "module": "final-notifier"
+  }, 
+  {
+   "module": "dynjmx"
+  }
+ ], 
+ "execution": [
+  {
+   "scenario": "default-scenario-6382363", 
+   "locationsPercents": {
+    "us-east-1": 100
+   }, 
+   "ramp-up": "3m", 
+   "locations": {
+    "us-east-1": 20
+   }, 
+   "steps": 0, 
+   "concurrency": 20, 
+   "executor": "jmeter", 
+   "hold-for": "2m"
+  }
+ ]
+}

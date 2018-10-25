@@ -1,0 +1,86 @@
+---
+execution:
+- concurrency: 20
+  executor: jmeter
+  hold-for: 2m
+  locations:
+    us-east-1: 20
+  locationsPercents:
+    us-east-1: 100
+  ramp-up: 3m
+  scenario: default-scenario-6382363
+  steps: 0
+modules:
+  blazemeter:
+    address: https://a.blazemeter.com
+    data-address: https://data.blazemeter.com
+  cloud-utils:
+    aws-params:
+      bucket-name: blazemeter
+      data-path: users/407077/tests/6382363/reports/r-v4-5bd2394873618/data
+      key-id: ASIA27ZZ6HCKWQVR45EH
+      region: us-east-1
+      secret: '********'
+      token: '********'
+      url: s3://blazemeter/users/407077/tests/6382363/reports/r-v4-5bd2394873618/
+    commands-channel:
+      url: https://a.blazemeter.com/api/v4/taurus/{session_id}/poll
+    delayed-start: false
+    jetlag-args: -max_labels 100
+    jetlag-download: https://s3.amazonaws.com/blazemeter-jetlag/snapshots/jetlag-1.6.6-2018-08-12-14-47-jar-with-dependencies.jar
+    jetlag-url: https://data.blazemeter.com/submit.php?signature={signature}&session_id={session_id}&user_id={user_id}&test_id={test_id}
+    session:
+      master_id: 18436481.0
+      session_id: r-v4-5bd2394873618
+      session_token: '********'
+      signature: ci12NC01YmQyMzk0ODczNjE4OjE1NDE3MTM1MjQ6NTk0YjQ2ZThjMzg2ZTllYmMwOTdkN2YyN2YyNmY1ZmRiNTg2NWZlMGRhMTRlMzEzNDg4OTlhZGJlOTNkMjZkOWVhNzZlMzEzODgwM2ExZjI4M2RiNmU4N2VhMGE4YTM3ZmQ2ZThlMTA1MzlhZWE0NzBkMjU4MTVlNzUyNTIwM2Q=
+      test_id: 6382363
+      user_id: 407077
+    session-token: '********'
+    sleep-after: 0
+    start-allow-limit: 1ms
+    start-limit-exceeded-shutdown: false
+    status-notify-url: https://a.blazemeter.com/api/v4/taurus/r-v4-5bd2394873618/notify
+  jmeter:
+    version: auto
+  passfail:
+    class: bzt.engine.Reporter
+  periodic-uploader:
+    enabled: true
+    upload_interval: 60
+  version-switch:
+    switch-java: '8'
+provisioning: local
+reporting:
+- module: blazemeter
+  send-data: false
+  session-id: r-v4-5bd2394873618
+  signature: ci12NC01YmQyMzk0ODczNjE4OjE1NDE3MTM1MjQ6NTk0YjQ2ZThjMzg2ZTllYmMwOTdkN2YyN2YyNmY1ZmRiNTg2NWZlMGRhMTRlMzEzNDg4OTlhZGJlOTNkMjZkOWVhNzZlMzEzODgwM2ExZjI4M2RiNmU4N2VhMGE4YTM3ZmQ2ZThlMTA1MzlhZWE0NzBkMjU4MTVlNzUyNTIwM2Q=
+  test-id: 6382363
+  upload-artifacts: false
+  user-id: 407077
+scenarios:
+  default-scenario-6382363:
+    force-parent-sample: false
+    script: NOP_SC2.jmx
+services:
+- aws-params:
+    bucket-name: blazemeter
+    data-path: users/407077/tests/6382363/reports/r-v4-5bd2394873618/data
+    key-id: ASIA27ZZ6HCKWQVR45EH
+    region: us-east-1
+    secret: '********'
+    token: '********'
+    url: s3://blazemeter/users/407077/tests/6382363/reports/r-v4-5bd2394873618/
+  module: s3downloader
+- module: final-notifier
+- module: dynjmx
+settings:
+  env:
+    TAURUS_EXECUTIONS_INDEX: 1
+    TAURUS_EXECUTIONS_TOTAL: 1
+    TAURUS_LOCATIONS_INDEX: 1
+    TAURUS_LOCATIONS_TOTAL: 1
+    TAURUS_SESSIONS_INDEX: 1
+    TAURUS_SESSIONS_TOTAL: 1
+

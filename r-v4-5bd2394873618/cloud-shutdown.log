@@ -1,0 +1,8 @@
+2018-10-25 21:51:05.8302: starting cloud shutdown
+2018-10-25 21:51:05.8322: generating artifacts.zip
+2018-10-25 21:51:05.8698: uploading artifacts.zip
+Uploading: blazemeter/users/407077/tests/6382363/reports/r-v4-5bd2394873618/artifacts.zip
+Uploading: blazemeter/users/407077/tests/6382363/reports/r-v4-5bd2394873618/artifacts.zip.tail.bz
+2018-10-25 21:51:06.5770: uploading bzt.log
+Uploading: blazemeter/users/407077/tests/6382363/reports/r-v4-5bd2394873618/bzt.log
+2018-10-25 21:51:07.1093: generating admin-artifacts.zip
