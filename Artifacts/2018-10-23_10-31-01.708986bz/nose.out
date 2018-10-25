@@ -1,0 +1,18 @@
+2018-10-23 10:31:02,576:INFO:18336:123145389920256:loadgen:Total workers: 1
+2018-10-23 10:31:02,583:INFO:18339:123145389920256:loadgen:Adding worker: idx=0	concurrency=1	results=/Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-23_10-31-01.708986bz/apiritif-0.csv
+2018-10-23 10:31:05,265:INFO:18339:123145369190400:apiritif.recorder:Transaction started:: start_time=1540315865.265,name=go to home page
+2018-10-23 10:31:07,336:INFO:18339:123145369190400:apiritif.recorder:Transaction ended:: duration=2.071,name=go to home page
+2018-10-23 10:31:07,337:INFO:18339:123145369190400:apiritif.recorder:Transaction started:: start_time=1540315867.337,name=search "apple"
+2018-10-23 10:31:08,194:INFO:18339:123145369190400:apiritif.recorder:Transaction ended:: duration=0.857,name=search "apple"
+2018-10-23 10:31:08,194:INFO:18339:123145369190400:apiritif.recorder:Transaction started:: start_time=1540315868.195,name=click macbook
+2018-10-23 10:31:09,734:INFO:18339:123145369190400:apiritif.recorder:Transaction ended:: duration=1.539,name=click macbook
+2018-10-23 10:31:09,734:INFO:18339:123145369190400:apiritif.recorder:Transaction started:: start_time=1540315869.735,name=add macbook to cart
+2018-10-23 10:31:09,802:INFO:18339:123145369190400:apiritif.recorder:Transaction ended:: duration=0.068,name=add macbook to cart
+2018-10-23 10:31:09,803:INFO:18339:123145369190400:apiritif.recorder:Transaction started:: start_time=1540315869.803,name=click "books"
+2018-10-23 10:31:10,365:INFO:18339:123145369190400:apiritif.recorder:Transaction ended:: duration=0.562,name=click "books"
+2018-10-23 10:31:10,365:INFO:18339:123145369190400:apiritif.recorder:Transaction started:: start_time=1540315870.366,name=add fahrenheit 451 to cart
+2018-10-23 10:31:10,415:INFO:18339:123145369190400:apiritif.recorder:Transaction ended:: duration=0.049,name=add fahrenheit 451 to cart
+2018-10-23 10:31:10,415:INFO:18339:123145369190400:apiritif.recorder:Transaction started:: start_time=1540315870.416,name=click "accessories"
+2018-10-23 10:32:10,424:INFO:18339:123145369190400:apiritif.recorder:Transaction ended:: duration=60.009,name=click "accessories"
+2018-10-23 10:32:10,517:INFO:18339:123145389920256:loadgen:Workers finished, awaiting result writer
+2018-10-23 10:32:10,720:INFO:18339:123145389920256:loadgen:Results written, shutting down

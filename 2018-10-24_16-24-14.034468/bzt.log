@@ -1,0 +1,198 @@
+[2018-10-24 16:24:13,710 INFO root] Taurus CLI Tool v1.13.0
+[2018-10-24 16:24:13,711 DEBUG root] Command-line options: {'verbose': None, 'no_system_configs': None, 'quiet': None, 'log': '/var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/bzt_ioVZiP.log', 'option': None, 'aliases': []}
+[2018-10-24 16:24:13,711 DEBUG root] Python: CPython 2.7.15
+[2018-10-24 16:24:13,711 DEBUG root] OS: ('Darwin', 'chefe02mac947', '17.7.0', 'Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64', 'x86_64', 'i386')
+[2018-10-24 16:24:13,711 DEBUG root] Adding JMX shorthand config for: ['NOP_SC2.jmx']
+[2018-10-24 16:24:13,712 DEBUG root] Dumping JSON config into /var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/jmx_5Z0hDG.json
+[2018-10-24 16:24:13,713 INFO root] Starting with configs: ['/var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/jmx_5Z0hDG.json']
+[2018-10-24 16:24:13,713 DEBUG root] Using personal config: /Users/chefe02/.bzt-rc
+[2018-10-24 16:24:13,713 INFO Engine] Configuring...
+[2018-10-24 16:24:13,713 DEBUG Engine] No machine configs dir: /usr/local/Cellar/bzt/1.13.0/libexec/bin/../etc/bzt.d
+[2018-10-24 16:24:13,713 DEBUG Engine] Base configs list: ['/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/resources/base-config.yml']
+[2018-10-24 16:24:13,714 DEBUG Engine.Configuration] Configs: ['/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/resources/base-config.yml']
+[2018-10-24 16:24:13,715 DEBUG Engine.Configuration] Reading /usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/resources/base-config.yml as YAML
+[2018-10-24 16:24:13,741 DEBUG Engine] User configs list: ['/Users/chefe02/.bzt-rc', '/var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/jmx_5Z0hDG.json']
+[2018-10-24 16:24:13,741 DEBUG Engine.Configuration] Configs: ['/Users/chefe02/.bzt-rc', '/var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/jmx_5Z0hDG.json']
+[2018-10-24 16:24:13,743 DEBUG Engine.Configuration] Reading /Users/chefe02/.bzt-rc as YAML
+[2018-10-24 16:24:14,008 DEBUG Engine.Configuration] Reading /var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/jmx_5Z0hDG.json as YAML
+[2018-10-24 16:24:14,009 DEBUG Engine.Configuration] Configs: ['/Users/chefe02/.bzt-rc', '/var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/jmx_5Z0hDG.json']
+[2018-10-24 16:24:14,009 DEBUG Engine.Configuration] Reading /Users/chefe02/.bzt-rc as YAML
+[2018-10-24 16:24:14,013 DEBUG Engine.Configuration] Reading /var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/jmx_5Z0hDG.json as YAML
+[2018-10-24 16:24:14,034 DEBUG Engine] Requesting updates info: http://gettaurus.org/updates/?version=1.13.0&installID=macos-8c85905fb9f6
+[2018-10-24 16:24:14,034 DEBUG HTTPClient] Making HTTP request GET http://gettaurus.org/updates/?version=1.13.0&installID=macos-8c85905fb9f6
+[2018-10-24 16:24:14,036 INFO Engine] Artifacts dir: /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468
+[2018-10-24 16:24:14,040 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/effective
+[2018-10-24 16:24:14,043 DEBUG urllib3.connectionpool] Starting new HTTP connection (1): gettaurus.org:80
+[2018-10-24 16:24:14,043 DEBUG Engine.Configuration] Dumping YAML config into /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/effective.yml
+[2018-10-24 16:24:14,069 DEBUG Engine.Configuration] Dumping JSON config into /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/effective.json
+[2018-10-24 16:24:14,070 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/merged.yml
+[2018-10-24 16:24:14,070 DEBUG Engine.Configuration] Dumping YAML config into /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/merged.yml
+[2018-10-24 16:24:14,072 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/merged.json
+[2018-10-24 16:24:14,072 DEBUG Engine.Configuration] Dumping JSON config into /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/merged.json
+[2018-10-24 16:24:14,072 DEBUG Engine] Add existing artifact (move=False): /var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/jmx_5Z0hDG.json
+[2018-10-24 16:24:14,073 DEBUG Engine] Copying /var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/jmx_5Z0hDG.json to /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/jmx_5Z0hDG.json
+[2018-10-24 16:24:14,073 DEBUG Engine.Environment] Replace 'TAURUS_ARTIFACTS_DIR' in environment
+[2018-10-24 16:24:14,074 DEBUG root] Closing log handler: /var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/bzt_ioVZiP.log
+[2018-10-24 16:24:14,621 DEBUG root] Switched writing logs to /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/bzt.log
+[2018-10-24 16:24:14,621 DEBUG root] Linting config
+[2018-10-24 16:24:14,624 INFO Engine] Preparing...
+[2018-10-24 16:24:14,625 DEBUG Engine] Module config: consolidator {'class': u'bzt.modules.aggregator.ConsolidatingAggregator'}
+[2018-10-24 16:24:14,625 DEBUG root] Importing module: bzt.modules.aggregator
+[2018-10-24 16:24:14,839 DEBUG urllib3.connectionpool] http://gettaurus.org:80 "GET /updates/?version=1.13.0&installID=macos-8c85905fb9f6 HTTP/1.1" 200 60
+[2018-10-24 16:24:14,841 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/aggregator.pyc'>
+[2018-10-24 16:24:14,843 DEBUG Engine] Taurus updates info: {u'needsUpgrade': False, u'latest': u'1.13.0'}
+[2018-10-24 16:24:14,843 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2018-10-24 16:24:14,844 DEBUG Engine] Installation is up-to-date
+[2018-10-24 16:24:14,844 DEBUG Engine] Module config: monitoring {'class': u'bzt.modules.monitoring.Monitoring'}
+[2018-10-24 16:24:14,844 DEBUG root] Importing module: bzt.modules.monitoring
+[2018-10-24 16:24:14,847 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/monitoring.pyc'>
+[2018-10-24 16:24:14,847 DEBUG Engine] Module config: local {'class': u'bzt.modules.provisioning.Local'}
+[2018-10-24 16:24:14,847 DEBUG root] Importing module: bzt.modules.provisioning
+[2018-10-24 16:24:14,847 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/provisioning.pyc'>
+[2018-10-24 16:24:14,847 DEBUG Engine] Module config: jmeter {'properties': {'jmeter.save.saveservice.autoflush': u'true', 'jmeter.save.saveservice.connect_time': u'true', 'summariser.name': u'', 'jmeterengine.force.system.exit': u'true'}, 'plugins': [u'jpgc-casutg', u'jpgc-dummy', u'jpgc-ffw', u'jpgc-fifo', u'jpgc-functions', u'jpgc-json', u'jpgc-perfmon', u'jpgc-prmctl', u'jpgc-tst'], 'class': u'bzt.modules.jmeter.JMeterExecutor', 'protocol-handlers': {'http': u'bzt.jmx.http.HTTPProtocolHandler'}}
+[2018-10-24 16:24:14,848 DEBUG root] Importing module: bzt.modules.jmeter
+[2018-10-24 16:24:14,864 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/jmeter.pyc'>
+[2018-10-24 16:24:14,864 DEBUG Engine.local] Preparing executor: jmeter/4417663056
+[2018-10-24 16:24:14,864 DEBUG Engine.jmeter] Extract {'script': u'NOP_SC2.jmx'} into scenarios
+[2018-10-24 16:24:14,866 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/jmeter.log
+[2018-10-24 16:24:14,867 DEBUG Engine.jmeter] Checking if port 4445 is free
+[2018-10-24 16:24:14,867 DEBUG Engine.jmeter] Port 4445 is free
+[2018-10-24 16:24:14,867 DEBUG Engine.jmeter] Using port 4445 for management
+[2018-10-24 16:24:14,868 DEBUG Engine.jmeter.JavaVM] Trying JavaVM: ['java', '-version']
+[2018-10-24 16:24:14,992 DEBUG Engine.jmeter.JavaVM] JavaVM output: java version "1.8.0_151"
+Java(TM) SE Runtime Environment (build 1.8.0_151-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.151-b12, mixed mode)
+[2018-10-24 16:24:14,992 DEBUG Engine.jmeter.TclLibrary] We don't need to check tcl library on this platform
+[2018-10-24 16:24:14,992 DEBUG Engine.jmeter.JMeter] Trying jmeter: /Users/chefe02/.bzt/jmeter-taurus/4.0/bin/jmeter.sh
+[2018-10-24 16:24:14,993 DEBUG bzt.utils] Executing shell: ['/Users/chefe02/.bzt/jmeter-taurus/4.0/bin/jmeter.sh', '-j', '/var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/jmeterpplBrSlog', '--version'] at .
+[2018-10-24 16:24:16,269 DEBUG Engine.jmeter.JMeter] JMeter check:     _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____     
+   / \  |  _ \ / \  / ___| | | | ____|     | |  \/  | ____|_   _| ____|  _ \   
+  / _ \ | |_) / _ \| |   | |_| |  _|    _  | | |\/| |  _|   | | |  _| | |_) | 
+ / ___ \|  __/ ___ \ |___|  _  | |___  | |_| | |  | | |___  | | | |___|  _ <  
+/_/   \_\_| /_/   \_\____|_| |_|_____|  \___/|_|  |_|_____| |_| |_____|_| \_\ 4.0 r1823414  
+
+Copyright (c) 1999-2018 The Apache Software Foundation
+
+ / None
+[2018-10-24 16:24:16,270 DEBUG Engine.jmeter] Load: LoadSpec(concurrency=None, throughput=None, ramp_up=None, hold=0, iterations=None, duration=None, steps=None)
+[2018-10-24 16:24:16,276 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/kpi.jtl
+[2018-10-24 16:24:16,276 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/error.jtl
+[2018-10-24 16:24:16,277 INFO Engine.jmeter] 1 obsolete CookieManagers are found and fixed
+[2018-10-24 16:24:16,278 DEBUG Engine.jmeter.LoadSettingsProcessor] Thread group detection: duration not found, regular ThreadGroup will be used
+[2018-10-24 16:24:16,278 DEBUG Engine.jmeter.LoadSettingsProcessor] No iterations/concurrency/duration found, thread group modification is skipped
+[2018-10-24 16:24:16,278 DEBUG JMX] Saving JMX to: /Users/chefe02/Desktop/presales_cert/modified_NOP_SC2.jmx
+[2018-10-24 16:24:16,280 DEBUG Engine.jmeter] Additional properties: {'jmeter.save.saveservice.autoflush': u'true', 'jmeter.save.saveservice.connect_time': u'true', 'user.classpath': u'/Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468:/Users/chefe02/Desktop/presales_cert', 'sampleresult.default.encoding': 'UTF-8', 'summariser.name': u'', 'jmeterengine.force.system.exit': u'true', 'jmeter.save.saveservice.timestamp_format': 'ms', 'jmeterengine.nongui.maxport': 4445, 'jmeterengine.nongui.port': 4445}
+[2018-10-24 16:24:16,280 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/jmeter-bzt.properties
+[2018-10-24 16:24:16,280 DEBUG Engine.jmeter.JMeter] Passing JVM_ARGS: ''
+[2018-10-24 16:24:16,281 DEBUG bzt.utils] Executing shell: ['/Users/chefe02/.bzt/jmeter-taurus/4.0/bin/PluginsManagerCMD.sh', 'install-for-jmx', u'/Users/chefe02/Desktop/presales_cert/modified_NOP_SC2.jmx'] at .
+[2018-10-24 16:24:19,181 DEBUG Engine.jmeter.JMeter] Try to detect plugins for /Users/chefe02/Desktop/presales_cert/modified_NOP_SC2.jmx
+16:24:17.772 [main] INFO  org.jmeterplugins.repository.PluginManager - Plugins Status: [jpgc-functions=2.0, jpgc-casutg=2.5, jpgc-dummy=0.2, jpgc-ffw=2.0, bzm-hls=1.2, jpgc-fifo=0.2, jpgc-json=2.6, jpgc-prmctl=0.3, jpgc-perfmon=2.1, jpgc-plugins-manager=0.20, jpgc-tst=2.3, jmeter-core=4.0, jmeter-ftp=4.0, jmeter-http=4.0, jmeter-jdbc=4.0, jmeter-jms=4.0, jmeter-junit=4.0, jmeter-java=4.0, jmeter-ldap=4.0, jmeter-mail=4.0, jmeter-mongodb=4.0, jmeter-native=4.0, jmeter-tcp=4.0, jmeter-components=4.0]
+2018-10-24 16:24:17,772 INFO o.j.r.PluginManager: Plugins Status: [jpgc-functions=2.0, jpgc-casutg=2.5, jpgc-dummy=0.2, jpgc-ffw=2.0, bzm-hls=1.2, jpgc-fifo=0.2, jpgc-json=2.6, jpgc-prmctl=0.3, jpgc-perfmon=2.1, jpgc-plugins-manager=0.20, jpgc-tst=2.3, jmeter-core=4.0, jmeter-ftp=4.0, jmeter-http=4.0, jmeter-jdbc=4.0, jmeter-jms=4.0, jmeter-junit=4.0, jmeter-java=4.0, jmeter-ldap=4.0, jmeter-mail=4.0, jmeter-mongodb=4.0, jmeter-native=4.0, jmeter-tcp=4.0, jmeter-components=4.0]
+16:24:18.150 [main] INFO  org.apache.jmeter.save.SaveService - Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-10-24 16:24:18,150 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+16:24:18.163 [main] INFO  org.apache.jmeter.save.SaveService - Using SaveService properties file encoding UTF-8
+2018-10-24 16:24:18,163 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+16:24:18.166 [main] INFO  org.apache.jmeter.save.SaveService - Using SaveService properties version 4.0
+2018-10-24 16:24:18,166 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+16:24:18.231 [main] INFO  org.apache.jmeter.protocol.http.control.CookieManager - Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2018-10-24 16:24:18,231 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+16:24:18.235 [main] INFO  org.apache.jmeter.protocol.http.control.CacheManager - Will only cache the following methods: [GET]
+2018-10-24 16:24:18,235 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+16:24:18.289 [main] INFO  org.jmeterplugins.repository.PluginManager - Restarting JMeter...
+2018-10-24 16:24:18,289 INFO o.j.r.PluginManager: Restarting JMeter...
+16:24:18.290 [Thread-3] INFO  org.jmeterplugins.repository.PluginManager - Starting JMeter Plugins modifications
+2018-10-24 16:24:18,290 INFO o.j.r.PluginManager: Starting JMeter Plugins modifications
+
+ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console. Set system property 'log4j2.debug' to show Log4j2 internal initialization logging.
+
+[2018-10-24 16:24:19,182 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/jmeter.out
+[2018-10-24 16:24:19,182 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/jmeter.err
+[2018-10-24 16:24:19,183 DEBUG Engine] Module config: final-stats {'class': u'bzt.modules.reporting.FinalStatus'}
+[2018-10-24 16:24:19,183 DEBUG root] Importing module: bzt.modules.reporting
+[2018-10-24 16:24:19,199 DEBUG easyprocess] version=0.2.3
+[2018-10-24 16:24:19,201 DEBUG pyvirtualdisplay] version=0.2.1
+[2018-10-24 16:24:19,203 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/reporting.pyc'>
+[2018-10-24 16:24:19,203 DEBUG Engine] Module config: console {'class': u'bzt.modules.console.ConsoleStatusReporter'}
+[2018-10-24 16:24:19,203 DEBUG root] Importing module: bzt.modules.console
+[2018-10-24 16:24:19,203 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/console.pyc'>
+[2018-10-24 16:24:19,210 DEBUG Engine.Configuration] Dumping YAML config into /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/effective.yml
+[2018-10-24 16:24:19,228 DEBUG Engine.Configuration] Dumping JSON config into /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/effective.json
+[2018-10-24 16:24:19,229 INFO Engine] Starting...
+[2018-10-24 16:24:19,229 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x105d2b550>
+[2018-10-24 16:24:19,229 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x105d2b910>
+[2018-10-24 16:24:19,229 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x107551d10>
+[2018-10-24 16:24:19,229 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x107578350>
+[2018-10-24 16:24:19,230 INFO Engine.console] Waiting for results...
+[2018-10-24 16:24:19,230 DEBUG Engine] Startup <bzt.modules.provisioning.Local object at 0x105ce35d0>
+[2018-10-24 16:24:19,230 DEBUG Engine.local] Delay setup for jmeter/NOP_SC2.jmx: 0(start-at) + 0(delay) = 0
+[2018-10-24 16:24:19,231 DEBUG Engine.Configuration] Dumping YAML config into /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/effective.yml
+[2018-10-24 16:24:19,249 DEBUG Engine.Configuration] Dumping JSON config into /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/effective.json
+[2018-10-24 16:24:19,250 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2018-10-24 16:24:19,250 DEBUG root] Leveled up log file verbosity
+[2018-10-24 16:24:19,250 DEBUG bzt.utils] Executing shell: ['/Users/chefe02/.bzt/jmeter-taurus/4.0/bin/jmeter.sh', '-n', '-t', u'/Users/chefe02/Desktop/presales_cert/modified_NOP_SC2.jmx', '-j', '/Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/jmeter.log', '-q', '/Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/jmeter-bzt.properties'] at /Users/chefe02/Desktop/presales_cert
+[2018-10-24 16:24:19,256 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2018-10-24 16:24:19,481 INFO Engine.console] Waiting for finish...
+[2018-10-24 16:24:26,338 WARNING Engine] Please wait for graceful shutdown...
+[2018-10-24 16:24:26,342 DEBUG root] Leveled up log file verbosity
+[2018-10-24 16:24:26,342 INFO Engine] Shutting down...
+[2018-10-24 16:24:26,345 DEBUG Engine] Current stop reason: None
+[2018-10-24 16:24:26,345 DEBUG Engine.local] Shutdown jmeter/NOP_SC2.jmx
+[2018-10-24 16:24:26,346 DEBUG Engine.console] Restoring logging streams, [<logging.StreamHandler object at 0x105cdac10>]/{<logging.StreamHandler object at 0x105cdac10>: <open file '<stdout>', mode 'w' at 0x104472150>}
+[2018-10-24 16:24:26,347 DEBUG Engine.Configuration] Dumping YAML config into /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/effective.yml
+[2018-10-24 16:24:26,366 DEBUG Engine.Configuration] Dumping JSON config into /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/effective.json
+[2018-10-24 16:24:26,367 INFO Engine] Post-processing...
+[2018-10-24 16:24:26,367 DEBUG Engine.local] Post-process jmeter/NOP_SC2.jmx
+[2018-10-24 16:24:26,367 DEBUG Engine] Add existing artifact (move=True): /Users/chefe02/Desktop/presales_cert/modified_NOP_SC2.jmx
+[2018-10-24 16:24:26,367 DEBUG Engine] Moving /Users/chefe02/Desktop/presales_cert/modified_NOP_SC2.jmx to /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/modified_NOP_SC2.jmx
+[2018-10-24 16:24:26,367 DEBUG Engine.jmeter.JTLErrorsReader.FileReader] Reading: /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/error.jtl
+[2018-10-24 16:24:26,367 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader.FileReader] Reading: /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/kpi.jtl
+[2018-10-24 16:24:26,368 DEBUG Engine.jmeter.JTLReader] Buffer len: 2; Known errors count: 0
+[2018-10-24 16:24:26,369 DEBUG Engine.jmeter.JTLReader] Aggregating: 1540423464
+[2018-10-24 16:24:26,371 DEBUG Engine.jmeter.JTLReader] Aggregating: 1540423465
+[2018-10-24 16:24:26,373 DEBUG Engine.consolidator] Consolidator buffer[4]: [1540423464, 1540423465, 1540423462, 1540423463]
+[2018-10-24 16:24:26,373 DEBUG Engine.consolidator] Merging into 1540423462
+[2018-10-24 16:24:26,373 DEBUG Engine.consolidator] Merging 1540423462
+[2018-10-24 16:24:26,380 DEBUG Engine.consolidator] Processed datapoint: 1540423462/None
+[2018-10-24 16:24:26,380 DEBUG Engine.consolidator] Merging into 1540423463
+[2018-10-24 16:24:26,380 DEBUG Engine.consolidator] Merging 1540423463
+[2018-10-24 16:24:26,387 DEBUG Engine.consolidator] Processed datapoint: 1540423463/None
+[2018-10-24 16:24:26,387 DEBUG Engine.consolidator] Merging into 1540423464
+[2018-10-24 16:24:26,387 DEBUG Engine.consolidator] Merging 1540423464
+[2018-10-24 16:24:26,395 DEBUG Engine.consolidator] Processed datapoint: 1540423464/None
+[2018-10-24 16:24:26,395 DEBUG Engine.consolidator] Merging into 1540423465
+[2018-10-24 16:24:26,395 DEBUG Engine.consolidator] Merging 1540423465
+[2018-10-24 16:24:26,401 DEBUG Engine.consolidator] Processed datapoint: 1540423465/None
+[2018-10-24 16:24:26,402 INFO Engine.final-stats] Test duration: 0:00:07
+[2018-10-24 16:24:26,402 INFO Engine.final-stats] Samples count: 8, 0.00% failures
+[2018-10-24 16:24:26,402 INFO Engine.final-stats] Average times: total 0.540, latency 0.180, connect 0.013
+[2018-10-24 16:24:26,403 INFO Engine.final-stats] Percentiles:
+(0lqqqqqqqqqqqqqqqwqqqqqqqqqqqqqqqk(B
+(0x(B Percentile, % (0x(B Resp. Time, s (0x(B
+(0tqqqqqqqqqqqqqqqnqqqqqqqqqqqqqqqu(B
+(0x(B           0.0 (0x(B         0.132 (0x(B
+(0x(B          50.0 (0x(B         0.526 (0x(B
+(0x(B          90.0 (0x(B         0.912 (0x(B
+(0x(B          95.0 (0x(B         1.091 (0x(B
+(0x(B          99.0 (0x(B         1.091 (0x(B
+(0x(B          99.9 (0x(B         1.091 (0x(B
+(0x(B         100.0 (0x(B         1.091 (0x(B
+(0mqqqqqqqqqqqqqqqvqqqqqqqqqqqqqqqj(B
+[2018-10-24 16:24:26,406 INFO Engine.final-stats] Request label stats:
+(0lqqqqqqqqqqqqqqqqqqqqqqqqwqqqqqqqqwqqqqqqqqqwqqqqqqqqwqqqqqqqk(B
+(0x(B label                  (0x(B status (0x(B    succ (0x(B avg_rt (0x(B error (0x(B
+(0tqqqqqqqqqqqqqqqqqqqqqqqqnqqqqqqqqnqqqqqqqqqnqqqqqqqqnqqqqqqqu(B
+(0x(B add book to cart       (0x(B   OK   (0x(B 100.00% (0x(B  0.140 (0x(B       (0x(B
+(0x(B add macbook to cart    (0x(B   OK   (0x(B 100.00% (0x(B  0.134 (0x(B       (0x(B
+(0x(B add sunglasses to cart (0x(B   OK   (0x(B 100.00% (0x(B  0.132 (0x(B       (0x(B
+(0x(B click macbook          (0x(B   OK   (0x(B 100.00% (0x(B  0.912 (0x(B       (0x(B
+(0x(B click on sunglasses    (0x(B   OK   (0x(B 100.00% (0x(B  0.693 (0x(B       (0x(B
+(0x(B search "apple"         (0x(B   OK   (0x(B 100.00% (0x(B  1.091 (0x(B       (0x(B
+(0x(B search "fahr"          (0x(B   OK   (0x(B 100.00% (0x(B  0.691 (0x(B       (0x(B
+(0x(B search sunglasses      (0x(B   OK   (0x(B 100.00% (0x(B  0.526 (0x(B       (0x(B
+(0mqqqqqqqqqqqqqqqqqqqqqqqqvqqqqqqqqvqqqqqqqqqvqqqqqqqqvqqqqqqqj(B
+[2018-10-24 16:24:26,406 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2018-10-24 16:24:26,409 DEBUG Engine.Configuration] Dumping YAML config into /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/effective.yml
+[2018-10-24 16:24:26,431 DEBUG Engine.Configuration] Dumping JSON config into /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/effective.json
+[2018-10-24 16:24:26,431 INFO root] Artifacts dir: /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468
+[2018-10-24 16:24:26,432 INFO root] Done performing with code: 0
+[2018-10-24 16:24:26,432 DEBUG root] Closing log handler: /Users/chefe02/Desktop/presales_cert/2018-10-24_16-24-14.034468/bzt.log

@@ -1,0 +1,22 @@
+---
+execution:
+- concurrency:
+    cloud: 1
+    local: 1
+  executor: selenium
+  hold-for: 10m
+  locations:
+    us-west-1: 1
+  scenario:
+    script: NOP_SC3.py
+modules:
+  blazemeter:
+    token: '********'
+  nose:
+    ignore-unknown-actions: true
+services:
+- capturehar
+- screenshoter
+settings:
+  artifacts-dir: /Users/chefe02/Desktop/presales_cert/Artifacts/%Y-%m-%d_%H-%M-%S.%fbz
+

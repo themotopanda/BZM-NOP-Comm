@@ -1,0 +1,24 @@
+execution:
+- executor: jmeter
+  ramp-up: 5m
+  hold-for: 10m
+  concurrency:
+    local: 20
+    cloud: 100
+  locations:
+    us-west-1: 1
+    # us-west-2: 1
+    # ap-southeast-1: 2
+
+  scenario:
+    script: ./NOP_SC2.jmx
+
+modules:
+  blazemeter:
+    workspace: litterbox
+    test: NOP_SC2 CI
+    report-name: NOP_SC2_Taurus
+    project: presales_cert
+
+settings:
+  artifacts-dir: /Users/chefe02/Desktop/presales_cert/Artifacts/%Y-%m-%d_%H-%M-%S.%fbz

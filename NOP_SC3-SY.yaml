@@ -1,0 +1,81 @@
+
+execution:
+- executor: selenium
+  scenario: NOP_SC3-Selenium
+  iterations: 1
+  # hold-for: 10m
+  concurrency:
+    local: 1
+    cloud: 1
+  locations:
+    us-west-1: 1
+
+
+scenarios:
+  NOP_SC3-Selenium:
+    browser: Chrome
+    headless: false
+    timeout: 60s
+    think-time: 0s
+    requests:
+    - label: go to home page
+      actions:
+      - go(http://demo.bzm-presales.com/nopcommerce)
+    - label: search "apple"
+      actions:
+      - clickByID(small-searchterms)
+      - typeByID(small-searchterms): "apple"
+      - submitByID(small-search-box-form)
+    - label: click macbook
+      actions:
+      - clickByCSS(div.picture > a[title="Show details for Apple MacBook Pro 13-inch"] > img[alt="Picture of Apple MacBook Pro 13-inch"])
+    - label: add macbook to cart
+      actions:
+      - clickByID(add-to-cart-button-4)
+    - label: click "books"
+      actions:
+      - clickByLinkText(Books)
+    - label: add fahrenheit 451 to cart
+      actions:
+      - clickByCSS(input.button-2.product-box-add-to-cart-button)
+    - label: click "accessories"
+      actions:
+      - clickByLinkText(Accessories)
+    - label: add sunglasses to cart
+      actions:
+      - clickByXPath((//input[@value='Add to cart'])[2])
+    - label: checkout as guest
+      actions:
+      - clickByLinkText(shopping cart)
+      - clickByID(termsofservice)
+      - clickByID(checkout)
+      - clickByCSS(input.button-1.checkout-as-guest-button)
+      - clickByID(NewAddress_FirstName)
+      - typeByID(NewAddress_FirstName): "captain"
+      - typeByID(NewAddress_LastName): "herp-a-derp"
+      - typeByID(NewAddress_Email): "felicia.chen@blazemeter.com"
+      - selectByID(NewAddress_CountryId): "United States"
+      - typeByID(NewAddress_City): "pirate cove"
+      - typeByID(NewAddress_Address1): "123 tall ship st."
+      - typeByID(NewAddress_ZipPostalCode): "95050"
+      - typeByID(NewAddress_PhoneNumber): "4081234567"
+      - selectByID(NewAddress_StateProvinceId): "California"
+      - clickByName(nextstep)
+      - clickByName(nextstep)
+      - clickByName(nextstep)
+      - clickByName(nextstep)
+      - clickByName(nextstep)
+      - clickByCSS(input.button-1.order-completed-continue-button)
+
+modules:
+  blazemeter:
+    workspace: litterbox
+    test: NOP_SC3-Selenium
+    project: presales_cert
+
+services:
+- capturehar
+- screenshoter
+
+settings:
+  artifacts-dir: /Users/chefe02/Desktop/presales_cert/Artifacts/%Y-%m-%d_%H-%M-%S.%fbz

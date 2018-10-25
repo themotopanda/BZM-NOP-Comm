@@ -1,0 +1,10 @@
+timeStamp,elapsed,Latency,label,responseCode,responseMessage,success,allThreads,bytes
+1540422647697,1352,0,go to home page,,,true,1,2
+1540422649050,12813,0,"search ""apple""",,,true,1,2
+1540422661863,4665,0,click macbook,,,true,1,2
+1540422666529,3053,0,add macbook to cart,,,true,1,2
+1540422669583,3574,0,"click ""books""",,,true,1,2
+1540422673158,3058,0,add fahrenheit 451 to cart,,,true,1,2
+1540422676217,7984,0,"click ""accessories""",,,true,1,2
+1540422684202,3081,0,add sunglasses to cart,,,true,1,2
+1540422687284,5995,0,checkout as guest,,,true,1,2

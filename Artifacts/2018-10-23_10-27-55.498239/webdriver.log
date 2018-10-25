@@ -1,0 +1,289 @@
+[1540315716.021][INFO]: COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1540315716.029][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1540315716.030][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1540315716.310][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension=/var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/.org.chromium.Chromium.AlyNXU/internal --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/.org.chromium.Chromium.vugTlq data:,
+[1540315720.826][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1540315720.907][INFO]: RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363)",
+      "userDataDir": "/var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/.org.chromium.Chromium.vugTlq"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Mac OS X",
+   "rotatable": false,
+   "setWindowRect": true,
+   "~~~": "..."
+}
+[1540315720.910][INFO]: COMMAND SetImplicitWait {
+   "ms": 60000.0,
+   "sessionId": "02f527316714696341a900c1f9c0400d"
+}
+[1540315720.910][INFO]: RESPONSE SetImplicitWait
+[1540315720.911][INFO]: COMMAND SetImplicitWait {
+   "ms": 60000.0,
+   "sessionId": "02f527316714696341a900c1f9c0400d"
+}
+[1540315720.911][INFO]: RESPONSE SetImplicitWait
+[1540315720.913][INFO]: COMMAND Navigate {
+   "sessionId": "02f527316714696341a900c1f9c0400d",
+   "url": "http://demo.bzm-presales.com/nopcommerce"
+}
+[1540315720.913][INFO]: Waiting for pending navigations...
+[1540315720.915][INFO]: Done waiting for pending navigations. Status: ok
+[1540315721.391][INFO]: Waiting for pending navigations...
+[1540315722.206][INFO]: Done waiting for pending navigations. Status: ok
+[1540315722.206][INFO]: RESPONSE Navigate
+[1540315722.209][INFO]: COMMAND FindElement {
+   "sessionId": "02f527316714696341a900c1f9c0400d",
+   "using": "id",
+   "value": "small-searchterms"
+}
+[1540315722.209][INFO]: Waiting for pending navigations...
+[1540315722.210][INFO]: Done waiting for pending navigations. Status: ok
+[1540315722.224][INFO]: Waiting for pending navigations...
+[1540315722.224][INFO]: Done waiting for pending navigations. Status: ok
+[1540315722.224][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5738764084594619-1"
+}
+[1540315722.226][INFO]: COMMAND ClickElement {
+   "id": "0.5738764084594619-1",
+   "sessionId": "02f527316714696341a900c1f9c0400d"
+}
+[1540315722.226][INFO]: Waiting for pending navigations...
+[1540315722.226][INFO]: Done waiting for pending navigations. Status: ok
+[1540315722.479][INFO]: Waiting for pending navigations...
+[1540315722.480][INFO]: Done waiting for pending navigations. Status: ok
+[1540315722.480][INFO]: RESPONSE ClickElement
+[1540315722.481][INFO]: COMMAND FindElement {
+   "sessionId": "02f527316714696341a900c1f9c0400d",
+   "using": "id",
+   "value": "small-searchterms"
+}
+[1540315722.481][INFO]: Waiting for pending navigations...
+[1540315722.481][INFO]: Done waiting for pending navigations. Status: ok
+[1540315722.486][INFO]: Waiting for pending navigations...
+[1540315722.486][INFO]: Done waiting for pending navigations. Status: ok
+[1540315722.486][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5738764084594619-1"
+}
+[1540315722.487][INFO]: COMMAND ClearElement {
+   "id": "0.5738764084594619-1",
+   "sessionId": "02f527316714696341a900c1f9c0400d"
+}
+[1540315722.487][INFO]: Waiting for pending navigations...
+[1540315722.488][INFO]: Done waiting for pending navigations. Status: ok
+[1540315722.499][INFO]: Waiting for pending navigations...
+[1540315722.500][INFO]: Done waiting for pending navigations. Status: ok
+[1540315722.500][INFO]: RESPONSE ClearElement
+[1540315722.501][INFO]: COMMAND FindElement {
+   "sessionId": "02f527316714696341a900c1f9c0400d",
+   "using": "id",
+   "value": "small-searchterms"
+}
+[1540315722.501][INFO]: Waiting for pending navigations...
+[1540315722.501][INFO]: Done waiting for pending navigations. Status: ok
+[1540315722.505][INFO]: Waiting for pending navigations...
+[1540315722.505][INFO]: Done waiting for pending navigations. Status: ok
+[1540315722.505][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5738764084594619-1"
+}
+[1540315722.506][INFO]: COMMAND TypeElement {
+   "id": "0.5738764084594619-1",
+   "sessionId": "02f527316714696341a900c1f9c0400d",
+   "text": "apple",
+   "value": [ "a", "p", "p", "l", "e" ]
+}
+[1540315722.506][INFO]: Waiting for pending navigations...
+[1540315722.507][INFO]: Done waiting for pending navigations. Status: ok
+[1540315722.564][INFO]: Waiting for pending navigations...
+[1540315722.564][INFO]: Done waiting for pending navigations. Status: ok
+[1540315722.564][INFO]: RESPONSE TypeElement
+[1540315722.565][INFO]: COMMAND FindElement {
+   "sessionId": "02f527316714696341a900c1f9c0400d",
+   "using": "id",
+   "value": "small-search-box-form"
+}
+[1540315722.565][INFO]: Waiting for pending navigations...
+[1540315722.565][INFO]: Done waiting for pending navigations. Status: ok
+[1540315722.573][INFO]: Waiting for pending navigations...
+[1540315722.574][INFO]: Done waiting for pending navigations. Status: ok
+[1540315722.574][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5738764084594619-2"
+}
+[1540315722.575][INFO]: COMMAND SubmitElement {
+   "id": "0.5738764084594619-2",
+   "sessionId": "02f527316714696341a900c1f9c0400d"
+}
+[1540315722.575][INFO]: Waiting for pending navigations...
+[1540315722.575][INFO]: Done waiting for pending navigations. Status: ok
+[1540315722.584][INFO]: Waiting for pending navigations...
+[1540315723.019][INFO]: Done waiting for pending navigations. Status: ok
+[1540315723.019][INFO]: RESPONSE SubmitElement
+[1540315723.021][INFO]: COMMAND FindElement {
+   "sessionId": "02f527316714696341a900c1f9c0400d",
+   "using": "css selector",
+   "value": "div.picture > a[title=\"Show details for Apple MacBook Pro 13-inch\"] > img[alt=\"Picture of Apple MacBook Pro 13-inch\"]"
+}
+[1540315723.021][INFO]: Waiting for pending navigations...
+[1540315723.022][INFO]: Done waiting for pending navigations. Status: ok
+[1540315723.032][INFO]: Waiting for pending navigations...
+[1540315723.033][INFO]: Done waiting for pending navigations. Status: ok
+[1540315723.033][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5305909154291355-1"
+}
+[1540315723.034][INFO]: COMMAND ClickElement {
+   "id": "0.5305909154291355-1",
+   "sessionId": "02f527316714696341a900c1f9c0400d"
+}
+[1540315723.034][INFO]: Waiting for pending navigations...
+[1540315723.035][INFO]: Done waiting for pending navigations. Status: ok
+[1540315723.084][INFO]: Waiting for pending navigations...
+[1540315725.129][INFO]: Done waiting for pending navigations. Status: ok
+[1540315725.129][INFO]: RESPONSE ClickElement
+[1540315725.131][INFO]: COMMAND FindElement {
+   "sessionId": "02f527316714696341a900c1f9c0400d",
+   "using": "id",
+   "value": "add-to-cart-button-4"
+}
+[1540315725.131][INFO]: Waiting for pending navigations...
+[1540315725.132][INFO]: Done waiting for pending navigations. Status: ok
+[1540315725.143][INFO]: Waiting for pending navigations...
+[1540315725.144][INFO]: Done waiting for pending navigations. Status: ok
+[1540315725.144][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.08642676175374286-1"
+}
+[1540315725.145][INFO]: COMMAND ClickElement {
+   "id": "0.08642676175374286-1",
+   "sessionId": "02f527316714696341a900c1f9c0400d"
+}
+[1540315725.145][INFO]: Waiting for pending navigations...
+[1540315725.145][INFO]: Done waiting for pending navigations. Status: ok
+[1540315725.183][INFO]: Waiting for pending navigations...
+[1540315725.184][INFO]: Done waiting for pending navigations. Status: ok
+[1540315725.184][INFO]: RESPONSE ClickElement
+[1540315725.185][INFO]: COMMAND FindElement {
+   "sessionId": "02f527316714696341a900c1f9c0400d",
+   "using": "link text",
+   "value": "Books"
+}
+[1540315725.185][INFO]: Waiting for pending navigations...
+[1540315725.186][INFO]: Done waiting for pending navigations. Status: ok
+[1540315725.202][INFO]: Waiting for pending navigations...
+[1540315725.203][INFO]: Done waiting for pending navigations. Status: ok
+[1540315725.203][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.08642676175374286-2"
+}
+[1540315725.204][INFO]: COMMAND ClickElement {
+   "id": "0.08642676175374286-2",
+   "sessionId": "02f527316714696341a900c1f9c0400d"
+}
+[1540315725.204][INFO]: Waiting for pending navigations...
+[1540315725.205][INFO]: Done waiting for pending navigations. Status: ok
+[1540315725.254][INFO]: Waiting for pending navigations...
+[1540315725.750][INFO]: Done waiting for pending navigations. Status: ok
+[1540315725.750][INFO]: RESPONSE ClickElement
+[1540315725.753][INFO]: COMMAND FindElement {
+   "sessionId": "02f527316714696341a900c1f9c0400d",
+   "using": "link text",
+   "value": "Accessories"
+}
+[1540315725.753][INFO]: Waiting for pending navigations...
+[1540315725.753][INFO]: Done waiting for pending navigations. Status: ok

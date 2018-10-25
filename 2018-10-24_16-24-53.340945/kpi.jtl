@@ -1,0 +1,1129 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,bytes,grpThreads,allThreads,Latency,Hostname,Connect
+1540423499726,1164,"search ""apple""",200,OK,Thread Group 1-2,true,204630,20,20,386,chefe02mac947,102
+1540423499830,1064,"search ""apple""",200,OK,Thread Group 1-4,true,204630,20,20,394,chefe02mac947,61
+1540423499775,1079,"search ""apple""",200,OK,Thread Group 1-3,true,204630,20,20,430,chefe02mac947,61
+1540423499721,1172,"search ""apple""",200,OK,Thread Group 1-1,true,204630,20,20,377,chefe02mac947,107
+1540423499981,1064,"search ""apple""",200,OK,Thread Group 1-7,true,204630,20,20,348,chefe02mac947,60
+1540423499929,1175,"search ""apple""",200,OK,Thread Group 1-6,true,204630,20,20,462,chefe02mac947,61
+1540423500035,1093,"search ""apple""",200,OK,Thread Group 1-8,true,204630,20,20,371,chefe02mac947,61
+1540423499882,1248,"search ""apple""",200,OK,Thread Group 1-5,true,204630,20,20,470,chefe02mac947,62
+1540423500080,1113,"search ""apple""",200,OK,Thread Group 1-9,true,204630,20,20,446,chefe02mac947,61
+1540423500134,1065,"search ""apple""",200,OK,Thread Group 1-10,true,204630,20,20,409,chefe02mac947,61
+1540423500185,1121,"search ""apple""",200,OK,Thread Group 1-11,true,204630,20,20,466,chefe02mac947,61
+1540423500235,1102,"search ""apple""",200,OK,Thread Group 1-12,true,204630,20,20,461,chefe02mac947,62
+1540423500336,1087,"search ""apple""",200,OK,Thread Group 1-14,true,204630,20,20,491,chefe02mac947,60
+1540423500286,1199,"search ""apple""",200,OK,Thread Group 1-13,true,204630,20,20,510,chefe02mac947,61
+1540423500389,1193,"search ""apple""",200,OK,Thread Group 1-15,true,204630,20,20,538,chefe02mac947,60
+1540423500440,1187,"search ""apple""",200,OK,Thread Group 1-16,true,204630,20,20,526,chefe02mac947,62
+1540423500486,1234,"search ""apple""",200,OK,Thread Group 1-17,true,204630,20,20,562,chefe02mac947,61
+1540423500538,1254,"search ""apple""",200,OK,Thread Group 1-18,true,204630,20,20,561,chefe02mac947,63
+1540423500590,1249,"search ""apple""",200,OK,Thread Group 1-19,true,204630,20,20,591,chefe02mac947,61
+1540423500644,1252,"search ""apple""",200,OK,Thread Group 1-20,true,204630,20,20,585,chefe02mac947,61
+1540423500929,1041,click macbook,200,OK,Thread Group 1-1,true,244964,20,20,401,chefe02mac947,0
+1540423500929,1051,click macbook,200,OK,Thread Group 1-4,true,244964,20,20,432,chefe02mac947,0
+1540423500929,1141,click macbook,200,OK,Thread Group 1-3,true,244964,20,20,522,chefe02mac947,0
+1540423501046,1087,click macbook,200,OK,Thread Group 1-7,true,244964,20,20,524,chefe02mac947,0
+1540423501104,1063,click macbook,200,OK,Thread Group 1-6,true,244964,20,20,494,chefe02mac947,0
+1540423500929,1243,click macbook,200,OK,Thread Group 1-2,true,244964,20,20,548,chefe02mac947,0
+1540423501130,1101,click macbook,200,OK,Thread Group 1-5,true,244964,20,20,557,chefe02mac947,0
+1540423501129,1157,click macbook,200,OK,Thread Group 1-8,true,244964,20,20,583,chefe02mac947,0
+1540423501194,1200,click macbook,200,OK,Thread Group 1-9,true,244964,20,20,636,chefe02mac947,0
+1540423501199,1220,click macbook,200,OK,Thread Group 1-10,true,244964,20,20,604,chefe02mac947,0
+1540423501971,491,add macbook to cart,200,OK,Thread Group 1-1,true,2565,20,20,490,chefe02mac947,0
+1540423501981,493,add macbook to cart,200,OK,Thread Group 1-4,true,2565,20,20,492,chefe02mac947,0
+1540423501338,1160,click macbook,200,OK,Thread Group 1-12,true,244964,20,20,610,chefe02mac947,0
+1540423501307,1198,click macbook,200,OK,Thread Group 1-11,true,244964,20,20,605,chefe02mac947,0
+1540423502070,467,add macbook to cart,200,OK,Thread Group 1-3,true,2565,20,20,466,chefe02mac947,0
+1540423502133,414,add macbook to cart,200,OK,Thread Group 1-7,true,2565,20,20,413,chefe02mac947,0
+1540423501423,1150,click macbook,200,OK,Thread Group 1-14,true,244964,20,20,607,chefe02mac947,0
+1540423502168,437,add macbook to cart,200,OK,Thread Group 1-6,true,2565,20,20,437,chefe02mac947,0
+1540423502173,440,add macbook to cart,200,OK,Thread Group 1-2,true,2565,20,20,440,chefe02mac947,0
+1540423501486,1172,click macbook,200,OK,Thread Group 1-13,true,244964,20,20,571,chefe02mac947,0
+1540423502231,444,add macbook to cart,200,OK,Thread Group 1-5,true,2565,20,20,444,chefe02mac947,0
+1540423502287,401,add macbook to cart,200,OK,Thread Group 1-8,true,2565,20,20,401,chefe02mac947,0
+1540423501628,1116,click macbook,200,OK,Thread Group 1-16,true,244964,20,20,560,chefe02mac947,0
+1540423502395,351,add macbook to cart,200,OK,Thread Group 1-9,true,2565,20,20,351,chefe02mac947,0
+1540423502420,334,add macbook to cart,200,OK,Thread Group 1-10,true,2565,20,20,333,chefe02mac947,0
+1540423501582,1184,click macbook,200,OK,Thread Group 1-15,true,244964,20,20,576,chefe02mac947,0
+1540423502501,311,add macbook to cart,200,OK,Thread Group 1-12,true,2565,20,20,311,chefe02mac947,0
+1540423502505,314,add macbook to cart,200,OK,Thread Group 1-11,true,2565,20,20,313,chefe02mac947,0
+1540423501721,1131,click macbook,200,OK,Thread Group 1-17,true,244964,20,20,559,chefe02mac947,0
+1540423501793,1064,click macbook,200,OK,Thread Group 1-18,true,244964,20,20,509,chefe02mac947,0
+1540423501840,1096,click macbook,200,OK,Thread Group 1-19,true,244964,20,20,558,chefe02mac947,0
+1540423501897,1077,click macbook,200,OK,Thread Group 1-20,true,244964,20,20,518,chefe02mac947,0
+1540423502573,445,add macbook to cart,200,OK,Thread Group 1-14,true,2565,20,20,444,chefe02mac947,0
+1540423502659,474,add macbook to cart,200,OK,Thread Group 1-13,true,2565,20,20,474,chefe02mac947,0
+1540423502745,588,add macbook to cart,200,OK,Thread Group 1-16,true,2565,20,20,586,chefe02mac947,0
+1540423502475,983,search sunglasses,200,OK,Thread Group 1-4,true,54349,20,20,469,chefe02mac947,66
+1540423502464,995,search sunglasses,200,OK,Thread Group 1-1,true,54349,20,20,481,chefe02mac947,60
+1540423502767,698,add macbook to cart,200,OK,Thread Group 1-15,true,2565,20,20,696,chefe02mac947,0
+1540423502538,1044,search sunglasses,200,OK,Thread Group 1-3,true,54349,20,20,534,chefe02mac947,60
+1540423502547,1113,search sunglasses,200,OK,Thread Group 1-7,true,54349,20,20,595,chefe02mac947,61
+1540423502606,1183,search sunglasses,200,OK,Thread Group 1-6,true,54349,20,20,657,chefe02mac947,61
+1540423502857,936,add macbook to cart,200,OK,Thread Group 1-18,true,2565,20,20,936,chefe02mac947,0
+1540423502852,941,add macbook to cart,200,OK,Thread Group 1-17,true,2565,20,20,941,chefe02mac947,0
+1540423502614,1220,search sunglasses,200,OK,Thread Group 1-2,true,54349,20,20,649,chefe02mac947,63
+1540423502937,924,add macbook to cart,200,OK,Thread Group 1-19,true,2565,20,20,924,chefe02mac947,0
+1540423502975,887,add macbook to cart,200,OK,Thread Group 1-20,true,2565,20,20,887,chefe02mac947,0
+1540423502676,1224,search sunglasses,200,OK,Thread Group 1-5,true,54349,20,20,718,chefe02mac947,60
+1540423502689,1214,search sunglasses,200,OK,Thread Group 1-8,true,54349,20,20,777,chefe02mac947,61
+1540423502813,1244,search sunglasses,200,OK,Thread Group 1-12,true,54349,20,20,790,chefe02mac947,0
+1540423502820,1237,search sunglasses,200,OK,Thread Group 1-11,true,54349,20,20,908,chefe02mac947,0
+1540423502746,1452,search sunglasses,200,OK,Thread Group 1-9,true,54349,20,20,851,chefe02mac947,60
+1540423502754,1478,search sunglasses,200,OK,Thread Group 1-10,true,54349,20,20,967,chefe02mac947,61
+1540423503134,1384,search sunglasses,200,OK,Thread Group 1-13,true,54349,20,20,860,chefe02mac947,62
+1540423503019,1500,search sunglasses,200,OK,Thread Group 1-14,true,54349,20,20,975,chefe02mac947,60
+1540423503461,1150,click on sunglasses,200,OK,Thread Group 1-1,true,54688,20,20,638,chefe02mac947,0
+1540423503335,1421,search sunglasses,200,OK,Thread Group 1-16,true,54349,20,20,824,chefe02mac947,60
+1540423503461,1313,click on sunglasses,200,OK,Thread Group 1-4,true,54688,20,20,777,chefe02mac947,0
+1540423503466,1363,search sunglasses,200,OK,Thread Group 1-15,true,54349,20,20,819,chefe02mac947,61
+1540423503583,1322,click on sunglasses,200,OK,Thread Group 1-3,true,54688,20,20,738,chefe02mac947,0
+1540423503789,1292,click on sunglasses,200,OK,Thread Group 1-6,true,54688,20,20,630,chefe02mac947,0
+1540423503835,1246,click on sunglasses,200,OK,Thread Group 1-2,true,54688,20,20,608,chefe02mac947,0
+1540423503661,1417,click on sunglasses,200,OK,Thread Group 1-7,true,54688,20,20,756,chefe02mac947,0
+1540423503901,1306,click on sunglasses,200,OK,Thread Group 1-5,true,54688,20,20,743,chefe02mac947,0
+1540423503904,1303,click on sunglasses,200,OK,Thread Group 1-8,true,54688,20,20,700,chefe02mac947,0
+1540423504613,638,add sunglasses to cart,200,OK,Thread Group 1-1,true,3857,20,20,637,chefe02mac947,0
+1540423503794,1469,search sunglasses,200,OK,Thread Group 1-18,true,54349,20,20,949,chefe02mac947,63
+1540423504775,496,add sunglasses to cart,200,OK,Thread Group 1-4,true,3857,20,20,496,chefe02mac947,0
+1540423503794,1495,search sunglasses,200,OK,Thread Group 1-17,true,54349,20,20,968,chefe02mac947,61
+1540423504906,431,add sunglasses to cart,200,OK,Thread Group 1-3,true,3857,20,20,431,chefe02mac947,0
+1540423505082,291,add sunglasses to cart,200,OK,Thread Group 1-6,true,3857,20,20,291,chefe02mac947,0
+1540423503862,1537,search sunglasses,200,OK,Thread Group 1-19,true,54349,20,20,1016,chefe02mac947,60
+1540423505083,326,add sunglasses to cart,200,OK,Thread Group 1-7,true,3857,20,20,326,chefe02mac947,0
+1540423505082,360,add sunglasses to cart,200,OK,Thread Group 1-2,true,3857,20,20,360,chefe02mac947,0
+1540423504058,1388,click on sunglasses,200,OK,Thread Group 1-12,true,54688,20,20,925,chefe02mac947,0
+1540423505207,268,add sunglasses to cart,200,OK,Thread Group 1-5,true,3857,20,20,267,chefe02mac947,0
+1540423504058,1434,click on sunglasses,200,OK,Thread Group 1-11,true,54688,20,20,801,chefe02mac947,0
+1540423505207,307,add sunglasses to cart,200,OK,Thread Group 1-8,true,3857,20,20,306,chefe02mac947,0
+1540423504199,1324,click on sunglasses,200,OK,Thread Group 1-9,true,54688,20,20,786,chefe02mac947,0
+1540423503862,1689,search sunglasses,200,OK,Thread Group 1-20,true,54349,20,20,1181,chefe02mac947,59
+1540423504232,1458,click on sunglasses,200,OK,Thread Group 1-10,true,54688,20,20,922,chefe02mac947,0
+1540423504520,1182,click on sunglasses,200,OK,Thread Group 1-14,true,54688,20,20,559,chefe02mac947,0
+1540423504519,1289,click on sunglasses,200,OK,Thread Group 1-13,true,54688,20,20,711,chefe02mac947,0
+1540423504757,1143,click on sunglasses,200,OK,Thread Group 1-16,true,54688,20,20,511,chefe02mac947,0
+1540423504830,1099,click on sunglasses,200,OK,Thread Group 1-15,true,54688,20,20,472,chefe02mac947,0
+1540423505446,622,add sunglasses to cart,200,OK,Thread Group 1-12,true,3857,20,20,621,chefe02mac947,0
+1540423505290,834,click on sunglasses,200,OK,Thread Group 1-17,true,54687,20,20,322,chefe02mac947,0
+1540423505493,655,add sunglasses to cart,200,OK,Thread Group 1-11,true,3857,20,20,653,chefe02mac947,0
+1540423505264,964,click on sunglasses,200,OK,Thread Group 1-18,true,54688,20,20,313,chefe02mac947,0
+1540423505524,759,add sunglasses to cart,200,OK,Thread Group 1-9,true,3857,20,20,758,chefe02mac947,0
+1540423505251,1098,"search ""fahr""",200,OK,Thread Group 1-1,true,61235,20,20,460,chefe02mac947,60
+1540423505691,662,add sunglasses to cart,200,OK,Thread Group 1-10,true,3857,20,20,661,chefe02mac947,0
+1540423505272,1099,"search ""fahr""",200,OK,Thread Group 1-4,true,61235,20,20,471,chefe02mac947,61
+1540423505702,721,add sunglasses to cart,200,OK,Thread Group 1-14,true,3857,20,20,721,chefe02mac947,0
+1540423505374,1068,"search ""fahr""",200,OK,Thread Group 1-6,true,61235,20,20,464,chefe02mac947,0
+1540423505809,646,add sunglasses to cart,200,OK,Thread Group 1-13,true,3857,20,20,646,chefe02mac947,0
+1540423505901,592,add sunglasses to cart,200,OK,Thread Group 1-16,true,3857,20,20,591,chefe02mac947,0
+1540423505399,1116,click on sunglasses,200,OK,Thread Group 1-19,true,54688,20,20,540,chefe02mac947,0
+1540423505930,597,add sunglasses to cart,200,OK,Thread Group 1-15,true,3857,20,20,596,chefe02mac947,0
+1540423506124,441,add sunglasses to cart,200,OK,Thread Group 1-17,true,3857,20,20,440,chefe02mac947,0
+1540423505338,1227,"search ""fahr""",200,OK,Thread Group 1-3,true,61235,20,20,534,chefe02mac947,61
+1540423505443,1194,"search ""fahr""",200,OK,Thread Group 1-2,true,61235,20,20,629,chefe02mac947,0
+1540423505410,1230,"search ""fahr""",200,OK,Thread Group 1-7,true,61235,20,20,587,chefe02mac947,0
+1540423506228,501,add sunglasses to cart,200,OK,Thread Group 1-18,true,3857,20,20,501,chefe02mac947,0
+1540423505475,1305,"search ""fahr""",200,OK,Thread Group 1-5,true,61235,20,20,736,chefe02mac947,0
+1540423506350,448,add book to cart,200,OK,Thread Group 1-1,true,5178,20,20,446,chefe02mac947,0
+1540423506371,525,add book to cart,200,OK,Thread Group 1-4,true,5178,20,20,525,chefe02mac947,0
+1540423505515,1396,"search ""fahr""",200,OK,Thread Group 1-8,true,61235,20,20,769,chefe02mac947,0
+1540423505552,1406,click on sunglasses,200,OK,Thread Group 1-20,true,54688,20,20,837,chefe02mac947,0
+1540423506443,556,add book to cart,200,OK,Thread Group 1-6,true,5178,20,20,555,chefe02mac947,0
+1540423506516,687,add sunglasses to cart,200,OK,Thread Group 1-19,true,3857,20,20,686,chefe02mac947,0
+1540423506148,1109,"search ""fahr""",200,OK,Thread Group 1-11,true,61235,20,20,547,chefe02mac947,60
+1540423506069,1211,"search ""fahr""",200,OK,Thread Group 1-12,true,61235,20,20,587,chefe02mac947,60
+1540423506566,763,add book to cart,200,OK,Thread Group 1-3,true,5178,20,20,762,chefe02mac947,0
+1540423506638,738,add book to cart,200,OK,Thread Group 1-2,true,5178,20,20,737,chefe02mac947,0
+1540423506284,1099,"search ""fahr""",200,OK,Thread Group 1-9,true,61235,20,20,538,chefe02mac947,0
+1540423506781,734,add book to cart,200,OK,Thread Group 1-5,true,5178,20,20,734,chefe02mac947,0
+1540423506424,1116,"search ""fahr""",200,OK,Thread Group 1-14,true,61235,20,20,603,chefe02mac947,0
+1540423506353,1208,"search ""fahr""",200,OK,Thread Group 1-10,true,61235,20,20,574,chefe02mac947,0
+1540423506640,981,add book to cart,200,OK,Thread Group 1-7,true,5178,20,20,980,chefe02mac947,0
+1540423506456,1198,"search ""fahr""",200,OK,Thread Group 1-13,true,61235,20,20,675,chefe02mac947,0
+1540423506911,800,add book to cart,200,OK,Thread Group 1-8,true,5178,20,20,799,chefe02mac947,0
+1540423506959,802,add sunglasses to cart,200,OK,Thread Group 1-20,true,3857,20,20,801,chefe02mac947,0
+1540423506494,1311,"search ""fahr""",200,OK,Thread Group 1-16,true,61235,20,20,663,chefe02mac947,0
+1540423507258,616,add book to cart,200,OK,Thread Group 1-11,true,5178,20,20,614,chefe02mac947,0
+1540423506730,1241,"search ""fahr""",200,OK,Thread Group 1-18,true,61235,20,20,840,chefe02mac947,0
+1540423507280,696,add book to cart,200,OK,Thread Group 1-12,true,5178,20,20,695,chefe02mac947,0
+1540423506566,1431,"search ""fahr""",200,OK,Thread Group 1-17,true,61235,20,20,928,chefe02mac947,0
+1540423506528,1473,"search ""fahr""",200,OK,Thread Group 1-15,true,61235,20,20,844,chefe02mac947,0
+1540423507384,690,add book to cart,200,OK,Thread Group 1-9,true,5178,20,20,688,chefe02mac947,0
+1540423506897,1220,"search ""apple""",200,OK,Thread Group 1-4,true,204630,20,20,754,chefe02mac947,0
+1540423507540,756,add book to cart,200,OK,Thread Group 1-14,true,5178,20,20,755,chefe02mac947,0
+1540423507562,771,add book to cart,200,OK,Thread Group 1-10,true,5178,20,20,770,chefe02mac947,0
+1540423506798,1558,"search ""apple""",200,OK,Thread Group 1-1,true,204630,20,20,979,chefe02mac947,0
+1540423507654,742,add book to cart,200,OK,Thread Group 1-13,true,5178,20,20,742,chefe02mac947,0
+1540423507806,693,add book to cart,200,OK,Thread Group 1-16,true,5178,20,20,692,chefe02mac947,0
+1540423506999,1526,"search ""apple""",200,OK,Thread Group 1-6,true,204630,20,20,932,chefe02mac947,0
+1540423507204,1374,"search ""fahr""",200,OK,Thread Group 1-19,true,61235,20,20,748,chefe02mac947,0
+1540423507972,639,add book to cart,200,OK,Thread Group 1-18,true,5178,20,20,639,chefe02mac947,0
+1540423507516,1142,"search ""apple""",200,OK,Thread Group 1-5,true,204630,20,20,674,chefe02mac947,0
+1540423507330,1374,"search ""apple""",200,OK,Thread Group 1-3,true,204630,20,20,791,chefe02mac947,0
+1540423508002,715,add book to cart,200,OK,Thread Group 1-15,true,5178,20,20,714,chefe02mac947,0
+1540423507998,795,add book to cart,200,OK,Thread Group 1-17,true,5178,20,20,794,chefe02mac947,0
+1540423507376,1433,"search ""apple""",200,OK,Thread Group 1-2,true,204630,20,20,846,chefe02mac947,0
+1540423507622,1362,"search ""apple""",200,OK,Thread Group 1-7,true,204630,20,20,773,chefe02mac947,0
+1540423507712,1301,"search ""apple""",200,OK,Thread Group 1-8,true,204630,20,20,712,chefe02mac947,0
+1540423507762,1346,"search ""fahr""",200,OK,Thread Group 1-20,true,61235,20,20,765,chefe02mac947,0
+1540423507875,1276,"search ""apple""",200,OK,Thread Group 1-11,true,204630,20,20,758,chefe02mac947,0
+1540423507977,1366,"search ""apple""",200,OK,Thread Group 1-12,true,204630,20,20,765,chefe02mac947,0
+1540423508579,787,add book to cart,200,OK,Thread Group 1-19,true,5178,20,20,786,chefe02mac947,0
+1540423508296,1173,"search ""apple""",200,OK,Thread Group 1-14,true,204630,20,20,704,chefe02mac947,0
+1540423508074,1426,"search ""apple""",200,OK,Thread Group 1-9,true,204630,20,20,804,chefe02mac947,0
+1540423508334,1314,"search ""apple""",200,OK,Thread Group 1-10,true,204630,20,20,712,chefe02mac947,0
+1540423508357,1296,click macbook,200,OK,Thread Group 1-1,true,244964,20,20,769,chefe02mac947,0
+1540423508117,1635,click macbook,200,OK,Thread Group 1-4,true,244964,20,20,800,chefe02mac947,0
+1540423508397,1387,"search ""apple""",200,OK,Thread Group 1-13,true,204630,20,20,770,chefe02mac947,0
+1540423509109,732,add book to cart,200,OK,Thread Group 1-20,true,5178,20,20,731,chefe02mac947,0
+1540423508612,1254,"search ""apple""",200,OK,Thread Group 1-18,true,204630,20,20,806,chefe02mac947,0
+1540423508500,1384,"search ""apple""",200,OK,Thread Group 1-16,true,204630,20,20,779,chefe02mac947,0
+1540423508526,1368,click macbook,200,OK,Thread Group 1-6,true,244964,20,20,769,chefe02mac947,0
+1540423508705,1354,click macbook,200,OK,Thread Group 1-3,true,244964,20,20,828,chefe02mac947,0
+1540423508658,1461,click macbook,200,OK,Thread Group 1-5,true,244964,20,20,835,chefe02mac947,0
+1540423508717,1542,"search ""apple""",200,OK,Thread Group 1-15,true,204630,20,20,900,chefe02mac947,0
+1540423508794,1466,"search ""apple""",200,OK,Thread Group 1-17,true,204630,20,20,863,chefe02mac947,0
+1540423508810,1494,click macbook,200,OK,Thread Group 1-2,true,244964,20,20,932,chefe02mac947,0
+1540423508984,1441,click macbook,200,OK,Thread Group 1-7,true,244964,20,20,795,chefe02mac947,0
+1540423509013,1416,click macbook,200,OK,Thread Group 1-8,true,244964,20,20,838,chefe02mac947,0
+1540423509653,795,add macbook to cart,200,OK,Thread Group 1-1,true,2565,20,20,794,chefe02mac947,0
+1540423509753,700,add macbook to cart,200,OK,Thread Group 1-4,true,2565,20,20,700,chefe02mac947,0
+1540423509894,664,add macbook to cart,200,OK,Thread Group 1-6,true,2565,20,20,664,chefe02mac947,0
+1540423509343,1230,click macbook,200,OK,Thread Group 1-12,true,244964,20,20,624,chefe02mac947,0
+1540423509151,1459,click macbook,200,OK,Thread Group 1-11,true,244964,20,20,818,chefe02mac947,0
+1540423510060,565,add macbook to cart,200,OK,Thread Group 1-3,true,2565,20,20,565,chefe02mac947,0
+1540423509366,1320,"search ""apple""",200,OK,Thread Group 1-19,true,204630,20,20,722,chefe02mac947,0
+1540423509649,1111,click macbook,200,OK,Thread Group 1-10,true,244964,20,20,557,chefe02mac947,0
+1540423509500,1306,click macbook,200,OK,Thread Group 1-9,true,244964,20,20,702,chefe02mac947,0
+1540423510305,525,add macbook to cart,200,OK,Thread Group 1-2,true,2565,20,20,525,chefe02mac947,0
+1540423510426,443,add macbook to cart,200,OK,Thread Group 1-7,true,2565,20,20,443,chefe02mac947,0
+1540423509469,1419,click macbook,200,OK,Thread Group 1-14,true,244964,20,20,613,chefe02mac947,0
+1540423510119,776,add macbook to cart,200,OK,Thread Group 1-5,true,2565,20,20,775,chefe02mac947,0
+1540423510430,527,add macbook to cart,200,OK,Thread Group 1-8,true,2565,20,20,526,chefe02mac947,0
+1540423509842,1130,"search ""apple""",200,OK,Thread Group 1-20,true,204630,20,20,604,chefe02mac947,0
+1540423509785,1232,click macbook,200,OK,Thread Group 1-13,true,244964,20,20,610,chefe02mac947,0
+1540423510610,453,add macbook to cart,200,OK,Thread Group 1-11,true,2565,20,20,451,chefe02mac947,0
+1540423510574,491,add macbook to cart,200,OK,Thread Group 1-12,true,2565,20,20,490,chefe02mac947,0
+1540423509884,1293,click macbook,200,OK,Thread Group 1-16,true,244964,20,20,762,chefe02mac947,0
+1540423510761,453,add macbook to cart,200,OK,Thread Group 1-10,true,2565,20,20,453,chefe02mac947,0
+1540423510260,1068,click macbook,200,OK,Thread Group 1-15,true,244964,20,20,526,chefe02mac947,0
+1540423510260,1144,click macbook,200,OK,Thread Group 1-17,true,244964,20,20,530,chefe02mac947,0
+1540423510807,601,add macbook to cart,200,OK,Thread Group 1-9,true,2565,20,20,600,chefe02mac947,0
+1540423510889,540,add macbook to cart,200,OK,Thread Group 1-14,true,2565,20,20,540,chefe02mac947,0
+1540423510454,1110,search sunglasses,200,OK,Thread Group 1-4,true,54349,20,20,595,chefe02mac947,0
+1540423511018,549,add macbook to cart,200,OK,Thread Group 1-13,true,2565,20,20,548,chefe02mac947,0
+1540423510449,1120,search sunglasses,200,OK,Thread Group 1-1,true,54349,20,20,614,chefe02mac947,61
+1540423510687,1076,click macbook,200,OK,Thread Group 1-19,true,244964,20,20,553,chefe02mac947,0
+1540423510625,1238,search sunglasses,200,OK,Thread Group 1-3,true,54349,20,20,722,chefe02mac947,62
+1540423510559,1312,search sunglasses,200,OK,Thread Group 1-6,true,54349,20,20,796,chefe02mac947,61
+1540423511177,721,add macbook to cart,200,OK,Thread Group 1-16,true,2565,20,20,719,chefe02mac947,0
+1540423509867,2046,click macbook,200,OK,Thread Group 1-18,true,244964,20,20,723,chefe02mac947,62
+1540423511329,635,add macbook to cart,200,OK,Thread Group 1-15,true,2565,20,20,634,chefe02mac947,0
+1540423510831,1151,search sunglasses,200,OK,Thread Group 1-2,true,54349,20,20,634,chefe02mac947,60
+1540423510895,1106,search sunglasses,200,OK,Thread Group 1-5,true,54349,20,20,604,chefe02mac947,0
+1540423511404,668,add macbook to cart,200,OK,Thread Group 1-17,true,2565,20,20,667,chefe02mac947,0
+1540423510870,1239,search sunglasses,200,OK,Thread Group 1-7,true,54349,20,20,726,chefe02mac947,60
+1540423510958,1238,search sunglasses,200,OK,Thread Group 1-8,true,54349,20,20,739,chefe02mac947,60
+1540423511063,1172,search sunglasses,200,OK,Thread Group 1-11,true,54349,20,20,762,chefe02mac947,0
+1540423511065,1297,search sunglasses,200,OK,Thread Group 1-12,true,54349,20,20,788,chefe02mac947,61
+1540423511764,610,add macbook to cart,200,OK,Thread Group 1-19,true,2565,20,20,609,chefe02mac947,0
+1540423511215,1281,search sunglasses,200,OK,Thread Group 1-10,true,54349,20,20,764,chefe02mac947,60
+1540423511914,631,add macbook to cart,200,OK,Thread Group 1-18,true,2565,20,20,630,chefe02mac947,0
+1540423511430,1283,search sunglasses,200,OK,Thread Group 1-14,true,54349,20,20,698,chefe02mac947,0
+1540423511409,1306,search sunglasses,200,OK,Thread Group 1-9,true,54349,20,20,793,chefe02mac947,61
+1540423511564,1303,click on sunglasses,200,OK,Thread Group 1-4,true,54688,20,20,670,chefe02mac947,0
+1540423511570,1307,click on sunglasses,200,OK,Thread Group 1-1,true,54688,20,20,734,chefe02mac947,0
+1540423511568,1329,search sunglasses,200,OK,Thread Group 1-13,true,54349,20,20,797,chefe02mac947,60
+1540423511863,1087,click on sunglasses,200,OK,Thread Group 1-3,true,54687,20,20,602,chefe02mac947,0
+1540423511872,1201,click on sunglasses,200,OK,Thread Group 1-6,true,54687,20,20,601,chefe02mac947,0
+1540423511898,1224,search sunglasses,200,OK,Thread Group 1-16,true,54349,20,20,721,chefe02mac947,61
+1540423512109,1158,click on sunglasses,200,OK,Thread Group 1-7,true,54687,20,20,697,chefe02mac947,0
+1540423512001,1275,click on sunglasses,200,OK,Thread Group 1-5,true,54688,20,20,708,chefe02mac947,0
+1540423511982,1295,click on sunglasses,200,OK,Thread Group 1-2,true,54687,20,20,660,chefe02mac947,0
+1540423512868,454,add sunglasses to cart,200,OK,Thread Group 1-4,true,3857,20,20,453,chefe02mac947,0
+1540423511965,1376,search sunglasses,200,OK,Thread Group 1-15,true,54349,20,20,805,chefe02mac947,61
+1540423512878,520,add sunglasses to cart,200,OK,Thread Group 1-1,true,3857,20,20,519,chefe02mac947,0
+1540423512072,1352,search sunglasses,200,OK,Thread Group 1-17,true,54349,20,20,843,chefe02mac947,60
+1540423512196,1290,click on sunglasses,200,OK,Thread Group 1-8,true,54688,20,20,727,chefe02mac947,0
+1540423513074,451,add sunglasses to cart,200,OK,Thread Group 1-6,true,3857,20,20,450,chefe02mac947,0
+1540423512951,642,add sunglasses to cart,200,OK,Thread Group 1-3,true,3857,20,20,642,chefe02mac947,0
+1540423512236,1384,click on sunglasses,200,OK,Thread Group 1-11,true,54688,20,20,785,chefe02mac947,0
+1540423513278,364,add sunglasses to cart,200,OK,Thread Group 1-2,true,3857,20,20,363,chefe02mac947,0
+1540423512363,1314,click on sunglasses,200,OK,Thread Group 1-12,true,54687,20,20,659,chefe02mac947,0
+1540423512374,1308,search sunglasses,200,OK,Thread Group 1-19,true,54349,20,20,781,chefe02mac947,61
+1540423512497,1185,click on sunglasses,200,OK,Thread Group 1-10,true,54687,20,20,622,chefe02mac947,0
+1540423513276,438,add sunglasses to cart,200,OK,Thread Group 1-5,true,3857,20,20,438,chefe02mac947,0
+1540423513268,502,add sunglasses to cart,200,OK,Thread Group 1-7,true,3857,20,20,502,chefe02mac947,0
+1540423512715,1175,click on sunglasses,200,OK,Thread Group 1-9,true,54687,20,20,535,chefe02mac947,0
+1540423513486,500,add sunglasses to cart,200,OK,Thread Group 1-8,true,3857,20,20,498,chefe02mac947,0
+1540423512713,1287,click on sunglasses,200,OK,Thread Group 1-14,true,54688,20,20,702,chefe02mac947,0
+1540423513621,422,add sunglasses to cart,200,OK,Thread Group 1-11,true,3857,20,20,421,chefe02mac947,0
+1540423512546,1599,search sunglasses,200,OK,Thread Group 1-18,true,54349,20,20,703,chefe02mac947,0
+1540423512897,1257,click on sunglasses,200,OK,Thread Group 1-13,true,54688,20,20,623,chefe02mac947,0
+1540423513682,489,add sunglasses to cart,200,OK,Thread Group 1-10,true,3857,20,20,487,chefe02mac947,0
+1540423513122,1066,click on sunglasses,200,OK,Thread Group 1-16,true,54688,20,20,427,chefe02mac947,0
+1540423513342,961,click on sunglasses,200,OK,Thread Group 1-15,true,54688,20,20,396,chefe02mac947,0
+1540423513678,634,add sunglasses to cart,200,OK,Thread Group 1-12,true,3857,20,20,633,chefe02mac947,0
+1540423513424,1029,click on sunglasses,200,OK,Thread Group 1-17,true,54688,20,20,478,chefe02mac947,0
+1540423513322,1169,"search ""fahr""",200,OK,Thread Group 1-4,true,61235,20,20,543,chefe02mac947,60
+1540423513891,608,add sunglasses to cart,200,OK,Thread Group 1-9,true,3857,20,20,607,chefe02mac947,0
+1540423513399,1175,"search ""fahr""",200,OK,Thread Group 1-1,true,61235,20,20,599,chefe02mac947,0
+1540423514001,574,add sunglasses to cart,200,OK,Thread Group 1-14,true,3857,20,20,573,chefe02mac947,0
+1540423514155,572,add sunglasses to cart,200,OK,Thread Group 1-13,true,3857,20,20,571,chefe02mac947,0
+1540423513526,1211,"search ""fahr""",200,OK,Thread Group 1-6,true,61235,20,20,563,chefe02mac947,0
+1540423514189,556,add sunglasses to cart,200,OK,Thread Group 1-16,true,3857,20,20,555,chefe02mac947,0
+1540423514304,508,add sunglasses to cart,200,OK,Thread Group 1-15,true,3857,20,20,508,chefe02mac947,0
+1540423513643,1175,"search ""fahr""",200,OK,Thread Group 1-2,true,61235,20,20,551,chefe02mac947,0
+1540423513682,1196,click on sunglasses,200,OK,Thread Group 1-19,true,54688,20,20,630,chefe02mac947,0
+1540423513594,1290,"search ""fahr""",200,OK,Thread Group 1-3,true,61235,20,20,664,chefe02mac947,60
+1540423514454,475,add sunglasses to cart,200,OK,Thread Group 1-17,true,3857,20,20,474,chefe02mac947,0
+1540423514492,510,add book to cart,200,OK,Thread Group 1-4,true,5178,20,20,508,chefe02mac947,0
+1540423514574,517,add book to cart,200,OK,Thread Group 1-1,true,5178,20,20,516,chefe02mac947,0
+1540423513986,1139,"search ""fahr""",200,OK,Thread Group 1-8,true,61235,20,20,506,chefe02mac947,0
+1540423513771,1362,"search ""fahr""",200,OK,Thread Group 1-7,true,61235,20,20,721,chefe02mac947,0
+1540423513715,1494,"search ""fahr""",200,OK,Thread Group 1-5,true,61235,20,20,795,chefe02mac947,61
+1540423510973,4243,click macbook,200,OK,Thread Group 1-20,true,244964,20,20,740,chefe02mac947,61
+1540423514146,1102,click on sunglasses,200,OK,Thread Group 1-18,true,54687,20,20,524,chefe02mac947,0
+1540423514044,1205,"search ""fahr""",200,OK,Thread Group 1-11,true,61235,20,20,610,chefe02mac947,0
+1540423514738,561,add book to cart,200,OK,Thread Group 1-6,true,5178,20,20,560,chefe02mac947,0
+1540423514820,600,add book to cart,200,OK,Thread Group 1-2,true,5178,20,20,598,chefe02mac947,0
+1540423514879,618,add sunglasses to cart,200,OK,Thread Group 1-19,true,3857,20,20,616,chefe02mac947,0
+1540423514886,614,add book to cart,200,OK,Thread Group 1-3,true,5178,20,20,613,chefe02mac947,0
+1540423514171,1333,"search ""fahr""",200,OK,Thread Group 1-10,true,61235,20,20,687,chefe02mac947,0
+1540423514313,1271,"search ""fahr""",200,OK,Thread Group 1-12,true,61235,20,20,635,chefe02mac947,0
+1540423514499,1158,"search ""fahr""",200,OK,Thread Group 1-9,true,61235,20,20,593,chefe02mac947,0
+1540423515127,582,add book to cart,200,OK,Thread Group 1-8,true,5178,20,20,580,chefe02mac947,0
+1540423515134,655,add book to cart,200,OK,Thread Group 1-7,true,5178,20,20,654,chefe02mac947,0
+1540423514727,1062,"search ""fahr""",200,OK,Thread Group 1-13,true,61235,20,20,492,chefe02mac947,0
+1540423515210,626,add book to cart,200,OK,Thread Group 1-5,true,5178,20,20,626,chefe02mac947,0
+1540423515249,611,add book to cart,200,OK,Thread Group 1-11,true,5178,20,20,609,chefe02mac947,0
+1540423515249,657,add sunglasses to cart,200,OK,Thread Group 1-18,true,3857,20,20,655,chefe02mac947,0
+1540423514575,1348,"search ""fahr""",200,OK,Thread Group 1-14,true,61235,20,20,642,chefe02mac947,60
+1540423515218,713,add macbook to cart,200,OK,Thread Group 1-20,true,2565,20,20,713,chefe02mac947,60
+1540423514814,1170,"search ""fahr""",200,OK,Thread Group 1-15,true,61235,20,20,610,chefe02mac947,0
+1540423514747,1247,"search ""fahr""",200,OK,Thread Group 1-16,true,61235,20,20,604,chefe02mac947,0
+1540423515003,1078,"search ""apple""",200,OK,Thread Group 1-4,true,204630,20,20,627,chefe02mac947,0
+1540423514931,1268,"search ""fahr""",200,OK,Thread Group 1-17,true,61235,20,20,706,chefe02mac947,0
+1540423515505,744,add book to cart,200,OK,Thread Group 1-10,true,5178,20,20,743,chefe02mac947,0
+1540423515585,670,add book to cart,200,OK,Thread Group 1-12,true,5178,20,20,670,chefe02mac947,0
+1540423515092,1197,"search ""apple""",200,OK,Thread Group 1-1,true,204630,20,20,671,chefe02mac947,0
+1540423515657,670,add book to cart,200,OK,Thread Group 1-9,true,5178,20,20,669,chefe02mac947,0
+1540423515421,1087,"search ""apple""",200,OK,Thread Group 1-2,true,204630,20,20,639,chefe02mac947,0
+1540423515300,1266,"search ""apple""",200,OK,Thread Group 1-6,true,204630,20,20,743,chefe02mac947,0
+1540423515790,779,add book to cart,200,OK,Thread Group 1-13,true,5178,20,20,778,chefe02mac947,0
+1540423515924,769,add book to cart,200,OK,Thread Group 1-14,true,5178,20,20,768,chefe02mac947,0
+1540423515500,1201,"search ""apple""",200,OK,Thread Group 1-3,true,204630,20,20,687,chefe02mac947,0
+1540423515497,1307,"search ""fahr""",200,OK,Thread Group 1-19,true,61235,20,20,679,chefe02mac947,0
+1540423515985,849,add book to cart,200,OK,Thread Group 1-15,true,5178,20,20,848,chefe02mac947,0
+1540423515709,1223,"search ""apple""",200,OK,Thread Group 1-8,true,204630,20,20,677,chefe02mac947,0
+1540423516199,753,add book to cart,200,OK,Thread Group 1-17,true,5178,20,20,751,chefe02mac947,0
+1540423515995,990,add book to cart,200,OK,Thread Group 1-16,true,5178,20,20,989,chefe02mac947,0
+1540423515789,1325,"search ""apple""",200,OK,Thread Group 1-7,true,204630,20,20,739,chefe02mac947,0
+1540423515861,1280,"search ""apple""",200,OK,Thread Group 1-11,true,204630,20,20,690,chefe02mac947,0
+1540423515932,1324,search sunglasses,200,OK,Thread Group 1-20,true,54349,20,20,856,chefe02mac947,0
+1540423515837,1462,"search ""apple""",200,OK,Thread Group 1-5,true,204630,20,20,862,chefe02mac947,0
+1540423515907,1484,"search ""fahr""",200,OK,Thread Group 1-18,true,61235,20,20,900,chefe02mac947,60
+1540423516805,784,add book to cart,200,OK,Thread Group 1-19,true,5178,20,20,783,chefe02mac947,0
+1540423516082,1629,click macbook,200,OK,Thread Group 1-4,true,244965,20,20,886,chefe02mac947,0
+1540423516256,1547,"search ""apple""",200,OK,Thread Group 1-12,true,204630,20,20,940,chefe02mac947,0
+1540423516327,1513,"search ""apple""",200,OK,Thread Group 1-9,true,204630,20,20,925,chefe02mac947,0
+1540423516290,1638,click macbook,200,OK,Thread Group 1-1,true,244964,20,20,862,chefe02mac947,0
+1540423516250,1696,"search ""apple""",200,OK,Thread Group 1-10,true,204630,20,20,793,chefe02mac947,0
+1540423516567,1439,click macbook,200,OK,Thread Group 1-6,true,244964,20,20,786,chefe02mac947,0
+1540423517392,639,add book to cart,200,OK,Thread Group 1-18,true,5178,20,20,638,chefe02mac947,0
+1540423516570,1499,"search ""apple""",200,OK,Thread Group 1-13,true,204630,20,20,906,chefe02mac947,0
+1540423517712,415,add macbook to cart,200,OK,Thread Group 1-4,true,2565,20,20,415,chefe02mac947,0
+1540423516509,1625,click macbook,200,OK,Thread Group 1-2,true,244964,20,20,818,chefe02mac947,60
+1540423516693,1499,"search ""apple""",200,OK,Thread Group 1-14,true,204630,20,20,906,chefe02mac947,0
+1540423516701,1504,click macbook,200,OK,Thread Group 1-3,true,244964,20,20,769,chefe02mac947,0
+1540423516835,1392,"search ""apple""",200,OK,Thread Group 1-15,true,204630,20,20,798,chefe02mac947,0
+1540423517928,386,add macbook to cart,200,OK,Thread Group 1-1,true,2565,20,20,385,chefe02mac947,0
+1540423516952,1391,"search ""apple""",200,OK,Thread Group 1-17,true,204630,20,20,783,chefe02mac947,0
+1540423518006,374,add macbook to cart,200,OK,Thread Group 1-6,true,2565,20,20,374,chefe02mac947,0
+1540423517114,1284,click macbook,200,OK,Thread Group 1-7,true,244964,20,20,747,chefe02mac947,0
+1540423516985,1427,"search ""apple""",200,OK,Thread Group 1-16,true,204630,20,20,834,chefe02mac947,0
+1540423516933,1594,click macbook,200,OK,Thread Group 1-8,true,244964,20,20,801,chefe02mac947,0
+1540423517142,1425,click macbook,200,OK,Thread Group 1-11,true,244964,20,20,793,chefe02mac947,0
+1540423517256,1320,click on sunglasses,200,OK,Thread Group 1-20,true,54688,20,20,702,chefe02mac947,0
+1540423518134,445,add macbook to cart,200,OK,Thread Group 1-2,true,2565,20,20,445,chefe02mac947,0
+1540423517299,1339,click macbook,200,OK,Thread Group 1-5,true,244964,20,20,758,chefe02mac947,0
+1540423517589,1112,"search ""apple""",200,OK,Thread Group 1-19,true,204630,20,20,572,chefe02mac947,0
+1540423518205,524,add macbook to cart,200,OK,Thread Group 1-3,true,2565,20,20,523,chefe02mac947,0
+1540423517803,971,click macbook,200,OK,Thread Group 1-12,true,244964,20,20,442,chefe02mac947,0
+1540423517840,1006,click macbook,200,OK,Thread Group 1-9,true,244964,20,20,447,chefe02mac947,0
+1540423517946,983,click macbook,200,OK,Thread Group 1-10,true,244964,20,20,452,chefe02mac947,0
+1540423518399,615,add macbook to cart,200,OK,Thread Group 1-7,true,2565,20,20,615,chefe02mac947,0
+1540423518031,1003,"search ""apple""",200,OK,Thread Group 1-18,true,204630,20,20,481,chefe02mac947,0
+1540423518527,552,add macbook to cart,200,OK,Thread Group 1-8,true,2565,20,20,552,chefe02mac947,0
+1540423518070,1066,click macbook,200,OK,Thread Group 1-13,true,244964,20,20,446,chefe02mac947,0
+1540423518128,1064,search sunglasses,200,OK,Thread Group 1-4,true,54349,20,20,535,chefe02mac947,0
+1540423518577,654,add sunglasses to cart,200,OK,Thread Group 1-20,true,3857,20,20,653,chefe02mac947,0
+1540423518192,1055,click macbook,200,OK,Thread Group 1-14,true,244964,20,20,529,chefe02mac947,0
+1540423518568,716,add macbook to cart,200,OK,Thread Group 1-11,true,2565,20,20,715,chefe02mac947,0
+1540423518638,663,add macbook to cart,200,OK,Thread Group 1-5,true,2565,20,20,662,chefe02mac947,0
+1540423518314,1001,search sunglasses,200,OK,Thread Group 1-1,true,54349,20,20,552,chefe02mac947,0
+1540423518847,633,add macbook to cart,200,OK,Thread Group 1-9,true,2565,20,20,633,chefe02mac947,0
+1540423518227,1272,click macbook,200,OK,Thread Group 1-15,true,244964,20,20,613,chefe02mac947,0
+1540423518381,1137,search sunglasses,200,OK,Thread Group 1-6,true,54349,20,20,617,chefe02mac947,0
+1540423518774,763,add macbook to cart,200,OK,Thread Group 1-12,true,2565,20,20,762,chefe02mac947,0
+1540423518343,1238,click macbook,200,OK,Thread Group 1-17,true,244964,20,20,605,chefe02mac947,0
+1540423518929,680,add macbook to cart,200,OK,Thread Group 1-10,true,2565,20,20,679,chefe02mac947,0
+1540423518412,1257,click macbook,200,OK,Thread Group 1-16,true,244964,20,20,712,chefe02mac947,0
+1540423519136,624,add macbook to cart,200,OK,Thread Group 1-13,true,2565,20,20,622,chefe02mac947,0
+1540423518580,1256,search sunglasses,200,OK,Thread Group 1-2,true,54349,20,20,719,chefe02mac947,0
+1540423519247,736,add macbook to cart,200,OK,Thread Group 1-14,true,2565,20,20,736,chefe02mac947,0
+1540423518730,1283,search sunglasses,200,OK,Thread Group 1-3,true,54349,20,20,764,chefe02mac947,0
+1540423519500,650,add macbook to cart,200,OK,Thread Group 1-15,true,2565,20,20,649,chefe02mac947,0
+1540423518701,1495,click macbook,200,OK,Thread Group 1-19,true,244964,20,20,714,chefe02mac947,0
+1540423519079,1152,search sunglasses,200,OK,Thread Group 1-8,true,54349,20,20,695,chefe02mac947,0
+1540423519034,1223,click macbook,200,OK,Thread Group 1-18,true,244964,20,20,635,chefe02mac947,0
+1540423519581,770,add macbook to cart,200,OK,Thread Group 1-17,true,2565,20,20,768,chefe02mac947,0
+1540423519193,1275,click on sunglasses,200,OK,Thread Group 1-4,true,54688,20,20,671,chefe02mac947,0
+1540423519284,1243,search sunglasses,200,OK,Thread Group 1-11,true,54349,20,20,711,chefe02mac947,0
+1540423519014,1533,search sunglasses,200,OK,Thread Group 1-7,true,54349,20,20,715,chefe02mac947,60
+1540423519232,1445,"search ""fahr""",200,OK,Thread Group 1-20,true,61235,20,20,823,chefe02mac947,0
+1540423519315,1398,click on sunglasses,200,OK,Thread Group 1-1,true,54688,20,20,705,chefe02mac947,0
+1540423519670,1047,add macbook to cart,200,OK,Thread Group 1-16,true,2565,20,20,1046,chefe02mac947,0
+1540423519301,1510,search sunglasses,200,OK,Thread Group 1-5,true,54349,20,20,959,chefe02mac947,65
+1540423519519,1321,click on sunglasses,200,OK,Thread Group 1-6,true,54688,20,20,736,chefe02mac947,0
+1540423519480,1367,search sunglasses,200,OK,Thread Group 1-9,true,54349,20,20,831,chefe02mac947,61
+1540423520197,823,add macbook to cart,200,OK,Thread Group 1-19,true,2565,20,20,822,chefe02mac947,0
+1540423519537,1611,search sunglasses,200,OK,Thread Group 1-12,true,54349,20,20,1111,chefe02mac947,60
+1540423520257,965,add macbook to cart,200,OK,Thread Group 1-18,true,2565,20,20,965,chefe02mac947,0
+1540423520468,757,add sunglasses to cart,200,OK,Thread Group 1-4,true,3857,20,20,756,chefe02mac947,0
+1540423519610,1727,search sunglasses,200,OK,Thread Group 1-10,true,54349,20,20,1218,chefe02mac947,62
+1540423520678,752,add book to cart,200,OK,Thread Group 1-20,true,5178,20,20,752,chefe02mac947,0
+1540423519760,1695,search sunglasses,200,OK,Thread Group 1-13,true,54349,20,20,1092,chefe02mac947,61
+1540423520013,1455,click on sunglasses,200,OK,Thread Group 1-3,true,54687,20,20,937,chefe02mac947,0
+1540423520714,788,add sunglasses to cart,200,OK,Thread Group 1-1,true,3857,20,20,787,chefe02mac947,0
+1540423519984,1572,search sunglasses,200,OK,Thread Group 1-14,true,54349,20,20,1072,chefe02mac947,62
+1540423519837,1755,click on sunglasses,200,OK,Thread Group 1-2,true,54687,20,20,1089,chefe02mac947,0
+1540423520841,795,add sunglasses to cart,200,OK,Thread Group 1-6,true,3857,20,20,794,chefe02mac947,0
+1540423520150,1510,search sunglasses,200,OK,Thread Group 1-15,true,54349,20,20,1003,chefe02mac947,59
+1540423520232,1562,click on sunglasses,200,OK,Thread Group 1-8,true,54688,20,20,927,chefe02mac947,0
+1540423520351,1517,search sunglasses,200,OK,Thread Group 1-17,true,54349,20,20,1008,chefe02mac947,62
+1540423520527,1392,click on sunglasses,200,OK,Thread Group 1-11,true,54688,20,20,807,chefe02mac947,0
+1540423520547,1515,click on sunglasses,200,OK,Thread Group 1-7,true,54687,20,20,884,chefe02mac947,0
+1540423520717,1351,search sunglasses,200,OK,Thread Group 1-16,true,54349,20,20,844,chefe02mac947,60
+1540423520811,1288,click on sunglasses,200,OK,Thread Group 1-5,true,54687,20,20,787,chefe02mac947,0
+1540423521468,668,add sunglasses to cart,200,OK,Thread Group 1-3,true,3857,20,20,668,chefe02mac947,0
+1540423520848,1425,click on sunglasses,200,OK,Thread Group 1-9,true,54688,20,20,854,chefe02mac947,0
+1540423521592,718,add sunglasses to cart,200,OK,Thread Group 1-2,true,3857,20,20,717,chefe02mac947,0
+1540423521021,1332,search sunglasses,200,OK,Thread Group 1-19,true,54349,20,20,749,chefe02mac947,0
+1540423521222,1181,search sunglasses,200,OK,Thread Group 1-18,true,54349,20,20,674,chefe02mac947,0
+1540423521795,648,add sunglasses to cart,200,OK,Thread Group 1-8,true,3857,20,20,646,chefe02mac947,0
+1540423521148,1304,click on sunglasses,200,OK,Thread Group 1-12,true,54688,20,20,657,chefe02mac947,0
+1540423521920,594,add sunglasses to cart,200,OK,Thread Group 1-11,true,3857,20,20,593,chefe02mac947,0
+1540423521225,1299,"search ""fahr""",200,OK,Thread Group 1-4,true,61235,20,20,716,chefe02mac947,0
+1540423521337,1207,click on sunglasses,200,OK,Thread Group 1-10,true,54688,20,20,663,chefe02mac947,0
+1540423522062,521,add sunglasses to cart,200,OK,Thread Group 1-7,true,3857,20,20,520,chefe02mac947,0
+1540423521430,1217,"search ""apple""",200,OK,Thread Group 1-20,true,204630,20,20,633,chefe02mac947,0
+1540423521455,1217,click on sunglasses,200,OK,Thread Group 1-13,true,54688,20,20,649,chefe02mac947,0
+1540423522099,593,add sunglasses to cart,200,OK,Thread Group 1-5,true,3857,20,20,593,chefe02mac947,0
+1540423521557,1260,click on sunglasses,200,OK,Thread Group 1-14,true,54687,20,20,674,chefe02mac947,0
+1540423522273,550,add sunglasses to cart,200,OK,Thread Group 1-9,true,3857,20,20,548,chefe02mac947,0
+1540423521502,1377,"search ""fahr""",200,OK,Thread Group 1-1,true,61235,20,20,730,chefe02mac947,0
+1540423521868,1123,click on sunglasses,200,OK,Thread Group 1-17,true,54688,20,20,647,chefe02mac947,0
+1540423521637,1375,"search ""fahr""",200,OK,Thread Group 1-6,true,61235,20,20,730,chefe02mac947,0
+1540423521661,1392,click on sunglasses,200,OK,Thread Group 1-15,true,54687,20,20,746,chefe02mac947,0
+1540423522524,541,add book to cart,200,OK,Thread Group 1-4,true,5178,20,20,540,chefe02mac947,0
+1540423522452,624,add sunglasses to cart,200,OK,Thread Group 1-12,true,3857,20,20,624,chefe02mac947,0
+1540423522544,668,add sunglasses to cart,200,OK,Thread Group 1-10,true,3857,20,20,668,chefe02mac947,0
+1540423522068,1174,click on sunglasses,200,OK,Thread Group 1-16,true,54688,20,20,591,chefe02mac947,0
+1540423522310,1078,"search ""fahr""",200,OK,Thread Group 1-2,true,61235,20,20,568,chefe02mac947,0
+1540423522673,743,add sunglasses to cart,200,OK,Thread Group 1-13,true,3857,20,20,743,chefe02mac947,0
+1540423522353,1082,click on sunglasses,200,OK,Thread Group 1-19,true,54688,20,20,501,chefe02mac947,0
+1540423522817,699,add sunglasses to cart,200,OK,Thread Group 1-14,true,3857,20,20,699,chefe02mac947,0
+1540423522136,1395,"search ""fahr""",200,OK,Thread Group 1-3,true,61235,20,20,706,chefe02mac947,60
+1540423522992,557,add sunglasses to cart,200,OK,Thread Group 1-17,true,3857,20,20,556,chefe02mac947,0
+1540423522443,1116,"search ""fahr""",200,OK,Thread Group 1-8,true,61235,20,20,603,chefe02mac947,0
+1540423522880,736,add book to cart,200,OK,Thread Group 1-1,true,5178,20,20,735,chefe02mac947,0
+1540423522403,1233,click on sunglasses,200,OK,Thread Group 1-18,true,54688,20,20,616,chefe02mac947,0
+1540423523012,628,add book to cart,200,OK,Thread Group 1-6,true,5178,20,20,627,chefe02mac947,0
+1540423523053,590,add sunglasses to cart,200,OK,Thread Group 1-15,true,3857,20,20,590,chefe02mac947,0
+1540423522647,1131,click macbook,200,OK,Thread Group 1-20,true,244964,20,20,603,chefe02mac947,0
+1540423523243,620,add sunglasses to cart,200,OK,Thread Group 1-16,true,3857,20,20,619,chefe02mac947,0
+1540423522583,1348,"search ""fahr""",200,OK,Thread Group 1-7,true,61235,20,20,785,chefe02mac947,0
+1540423522515,1444,"search ""fahr""",200,OK,Thread Group 1-11,true,61235,20,20,815,chefe02mac947,61
+1540423523389,614,add book to cart,200,OK,Thread Group 1-2,true,5178,20,20,614,chefe02mac947,0
+1540423523435,623,add sunglasses to cart,200,OK,Thread Group 1-19,true,3857,20,20,621,chefe02mac947,0
+1540423522693,1398,"search ""fahr""",200,OK,Thread Group 1-5,true,61235,20,20,776,chefe02mac947,0
+1540423523531,621,add book to cart,200,OK,Thread Group 1-3,true,5178,20,20,620,chefe02mac947,0
+1540423522823,1345,"search ""fahr""",200,OK,Thread Group 1-9,true,61235,20,20,784,chefe02mac947,0
+1540423523066,1174,"search ""apple""",200,OK,Thread Group 1-4,true,204630,20,20,703,chefe02mac947,0
+1540423523559,700,add book to cart,200,OK,Thread Group 1-8,true,5178,20,20,699,chefe02mac947,0
+1540423523077,1212,"search ""fahr""",200,OK,Thread Group 1-12,true,61235,20,20,697,chefe02mac947,0
+1540423523637,711,add sunglasses to cart,200,OK,Thread Group 1-18,true,3857,20,20,711,chefe02mac947,0
+1540423523213,1239,"search ""fahr""",200,OK,Thread Group 1-10,true,61235,20,20,704,chefe02mac947,0
+1540423523779,780,add macbook to cart,200,OK,Thread Group 1-20,true,2565,20,20,780,chefe02mac947,0
+1540423523931,697,add book to cart,200,OK,Thread Group 1-7,true,5178,20,20,696,chefe02mac947,0
+1540423523960,749,add book to cart,200,OK,Thread Group 1-11,true,5178,20,20,748,chefe02mac947,0
+1540423523516,1198,"search ""fahr""",200,OK,Thread Group 1-14,true,61235,20,20,673,chefe02mac947,0
+1540423523417,1304,"search ""fahr""",200,OK,Thread Group 1-13,true,61235,20,20,667,chefe02mac947,0
+1540423524091,686,add book to cart,200,OK,Thread Group 1-5,true,5178,20,20,685,chefe02mac947,0
+1540423523549,1385,"search ""fahr""",200,OK,Thread Group 1-17,true,61235,20,20,737,chefe02mac947,0
+1540423523616,1364,"search ""apple""",200,OK,Thread Group 1-1,true,204630,20,20,772,chefe02mac947,0
+1540423524168,814,add book to cart,200,OK,Thread Group 1-9,true,5178,20,20,813,chefe02mac947,0
+1540423524290,771,add book to cart,200,OK,Thread Group 1-12,true,5178,20,20,769,chefe02mac947,0
+1540423523640,1426,"search ""apple""",200,OK,Thread Group 1-6,true,204630,20,20,837,chefe02mac947,0
+1540423523863,1293,"search ""fahr""",200,OK,Thread Group 1-16,true,61235,20,20,787,chefe02mac947,0
+1540423523643,1521,"search ""fahr""",200,OK,Thread Group 1-15,true,61235,20,20,876,chefe02mac947,0
+1540423524453,796,add book to cart,200,OK,Thread Group 1-10,true,5178,20,20,795,chefe02mac947,0
+1540423524004,1294,"search ""apple""",200,OK,Thread Group 1-2,true,204630,20,20,776,chefe02mac947,0
+1540423524152,1339,"search ""apple""",200,OK,Thread Group 1-3,true,204630,20,20,759,chefe02mac947,0
+1540423524715,794,add book to cart,200,OK,Thread Group 1-14,true,5178,20,20,793,chefe02mac947,0
+1540423524721,859,add book to cart,200,OK,Thread Group 1-13,true,5178,20,20,858,chefe02mac947,0
+1540423524058,1544,"search ""fahr""",200,OK,Thread Group 1-19,true,61235,20,20,853,chefe02mac947,60
+1540423524933,722,add book to cart,200,OK,Thread Group 1-17,true,5178,20,20,721,chefe02mac947,0
+1540423524259,1424,"search ""apple""",200,OK,Thread Group 1-8,true,204630,20,20,839,chefe02mac947,0
+1540423524349,1531,"search ""fahr""",200,OK,Thread Group 1-18,true,61235,20,20,941,chefe02mac947,60
+1540423524560,1385,search sunglasses,200,OK,Thread Group 1-20,true,54349,20,20,852,chefe02mac947,59
+1540423524628,1393,"search ""apple""",200,OK,Thread Group 1-7,true,204630,20,20,808,chefe02mac947,0
+1540423524240,1807,click macbook,200,OK,Thread Group 1-4,true,244964,20,20,928,chefe02mac947,60
+1540423525156,916,add book to cart,200,OK,Thread Group 1-16,true,5178,20,20,916,chefe02mac947,0
+1540423525163,910,add book to cart,200,OK,Thread Group 1-15,true,5178,20,20,910,chefe02mac947,0
+1540423524709,1430,"search ""apple""",200,OK,Thread Group 1-11,true,204630,20,20,838,chefe02mac947,0
+1540423524777,1489,"search ""apple""",200,OK,Thread Group 1-5,true,204630,20,20,897,chefe02mac947,0
+1540423524980,1363,click macbook,200,OK,Thread Group 1-1,true,244964,20,20,801,chefe02mac947,0
+1540423524982,1467,"search ""apple""",200,OK,Thread Group 1-9,true,204630,20,20,879,chefe02mac947,0
+1540423525602,929,add book to cart,200,OK,Thread Group 1-19,true,5178,20,20,928,chefe02mac947,0
+1540423525066,1469,click macbook,200,OK,Thread Group 1-6,true,244964,20,20,940,chefe02mac947,0
+1540423525060,1530,"search ""apple""",200,OK,Thread Group 1-12,true,204630,20,20,944,chefe02mac947,0
+1540423525881,808,add book to cart,200,OK,Thread Group 1-18,true,5178,20,20,807,chefe02mac947,0
+1540423525298,1430,click macbook,200,OK,Thread Group 1-2,true,244964,20,20,900,chefe02mac947,0
+1540423526047,766,add macbook to cart,200,OK,Thread Group 1-4,true,2565,20,20,766,chefe02mac947,0
+1540423525248,1567,"search ""apple""",200,OK,Thread Group 1-10,true,204630,20,20,954,chefe02mac947,0
+1540423525492,1355,click macbook,200,OK,Thread Group 1-3,true,244964,20,20,825,chefe02mac947,0
+1540423525509,1437,"search ""apple""",200,OK,Thread Group 1-14,true,204630,20,20,821,chefe02mac947,0
+1540423525580,1447,"search ""apple""",200,OK,Thread Group 1-13,true,204630,20,20,854,chefe02mac947,0
+1540423526343,843,add macbook to cart,200,OK,Thread Group 1-1,true,2565,20,20,843,chefe02mac947,0
+1540423525656,1539,"search ""apple""",200,OK,Thread Group 1-17,true,204630,20,20,956,chefe02mac947,0
+1540423525684,1534,click macbook,200,OK,Thread Group 1-8,true,244964,20,20,960,chefe02mac947,0
+1540423526535,834,add macbook to cart,200,OK,Thread Group 1-6,true,2565,20,20,834,chefe02mac947,0
+1540423525946,1441,click on sunglasses,200,OK,Thread Group 1-20,true,54688,20,20,841,chefe02mac947,0
+1540423526022,1404,click macbook,200,OK,Thread Group 1-7,true,244964,20,20,875,chefe02mac947,0
+1540423526728,766,add macbook to cart,200,OK,Thread Group 1-2,true,2565,20,20,766,chefe02mac947,0
+1540423526140,1366,click macbook,200,OK,Thread Group 1-11,true,244964,20,20,828,chefe02mac947,0
+1540423526073,1529,"search ""apple""",200,OK,Thread Group 1-16,true,204630,20,20,922,chefe02mac947,0
+1540423526449,1241,click macbook,200,OK,Thread Group 1-9,true,244964,20,20,668,chefe02mac947,0
+1540423526266,1480,click macbook,200,OK,Thread Group 1-5,true,244964,20,20,815,chefe02mac947,0
+1540423527218,553,add macbook to cart,200,OK,Thread Group 1-8,true,2565,20,20,553,chefe02mac947,0
+1540423526074,1758,"search ""apple""",200,OK,Thread Group 1-15,true,204630,20,20,1139,chefe02mac947,0
+1540423526847,998,add macbook to cart,200,OK,Thread Group 1-3,true,2565,20,20,998,chefe02mac947,0
+1540423526531,1382,"search ""apple""",200,OK,Thread Group 1-19,true,204630,20,20,787,chefe02mac947,0
+1540423527388,563,add sunglasses to cart,200,OK,Thread Group 1-20,true,3857,20,20,562,chefe02mac947,0
+1540423527426,533,add macbook to cart,200,OK,Thread Group 1-7,true,2565,20,20,533,chefe02mac947,0
+1540423527506,527,add macbook to cart,200,OK,Thread Group 1-11,true,2565,20,20,527,chefe02mac947,0
+1540423526815,1287,click macbook,200,OK,Thread Group 1-10,true,244964,20,20,721,chefe02mac947,0
+1540423526590,1515,click macbook,200,OK,Thread Group 1-12,true,244964,20,20,729,chefe02mac947,0
+1540423526814,1315,search sunglasses,200,OK,Thread Group 1-4,true,54349,20,20,747,chefe02mac947,0
+1540423526690,1470,"search ""apple""",200,OK,Thread Group 1-18,true,204630,20,20,796,chefe02mac947,0
+1540423527746,427,add macbook to cart,200,OK,Thread Group 1-5,true,2565,20,20,426,chefe02mac947,0
+1540423527691,521,add macbook to cart,200,OK,Thread Group 1-9,true,2565,20,20,521,chefe02mac947,0
+1540423526947,1305,click macbook,200,OK,Thread Group 1-14,true,244964,20,20,707,chefe02mac947,0
+1540423527196,1123,click macbook,200,OK,Thread Group 1-17,true,244964,20,20,566,chefe02mac947,0
+1540423527027,1386,click macbook,200,OK,Thread Group 1-13,true,244964,20,20,739,chefe02mac947,0
+1540423527370,1075,search sunglasses,200,OK,Thread Group 1-6,true,54349,20,20,571,chefe02mac947,62
+1540423527187,1283,search sunglasses,200,OK,Thread Group 1-1,true,54349,20,20,772,chefe02mac947,62
+1540423527495,1126,search sunglasses,200,OK,Thread Group 1-2,true,54349,20,20,608,chefe02mac947,0
+1540423528102,546,add macbook to cart,200,OK,Thread Group 1-10,true,2565,20,20,545,chefe02mac947,0
+1540423527602,1077,click macbook,200,OK,Thread Group 1-16,true,244964,20,20,547,chefe02mac947,0
+1540423528105,614,add macbook to cart,200,OK,Thread Group 1-12,true,2565,20,20,614,chefe02mac947,0
+1540423527832,995,click macbook,200,OK,Thread Group 1-15,true,244964,20,20,467,chefe02mac947,0
+1540423527772,1083,search sunglasses,200,OK,Thread Group 1-8,true,54349,20,20,574,chefe02mac947,60
+1540423528252,647,add macbook to cart,200,OK,Thread Group 1-14,true,2565,20,20,646,chefe02mac947,0
+1540423528319,674,add macbook to cart,200,OK,Thread Group 1-17,true,2565,20,20,674,chefe02mac947,0
+1540423527913,1082,click macbook,200,OK,Thread Group 1-19,true,244964,20,20,550,chefe02mac947,0
+1540423527846,1162,search sunglasses,200,OK,Thread Group 1-3,true,54349,20,20,577,chefe02mac947,62
+1540423528414,645,add macbook to cart,200,OK,Thread Group 1-13,true,2565,20,20,644,chefe02mac947,0
+1540423527951,1120,"search ""fahr""",200,OK,Thread Group 1-20,true,61235,20,20,608,chefe02mac947,0
+1540423527960,1130,search sunglasses,200,OK,Thread Group 1-7,true,54349,20,20,623,chefe02mac947,61
+1540423528033,1170,search sunglasses,200,OK,Thread Group 1-11,true,54349,20,20,655,chefe02mac947,62
+1540423528129,1121,click on sunglasses,200,OK,Thread Group 1-4,true,54687,20,20,660,chefe02mac947,0
+1540423528680,665,add macbook to cart,200,OK,Thread Group 1-16,true,2565,20,20,664,chefe02mac947,0
+1540423528160,1215,click macbook,200,OK,Thread Group 1-18,true,244964,20,20,684,chefe02mac947,0
+1540423528174,1255,search sunglasses,200,OK,Thread Group 1-5,true,54349,20,20,748,chefe02mac947,60
+1540423528827,675,add macbook to cart,200,OK,Thread Group 1-15,true,2565,20,20,674,chefe02mac947,0
+1540423528213,1326,search sunglasses,200,OK,Thread Group 1-9,true,54349,20,20,818,chefe02mac947,60
+1540423528995,659,add macbook to cart,200,OK,Thread Group 1-19,true,2565,20,20,659,chefe02mac947,0
+1540423528445,1254,click on sunglasses,200,OK,Thread Group 1-6,true,54687,20,20,683,chefe02mac947,0
+1540423528621,1168,click on sunglasses,200,OK,Thread Group 1-2,true,54688,20,20,682,chefe02mac947,0
+1540423529072,793,add book to cart,200,OK,Thread Group 1-20,true,5178,20,20,793,chefe02mac947,0
+1540423528471,1456,click on sunglasses,200,OK,Thread Group 1-1,true,54688,20,20,808,chefe02mac947,0
+1540423528648,1290,search sunglasses,200,OK,Thread Group 1-10,true,54349,20,20,786,chefe02mac947,61
+1540423528719,1268,search sunglasses,200,OK,Thread Group 1-12,true,54349,20,20,760,chefe02mac947,61
+1540423529251,817,add sunglasses to cart,200,OK,Thread Group 1-4,true,3857,20,20,816,chefe02mac947,0
+1540423529376,763,add macbook to cart,200,OK,Thread Group 1-18,true,2565,20,20,761,chefe02mac947,0
+1540423528899,1269,search sunglasses,200,OK,Thread Group 1-14,true,54349,20,20,738,chefe02mac947,62
+1540423528856,1373,click on sunglasses,200,OK,Thread Group 1-8,true,54688,20,20,733,chefe02mac947,0
+1540423529008,1347,click on sunglasses,200,OK,Thread Group 1-3,true,54688,20,20,755,chefe02mac947,0
+1540423528993,1382,search sunglasses,200,OK,Thread Group 1-17,true,54349,20,20,879,chefe02mac947,62
+1540423529700,772,add sunglasses to cart,200,OK,Thread Group 1-6,true,3857,20,20,770,chefe02mac947,0
+1540423529060,1445,search sunglasses,200,OK,Thread Group 1-13,true,54349,20,20,939,chefe02mac947,60
+1540423529091,1420,click on sunglasses,200,OK,Thread Group 1-7,true,54688,20,20,878,chefe02mac947,0
+1540423529789,748,add sunglasses to cart,200,OK,Thread Group 1-2,true,3857,20,20,747,chefe02mac947,0
+1540423529927,678,add sunglasses to cart,200,OK,Thread Group 1-1,true,3857,20,20,677,chefe02mac947,0
+1540423529204,1425,click on sunglasses,200,OK,Thread Group 1-11,true,54687,20,20,861,chefe02mac947,0
+1540423529345,1361,search sunglasses,200,OK,Thread Group 1-16,true,54349,20,20,855,chefe02mac947,61
+1540423529430,1432,click on sunglasses,200,OK,Thread Group 1-5,true,54688,20,20,813,chefe02mac947,0
+1540423529539,1337,click on sunglasses,200,OK,Thread Group 1-9,true,54688,20,20,822,chefe02mac947,0
+1540423529502,1488,search sunglasses,200,OK,Thread Group 1-15,true,54349,20,20,897,chefe02mac947,61
+1540423529655,1400,search sunglasses,200,OK,Thread Group 1-19,true,54349,20,20,876,chefe02mac947,60
+1540423530355,700,add sunglasses to cart,200,OK,Thread Group 1-3,true,3857,20,20,700,chefe02mac947,0
+1540423530230,961,add sunglasses to cart,200,OK,Thread Group 1-8,true,3857,20,20,960,chefe02mac947,0
+1540423530511,751,add sunglasses to cart,200,OK,Thread Group 1-7,true,3857,20,20,750,chefe02mac947,0
+1540423529866,1406,"search ""apple""",200,OK,Thread Group 1-20,true,204630,20,20,797,chefe02mac947,0
+1540423529987,1412,click on sunglasses,200,OK,Thread Group 1-12,true,54688,20,20,840,chefe02mac947,0
+1540423529938,1490,click on sunglasses,200,OK,Thread Group 1-10,true,54688,20,20,859,chefe02mac947,0
+1540423530168,1287,click on sunglasses,200,OK,Thread Group 1-14,true,54688,20,20,659,chefe02mac947,0
+1540423530139,1381,search sunglasses,200,OK,Thread Group 1-18,true,54349,20,20,851,chefe02mac947,60
+1540423530068,1516,"search ""fahr""",200,OK,Thread Group 1-4,true,61235,20,20,934,chefe02mac947,61
+1540423530629,956,add sunglasses to cart,200,OK,Thread Group 1-11,true,3857,20,20,956,chefe02mac947,0
+1540423530863,803,add sunglasses to cart,200,OK,Thread Group 1-5,true,3857,20,20,802,chefe02mac947,0
+1540423530375,1349,click on sunglasses,200,OK,Thread Group 1-17,true,54688,20,20,830,chefe02mac947,0
+1540423530876,872,add sunglasses to cart,200,OK,Thread Group 1-9,true,3857,20,20,870,chefe02mac947,0
+1540423530505,1387,click on sunglasses,200,OK,Thread Group 1-13,true,54688,20,20,746,chefe02mac947,0
+1540423531399,658,add sunglasses to cart,200,OK,Thread Group 1-12,true,3857,20,20,657,chefe02mac947,0
+1540423530605,1476,"search ""fahr""",200,OK,Thread Group 1-1,true,61235,20,20,851,chefe02mac947,0
+1540423531456,639,add sunglasses to cart,200,OK,Thread Group 1-14,true,3857,20,20,638,chefe02mac947,0
+1540423530472,1691,"search ""fahr""",200,OK,Thread Group 1-6,true,61235,20,20,1013,chefe02mac947,60
+1540423531429,736,add sunglasses to cart,200,OK,Thread Group 1-10,true,3857,20,20,735,chefe02mac947,0
+1540423530537,1669,"search ""fahr""",200,OK,Thread Group 1-2,true,61235,20,20,1037,chefe02mac947,60
+1540423530706,1516,click on sunglasses,200,OK,Thread Group 1-16,true,54688,20,20,957,chefe02mac947,0
+1540423531584,657,add book to cart,200,OK,Thread Group 1-4,true,5178,20,20,655,chefe02mac947,0
+1540423531056,1336,"search ""fahr""",200,OK,Thread Group 1-3,true,61235,20,20,763,chefe02mac947,0
+1540423530991,1415,click on sunglasses,200,OK,Thread Group 1-15,true,54688,20,20,786,chefe02mac947,0
+1540423531724,684,add sunglasses to cart,200,OK,Thread Group 1-17,true,3857,20,20,683,chefe02mac947,0
+1540423531055,1362,click on sunglasses,200,OK,Thread Group 1-19,true,54688,20,20,809,chefe02mac947,0
+1540423531893,581,add sunglasses to cart,200,OK,Thread Group 1-13,true,3857,20,20,579,chefe02mac947,0
+1540423532082,504,add book to cart,200,OK,Thread Group 1-1,true,5178,20,20,503,chefe02mac947,0
+1540423531272,1336,click macbook,200,OK,Thread Group 1-20,true,244964,20,20,734,chefe02mac947,0
+1540423532164,530,add book to cart,200,OK,Thread Group 1-6,true,5178,20,20,529,chefe02mac947,0
+1540423531521,1183,click on sunglasses,200,OK,Thread Group 1-18,true,54688,20,20,680,chefe02mac947,0
+1540423531191,1521,"search ""fahr""",200,OK,Thread Group 1-8,true,61235,20,20,888,chefe02mac947,0
+1540423531262,1451,"search ""fahr""",200,OK,Thread Group 1-7,true,61235,20,20,825,chefe02mac947,0
+1540423532207,587,add book to cart,200,OK,Thread Group 1-2,true,5178,20,20,586,chefe02mac947,0
+1540423532222,648,add sunglasses to cart,200,OK,Thread Group 1-16,true,3857,20,20,647,chefe02mac947,0
+1540423532393,547,add book to cart,200,OK,Thread Group 1-3,true,5178,20,20,546,chefe02mac947,0
+1540423531666,1291,"search ""fahr""",200,OK,Thread Group 1-5,true,61235,20,20,711,chefe02mac947,0
+1540423531585,1382,"search ""fahr""",200,OK,Thread Group 1-11,true,61235,20,20,754,chefe02mac947,0
+1540423532406,614,add sunglasses to cart,200,OK,Thread Group 1-15,true,3857,20,20,613,chefe02mac947,0
+1540423531748,1348,"search ""fahr""",200,OK,Thread Group 1-9,true,61235,20,20,766,chefe02mac947,0
+1540423532417,725,add sunglasses to cart,200,OK,Thread Group 1-19,true,3857,20,20,725,chefe02mac947,0
+1540423532057,1181,"search ""fahr""",200,OK,Thread Group 1-12,true,61235,20,20,560,chefe02mac947,0
+1540423532096,1199,"search ""fahr""",200,OK,Thread Group 1-14,true,61235,20,20,624,chefe02mac947,0
+1540423532608,746,add macbook to cart,200,OK,Thread Group 1-20,true,2565,20,20,745,chefe02mac947,0
+1540423532165,1257,"search ""fahr""",200,OK,Thread Group 1-10,true,61235,20,20,660,chefe02mac947,0
+1540423532704,722,add sunglasses to cart,200,OK,Thread Group 1-18,true,3857,20,20,720,chefe02mac947,0
+1540423532712,735,add book to cart,200,OK,Thread Group 1-8,true,5178,20,20,734,chefe02mac947,0
+1540423532241,1243,"search ""apple""",200,OK,Thread Group 1-4,true,204630,20,20,707,chefe02mac947,0
+1540423532713,784,add book to cart,200,OK,Thread Group 1-7,true,5178,20,20,783,chefe02mac947,0
+1540423532408,1264,"search ""fahr""",200,OK,Thread Group 1-17,true,61235,20,20,669,chefe02mac947,0
+1540423532958,734,add book to cart,200,OK,Thread Group 1-5,true,5178,20,20,732,chefe02mac947,0
+1540423532967,826,add book to cart,200,OK,Thread Group 1-11,true,5178,20,20,824,chefe02mac947,0
+1540423532695,1123,"search ""apple""",200,OK,Thread Group 1-6,true,204630,20,20,618,chefe02mac947,0
+1540423533096,772,add book to cart,200,OK,Thread Group 1-9,true,5178,20,20,772,chefe02mac947,0
+1540423532586,1294,"search ""apple""",200,OK,Thread Group 1-1,true,204630,20,20,772,chefe02mac947,0
+1540423532474,1420,"search ""fahr""",200,OK,Thread Group 1-13,true,61235,20,20,772,chefe02mac947,0
+1540423533239,730,add book to cart,200,OK,Thread Group 1-12,true,5178,20,20,729,chefe02mac947,0
+1540423532795,1270,"search ""apple""",200,OK,Thread Group 1-2,true,204630,20,20,812,chefe02mac947,0
+1540423533422,649,add book to cart,200,OK,Thread Group 1-10,true,5178,20,20,649,chefe02mac947,0
+1540423533295,779,add book to cart,200,OK,Thread Group 1-14,true,5178,20,20,778,chefe02mac947,0
+1540423532871,1298,"search ""fahr""",200,OK,Thread Group 1-16,true,61235,20,20,768,chefe02mac947,0
+1540423532941,1286,"search ""apple""",200,OK,Thread Group 1-3,true,204630,20,20,756,chefe02mac947,0
+1540423533673,600,add book to cart,200,OK,Thread Group 1-17,true,5178,20,20,599,chefe02mac947,0
+1540423533020,1490,"search ""fahr""",200,OK,Thread Group 1-15,true,61235,20,20,852,chefe02mac947,0
+1540423533143,1404,"search ""fahr""",200,OK,Thread Group 1-19,true,61235,20,20,779,chefe02mac947,0
+1540423533354,1280,search sunglasses,200,OK,Thread Group 1-20,true,54349,20,20,758,chefe02mac947,64
+1540423533894,742,add book to cart,200,OK,Thread Group 1-13,true,5178,20,20,741,chefe02mac947,0
+1540423533426,1325,"search ""fahr""",200,OK,Thread Group 1-18,true,61235,20,20,739,chefe02mac947,0
+1540423533485,1373,click macbook,200,OK,Thread Group 1-4,true,244964,20,20,788,chefe02mac947,0
+1540423533447,1451,"search ""apple""",200,OK,Thread Group 1-8,true,204630,20,20,863,chefe02mac947,0
+1540423533498,1451,"search ""apple""",200,OK,Thread Group 1-7,true,204630,20,20,858,chefe02mac947,0
+1540423534170,798,add book to cart,200,OK,Thread Group 1-16,true,5178,20,20,798,chefe02mac947,0
+1540423533693,1345,"search ""apple""",200,OK,Thread Group 1-5,true,204630,20,20,746,chefe02mac947,0
+1540423533793,1276,"search ""apple""",200,OK,Thread Group 1-11,true,204630,20,20,683,chefe02mac947,0
+1540423534548,608,add book to cart,200,OK,Thread Group 1-19,true,5178,20,20,607,chefe02mac947,0
+1540423534511,669,add book to cart,200,OK,Thread Group 1-15,true,5178,20,20,668,chefe02mac947,0
+1540423533869,1351,"search ""apple""",200,OK,Thread Group 1-9,true,204630,20,20,746,chefe02mac947,0
+1540423534752,583,add book to cart,200,OK,Thread Group 1-18,true,5178,20,20,583,chefe02mac947,0
+1540423533818,1536,click macbook,200,OK,Thread Group 1-6,true,244964,20,20,746,chefe02mac947,0
+1540423533970,1400,"search ""apple""",200,OK,Thread Group 1-12,true,204630,20,20,799,chefe02mac947,0
+1540423534859,526,add macbook to cart,200,OK,Thread Group 1-4,true,2565,20,20,525,chefe02mac947,0
+1540423534074,1410,"search ""apple""",200,OK,Thread Group 1-14,true,204630,20,20,820,chefe02mac947,0
+1540423533881,1630,click macbook,200,OK,Thread Group 1-1,true,244964,20,20,850,chefe02mac947,59
+1540423534065,1447,click macbook,200,OK,Thread Group 1-2,true,244964,20,20,783,chefe02mac947,0
+1540423534072,1496,"search ""apple""",200,OK,Thread Group 1-10,true,204630,20,20,903,chefe02mac947,0
+1540423534227,1525,click macbook,200,OK,Thread Group 1-3,true,244964,20,20,859,chefe02mac947,0
+1540423534274,1483,"search ""apple""",200,OK,Thread Group 1-17,true,204630,20,20,829,chefe02mac947,0
+1540423534634,1167,click on sunglasses,200,OK,Thread Group 1-20,true,54688,20,20,626,chefe02mac947,0
+1540423534636,1268,"search ""apple""",200,OK,Thread Group 1-13,true,204630,20,20,675,chefe02mac947,0
+1540423534899,1089,click macbook,200,OK,Thread Group 1-8,true,244964,20,20,559,chefe02mac947,0
+1540423534951,1094,click macbook,200,OK,Thread Group 1-7,true,244964,20,20,561,chefe02mac947,0
+1540423535355,717,add macbook to cart,200,OK,Thread Group 1-6,true,2565,20,20,717,chefe02mac947,0
+1540423534969,1165,"search ""apple""",200,OK,Thread Group 1-16,true,204630,20,20,616,chefe02mac947,0
+1540423535039,1123,click macbook,200,OK,Thread Group 1-5,true,244964,20,20,584,chefe02mac947,0
+1540423535070,1172,click macbook,200,OK,Thread Group 1-11,true,244964,20,20,641,chefe02mac947,0
+1540423535753,536,add macbook to cart,200,OK,Thread Group 1-3,true,2565,20,20,536,chefe02mac947,0
+1540423535511,800,add macbook to cart,200,OK,Thread Group 1-1,true,2565,20,20,799,chefe02mac947,0
+1540423535157,1185,"search ""apple""",200,OK,Thread Group 1-19,true,204630,20,20,638,chefe02mac947,0
+1540423535512,863,add macbook to cart,200,OK,Thread Group 1-2,true,2565,20,20,862,chefe02mac947,0
+1540423535335,1105,"search ""apple""",200,OK,Thread Group 1-18,true,204630,20,20,572,chefe02mac947,0
+1540423535801,672,add sunglasses to cart,200,OK,Thread Group 1-20,true,3857,20,20,672,chefe02mac947,0
+1540423535221,1256,click macbook,200,OK,Thread Group 1-9,true,244964,20,20,664,chefe02mac947,0
+1540423535370,1232,click macbook,200,OK,Thread Group 1-12,true,244964,20,20,697,chefe02mac947,0
+1540423535181,1422,"search ""apple""",200,OK,Thread Group 1-15,true,204630,20,20,831,chefe02mac947,0
+1540423535989,628,add macbook to cart,200,OK,Thread Group 1-8,true,2565,20,20,626,chefe02mac947,0
+1540423536046,617,add macbook to cart,200,OK,Thread Group 1-7,true,2565,20,20,617,chefe02mac947,0
+1540423535484,1256,click macbook,200,OK,Thread Group 1-14,true,244964,20,20,726,chefe02mac947,0
+1540423536162,609,add macbook to cart,200,OK,Thread Group 1-5,true,2565,20,20,608,chefe02mac947,0
+1540423536243,620,add macbook to cart,200,OK,Thread Group 1-11,true,2565,20,20,618,chefe02mac947,0
+1540423535568,1300,click macbook,200,OK,Thread Group 1-10,true,244964,20,20,738,chefe02mac947,0
+1540423535757,1315,click macbook,200,OK,Thread Group 1-17,true,244964,20,20,715,chefe02mac947,0
+1540423535904,1195,click macbook,200,OK,Thread Group 1-13,true,244964,20,20,595,chefe02mac947,0
+1540423536478,666,add macbook to cart,200,OK,Thread Group 1-9,true,2565,20,20,666,chefe02mac947,0
+1540423536073,1167,search sunglasses,200,OK,Thread Group 1-6,true,54349,20,20,660,chefe02mac947,0
+1540423536603,640,add macbook to cart,200,OK,Thread Group 1-12,true,2565,20,20,640,chefe02mac947,0
+1540423536289,992,search sunglasses,200,OK,Thread Group 1-3,true,54349,20,20,608,chefe02mac947,0
+1540423536311,1092,search sunglasses,200,OK,Thread Group 1-1,true,54349,20,20,591,chefe02mac947,0
+1540423536135,1271,click macbook,200,OK,Thread Group 1-16,true,244964,20,20,497,chefe02mac947,0
+1540423536740,710,add macbook to cart,200,OK,Thread Group 1-14,true,2565,20,20,710,chefe02mac947,0
+1540423536375,1149,search sunglasses,200,OK,Thread Group 1-2,true,54349,20,20,577,chefe02mac947,0
+1540423536869,676,add macbook to cart,200,OK,Thread Group 1-10,true,2565,20,20,675,chefe02mac947,0
+1540423537072,566,add macbook to cart,200,OK,Thread Group 1-17,true,2565,20,20,565,chefe02mac947,0
+1540423537100,609,add macbook to cart,200,OK,Thread Group 1-13,true,2565,20,20,608,chefe02mac947,0
+1540423536440,1349,click macbook,200,OK,Thread Group 1-18,true,244964,20,20,630,chefe02mac947,0
+1540423536473,1339,"search ""fahr""",200,OK,Thread Group 1-20,true,61235,20,20,703,chefe02mac947,0
+1540423536603,1210,click macbook,200,OK,Thread Group 1-15,true,244964,20,20,689,chefe02mac947,0
+1540423536342,1518,click macbook,200,OK,Thread Group 1-19,true,244964,20,20,678,chefe02mac947,61
+1540423536617,1280,search sunglasses,200,OK,Thread Group 1-8,true,54349,20,20,766,chefe02mac947,62
+1540423536664,1271,search sunglasses,200,OK,Thread Group 1-7,true,54349,20,20,753,chefe02mac947,60
+1540423537406,574,add macbook to cart,200,OK,Thread Group 1-16,true,2565,20,20,573,chefe02mac947,0
+1540423536771,1344,search sunglasses,200,OK,Thread Group 1-5,true,54349,20,20,789,chefe02mac947,60
+1540423536863,1348,search sunglasses,200,OK,Thread Group 1-11,true,54349,20,20,816,chefe02mac947,64
+1540423537144,1166,search sunglasses,200,OK,Thread Group 1-9,true,54349,20,20,661,chefe02mac947,60
+1540423537790,559,add macbook to cart,200,OK,Thread Group 1-18,true,2565,20,20,558,chefe02mac947,0
+1540423537813,614,add macbook to cart,200,OK,Thread Group 1-15,true,2565,20,20,614,chefe02mac947,0
+1540423537243,1204,search sunglasses,200,OK,Thread Group 1-12,true,54349,20,20,698,chefe02mac947,61
+1540423537240,1210,click on sunglasses,200,OK,Thread Group 1-6,true,54687,20,20,569,chefe02mac947,0
+1540423537812,647,add book to cart,200,OK,Thread Group 1-20,true,5178,20,20,645,chefe02mac947,0
+1540423537860,631,add macbook to cart,200,OK,Thread Group 1-19,true,2565,20,20,631,chefe02mac947,0
+1540423537281,1273,click on sunglasses,200,OK,Thread Group 1-3,true,54688,20,20,631,chefe02mac947,0
+1540423537404,1177,click on sunglasses,200,OK,Thread Group 1-1,true,54688,20,20,642,chefe02mac947,0
+1540423537450,1180,search sunglasses,200,OK,Thread Group 1-14,true,54349,20,20,663,chefe02mac947,62
+1540423537524,1106,click on sunglasses,200,OK,Thread Group 1-2,true,54687,20,20,624,chefe02mac947,0
+1540423537545,1216,search sunglasses,200,OK,Thread Group 1-10,true,54349,20,20,705,chefe02mac947,63
+1540423537638,1160,search sunglasses,200,OK,Thread Group 1-17,true,54349,20,20,647,chefe02mac947,61
+1540423537709,1192,search sunglasses,200,OK,Thread Group 1-13,true,54349,20,20,675,chefe02mac947,61
+1540423538450,526,add sunglasses to cart,200,OK,Thread Group 1-6,true,3857,20,20,524,chefe02mac947,0
+1540423537935,1191,click on sunglasses,200,OK,Thread Group 1-7,true,54688,20,20,665,chefe02mac947,0
+1540423538555,630,add sunglasses to cart,200,OK,Thread Group 1-3,true,3857,20,20,629,chefe02mac947,0
+1540423537897,1312,click on sunglasses,200,OK,Thread Group 1-8,true,54688,20,20,670,chefe02mac947,0
+1540423537980,1233,search sunglasses,200,OK,Thread Group 1-16,true,54349,20,20,717,chefe02mac947,0
+1540423538582,680,add sunglasses to cart,200,OK,Thread Group 1-1,true,3857,20,20,680,chefe02mac947,0
+1540423538630,638,add sunglasses to cart,200,OK,Thread Group 1-2,true,3857,20,20,637,chefe02mac947,0
+1540423538310,985,click on sunglasses,200,OK,Thread Group 1-9,true,54687,20,20,488,chefe02mac947,0
+1540423538116,1201,click on sunglasses,200,OK,Thread Group 1-5,true,54687,20,20,582,chefe02mac947,0
+1540423538211,1213,click on sunglasses,200,OK,Thread Group 1-11,true,54688,20,20,588,chefe02mac947,0
+1540423538350,1115,search sunglasses,200,OK,Thread Group 1-18,true,54349,20,20,588,chefe02mac947,0
+1540423538447,1054,click on sunglasses,200,OK,Thread Group 1-12,true,54688,20,20,459,chefe02mac947,0
+1540423539127,422,add sunglasses to cart,200,OK,Thread Group 1-7,true,3857,20,20,421,chefe02mac947,0
+1540423538459,1120,"search ""apple""",200,OK,Thread Group 1-20,true,204630,20,20,608,chefe02mac947,0
+1540423538492,1149,search sunglasses,200,OK,Thread Group 1-19,true,54349,20,20,621,chefe02mac947,0
+1540423539210,465,add sunglasses to cart,200,OK,Thread Group 1-8,true,3857,20,20,464,chefe02mac947,0
+1540423538427,1293,search sunglasses,200,OK,Thread Group 1-15,true,54349,20,20,766,chefe02mac947,63
+1540423539296,454,add sunglasses to cart,200,OK,Thread Group 1-9,true,3857,20,20,452,chefe02mac947,0
+1540423538630,1212,click on sunglasses,200,OK,Thread Group 1-14,true,54687,20,20,731,chefe02mac947,0
+1540423538761,1116,click on sunglasses,200,OK,Thread Group 1-10,true,54687,20,20,602,chefe02mac947,0
+1540423539318,590,add sunglasses to cart,200,OK,Thread Group 1-5,true,3857,20,20,588,chefe02mac947,0
+1540423538901,1083,click on sunglasses,200,OK,Thread Group 1-13,true,54688,20,20,566,chefe02mac947,0
+1540423539425,616,add sunglasses to cart,200,OK,Thread Group 1-11,true,3857,20,20,615,chefe02mac947,0
+1540423538798,1301,click on sunglasses,200,OK,Thread Group 1-17,true,54688,20,20,669,chefe02mac947,0
+1540423539501,686,add sunglasses to cart,200,OK,Thread Group 1-12,true,3857,20,20,685,chefe02mac947,0
+1540423538976,1277,"search ""fahr""",200,OK,Thread Group 1-6,true,61235,20,20,627,chefe02mac947,60
+1540423539214,1212,click on sunglasses,200,OK,Thread Group 1-16,true,54688,20,20,637,chefe02mac947,0
+1540423539842,652,add sunglasses to cart,200,OK,Thread Group 1-14,true,3857,20,20,652,chefe02mac947,0
+1540423539984,624,add sunglasses to cart,200,OK,Thread Group 1-13,true,3857,20,20,623,chefe02mac947,0
+1540423539262,1358,"search ""fahr""",200,OK,Thread Group 1-1,true,61235,20,20,732,chefe02mac947,63
+1540423539466,1173,click on sunglasses,200,OK,Thread Group 1-18,true,54688,20,20,603,chefe02mac947,0
+1540423539877,772,add sunglasses to cart,200,OK,Thread Group 1-10,true,3857,20,20,772,chefe02mac947,0
+1540423539268,1458,"search ""fahr""",200,OK,Thread Group 1-2,true,61235,20,20,754,chefe02mac947,60
+1540423540100,683,add sunglasses to cart,200,OK,Thread Group 1-17,true,3857,20,20,683,chefe02mac947,0
+1540423539642,1147,click on sunglasses,200,OK,Thread Group 1-19,true,54688,20,20,593,chefe02mac947,0
+1540423540426,436,add sunglasses to cart,200,OK,Thread Group 1-16,true,3857,20,20,435,chefe02mac947,0
+1540423540254,618,add book to cart,200,OK,Thread Group 1-6,true,5178,20,20,617,chefe02mac947,0
+1540423540639,305,add sunglasses to cart,200,OK,Thread Group 1-18,true,3857,20,20,303,chefe02mac947,0
+1540423539549,1395,"search ""fahr""",200,OK,Thread Group 1-7,true,61235,20,20,658,chefe02mac947,0
+1540423539720,1243,click on sunglasses,200,OK,Thread Group 1-15,true,54688,20,20,717,chefe02mac947,0
+1540423539185,1782,"search ""fahr""",200,OK,Thread Group 1-3,true,61235,20,20,490,chefe02mac947,0
+1540423540620,403,add book to cart,200,OK,Thread Group 1-1,true,5178,20,20,402,chefe02mac947,0
+1540423539750,1290,"search ""fahr""",200,OK,Thread Group 1-9,true,61235,20,20,665,chefe02mac947,0
+1540423539579,1504,click macbook,200,OK,Thread Group 1-20,true,244964,20,20,679,chefe02mac947,0
+1540423539675,1470,"search ""fahr""",200,OK,Thread Group 1-8,true,61235,20,20,841,chefe02mac947,0
+1540423540727,428,add book to cart,200,OK,Thread Group 1-2,true,5178,20,20,427,chefe02mac947,0
+1540423540789,442,add sunglasses to cart,200,OK,Thread Group 1-19,true,3857,20,20,441,chefe02mac947,0
+1540423539909,1346,"search ""fahr""",200,OK,Thread Group 1-5,true,61235,20,20,767,chefe02mac947,0
+1540423540041,1275,"search ""fahr""",200,OK,Thread Group 1-11,true,61235,20,20,682,chefe02mac947,0
+1540423540187,1319,"search ""fahr""",200,OK,Thread Group 1-12,true,61235,20,20,689,chefe02mac947,60
+1540423540944,636,add book to cart,200,OK,Thread Group 1-7,true,5178,20,20,635,chefe02mac947,0
+1540423540494,1096,"search ""fahr""",200,OK,Thread Group 1-14,true,61235,20,20,448,chefe02mac947,0
+1540423540968,632,add book to cart,200,OK,Thread Group 1-3,true,5178,20,20,632,chefe02mac947,0
+1540423540964,671,add sunglasses to cart,200,OK,Thread Group 1-15,true,3857,20,20,669,chefe02mac947,0
+1540423540649,1111,"search ""fahr""",200,OK,Thread Group 1-10,true,61235,20,20,509,chefe02mac947,62
+1540423541040,720,add book to cart,200,OK,Thread Group 1-9,true,5178,20,20,720,chefe02mac947,0
+1540423540609,1151,"search ""fahr""",200,OK,Thread Group 1-13,true,61235,20,20,468,chefe02mac947,60
+1540423541083,692,add macbook to cart,200,OK,Thread Group 1-20,true,2565,20,20,692,chefe02mac947,0
+1540423541145,639,add book to cart,200,OK,Thread Group 1-8,true,5178,20,20,638,chefe02mac947,0
+1540423540872,1017,"search ""apple""",200,OK,Thread Group 1-6,true,204630,20,20,487,chefe02mac947,0
+1540423540784,1106,"search ""fahr""",200,OK,Thread Group 1-17,true,61235,20,20,507,chefe02mac947,0
+1540423541506,471,add book to cart,200,OK,Thread Group 1-12,true,5178,20,20,470,chefe02mac947,0
+1540423541255,733,add book to cart,200,OK,Thread Group 1-5,true,5178,20,20,731,chefe02mac947,0
+1540423541316,703,add book to cart,200,OK,Thread Group 1-11,true,5178,20,20,703,chefe02mac947,0
+1540423540944,1136,"search ""fahr""",200,OK,Thread Group 1-18,true,61235,20,20,599,chefe02mac947,0
+1540423541590,536,add book to cart,200,OK,Thread Group 1-14,true,5178,20,20,535,chefe02mac947,0
+1540423540862,1280,"search ""fahr""",200,OK,Thread Group 1-16,true,61235,20,20,568,chefe02mac947,61
+1540423541023,1240,"search ""apple""",200,OK,Thread Group 1-1,true,204630,20,20,698,chefe02mac947,0
+1540423541760,583,add book to cart,200,OK,Thread Group 1-13,true,5178,20,20,582,chefe02mac947,0
+1540423541760,684,add book to cart,200,OK,Thread Group 1-10,true,5178,20,20,683,chefe02mac947,0
+1540423541231,1246,"search ""fahr""",200,OK,Thread Group 1-19,true,61235,20,20,675,chefe02mac947,0
+1540423541156,1347,"search ""apple""",200,OK,Thread Group 1-2,true,204630,20,20,824,chefe02mac947,0
+1540423541890,678,add book to cart,200,OK,Thread Group 1-17,true,5178,20,20,677,chefe02mac947,0
+1540423541580,1099,"search ""apple""",200,OK,Thread Group 1-7,true,204630,20,20,574,chefe02mac947,0
+1540423541600,1130,"search ""apple""",200,OK,Thread Group 1-3,true,204630,20,20,674,chefe02mac947,0
+1540423542080,745,add book to cart,200,OK,Thread Group 1-18,true,5178,20,20,744,chefe02mac947,0
+1540423541635,1200,"search ""fahr""",200,OK,Thread Group 1-15,true,61235,20,20,623,chefe02mac947,0
+1540423542142,760,add book to cart,200,OK,Thread Group 1-16,true,5178,20,20,759,chefe02mac947,0
+1540423541760,1169,"search ""apple""",200,OK,Thread Group 1-9,true,204630,20,20,640,chefe02mac947,0
+1540423541776,1218,search sunglasses,200,OK,Thread Group 1-20,true,54349,20,20,705,chefe02mac947,0
+1540423542477,633,add book to cart,200,OK,Thread Group 1-19,true,5178,20,20,632,chefe02mac947,0
+1540423541977,1260,"search ""apple""",200,OK,Thread Group 1-12,true,204630,20,20,726,chefe02mac947,0
+1540423541784,1478,"search ""apple""",200,OK,Thread Group 1-8,true,204630,20,20,880,chefe02mac947,0
+1540423541889,1389,click macbook,200,OK,Thread Group 1-6,true,244964,20,20,670,chefe02mac947,0
+1540423541988,1385,"search ""apple""",200,OK,Thread Group 1-5,true,204630,20,20,784,chefe02mac947,0
+1540423542019,1354,"search ""apple""",200,OK,Thread Group 1-11,true,204630,20,20,735,chefe02mac947,0
+1540423542126,1316,"search ""apple""",200,OK,Thread Group 1-14,true,204630,20,20,766,chefe02mac947,0
+1540423542835,633,add book to cart,200,OK,Thread Group 1-15,true,5178,20,20,632,chefe02mac947,0
+1540423542343,1222,"search ""apple""",200,OK,Thread Group 1-13,true,204630,20,20,684,chefe02mac947,0
+1540423542263,1419,click macbook,200,OK,Thread Group 1-1,true,244964,20,20,756,chefe02mac947,0
+1540423542445,1243,"search ""apple""",200,OK,Thread Group 1-10,true,204630,20,20,702,chefe02mac947,0
+1540423542568,1248,"search ""apple""",200,OK,Thread Group 1-17,true,204630,20,20,711,chefe02mac947,0
+1540423543279,615,add macbook to cart,200,OK,Thread Group 1-6,true,2565,20,20,614,chefe02mac947,0
+1540423542503,1451,click macbook,200,OK,Thread Group 1-2,true,244964,20,20,724,chefe02mac947,0
+1540423542825,1175,"search ""apple""",200,"Embedded resource download error:http://store-nr.bzm-presales.com/nopCommerce/Themes/DefaultClean/Content/css/styles.css code:Non HTTP response code: java.lang.NullPointerException message:Non HTTP response message: null, ",Thread Group 1-18,false,185418,20,20,650,chefe02mac947,0
+1540423542679,1441,click macbook,200,OK,Thread Group 1-7,true,244964,20,20,662,chefe02mac947,0
+1540423543111,1077,"search ""apple""",200,OK,Thread Group 1-19,true,204630,20,20,611,chefe02mac947,0
+1540423542902,1288,"search ""apple""",200,OK,Thread Group 1-16,true,204630,20,20,690,chefe02mac947,0
+1540423542730,1460,click macbook,200,OK,Thread Group 1-3,true,244964,20,20,658,chefe02mac947,59
+1540423543682,529,add macbook to cart,200,OK,Thread Group 1-1,true,2565,20,20,529,chefe02mac947,0
+1540423542994,1322,click on sunglasses,200,OK,Thread Group 1-20,true,54688,20,20,698,chefe02mac947,0
+1540423543263,1141,click macbook,200,OK,Thread Group 1-8,true,244964,20,20,599,chefe02mac947,0
+1540423543954,451,add macbook to cart,200,OK,Thread Group 1-2,true,2565,20,20,451,chefe02mac947,0
+1540423542929,1535,click macbook,200,OK,Thread Group 1-9,true,244964,20,20,657,chefe02mac947,60
+1540423543374,1148,click macbook,200,OK,Thread Group 1-11,true,244964,20,20,606,chefe02mac947,0
+1540423544121,417,add macbook to cart,200,OK,Thread Group 1-7,true,2565,20,20,416,chefe02mac947,0
+1540423543237,1311,click macbook,200,OK,Thread Group 1-12,true,244964,20,20,590,chefe02mac947,0
+1540423544191,421,add macbook to cart,200,OK,Thread Group 1-3,true,2565,20,20,420,chefe02mac947,0
+1540423543468,1162,"search ""apple""",200,OK,Thread Group 1-15,true,204630,20,20,677,chefe02mac947,0
+1540423544316,510,add sunglasses to cart,200,OK,Thread Group 1-20,true,3857,20,20,510,chefe02mac947,0
+1540423543442,1391,click macbook,200,OK,Thread Group 1-14,true,244964,20,20,645,chefe02mac947,0
+1540423544404,485,add macbook to cart,200,OK,Thread Group 1-8,true,2565,20,20,484,chefe02mac947,0
+1540423543894,1016,search sunglasses,200,OK,Thread Group 1-6,true,54349,20,20,565,chefe02mac947,0
+1540423543565,1354,click macbook,200,OK,Thread Group 1-13,true,244964,20,20,641,chefe02mac947,0
+1540423543817,1119,click macbook,200,OK,Thread Group 1-17,true,244964,20,20,520,chefe02mac947,0
+1540423544523,439,add macbook to cart,200,OK,Thread Group 1-11,true,2565,20,20,439,chefe02mac947,0
+1540423544465,497,add macbook to cart,200,OK,Thread Group 1-9,true,2565,20,20,497,chefe02mac947,0
+1540423543374,1599,click macbook,200,OK,Thread Group 1-5,true,244964,20,20,641,chefe02mac947,0
+1540423544548,492,add macbook to cart,200,OK,Thread Group 1-12,true,2565,20,20,491,chefe02mac947,0
+1540423543688,1373,click macbook,200,OK,Thread Group 1-10,true,244964,20,20,638,chefe02mac947,0
+1540423544019,1066,click macbook,200,OK,Thread Group 1-18,true,265714,20,20,510,chefe02mac947,0
+1540423544212,986,search sunglasses,200,OK,Thread Group 1-1,true,54349,20,20,529,chefe02mac947,0
+1540423544190,1044,click macbook,200,OK,Thread Group 1-16,true,244964,20,20,461,chefe02mac947,0
+1540423544832,409,add macbook to cart,200,OK,Thread Group 1-14,true,2565,20,20,409,chefe02mac947,0
+1540423544405,871,search sunglasses,200,OK,Thread Group 1-2,true,54349,20,20,484,chefe02mac947,0
+1540423544919,391,add macbook to cart,200,OK,Thread Group 1-13,true,2565,20,20,391,chefe02mac947,0
+1540423544936,477,add macbook to cart,200,OK,Thread Group 1-17,true,2565,20,20,476,chefe02mac947,0
+1540423544189,1348,click macbook,200,OK,Thread Group 1-19,true,244964,20,20,563,chefe02mac947,62
+1540423544538,1041,search sunglasses,200,OK,Thread Group 1-7,true,54349,20,20,564,chefe02mac947,0
+1540423544973,660,add macbook to cart,200,OK,Thread Group 1-5,true,2565,20,20,659,chefe02mac947,59
+1540423544612,1031,search sunglasses,200,OK,Thread Group 1-3,true,54349,20,20,560,chefe02mac947,0
+1540423545060,696,add macbook to cart,200,OK,Thread Group 1-10,true,2565,20,20,695,chefe02mac947,0
+1540423545084,745,add macbook to cart,200,OK,Thread Group 1-18,true,2565,20,20,744,chefe02mac947,0
+1540423544630,1212,click macbook,200,OK,Thread Group 1-15,true,244964,20,20,587,chefe02mac947,0
+1540423545233,662,add macbook to cart,200,OK,Thread Group 1-16,true,2565,20,20,662,chefe02mac947,0
+1540423544826,1129,"search ""fahr""",200,OK,Thread Group 1-20,true,61235,20,20,513,chefe02mac947,61
+1540423544962,1044,search sunglasses,200,OK,Thread Group 1-9,true,54349,20,20,593,chefe02mac947,0
+1540423544909,1181,click on sunglasses,200,OK,Thread Group 1-6,true,54688,20,20,507,chefe02mac947,0
+1540423544889,1247,search sunglasses,200,OK,Thread Group 1-8,true,54349,20,20,664,chefe02mac947,62
+1540423545537,635,add macbook to cart,200,OK,Thread Group 1-19,true,2565,20,20,635,chefe02mac947,0
+1540423544962,1235,search sunglasses,200,OK,Thread Group 1-11,true,54349,20,20,725,chefe02mac947,63
+1540423545039,1180,search sunglasses,200,OK,Thread Group 1-12,true,54349,20,20,717,chefe02mac947,0
+1540423545241,1192,search sunglasses,200,OK,Thread Group 1-14,true,54349,20,20,750,chefe02mac947,0
+1540423545199,1295,click on sunglasses,200,OK,Thread Group 1-1,true,54688,20,20,661,chefe02mac947,0
+1540423545843,781,add macbook to cart,200,OK,Thread Group 1-15,true,2565,20,20,781,chefe02mac947,0
+1540423545955,701,add book to cart,200,OK,Thread Group 1-20,true,5178,20,20,699,chefe02mac947,0
+1540423545276,1468,click on sunglasses,200,OK,Thread Group 1-2,true,54688,20,20,722,chefe02mac947,0
+1540423545310,1463,search sunglasses,200,OK,Thread Group 1-13,true,54349,20,20,955,chefe02mac947,0
+1540423545414,1386,search sunglasses,200,OK,Thread Group 1-17,true,54349,20,20,812,chefe02mac947,0
+1540423546090,746,add sunglasses to cart,200,OK,Thread Group 1-6,true,3857,20,20,744,chefe02mac947,0
+1540423545634,1275,search sunglasses,200,OK,Thread Group 1-5,true,54349,20,20,822,chefe02mac947,0
+1540423545643,1305,click on sunglasses,200,OK,Thread Group 1-3,true,54688,20,20,708,chefe02mac947,0
+1540423545757,1235,search sunglasses,200,OK,Thread Group 1-10,true,54349,20,20,734,chefe02mac947,0
+1540423545829,1198,search sunglasses,200,OK,Thread Group 1-18,true,54349,20,20,681,chefe02mac947,0
+1540423546494,595,add sunglasses to cart,200,OK,Thread Group 1-1,true,3857,20,20,595,chefe02mac947,0
+1540423545896,1254,search sunglasses,200,OK,Thread Group 1-16,true,54349,20,20,748,chefe02mac947,60
+1540423546745,427,add sunglasses to cart,200,OK,Thread Group 1-2,true,3857,20,20,426,chefe02mac947,0
+1540423546007,1225,click on sunglasses,200,OK,Thread Group 1-9,true,54688,20,20,638,chefe02mac947,0
+1540423546136,1234,click on sunglasses,200,OK,Thread Group 1-8,true,54688,20,20,693,chefe02mac947,0
+1540423546198,1239,click on sunglasses,200,OK,Thread Group 1-11,true,54688,20,20,648,chefe02mac947,0
+1540423546948,502,add sunglasses to cart,200,OK,Thread Group 1-3,true,3857,20,20,501,chefe02mac947,0
+1540423546172,1373,search sunglasses,200,OK,Thread Group 1-19,true,54349,20,20,789,chefe02mac947,0
+1540423546625,1048,search sunglasses,200,OK,Thread Group 1-15,true,54349,20,20,538,chefe02mac947,0
+1540423546434,1261,click on sunglasses,200,OK,Thread Group 1-14,true,54688,20,20,544,chefe02mac947,0
+1540423546220,1475,click on sunglasses,200,OK,Thread Group 1-12,true,54688,20,20,825,chefe02mac947,0
+1540423546656,1060,"search ""apple""",200,OK,Thread Group 1-20,true,204630,20,20,516,chefe02mac947,0
+1540423547232,493,add sunglasses to cart,200,OK,Thread Group 1-9,true,3857,20,20,492,chefe02mac947,0
+1540423547371,421,add sunglasses to cart,200,OK,Thread Group 1-8,true,3857,20,20,419,chefe02mac947,0
+1540423546774,1033,click on sunglasses,200,OK,Thread Group 1-13,true,54688,20,20,502,chefe02mac947,0
+1540423546801,1008,click on sunglasses,200,OK,Thread Group 1-17,true,54688,20,20,475,chefe02mac947,0
+1540423547437,425,add sunglasses to cart,200,OK,Thread Group 1-11,true,3857,20,20,423,chefe02mac947,0
+1540423546836,1106,"search ""fahr""",200,OK,Thread Group 1-6,true,61235,20,20,577,chefe02mac947,0
+1540423546910,1099,click on sunglasses,200,OK,Thread Group 1-5,true,54687,20,20,467,chefe02mac947,0
+1540423546992,1031,click on sunglasses,200,OK,Thread Group 1-10,true,54688,20,20,522,chefe02mac947,0
+1540423547696,337,add sunglasses to cart,200,OK,Thread Group 1-14,true,3857,20,20,336,chefe02mac947,0
+1540423547696,401,add sunglasses to cart,200,OK,Thread Group 1-12,true,3857,20,20,400,chefe02mac947,0
+1540423547089,1069,"search ""fahr""",200,OK,Thread Group 1-1,true,61235,20,20,562,chefe02mac947,0
+1540423547027,1171,click on sunglasses,200,OK,Thread Group 1-18,true,54688,20,20,526,chefe02mac947,0
+1540423547150,1063,click on sunglasses,200,OK,Thread Group 1-16,true,54687,20,20,499,chefe02mac947,0
+1540423547807,507,add sunglasses to cart,200,OK,Thread Group 1-13,true,3857,20,20,506,chefe02mac947,0
+1540423547810,561,add sunglasses to cart,200,OK,Thread Group 1-17,true,3857,20,20,560,chefe02mac947,0
+1540423547172,1209,"search ""fahr""",200,OK,Thread Group 1-2,true,61235,20,20,613,chefe02mac947,0
+1540423547942,501,add book to cart,200,OK,Thread Group 1-6,true,5178,20,20,500,chefe02mac947,0
+1540423547451,1055,"search ""fahr""",200,OK,Thread Group 1-3,true,61235,20,20,475,chefe02mac947,0
+1540423548024,489,add sunglasses to cart,200,OK,Thread Group 1-10,true,3857,20,20,488,chefe02mac947,0
+1540423548010,505,add sunglasses to cart,200,OK,Thread Group 1-5,true,3857,20,20,505,chefe02mac947,0
+1540423547673,952,click on sunglasses,200,OK,Thread Group 1-15,true,54687,20,20,350,chefe02mac947,0
+1540423547545,1097,click on sunglasses,200,OK,Thread Group 1-19,true,54688,20,20,419,chefe02mac947,0
+1540423547725,964,"search ""fahr""",200,OK,Thread Group 1-9,true,61235,20,20,521,chefe02mac947,0
+1540423548199,527,add sunglasses to cart,200,OK,Thread Group 1-18,true,3857,20,20,527,chefe02mac947,0
+1540423548159,571,add book to cart,200,OK,Thread Group 1-1,true,5178,20,20,570,chefe02mac947,0
+1540423548213,583,add sunglasses to cart,200,OK,Thread Group 1-16,true,3857,20,20,583,chefe02mac947,0
+1540423548381,488,add book to cart,200,OK,Thread Group 1-2,true,5178,20,20,487,chefe02mac947,0
+1540423547792,1148,"search ""fahr""",200,OK,Thread Group 1-8,true,61235,20,20,507,chefe02mac947,0
+1540423547717,1249,click macbook,200,OK,Thread Group 1-20,true,244964,20,20,438,chefe02mac947,0
+1540423547862,1155,"search ""fahr""",200,OK,Thread Group 1-11,true,61235,20,20,586,chefe02mac947,0
+1540423548506,564,add book to cart,200,OK,Thread Group 1-3,true,5178,20,20,563,chefe02mac947,0
+1540423535386,13762,search sunglasses,200,"Embedded resource download error:http://store-nr.bzm-presales.com/nopCommerce/Scripts/public.ajaxcart.js code:Non HTTP response code: java.net.ConnectException message:Non HTTP response message: Operation timed out (Connection timed out), ",Thread Group 1-4,false,56435,20,20,756,chefe02mac947,0
+1540423548033,1145,"search ""fahr""",200,OK,Thread Group 1-14,true,61235,20,20,619,chefe02mac947,0
+1540423548098,1082,"search ""fahr""",200,OK,Thread Group 1-12,true,61235,20,20,554,chefe02mac947,0
+1540423548625,579,add sunglasses to cart,200,OK,Thread Group 1-15,true,3857,20,20,578,chefe02mac947,0
+1540423548643,625,add sunglasses to cart,200,OK,Thread Group 1-19,true,3857,20,20,623,chefe02mac947,0
+1540423548689,590,add book to cart,200,OK,Thread Group 1-9,true,5178,20,20,589,chefe02mac947,0
+1540423548315,1111,"search ""fahr""",200,OK,Thread Group 1-13,true,61235,20,20,544,chefe02mac947,0
+1540423548444,1143,"search ""apple""",200,OK,Thread Group 1-6,true,204630,20,20,560,chefe02mac947,0
+1540423548967,639,add macbook to cart,200,OK,Thread Group 1-20,true,2565,20,20,638,chefe02mac947,0
+1540423548941,669,add book to cart,200,OK,Thread Group 1-8,true,5178,20,20,667,chefe02mac947,0
+1540423548371,1247,"search ""fahr""",200,OK,Thread Group 1-17,true,61235,20,20,620,chefe02mac947,61
+1540423548514,1132,"search ""fahr""",200,OK,Thread Group 1-10,true,61235,20,20,679,chefe02mac947,0
+1540423549018,660,add book to cart,200,OK,Thread Group 1-11,true,5178,20,20,659,chefe02mac947,0
+1540423549179,589,add book to cart,200,OK,Thread Group 1-14,true,5178,20,20,587,chefe02mac947,0
+1540423548516,1252,"search ""fahr""",200,OK,Thread Group 1-5,true,61235,20,20,622,chefe02mac947,0
+1540423549180,642,add book to cart,200,OK,Thread Group 1-12,true,5178,20,20,642,chefe02mac947,0
+1540423548731,1164,"search ""apple""",200,OK,Thread Group 1-1,true,204630,20,20,659,chefe02mac947,0
+1540423548726,1326,"search ""fahr""",200,OK,Thread Group 1-18,true,61235,20,20,685,chefe02mac947,60
+1540423548797,1262,"search ""fahr""",200,OK,Thread Group 1-16,true,61235,20,20,729,chefe02mac947,0
+1540423548869,1191,"search ""apple""",200,OK,Thread Group 1-2,true,204630,20,20,665,chefe02mac947,0
+1540423549427,678,add book to cart,200,OK,Thread Group 1-13,true,5178,20,20,677,chefe02mac947,0
+1540423549071,1186,"search ""apple""",200,OK,Thread Group 1-3,true,204630,20,20,662,chefe02mac947,0
+1540423549618,688,add book to cart,200,OK,Thread Group 1-17,true,5178,20,20,687,chefe02mac947,0
+1540423549646,731,add book to cart,200,OK,Thread Group 1-10,true,5178,20,20,730,chefe02mac947,0
+1540423549152,1359,click on sunglasses,200,OK,Thread Group 1-4,true,54688,20,20,777,chefe02mac947,60
+1540423549280,1258,"search ""apple""",200,OK,Thread Group 1-9,true,204630,20,20,747,chefe02mac947,0
+1540423549769,824,add book to cart,200,OK,Thread Group 1-5,true,5178,20,20,822,chefe02mac947,0
+1540423549269,1410,"search ""fahr""",200,OK,Thread Group 1-19,true,61235,20,20,786,chefe02mac947,61
+1540423550053,665,add book to cart,200,OK,Thread Group 1-18,true,5178,20,20,663,chefe02mac947,0
+1540423549588,1150,click macbook,200,OK,Thread Group 1-6,true,244964,20,20,592,chefe02mac947,0
+1540423549606,1208,search sunglasses,200,OK,Thread Group 1-20,true,54349,20,20,628,chefe02mac947,0
+1540423550059,840,add book to cart,200,OK,Thread Group 1-16,true,5178,20,20,839,chefe02mac947,0
+1540423549610,1290,"search ""apple""",200,OK,Thread Group 1-8,true,204630,20,20,697,chefe02mac947,0
+1540423550512,523,add sunglasses to cart,200,OK,Thread Group 1-4,true,3857,20,20,521,chefe02mac947,0
+1540423549679,1411,"search ""apple""",200,OK,Thread Group 1-11,true,204630,20,20,798,chefe02mac947,0
+1540423549768,1392,"search ""apple""",200,OK,Thread Group 1-14,true,204630,20,20,801,chefe02mac947,0
+1540423549895,1391,click macbook,200,OK,Thread Group 1-1,true,244964,20,20,764,chefe02mac947,0
+1540423550679,628,add book to cart,200,OK,Thread Group 1-19,true,5178,20,20,627,chefe02mac947,0
+1540423549823,1524,"search ""apple""",200,OK,Thread Group 1-12,true,204630,20,20,929,chefe02mac947,0
+1540423550060,1307,click macbook,200,OK,Thread Group 1-2,true,244964,20,20,784,chefe02mac947,0
+1540423550739,664,add macbook to cart,200,OK,Thread Group 1-6,true,2565,20,20,663,chefe02mac947,0
+1540423550257,1170,click macbook,200,OK,Thread Group 1-3,true,244964,20,20,628,chefe02mac947,0
+1540423550378,1164,"search ""apple""",200,OK,Thread Group 1-10,true,204630,20,20,712,chefe02mac947,0
+1540423550106,1487,"search ""apple""",200,OK,Thread Group 1-13,true,204630,20,20,898,chefe02mac947,0
+1540423551286,456,add macbook to cart,200,OK,Thread Group 1-1,true,2565,20,20,456,chefe02mac947,0
+1540423550539,1205,click macbook,200,OK,Thread Group 1-9,true,244964,20,20,671,chefe02mac947,0
+1540423550307,1485,"search ""apple""",200,OK,Thread Group 1-17,true,204630,20,20,887,chefe02mac947,0
+1540423550594,1261,"search ""apple""",200,OK,Thread Group 1-5,true,204630,20,20,647,chefe02mac947,0
+1540423550814,1062,click on sunglasses,200,OK,Thread Group 1-20,true,54688,20,20,540,chefe02mac947,0
+1540423551367,567,add macbook to cart,200,OK,Thread Group 1-2,true,2565,20,20,567,chefe02mac947,0
+1540423551427,582,add macbook to cart,200,OK,Thread Group 1-3,true,2565,20,20,582,chefe02mac947,0
+1540423550900,1119,click macbook,200,OK,Thread Group 1-8,true,244964,20,20,586,chefe02mac947,0
+1540423550718,1416,"search ""apple""",200,OK,Thread Group 1-18,true,204630,20,20,817,chefe02mac947,0
+1540423551035,1134,"search ""fahr""",200,OK,Thread Group 1-4,true,61235,20,20,650,chefe02mac947,0
+1540423551744,447,add macbook to cart,200,OK,Thread Group 1-9,true,2565,20,20,446,chefe02mac947,0
+1540423551090,1140,click macbook,200,OK,Thread Group 1-11,true,244964,20,20,535,chefe02mac947,0
+1540423550899,1348,"search ""apple""",200,OK,Thread Group 1-16,true,204630,20,20,760,chefe02mac947,0
+1540423551160,1148,click macbook,200,OK,Thread Group 1-14,true,244964,20,20,579,chefe02mac947,0
+1540423551307,1028,"search ""apple""",200,OK,Thread Group 1-19,true,204630,20,20,554,chefe02mac947,0
+1540423551877,496,add sunglasses to cart,200,OK,Thread Group 1-20,true,3857,20,20,494,chefe02mac947,0
+1540423551347,1079,click macbook,200,OK,Thread Group 1-12,true,244964,20,20,520,chefe02mac947,0
+1540423551403,1062,search sunglasses,200,OK,Thread Group 1-6,true,54349,20,20,593,chefe02mac947,0
+1540423552019,536,add macbook to cart,200,OK,Thread Group 1-8,true,2565,20,20,536,chefe02mac947,0
+1540423552169,464,add book to cart,200,OK,Thread Group 1-4,true,5178,20,20,463,chefe02mac947,0
+1540423551593,1052,click macbook,200,OK,Thread Group 1-13,true,244964,20,20,519,chefe02mac947,0
+1540423552230,468,add macbook to cart,200,OK,Thread Group 1-11,true,2565,20,20,467,chefe02mac947,0
+1540423552309,522,add macbook to cart,200,OK,Thread Group 1-14,true,2565,20,20,521,chefe02mac947,0
+1540423551792,1065,click macbook,200,OK,Thread Group 1-17,true,244964,20,20,521,chefe02mac947,0
+1540423552426,483,add macbook to cart,200,OK,Thread Group 1-12,true,2565,20,20,483,chefe02mac947,0
+1540423551855,1054,click macbook,200,OK,Thread Group 1-5,true,244964,20,20,510,chefe02mac947,0
+1540423551542,1384,click macbook,200,OK,Thread Group 1-10,true,244964,20,20,574,chefe02mac947,64
+1540423551935,995,search sunglasses,200,OK,Thread Group 1-2,true,54349,20,20,554,chefe02mac947,0
+1540423552009,1025,search sunglasses,200,OK,Thread Group 1-3,true,54349,20,20,509,chefe02mac947,0
+1540423551742,1365,search sunglasses,200,OK,Thread Group 1-1,true,54349,20,20,498,chefe02mac947,0
+1540423552134,1043,click macbook,200,OK,Thread Group 1-18,true,244964,20,20,507,chefe02mac947,0
+1540423552646,584,add macbook to cart,200,OK,Thread Group 1-13,true,2565,20,20,583,chefe02mac947,0
+1540423552191,1100,search sunglasses,200,OK,Thread Group 1-9,true,54349,20,20,575,chefe02mac947,0
+1540423552858,502,add macbook to cart,200,OK,Thread Group 1-17,true,2565,20,20,501,chefe02mac947,0
+1540423552247,1162,click macbook,200,OK,Thread Group 1-16,true,244964,20,20,576,chefe02mac947,0
+1540423552927,507,add macbook to cart,200,OK,Thread Group 1-10,true,2565,20,20,506,chefe02mac947,0
+1540423552910,525,add macbook to cart,200,OK,Thread Group 1-5,true,2565,20,20,524,chefe02mac947,0
+1540423552336,1193,click macbook,200,OK,Thread Group 1-19,true,244964,20,20,604,chefe02mac947,0
+1540423552465,1113,click on sunglasses,200,OK,Thread Group 1-6,true,54687,20,20,566,chefe02mac947,0
+1540423552373,1227,"search ""fahr""",200,OK,Thread Group 1-20,true,61235,20,20,657,chefe02mac947,62
+1540423552555,1107,search sunglasses,200,OK,Thread Group 1-8,true,54349,20,20,606,chefe02mac947,61
+1540423552634,1030,"search ""apple""",200,OK,Thread Group 1-4,true,204630,20,20,519,chefe02mac947,0
+1540423553177,536,add macbook to cart,200,OK,Thread Group 1-18,true,2565,20,20,534,chefe02mac947,0
+1540423552699,1117,search sunglasses,200,OK,Thread Group 1-11,true,54349,20,20,595,chefe02mac947,60
+1540423552831,986,search sunglasses,200,OK,Thread Group 1-14,true,54349,20,20,531,chefe02mac947,0
+1540423553409,460,add macbook to cart,200,OK,Thread Group 1-16,true,2565,20,20,458,chefe02mac947,0
+1540423552930,1099,click on sunglasses,200,OK,Thread Group 1-2,true,54688,20,20,611,chefe02mac947,0
+1540423552909,1173,search sunglasses,200,OK,Thread Group 1-12,true,54349,20,20,653,chefe02mac947,61
+1540423553530,596,add macbook to cart,200,OK,Thread Group 1-19,true,2565,20,20,595,chefe02mac947,0
+1540423553578,617,add sunglasses to cart,200,OK,Thread Group 1-6,true,3857,20,20,616,chefe02mac947,0
+1540423553034,1182,click on sunglasses,200,OK,Thread Group 1-3,true,54687,20,20,608,chefe02mac947,0
+1540423553601,683,add book to cart,200,OK,Thread Group 1-20,true,5178,20,20,682,chefe02mac947,0
+1540423553107,1191,click on sunglasses,200,OK,Thread Group 1-1,true,54687,20,20,557,chefe02mac947,0
+1540423553230,1139,search sunglasses,200,OK,Thread Group 1-13,true,54349,20,20,566,chefe02mac947,61
+1540423553292,1159,click on sunglasses,200,OK,Thread Group 1-9,true,54687,20,20,516,chefe02mac947,0
+1540423553434,1098,search sunglasses,200,OK,Thread Group 1-10,true,54349,20,20,585,chefe02mac947,0
+1540423553360,1201,search sunglasses,200,OK,Thread Group 1-17,true,54349,20,20,685,chefe02mac947,60
+1540423554029,562,add sunglasses to cart,200,OK,Thread Group 1-2,true,3857,20,20,561,chefe02mac947,0
+1540423553435,1215,search sunglasses,200,OK,Thread Group 1-5,true,54349,20,20,688,chefe02mac947,61
+1540423554216,533,add sunglasses to cart,200,OK,Thread Group 1-3,true,3857,20,20,531,chefe02mac947,0
+1540423553663,1136,click on sunglasses,200,OK,Thread Group 1-8,true,54688,20,20,601,chefe02mac947,0
+1540423553664,1155,click macbook,200,OK,Thread Group 1-4,true,244964,20,20,612,chefe02mac947,0
+1540423553816,1157,click on sunglasses,200,OK,Thread Group 1-11,true,54688,20,20,615,chefe02mac947,0
+1540423554299,691,add sunglasses to cart,200,OK,Thread Group 1-1,true,3857,20,20,689,chefe02mac947,0
+1540423553713,1290,search sunglasses,200,OK,Thread Group 1-18,true,54349,20,20,757,chefe02mac947,59
+1540423553817,1249,click on sunglasses,200,OK,Thread Group 1-14,true,54688,20,20,634,chefe02mac947,0
+1540423554451,624,add sunglasses to cart,200,OK,Thread Group 1-9,true,3857,20,20,623,chefe02mac947,0
+1540423553869,1235,search sunglasses,200,OK,Thread Group 1-16,true,54349,20,20,718,chefe02mac947,62
+1540423554127,1004,search sunglasses,200,OK,Thread Group 1-19,true,54349,20,20,535,chefe02mac947,0
+1540423554800,544,add sunglasses to cart,200,OK,Thread Group 1-8,true,3857,20,20,543,chefe02mac947,0
+1540423554285,1075,"search ""apple""",200,OK,Thread Group 1-20,true,204630,20,20,615,chefe02mac947,0
+1540423554082,1283,click on sunglasses,200,OK,Thread Group 1-12,true,54688,20,20,656,chefe02mac947,0
+1540423554834,574,add macbook to cart,200,OK,Thread Group 1-4,true,2565,20,20,573,chefe02mac947,0
+1540423554369,1073,click on sunglasses,200,OK,Thread Group 1-13,true,54688,20,20,493,chefe02mac947,0
+1540423554979,500,add sunglasses to cart,200,OK,Thread Group 1-11,true,3857,20,20,498,chefe02mac947,0
+1540423554195,1288,"search ""fahr""",200,OK,Thread Group 1-6,true,61235,20,20,695,chefe02mac947,0
+1540423554533,1092,click on sunglasses,200,OK,Thread Group 1-10,true,54688,20,20,509,chefe02mac947,0
+1540423555067,578,add sunglasses to cart,200,OK,Thread Group 1-14,true,3857,20,20,578,chefe02mac947,0
+1540423554561,1187,click on sunglasses,200,OK,Thread Group 1-17,true,54688,20,20,562,chefe02mac947,0
+1540423554591,1179,"search ""fahr""",200,OK,Thread Group 1-2,true,61235,20,20,668,chefe02mac947,0
+1540423554650,1181,click on sunglasses,200,OK,Thread Group 1-5,true,54687,20,20,615,chefe02mac947,0
+1540423555366,499,add sunglasses to cart,200,OK,Thread Group 1-12,true,3857,20,20,499,chefe02mac947,0
+1540423554749,1301,"search ""fahr""",200,OK,Thread Group 1-3,true,61235,20,20,651,chefe02mac947,0
+1540423555442,628,add sunglasses to cart,200,OK,Thread Group 1-13,true,3857,20,20,627,chefe02mac947,0
+1540423554990,1123,"search ""fahr""",200,OK,Thread Group 1-1,true,61235,20,20,552,chefe02mac947,0
+1540423555003,1137,click on sunglasses,200,OK,Thread Group 1-18,true,54687,20,20,577,chefe02mac947,0
+1540423555483,659,add book to cart,200,OK,Thread Group 1-6,true,5178,20,20,659,chefe02mac947,0
+1540423555626,594,add sunglasses to cart,200,OK,Thread Group 1-10,true,3857,20,20,593,chefe02mac947,0
+1540423555075,1168,"search ""fahr""",200,OK,Thread Group 1-9,true,61235,20,20,615,chefe02mac947,0
+1540423555748,537,add sunglasses to cart,200,OK,Thread Group 1-17,true,3857,20,20,536,chefe02mac947,0
+1540423555771,594,add book to cart,200,OK,Thread Group 1-2,true,5178,20,20,592,chefe02mac947,0
+1540423555104,1280,click on sunglasses,200,OK,Thread Group 1-16,true,54688,20,20,657,chefe02mac947,0
+1540423555831,557,add sunglasses to cart,200,OK,Thread Group 1-5,true,3857,20,20,555,chefe02mac947,0
+1540423555344,1058,"search ""fahr""",200,OK,Thread Group 1-8,true,61235,20,20,556,chefe02mac947,0
+1540423556050,410,add book to cart,200,OK,Thread Group 1-3,true,5178,20,20,408,chefe02mac947,0
+1540423555409,1073,search sunglasses,200,OK,Thread Group 1-4,true,54349,20,20,633,chefe02mac947,0
+1540423555131,1386,click on sunglasses,200,OK,Thread Group 1-19,true,54687,20,20,660,chefe02mac947,0
+1540423556113,423,add book to cart,200,OK,Thread Group 1-1,true,5178,20,20,423,chefe02mac947,0
+1540423556140,424,add sunglasses to cart,200,OK,Thread Group 1-18,true,3857,20,20,422,chefe02mac947,0
+1540423556244,500,add book to cart,200,OK,Thread Group 1-9,true,5178,20,20,499,chefe02mac947,0
+1540423555361,1438,click macbook,200,OK,Thread Group 1-20,true,244964,20,20,616,chefe02mac947,0
+1540423555479,1346,"search ""fahr""",200,OK,Thread Group 1-11,true,61235,20,20,709,chefe02mac947,0
+1540423556384,519,add sunglasses to cart,200,OK,Thread Group 1-16,true,3857,20,20,518,chefe02mac947,0
+1540423555657,1301,"search ""fahr""",200,OK,Thread Group 1-14,true,61235,20,20,664,chefe02mac947,0
+1540423556402,577,add book to cart,200,OK,Thread Group 1-8,true,5178,20,20,575,chefe02mac947,0
+1540423555866,1155,"search ""fahr""",200,OK,Thread Group 1-12,true,61235,20,20,631,chefe02mac947,0
+1540423556143,960,"search ""apple""",200,OK,Thread Group 1-6,true,204630,20,20,513,chefe02mac947,0
+1540423556517,642,add sunglasses to cart,200,OK,Thread Group 1-19,true,3857,20,20,641,chefe02mac947,0
+1540423556220,1048,"search ""fahr""",200,OK,Thread Group 1-10,true,61235,20,20,482,chefe02mac947,0
+1540423556365,977,"search ""apple""",200,OK,Thread Group 1-2,true,204630,20,20,496,chefe02mac947,0
+1540423556800,572,add macbook to cart,200,OK,Thread Group 1-20,true,2565,20,20,572,chefe02mac947,0
+1540423556825,614,add book to cart,200,OK,Thread Group 1-11,true,5178,20,20,613,chefe02mac947,0
+1540423556958,559,add book to cart,200,OK,Thread Group 1-14,true,5178,20,20,558,chefe02mac947,0
+1540423556285,1238,"search ""fahr""",200,OK,Thread Group 1-17,true,61235,20,20,546,chefe02mac947,60
+1540423556388,1170,"search ""fahr""",200,OK,Thread Group 1-5,true,61235,20,20,601,chefe02mac947,0
+1540423556460,1118,"search ""apple""",200,OK,Thread Group 1-3,true,204630,20,20,648,chefe02mac947,0
+1540423557021,569,add book to cart,200,OK,Thread Group 1-12,true,5178,20,20,569,chefe02mac947,0
+1540423556482,1110,click on sunglasses,200,OK,Thread Group 1-4,true,54687,20,20,608,chefe02mac947,0
+1540423556537,1226,"search ""apple""",200,OK,Thread Group 1-1,true,204630,20,20,699,chefe02mac947,0
+1540423557268,508,add book to cart,200,OK,Thread Group 1-10,true,5178,20,20,507,chefe02mac947,0
+1540423556744,1150,"search ""apple""",200,OK,Thread Group 1-9,true,204630,20,20,623,chefe02mac947,0
+1540423556564,1389,"search ""fahr""",200,OK,Thread Group 1-18,true,61235,20,20,737,chefe02mac947,0
+1540423556903,1131,"search ""fahr""",200,OK,Thread Group 1-16,true,61235,20,20,604,chefe02mac947,0
+1540423557524,547,add book to cart,200,OK,Thread Group 1-17,true,5178,20,20,547,chefe02mac947,0
+1540423557558,547,add book to cart,200,OK,Thread Group 1-5,true,5178,20,20,546,chefe02mac947,0
+1540423556979,1181,"search ""apple""",200,OK,Thread Group 1-8,true,204630,20,20,653,chefe02mac947,0
+1540423557592,587,add sunglasses to cart,200,OK,Thread Group 1-4,true,3857,20,20,585,chefe02mac947,0
+1540423557373,915,search sunglasses,200,OK,Thread Group 1-20,true,54349,20,20,533,chefe02mac947,0
+1540423557159,1140,"search ""fahr""",200,OK,Thread Group 1-19,true,61235,20,20,603,chefe02mac947,0
+1540423557104,1350,click macbook,200,OK,Thread Group 1-6,true,244964,20,20,609,chefe02mac947,0
+1540423557954,542,add book to cart,200,OK,Thread Group 1-18,true,5178,20,20,541,chefe02mac947,0
+1540423557439,1101,"search ""apple""",200,OK,Thread Group 1-11,true,204630,20,20,557,chefe02mac947,0
+1540423557518,1025,"search ""apple""",200,OK,Thread Group 1-14,true,204630,20,20,516,chefe02mac947,0
+1540423557342,1233,click macbook,200,OK,Thread Group 1-2,true,244964,20,20,540,chefe02mac947,0
+1540423558035,628,add book to cart,200,OK,Thread Group 1-16,true,5178,20,20,626,chefe02mac947,0
+1540423558300,569,add book to cart,200,OK,Thread Group 1-19,true,5178,20,20,568,chefe02mac947,0
+1540423558454,474,add macbook to cart,200,OK,Thread Group 1-6,true,2565,20,20,472,chefe02mac947,0
+1540423557578,1357,click macbook,200,OK,Thread Group 1-3,true,244964,20,20,616,chefe02mac947,0
+1540423557591,1413,"search ""apple""",200,OK,Thread Group 1-12,true,204630,20,20,887,chefe02mac947,0
+1540423557776,1297,"search ""apple""",200,OK,Thread Group 1-10,true,204630,20,20,710,chefe02mac947,0
+1540423557895,1187,click macbook,200,OK,Thread Group 1-9,true,244964,20,20,478,chefe02mac947,0
+1540423558576,510,add macbook to cart,200,OK,Thread Group 1-2,true,2565,20,20,509,chefe02mac947,0
+1540423557763,1405,click macbook,200,OK,Thread Group 1-1,true,244964,20,20,581,chefe02mac947,0
+1540423558935,252,add macbook to cart,200,OK,Thread Group 1-3,true,2565,20,20,252,chefe02mac947,0
+1540423558072,1136,"search ""apple""",200,OK,Thread Group 1-17,true,204630,20,20,603,chefe02mac947,0
+1540423558105,1170,"search ""apple""",200,OK,Thread Group 1-5,true,204630,20,20,662,chefe02mac947,0
+1540423558179,1192,"search ""fahr""",200,OK,Thread Group 1-4,true,61235,20,20,565,chefe02mac947,0
+1540423558288,1189,click on sunglasses,200,OK,Thread Group 1-20,true,54688,20,20,646,chefe02mac947,0
+1540423559082,465,add macbook to cart,200,OK,Thread Group 1-9,true,2565,20,20,465,chefe02mac947,0
+1540423549205,10348,"search ""fahr""",200,"Embedded resource download error:http://store-nr.bzm-presales.com/nopCommerce/Scripts/public.common.js code:Non HTTP response code: java.net.ConnectException message:Non HTTP response message: Operation timed out (Connection timed out), ",Thread Group 1-15,false,63320,20,20,695,chefe02mac947,0
+1540423559169,456,add macbook to cart,200,OK,Thread Group 1-1,true,2565,20,20,456,chefe02mac947,0
+1540423558160,1482,click macbook,200,OK,Thread Group 1-8,true,244964,20,20,707,chefe02mac947,62
+1540423558497,1195,"search ""apple""",200,OK,Thread Group 1-18,true,204630,20,20,695,chefe02mac947,0
+1540423558543,1204,click macbook,200,OK,Thread Group 1-14,true,244964,19,19,480,chefe02mac947,0
+1540423559371,444,add book to cart,200,OK,Thread Group 1-4,true,5178,18,18,443,chefe02mac947,0
+1540423558928,937,search sunglasses,200,OK,Thread Group 1-6,true,54349,17,17,487,chefe02mac947,0
+1540423559478,414,add sunglasses to cart,200,OK,Thread Group 1-20,true,3857,16,16,414,chefe02mac947,0
+1540423558663,1247,"search ""apple""",200,OK,Thread Group 1-16,true,204630,15,15,730,chefe02mac947,0
+1540423558541,1403,click macbook,200,OK,Thread Group 1-11,true,244964,14,14,573,chefe02mac947,60
+1540423558869,1135,"search ""apple""",200,OK,Thread Group 1-19,true,204630,13,13,606,chefe02mac947,0
+1540423559557,464,add book to cart,200,OK,Thread Group 1-15,true,5178,12,12,463,chefe02mac947,61
+1540423559074,948,click macbook,200,OK,Thread Group 1-10,true,244964,12,12,415,chefe02mac947,0
+1540423559086,937,search sunglasses,200,OK,Thread Group 1-2,true,54349,10,10,485,chefe02mac947,0
+1540423559643,445,add macbook to cart,200,OK,Thread Group 1-8,true,2565,9,9,445,chefe02mac947,0
+1540423559004,1112,click macbook,200,OK,Thread Group 1-12,true,244964,8,8,330,chefe02mac947,0
+1540423559547,837,search sunglasses,200,OK,Thread Group 1-9,true,54349,7,7,400,chefe02mac947,0
+1540423559208,1257,click macbook,200,OK,Thread Group 1-17,true,244964,6,6,537,chefe02mac947,0
+1540423559625,897,search sunglasses,200,OK,Thread Group 1-1,true,54349,5,5,397,chefe02mac947,0
+1540423559276,1264,click macbook,200,OK,Thread Group 1-5,true,244964,4,4,541,chefe02mac947,0
+1540423545579,16363,click on sunglasses,200,OK,Thread Group 1-7,true,54688,3,3,585,chefe02mac947,0
+1540423559187,8989,search sunglasses,200,"Embedded resource download error:http://store-nr.bzm-presales.com/nopCommerce/Scripts/jquery-migrate-1.2.1.min.js code:Non HTTP response code: java.net.ConnectException message:Non HTTP response message: Operation timed out (Connection timed out), ",Thread Group 1-3,false,56434,2,2,509,chefe02mac947,0
+1540423556070,26190,"search ""fahr""",200,OK,Thread Group 1-13,true,61235,1,1,25048,chefe02mac947,24860

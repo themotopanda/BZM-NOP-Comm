@@ -1,0 +1,136 @@
+{
+ "scenarios": {
+  "NOP_SC3-Selenium": {
+   "think-time": "0s", 
+   "headless": false, 
+   "requests": [
+    {
+     "actions": [
+      "go(http://demo.bzm-presales.com/nopcommerce)"
+     ], 
+     "label": "go to home page"
+    }, 
+    {
+     "actions": [
+      "clickByID(small-searchterms)", 
+      {
+       "typeByID(small-searchterms)": "apple"
+      }, 
+      "submitByID(small-search-box-form)"
+     ], 
+     "label": "search \"apple\""
+    }, 
+    {
+     "actions": [
+      "clickByCSS(div.picture > a[title=\"Show details for Apple MacBook Pro 13-inch\"] > img[alt=\"Picture of Apple MacBook Pro 13-inch\"])"
+     ], 
+     "label": "click macbook"
+    }, 
+    {
+     "actions": [
+      "clickByID(add-to-cart-button-4)"
+     ], 
+     "label": "add macbook to cart"
+    }, 
+    {
+     "actions": [
+      "clickByLinkText(Books)"
+     ], 
+     "label": "click \"books\""
+    }, 
+    {
+     "actions": [
+      "clickByCSS(input.button-2.product-box-add-to-cart-button)"
+     ], 
+     "label": "add fahrenheit 451 to cart"
+    }, 
+    {
+     "actions": [
+      "clickByLinkText(Accessories)"
+     ], 
+     "label": "click \"accessories\""
+    }, 
+    {
+     "actions": [
+      "clickByXPath((//input[@value='Add to cart'])[2])"
+     ], 
+     "label": "add sunglasses to cart"
+    }, 
+    {
+     "actions": [
+      "clickByLinkText(shopping cart)", 
+      "clickByID(termsofservice)", 
+      "clickByID(checkout)", 
+      "clickByCSS(input.button-1.checkout-as-guest-button)", 
+      "clickByID(NewAddress_FirstName)", 
+      {
+       "typeByID(NewAddress_FirstName)": "captain"
+      }, 
+      {
+       "typeByID(NewAddress_LastName)": "herp-a-derp"
+      }, 
+      {
+       "typeByID(NewAddress_Email)": "felicia.chen@blazemeter.com"
+      }, 
+      {
+       "selectByID(NewAddress_CountryId)": "United States"
+      }, 
+      {
+       "typeByID(NewAddress_City)": "pirate cove"
+      }, 
+      {
+       "typeByID(NewAddress_Address1)": "123 tall ship st."
+      }, 
+      {
+       "typeByID(NewAddress_ZipPostalCode)": "95050"
+      }, 
+      {
+       "typeByID(NewAddress_PhoneNumber)": "4081234567"
+      }, 
+      {
+       "selectByID(NewAddress_StateProvinceId)": "California"
+      }, 
+      "clickByName(nextstep)", 
+      "clickByName(nextstep)", 
+      "clickByName(nextstep)", 
+      "clickByName(nextstep)", 
+      "clickByName(nextstep)", 
+      "clickByCSS(input.button-1.order-completed-continue-button)"
+     ], 
+     "label": "checkout as guest"
+    }
+   ], 
+   "timeout": "60s", 
+   "browser": "Chrome"
+  }
+ }, 
+ "services": [
+  "capturehar", 
+  "screenshoter"
+ ], 
+ "execution": [
+  {
+   "locations": {
+    "us-west-1": 1
+   }, 
+   "concurrency": {
+    "local": 1, 
+    "cloud": 1
+   }, 
+   "hold-for": "10m", 
+   "scenario": "NOP_SC3-Selenium", 
+   "executor": "selenium"
+  }
+ ], 
+ "modules": {
+  "blazemeter": {
+   "token": "********"
+  }, 
+  "nose": {
+   "ignore-unknown-actions": true
+  }
+ }, 
+ "settings": {
+  "artifacts-dir": "/Users/chefe02/Desktop/presales_cert/Artifacts/%Y-%m-%d_%H-%M-%S.%fbz"
+ }
+}
