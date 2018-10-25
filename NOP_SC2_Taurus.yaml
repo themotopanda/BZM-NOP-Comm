@@ -16,7 +16,7 @@ execution:
 modules:
   blazemeter:
     workspace: litterbox
-    test: NOP_SC2 CI
+    test: NOP_SC2 Taurus/Jenkins
     report-name: NOP_SC2_Taurus
     project: presales_cert
 
