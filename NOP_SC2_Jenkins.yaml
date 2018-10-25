@@ -7,8 +7,8 @@ execution:
     cloud: 20
   locations:
     us-west-1: 1
-    # us-west-2: 1
-    # ap-southeast-1: 2
+    # us-west-2: 2
+    # ap-southeast-1: 1
 
   scenario:
     script: ./NOP_SC2.jmx
@@ -23,6 +23,6 @@ modules:
 reporting:
 - module: final-stats
   dump-xml: ./final_stats.xml
-  
+
 settings:
   artifacts-dir: /Users/chefe02/Documents/Desktop/presales_cert/Artifacts/%Y-%m-%d_%H-%M-%S.%fbz
