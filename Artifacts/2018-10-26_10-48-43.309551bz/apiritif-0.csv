@@ -1,0 +1,22 @@
+timeStamp,elapsed,Latency,label,responseCode,responseMessage,success,allThreads,bytes
+1540576186398,1249,0,go to home page,,,true,1,2
+1540576187648,12597,0,"search ""apple""",,,true,1,2
+1540576200246,4734,0,click macbook,,,true,1,2
+1540576204981,3063,0,add macbook to cart,,,true,1,2
+1540576208045,3655,0,"click ""books""",,,true,1,2
+1540576211700,3059,0,add fahrenheit 451 to cart,,,true,1,2
+1540576214761,0,0,"click ""accessories""",,NameError: global name 'wait' is not defined,false,1,2
+1540576218185,17681,0,go to home page,,,true,1,2
+1540576235867,13190,0,"search ""apple""",,,true,1,2
+1540576249058,5540,0,click macbook,,,true,1,2
+1540576254599,3062,0,add macbook to cart,,,true,1,2
+1540576257661,3665,0,"click ""books""",,,true,1,2
+1540576261327,3066,0,add fahrenheit 451 to cart,,,true,1,2
+1540576264394,0,0,"click ""accessories""",,NameError: global name 'wait' is not defined,false,1,2
+1540576267871,1097,0,go to home page,,,true,1,2
+1540576268970,12520,0,"search ""apple""",,,true,1,2
+1540576281490,4752,0,click macbook,,,true,1,2
+1540576286243,3052,0,add macbook to cart,,,true,1,2
+1540576289296,3520,0,"click ""books""",,,true,1,2
+1540576292817,3058,0,add fahrenheit 451 to cart,,,true,1,2
+1540576295876,0,0,"click ""accessories""",,NameError: global name 'wait' is not defined,false,1,2

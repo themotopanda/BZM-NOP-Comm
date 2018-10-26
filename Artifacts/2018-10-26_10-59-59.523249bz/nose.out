@@ -1,0 +1,2 @@
+2018-10-26 11:00:00,799:INFO:45482:123145438003200:loadgen:Total workers: 1
+2018-10-26 11:00:00,806:INFO:45485:123145438003200:loadgen:Adding worker: idx=0	concurrency=1	results=/Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_10-59-59.523249bz/apiritif-0.csv

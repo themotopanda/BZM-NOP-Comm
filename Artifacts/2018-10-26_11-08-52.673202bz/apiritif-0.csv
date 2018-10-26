@@ -1,0 +1,21 @@
+timeStamp,elapsed,Latency,label,responseCode,responseMessage,success,allThreads,bytes
+1540577337194,1208,0,go to home page,,,true,1,2
+1540577338403,6502,0,"search ""apple""",,,true,1,2
+1540577344906,4522,0,click macbook,,,true,1,2
+1540577349428,3062,0,add macbook to cart,,,true,1,2
+1540577352492,3531,0,"click ""books""",,,true,1,2
+1540577356024,3048,0,add fahrenheit 451 to cart,,,true,1,2
+1540577359073,3059,0,"click ""accessories""",,"WebDriverException: Message: unknown error: Element <a href=""/nopCommerce/apparel"">...</a> is not clickable at point (474, 15). Other element would receive the click: <p class=""content"">...</p>
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)
+",false,1,2
+1540577365857,1217,0,go to home page,,,true,1,2
+1540577367075,6533,0,"search ""apple""",,,true,1,2
+1540577373609,4713,0,click macbook,,,true,1,2
+1540577378324,3069,0,add macbook to cart,,,true,1,2
+1540577381393,3504,0,"click ""books""",,,true,1,2
+1540577384898,3059,0,add fahrenheit 451 to cart,,,true,1,2
+1540577387958,3065,0,"click ""accessories""",,"WebDriverException: Message: unknown error: Element <a href=""/nopCommerce/apparel"">...</a> is not clickable at point (474, 15). Other element would receive the click: <p class=""content"">...</p>
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)
+",false,1,2

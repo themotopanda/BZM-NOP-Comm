@@ -1,0 +1,32 @@
+timeStamp,elapsed,Latency,label,responseCode,responseMessage,success,allThreads,bytes
+1540576428072,1211,0,go to home page,,,true,1,2
+1540576429284,12550,0,"search ""apple""",,,true,1,2
+1540576441838,4793,0,click macbook,,,true,1,2
+1540576446631,3062,0,add macbook to cart,,,true,1,2
+1540576449694,3508,0,"click ""books""",,,true,1,2
+1540576453203,3070,0,add fahrenheit 451 to cart,,,true,1,2
+1540576456274,0,0,"click ""accessories""",,NameError: global name 'selff' is not defined,false,1,2
+1540576459620,1322,0,go to home page,,,true,1,2
+1540576460944,12628,0,"search ""apple""",,,true,1,2
+1540576473573,4491,0,click macbook,,,true,1,2
+1540576478065,3059,0,add macbook to cart,,,true,1,2
+1540576481125,3521,0,"click ""books""",,,true,1,2
+1540576484647,3058,0,add fahrenheit 451 to cart,,,true,1,2
+1540576487706,0,0,"click ""accessories""",,NameError: global name 'selff' is not defined,false,1,2
+1540576491210,20844,0,go to home page,,,true,1,2
+1540576512055,13104,0,"search ""apple""",,,true,1,2
+1540576525160,5674,0,click macbook,,,true,1,2
+1540576530835,3077,0,add macbook to cart,,,true,1,2
+1540576533913,3868,0,"click ""books""",,,true,1,2
+1540576537782,3055,0,add fahrenheit 451 to cart,,,true,1,2
+1540576540838,0,0,"click ""accessories""",,NameError: global name 'selff' is not defined,false,1,2
+1540576544293,1225,0,go to home page,,,true,1,2
+1540576545519,3009,0,"search ""apple""",,"NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)
+",false,1,2
+1540576551831,1404,0,go to home page,,,true,1,2
+1540576553235,3007,0,"search ""apple""",,"NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)
+",false,1,2

@@ -1,0 +1,280 @@
+[2018-10-26 10:45:53,859 INFO root] Taurus CLI Tool v1.13.0
+[2018-10-26 10:45:53,859 DEBUG root] Command-line options: {'verbose': None, 'no_system_configs': None, 'quiet': None, 'log': '/var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/bzt_KD9P6N.log', 'option': None, 'aliases': ['locations']}
+[2018-10-26 10:45:53,859 DEBUG root] Python: CPython 2.7.15
+[2018-10-26 10:45:53,859 DEBUG root] OS: ('Darwin', 'chefe02mac947', '17.7.0', 'Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64', 'x86_64', 'i386')
+[2018-10-26 10:45:53,860 INFO root] Starting with configs: []
+[2018-10-26 10:45:53,860 DEBUG root] Using personal config: /Users/chefe02/.bzt-rc
+[2018-10-26 10:45:53,860 INFO Engine] Configuring...
+[2018-10-26 10:45:53,860 DEBUG Engine] No machine configs dir: /usr/local/Cellar/bzt/1.13.0/libexec/bin/../etc/bzt.d
+[2018-10-26 10:45:53,860 DEBUG Engine] Base configs list: ['/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/resources/base-config.yml']
+[2018-10-26 10:45:53,860 DEBUG Engine.Configuration] Configs: ['/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/resources/base-config.yml']
+[2018-10-26 10:45:53,861 DEBUG Engine.Configuration] Reading /usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/resources/base-config.yml as YAML
+[2018-10-26 10:45:53,887 DEBUG Engine] User configs list: ['/Users/chefe02/.bzt-rc']
+[2018-10-26 10:45:53,887 DEBUG Engine.Configuration] Configs: ['/Users/chefe02/.bzt-rc']
+[2018-10-26 10:45:53,888 DEBUG Engine.Configuration] Reading /Users/chefe02/.bzt-rc as YAML
+[2018-10-26 10:45:53,891 DEBUG Engine.Configuration] Configs: ['/Users/chefe02/.bzt-rc']
+[2018-10-26 10:45:53,892 DEBUG Engine.Configuration] Reading /Users/chefe02/.bzt-rc as YAML
+[2018-10-26 10:45:53,904 DEBUG Engine] Requesting updates info: http://gettaurus.org/updates/?version=1.13.0&installID=macos-8c85905fb9f6
+[2018-10-26 10:45:53,905 DEBUG HTTPClient] Making HTTP request GET http://gettaurus.org/updates/?version=1.13.0&installID=macos-8c85905fb9f6
+[2018-10-26 10:45:53,905 INFO Engine] Artifacts dir: /Users/chefe02/Desktop/presales_cert/2018-10-26_10-45-53.905003
+[2018-10-26 10:45:53,910 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/2018-10-26_10-45-53.905003/effective
+[2018-10-26 10:45:53,912 DEBUG Engine.Configuration] Dumping YAML config into /Users/chefe02/Desktop/presales_cert/2018-10-26_10-45-53.905003/effective.yml
+[2018-10-26 10:45:53,920 DEBUG urllib3.connectionpool] Starting new HTTP connection (1): gettaurus.org:80
+[2018-10-26 10:45:53,939 DEBUG Engine.Configuration] Dumping JSON config into /Users/chefe02/Desktop/presales_cert/2018-10-26_10-45-53.905003/effective.json
+[2018-10-26 10:45:53,940 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/2018-10-26_10-45-53.905003/merged.yml
+[2018-10-26 10:45:53,940 DEBUG Engine.Configuration] Dumping YAML config into /Users/chefe02/Desktop/presales_cert/2018-10-26_10-45-53.905003/merged.yml
+[2018-10-26 10:45:53,941 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/2018-10-26_10-45-53.905003/merged.json
+[2018-10-26 10:45:53,941 DEBUG Engine.Configuration] Dumping JSON config into /Users/chefe02/Desktop/presales_cert/2018-10-26_10-45-53.905003/merged.json
+[2018-10-26 10:45:53,942 DEBUG Engine.Environment] Replace 'TAURUS_ARTIFACTS_DIR' in environment
+[2018-10-26 10:45:53,943 DEBUG root] Closing log handler: /var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/bzt_KD9P6N.log
+[2018-10-26 10:45:54,335 DEBUG root] Switched writing logs to /Users/chefe02/Desktop/presales_cert/2018-10-26_10-45-53.905003/bzt.log
+[2018-10-26 10:45:54,335 DEBUG root] Linting config
+[2018-10-26 10:45:54,337 INFO Engine] Preparing...
+[2018-10-26 10:45:54,338 DEBUG Engine] Module config: consolidator {'class': u'bzt.modules.aggregator.ConsolidatingAggregator'}
+[2018-10-26 10:45:54,338 DEBUG root] Importing module: bzt.modules.aggregator
+[2018-10-26 10:45:54,444 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/aggregator.pyc'>
+[2018-10-26 10:45:54,445 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2018-10-26 10:45:54,445 DEBUG Engine] Module config: monitoring {'class': u'bzt.modules.monitoring.Monitoring'}
+[2018-10-26 10:45:54,445 DEBUG root] Importing module: bzt.modules.monitoring
+[2018-10-26 10:45:54,447 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/monitoring.pyc'>
+[2018-10-26 10:45:54,447 DEBUG Engine] Module config: cloud {'dump-locations': True, 'class': u'bzt.modules.blazemeter.CloudProvisioning', 'default-location': u'us-central1-a'}
+[2018-10-26 10:45:54,447 DEBUG root] Importing module: bzt.modules.blazemeter
+[2018-10-26 10:45:54,455 DEBUG easyprocess] version=0.2.3
+[2018-10-26 10:45:54,456 DEBUG pyvirtualdisplay] version=0.2.1
+[2018-10-26 10:45:54,457 DEBUG root] Loading class: 'CloudProvisioning' from <module 'bzt.modules.blazemeter' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/blazemeter.pyc'>
+[2018-10-26 10:45:54,458 DEBUG Engine] Module config: blazemeter {'token': '********', 'class': u'bzt.modules.blazemeter.BlazeMeterUploader'}
+[2018-10-26 10:45:54,458 DEBUG root] Importing module: bzt.modules.blazemeter
+[2018-10-26 10:45:54,458 DEBUG root] Loading class: 'BlazeMeterUploader' from <module 'bzt.modules.blazemeter' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/blazemeter.pyc'>
+[2018-10-26 10:45:54,458 DEBUG Engine.cloud] Installing http client
+[2018-10-26 10:45:54,459 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/accounts None
+[2018-10-26 10:45:54,459 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/accounts
+[2018-10-26 10:45:54,524 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com:443
+[2018-10-26 10:45:54,700 DEBUG urllib3.connectionpool] http://gettaurus.org:80 "GET /updates/?version=1.13.0&installID=macos-8c85905fb9f6 HTTP/1.1" 200 59
+[2018-10-26 10:45:54,701 DEBUG Engine] Taurus updates info: {u'needsUpgrade': True, u'latest': u'1.13.1'}
+[2018-10-26 10:45:54,701 WARNING Engine] There is newer version of Taurus 1.13.1 available, consider upgrading. What's new: http://gettaurus.org/docs/Changelog/
+[2018-10-26 10:45:55,032 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/accounts HTTP/1.1" 200 2183
+[2018-10-26 10:45:55,033 DEBUG Engine.cloud] Response [200]: {
+    "limit": 10,
+    "skip": 0,
+    "total": 2,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 153221,
+            "name": "BlazeMeter Demo",
+            "thumbnailUrl": "https://www.blazemeter.com/s
+[2018-10-26 10:45:55,034 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces?accountId=153221&enabled=true&limit=100 None
+[2018-10-26 10:45:55,034 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/workspaces?accountId=153221&enabled=true&limit=100
+[2018-10-26 10:45:55,282 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces?accountId=153221&enabled=true&limit=100 HTTP/1.1" 200 2196
+[2018-10-26 10:45:55,282 DEBUG Engine.cloud] Response [200]: {
+    "limit": 100,
+    "skip": 0,
+    "total": 3,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 215524,
+            "name": "CD Presales WorkSpace",
+            "userId": 358935,
+            "created
+[2018-10-26 10:45:55,283 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces?accountId=190324&enabled=true&limit=100 None
+[2018-10-26 10:45:55,284 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/workspaces?accountId=190324&enabled=true&limit=100
+[2018-10-26 10:45:55,487 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces?accountId=190324&enabled=true&limit=100 HTTP/1.1" 200 2190
+[2018-10-26 10:45:55,487 DEBUG Engine.cloud] Response [200]: {
+    "limit": 100,
+    "skip": 0,
+    "total": 3,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 184063,
+            "name": "demo workspace",
+            "userId": 407077,
+            "created": 1513
+[2018-10-26 10:45:55,488 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/215524 None
+[2018-10-26 10:45:55,489 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/workspaces/215524
+[2018-10-26 10:45:55,804 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/215524 HTTP/1.1" 200 None
+[2018-10-26 10:45:55,876 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 215524,
+        "name": "CD Presales WorkSpace",
+        "userId": 358935,
+        "created": 1525112667,
+        "updated": 1530574314,
+        "enabled": true,
+        "dedicatedIps
+[2018-10-26 10:45:55,894 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/146738 None
+[2018-10-26 10:45:55,894 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/workspaces/146738
+[2018-10-26 10:45:56,115 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/146738 HTTP/1.1" 200 None
+[2018-10-26 10:45:56,183 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 146738,
+        "name": "Demo workspace",
+        "userId": 368191,
+        "created": 1498856673,
+        "updated": 1530574314,
+        "enabled": true,
+        "dedicatedIpsEnabled
+[2018-10-26 10:45:56,202 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/239890 None
+[2018-10-26 10:45:56,202 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/workspaces/239890
+[2018-10-26 10:45:56,406 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/239890 HTTP/1.1" 200 None
+[2018-10-26 10:45:56,425 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 239890,
+        "name": "K_Workspace",
+        "userId": 358935,
+        "created": 1533653302,
+        "updated": 1533653367,
+        "enabled": true,
+        "dedicatedIpsEnabled": 
+[2018-10-26 10:45:56,443 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/184063 None
+[2018-10-26 10:45:56,443 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/workspaces/184063
+[2018-10-26 10:45:56,664 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/184063 HTTP/1.1" 200 None
+[2018-10-26 10:45:56,682 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 184063,
+        "name": "demo workspace",
+        "userId": 407077,
+        "created": 1513707945,
+        "updated": 1522438252,
+        "enabled": true,
+        "dedicatedIpsEnabled
+[2018-10-26 10:45:56,699 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/188407 None
+[2018-10-26 10:45:56,699 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/workspaces/188407
+[2018-10-26 10:45:56,937 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/188407 HTTP/1.1" 200 None
+[2018-10-26 10:45:56,956 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 188407,
+        "name": "litterbox",
+        "userId": 407077,
+        "created": 1515721294,
+        "updated": 1522438252,
+        "enabled": true,
+        "dedicatedIpsEnabled": tr
+[2018-10-26 10:45:56,974 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/196906 None
+[2018-10-26 10:45:56,974 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/workspaces/196906
+[2018-10-26 10:45:57,197 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/196906 HTTP/1.1" 200 None
+[2018-10-26 10:45:57,217 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 196906,
+        "name": "private locations",
+        "userId": 407077,
+        "created": 1518563928,
+        "updated": 1518563928,
+        "enabled": true,
+        "dedicatedIpsEnab
+[2018-10-26 10:45:57,239 WARNING Engine.cloud] Dumping available locations instead of running the test:
+(0lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqwqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk(B
+(0x(B ID                              (0x(B Name                                       (0x(B
+(0tqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqnqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqu(B
+(0x(B ap-northeast-1                  (0x(B Asia Pacific (Tokyo)                       (0x(B
+(0x(B ap-northeast-2                  (0x(B Asia Pacific (Seoul)                       (0x(B
+(0x(B ap-south-1                      (0x(B Asia Pacific (Mumbai)                      (0x(B
+(0x(B ap-southeast-1                  (0x(B Asia Pacific (Singapore)                   (0x(B
+(0x(B ap-southeast-2                  (0x(B Australia (Sydney)                         (0x(B
+(0x(B asia-east1-a                    (0x(B Asia East (Taiwan, Google)                 (0x(B
+(0x(B asia-northeast1-a               (0x(B Asia Northeast (Japan, Google)             (0x(B
+(0x(B asia-south1-a                   (0x(B Asia South (Mumbai, Google)                (0x(B
+(0x(B asia-southeast1-a               (0x(B Asia Southeast (Singapore, Google)         (0x(B
+(0x(B australia-southeast1-a          (0x(B Australia (Sydney, Google)                 (0x(B
+(0x(B azure-ap-northeast-1            (0x(B Azure Korea Central (Seoul)                (0x(B
+(0x(B azure-ap-northeast-2            (0x(B Azure Korea South (Busan)                  (0x(B
+(0x(B azure-brazil-south-1            (0x(B Azure Brazil South (Sao Paulo)             (0x(B
+(0x(B azure-central-asia-1            (0x(B Azure Central India (Pune)                 (0x(B
+(0x(B azure-central-asia-2            (0x(B Azure West India (Mumbai)                  (0x(B
+(0x(B azure-central-asia-3            (0x(B Azure South India (Chennai)                (0x(B
+(0x(B azure-central-ca                (0x(B Azure Canada Central (Toronto)             (0x(B
+(0x(B azure-central-us-1              (0x(B Azure US Central (Iowa)                    (0x(B
+(0x(B azure-east-asia-1               (0x(B Azure East Asia (Hong Kong)                (0x(B
+(0x(B azure-east-au-1                 (0x(B Azure Australia East (New South Wales)     (0x(B
+(0x(B azure-east-ca                   (0x(B Azure Canada East (Quebec City)            (0x(B
+(0x(B azure-east-us-1                 (0x(B Azure US East (Virginia)                   (0x(B
+(0x(B azure-east-us-2                 (0x(B Azure East US 2 (Virginia)                 (0x(B
+(0x(B azure-eu-west-2                 (0x(B Azure UK South (London)                    (0x(B
+(0x(B azure-eu-west-3                 (0x(B Azure UK West (Cardiff)                    (0x(B
+(0x(B azure-japan-east-1              (0x(B Azure Japan East (Tokyo, Saitama)          (0x(B
+(0x(B azure-japan-west-1              (0x(B Azure Japan West (Osaka)                   (0x(B
+(0x(B azure-north-central-us-1        (0x(B Azure US North Central (Illinois)          (0x(B
+(0x(B azure-north-europe-1            (0x(B Azure EU North (Ireland)                   (0x(B
+(0x(B azure-south-central-us-1        (0x(B Azure US South Central (Texas)             (0x(B
+(0x(B azure-southeast-asia-1          (0x(B Azure Southeast Asia (Singapore)           (0x(B
+(0x(B azure-southeast-au-1            (0x(B Azure Australia Southeast (Victoria)       (0x(B
+(0x(B azure-us-west-central           (0x(B Azure US West Central (US West Central)    (0x(B
+(0x(B azure-west-europe-1             (0x(B Azure EU West (Netherlands)                (0x(B
+(0x(B azure-west-us-1                 (0x(B Azure US West (California)                 (0x(B
+(0x(B azure-west-us-2                 (0x(B Azure US East (US West 2)                  (0x(B
+(0x(B ca-central-1                    (0x(B Canada (Central)                           (0x(B
+(0x(B eu-central-1                    (0x(B EU Central (Frankfurt)                     (0x(B
+(0x(B eu-west-1                       (0x(B EU West (Ireland)                          (0x(B
+(0x(B eu-west-2                       (0x(B EU West (London)                           (0x(B
+(0x(B eu-west-3                       (0x(B EU West (Paris) - New                      (0x(B
+(0x(B europe-west1-b                  (0x(B EU West (Belgium, Google)                  (0x(B
+(0x(B europe-west2-a                  (0x(B EU West (London, Google)                   (0x(B
+(0x(B europe-west3-a                  (0x(B EU West (Frankfurt, Google)                (0x(B
+(0x(B europe-west4-b                  (0x(B EU West (Netherlands, Google)              (0x(B
+(0x(B harbor-5591335d8588531f5cde3a04 (0x(B Sandbox                                    (0x(B
+(0x(B harbor-58d3b97ff132adc0347b23c6 (0x(B Functional Testing Default Location        (0x(B
+(0x(B harbor-59464ffd67f3bf63cb7b23c9 (0x(B US East (Ohio) - Functional Test           (0x(B
+(0x(B harbor-59465fcde4d6a240d97b23c6 (0x(B Us West (N. California) - Functional Test  (0x(B
+(0x(B harbor-594662d6e6e960aedb7b23c7 (0x(B Us West (Oregon) - Functional Test         (0x(B
+(0x(B harbor-5946677fe4d6a21adb7b23c8 (0x(B Canada (Central) - Functional Test         (0x(B
+(0x(B harbor-59466cb1e4d6a296e37b23c8 (0x(B EU West (Ireland) - Functional Test        (0x(B
+(0x(B harbor-59466f1b67f3bfebe27b23c7 (0x(B EU Central (Frankfurt) - Functional Test   (0x(B
+(0x(B harbor-5946708a65e00138e57b23c6 (0x(B EU West (London) - Functional Test         (0x(B
+(0x(B harbor-59467342e4d6a205e67b23c6 (0x(B Asia Pacific (Singapore) - Functional Test (0x(B
+(0x(B harbor-5946756fe4d6a204e37b23c6 (0x(B Australia (Sydney) - Functional Test       (0x(B
+(0x(B harbor-5946770be6e960e5e57b23cf (0x(B Asia Pacific (Seoul) - Functional Test     (0x(B
+(0x(B harbor-5a9db8d3a07b5638387b23c6 (0x(B private panda!                             (0x(B
+(0x(B harbor-5a9dc8f62185b52512f87287 (0x(B beefy panda!                               (0x(B
+(0x(B harbor-5aba69d863cb0ef0037b2429 (0x(B DEMO                                       (0x(B
+(0x(B northamerica-northeast1-a       (0x(B Canada East (Montreal, Google)             (0x(B
+(0x(B sa-east-1                       (0x(B South America (Sao Paulo)                  (0x(B
+(0x(B southamerica-east1-a            (0x(B Brazil (Sao Paulo, Google)                 (0x(B
+(0x(B us-central1-a                   (0x(B US Central (Iowa, Google)                  (0x(B
+(0x(B us-east-1                       (0x(B US East (Virginia)                         (0x(B
+(0x(B us-east-2                       (0x(B US East (Ohio)                             (0x(B
+(0x(B us-east1-b                      (0x(B US East (South Carolina, Google)           (0x(B
+(0x(B us-east4-a                      (0x(B US East (Virginia, Google)                 (0x(B
+(0x(B us-west-1                       (0x(B US West (N.California)                     (0x(B
+(0x(B us-west-2                       (0x(B US West (Oregon)                           (0x(B
+(0x(B us-west1-a                      (0x(B US West (Oregon, Google)                   (0x(B
+(0mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqvqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj(B
+[2018-10-26 10:45:57,246 DEBUG root] Shutting down by request from code
+[2018-10-26 10:45:57,249 DEBUG root] NormalShutdown: Done listing locations
+Traceback (most recent call last):
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/cli.py", line 260, in perform
+    self.engine.prepare()
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/engine.py", line 171, in prepare
+    self.__prepare_provisioning()
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/engine.py", line 526, in __prepare_provisioning
+    self.provisioning.prepare()
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/blazemeter.py", line 1548, in prepare
+    self.__dump_locations_if_needed()
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/blazemeter.py", line 1602, in __dump_locations_if_needed
+    raise NormalShutdown("Done listing locations")
+NormalShutdown: Done listing locations
+[2018-10-26 10:45:57,249 INFO Engine] Post-processing...
+[2018-10-26 10:45:57,249 DEBUG Engine.consolidator] Consolidator buffer[0]: []
+[2018-10-26 10:45:57,251 DEBUG Engine.Configuration] Dumping YAML config into /Users/chefe02/Desktop/presales_cert/2018-10-26_10-45-53.905003/effective.yml
+[2018-10-26 10:45:57,269 DEBUG Engine.Configuration] Dumping JSON config into /Users/chefe02/Desktop/presales_cert/2018-10-26_10-45-53.905003/effective.json
+[2018-10-26 10:45:57,270 INFO root] Artifacts dir: /Users/chefe02/Desktop/presales_cert/2018-10-26_10-45-53.905003
+[2018-10-26 10:45:57,270 INFO root] Done performing with code: 0
+[2018-10-26 10:45:57,270 DEBUG root] Closing log handler: /Users/chefe02/Desktop/presales_cert/2018-10-26_10-45-53.905003/bzt.log

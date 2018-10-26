@@ -1,0 +1,15 @@
+timeStamp,elapsed,Latency,label,responseCode,responseMessage,success,allThreads,bytes
+1540576982111,1174,0,go to home page,,,true,1,2
+1540576983287,12577,0,"search ""apple""",,,true,1,2
+1540576995865,4625,0,click macbook,,,true,1,2
+1540577000490,3062,0,add macbook to cart,,,true,1,2
+1540577003554,3591,0,"click ""books""",,,true,1,2
+1540577007146,3070,0,add fahrenheit 451 to cart,,,true,1,2
+1540577010217,3004,0,"click ""accessories""",,NameError: global name 'selff' is not defined,false,1,2
+1540577016460,1187,0,go to home page,,,true,1,2
+1540577017648,12579,0,"search ""apple""",,,true,1,2
+1540577030229,4709,0,click macbook,,,true,1,2
+1540577034938,3060,0,add macbook to cart,,,true,1,2
+1540577037999,3524,0,"click ""books""",,,true,1,2
+1540577041524,3054,0,add fahrenheit 451 to cart,,,true,1,2
+1540577044579,3004,0,"click ""accessories""",,NameError: global name 'selff' is not defined,false,1,2

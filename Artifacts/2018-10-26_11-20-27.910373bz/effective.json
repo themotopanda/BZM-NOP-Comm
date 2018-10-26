@@ -1,0 +1,462 @@
+{
+ "cli-aliases": {
+  "gui": {
+   "modules": {
+    "jmeter": {
+     "gui": true
+    }
+   }
+  }, 
+  "lint": {
+   "cli": {
+    "linter": {
+     "lint-and-exit": true
+    }
+   }
+  }, 
+  "locations": {
+   "modules": {
+    "cloud": {
+     "dump-locations": true
+    }
+   }, 
+   "provisioning": "cloud"
+  }, 
+  "report": {
+   "reporting": [
+    "blazemeter"
+   ]
+  }, 
+  "sequential": {
+   "modules": {
+    "local": {
+     "sequential": true
+    }
+   }
+  }, 
+  "func": {
+   "modules": {
+    "console": {
+     "disable": true
+    }
+   }, 
+   "settings": {
+    "aggregator": "functional-consolidator"
+   }
+  }, 
+  "nolint": {
+   "cli": {
+    "linter": {
+     "disable": true
+    }
+   }
+  }, 
+  "install-tools": {
+   "services": [
+    "install-checker"
+   ]
+  }, 
+  "detach": {
+   "modules": {
+    "cloud": {
+     "detach": true
+    }
+   }
+  }, 
+  "local": {
+   "provisioning": "local"
+  }, 
+  "public": {
+   "modules": {
+    "blazemeter": {
+     "public-report": true
+    }
+   }
+  }, 
+  "cloud": {
+   "provisioning": "cloud"
+  }
+ }, 
+ "cli": {
+  "linter": {
+   "lint-and-exit": false, 
+   "warn-on-unfamiliar-fields": false, 
+   "disable": false, 
+   "ignored-warnings": []
+  }
+ }, 
+ "settings": {
+  "aggregator": "consolidator", 
+  "env": {
+   "TAURUS_ARTIFACTS_DIR": "/Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-20-27.910373bz", 
+   "OBJC_DISABLE_INITIALIZE_FORK_SAFETY": "YES"
+  }, 
+  "artifacts-dir": "/Users/chefe02/Desktop/presales_cert/Artifacts/%Y-%m-%d_%H-%M-%S.%fbz", 
+  "default-executor": "jmeter"
+ }, 
+ "reporting": [
+  {
+   "module": "final-stats"
+  }, 
+  {
+   "module": "console"
+  }
+ ], 
+ "modules": {
+  "appium": {
+   "class": "bzt.modules.services.AppiumLoader"
+  }, 
+  "ab": {
+   "class": "bzt.modules.ab.ApacheBenchmarkExecutor"
+  }, 
+  "proxy2jmx": {
+   "class": "bzt.modules.proxy2jmx.Proxy2JMX"
+  }, 
+  "mocha": {
+   "class": "bzt.modules.javascript.MochaTester"
+  }, 
+  "blazemeter": {
+   "report-name": "NOP_SC3-Selenium from Yaml", 
+   "project": "presales_cert", 
+   "token": "********", 
+   "workspace": "litterbox", 
+   "test": "NOP_SC3-Selenium", 
+   "class": "bzt.modules.blazemeter.BlazeMeterUploader"
+  }, 
+  "external-results-loader": {
+   "class": "bzt.modules.external.ExternalResultsLoader"
+  }, 
+  "testng": {
+   "class": "bzt.modules.java.TestNGTester"
+  }, 
+  "cloud": {
+   "class": "bzt.modules.blazemeter.CloudProvisioning", 
+   "default-location": "us-central1-a"
+  }, 
+  "install-checker": {
+   "class": "bzt.modules.services.InstallChecker"
+  }, 
+  "monitoring": {
+   "class": "bzt.modules.monitoring.Monitoring"
+  }, 
+  "gatling": {
+   "class": "bzt.modules.gatling.GatlingExecutor", 
+   "properties": {
+    "gatling.data.file.bufferSize": 256
+   }
+  }, 
+  "grinder": {
+   "class": "bzt.modules.grinder.GrinderExecutor", 
+   "properties": {
+    "grinder.useConsole": false
+   }
+  }, 
+  "selenium": {
+   "class": "bzt.modules.selenium.SeleniumExecutor"
+  }, 
+  "tsung": {
+   "class": "bzt.modules.tsung.TsungExecutor"
+  }, 
+  "pytest": {
+   "class": "bzt.modules.python.PyTestExecutor"
+  }, 
+  "capturehar": {
+   "class": "bzt.modules.blazemeter.ServiceStubCaptureHAR"
+  }, 
+  "virtual-display": {
+   "class": "bzt.modules.services.VirtualDisplay"
+  }, 
+  "shellexec": {
+   "class": "bzt.modules.shellexec.ShellExecutor"
+  }, 
+  "junit": {
+   "class": "bzt.modules.java.JUnitTester"
+  }, 
+  "nunit": {
+   "class": "bzt.modules.csharp.NUnitExecutor"
+  }, 
+  "siege": {
+   "class": "bzt.modules.siege.SiegeExecutor"
+  }, 
+  "rspec": {
+   "class": "bzt.modules.ruby.RSpecTester"
+  }, 
+  "newman": {
+   "class": "bzt.modules.javascript.NewmanExecutor"
+  }, 
+  "final-stats": {
+   "class": "bzt.modules.reporting.FinalStatus"
+  }, 
+  "wdio": {
+   "class": "bzt.modules.javascript.WebdriverIOExecutor"
+  }, 
+  "pbench": {
+   "class": "bzt.modules.pbench.PBenchExecutor"
+  }, 
+  "console": {
+   "class": "bzt.modules.console.ConsoleStatusReporter"
+  }, 
+  "android-emulator": {
+   "class": "bzt.modules.services.AndroidEmulatorLoader"
+  }, 
+  "final_stats": {
+   "class": "bzt.modules.reporting.FinalStatus"
+  }, 
+  "functional-consolidator": {
+   "class": "bzt.modules.functional.FunctionalAggregator"
+  }, 
+  "jmeter": {
+   "class": "bzt.modules.jmeter.JMeterExecutor", 
+   "protocol-handlers": {
+    "http": "bzt.jmx.http.HTTPProtocolHandler"
+   }, 
+   "properties": {
+    "jmeter.save.saveservice.autoflush": "true", 
+    "jmeter.save.saveservice.connect_time": "true", 
+    "summariser.name": "", 
+    "jmeterengine.force.system.exit": "true"
+   }, 
+   "plugins": [
+    "jpgc-casutg", 
+    "jpgc-dummy", 
+    "jpgc-ffw", 
+    "jpgc-fifo", 
+    "jpgc-functions", 
+    "jpgc-json", 
+    "jpgc-perfmon", 
+    "jpgc-prmctl", 
+    "jpgc-tst"
+   ]
+  }, 
+  "apiritif": {
+   "class": "bzt.modules.python.ApiritifNoseExecutor"
+  }, 
+  "local": {
+   "class": "bzt.modules.provisioning.Local"
+  }, 
+  "locust": {
+   "class": "bzt.modules.locustio.LocustIOExecutor"
+  }, 
+  "robot": {
+   "class": "bzt.modules.python.RobotExecutor"
+  }, 
+  "screenshoter": {
+   "class": "bzt.modules.blazemeter.ServiceStubScreenshoter"
+  }, 
+  "passfail": {
+   "class": "bzt.modules.passfail.PassFailStatus"
+  }, 
+  "nose": {
+   "ignore-unknown-actions": true, 
+   "class": "bzt.modules.python.ApiritifNoseExecutor"
+  }, 
+  "molotov": {
+   "class": "bzt.modules.molotov.MolotovExecutor"
+  }, 
+  "consolidator": {
+   "percentiles": [
+    0, 
+    50, 
+    90, 
+    95, 
+    99, 
+    99.9, 
+    100
+   ], 
+   "class": "bzt.modules.aggregator.ConsolidatingAggregator"
+  }, 
+  "unpacker": {
+   "class": "bzt.modules.services.Unpacker"
+  }, 
+  "junit-xml": {
+   "class": "bzt.modules.reporting.JUnitXMLReporter"
+  }
+ }, 
+ "provisioning": "local", 
+ "scenarios": {
+  "NOP_SC3.py": {
+   "script": "/Users/chefe02/Desktop/presales_cert/NOP_SC3.py"
+  }, 
+  "NOP_SC3-Selenium": {
+   "think-time": "0s", 
+   "headless": false, 
+   "requests": [
+    {
+     "url": null, 
+     "actions": [
+      "go(http://demo.bzm-presales.com/nopcommerce)"
+     ], 
+     "label": "go to home page"
+    }, 
+    {
+     "url": null, 
+     "actions": [
+      "clickByID(small-searchterms)", 
+      {
+       "typeByID(small-searchterms)": "apple"
+      }, 
+      "submitByID(small-search-box-form)"
+     ], 
+     "label": "search \"apple\""
+    }, 
+    {
+     "url": null, 
+     "actions": [
+      "clickByCSS(div.picture > a[title=\"Show details for Apple MacBook Pro 13-inch\"] > img[alt=\"Picture of Apple MacBook Pro 13-inch\"])"
+     ], 
+     "label": "click macbook"
+    }, 
+    {
+     "url": null, 
+     "actions": [
+      "clickByID(add-to-cart-button-4)"
+     ], 
+     "label": "add macbook to cart"
+    }, 
+    {
+     "url": null, 
+     "actions": [
+      "clickByLinkText(Books)"
+     ], 
+     "label": "click \"books\""
+    }, 
+    {
+     "url": null, 
+     "actions": [
+      "clickByCSS(input.button-2.product-box-add-to-cart-button)"
+     ], 
+     "label": "add fahrenheit 451 to cart"
+    }, 
+    {
+     "url": null, 
+     "actions": [
+      "clickByLinkText(Apparel)", 
+      "clickByCSS(img[alt=\"Picture for category Accessories\"])"
+     ], 
+     "label": "click \"accessories\""
+    }, 
+    {
+     "url": null, 
+     "actions": [
+      "clickByXPath((//input[@value='Add to cart'])[2])"
+     ], 
+     "label": "add sunglasses to cart"
+    }, 
+    {
+     "url": null, 
+     "actions": [
+      "clickByLinkText(shopping cart)", 
+      "clickByID(termsofservice)", 
+      "clickByID(checkout)", 
+      "clickByCSS(input.button-1.checkout-as-guest-button)", 
+      "clickByID(NewAddress_FirstName)", 
+      {
+       "typeByID(NewAddress_FirstName)": "captain"
+      }, 
+      {
+       "typeByID(NewAddress_LastName)": "herp-a-derp"
+      }, 
+      {
+       "typeByID(NewAddress_Email)": "felicia.chen@blazemeter.com"
+      }, 
+      {
+       "selectByID(NewAddress_CountryId)": "United States"
+      }, 
+      {
+       "typeByID(NewAddress_City)": "pirate cove"
+      }, 
+      {
+       "typeByID(NewAddress_Address1)": "123 tall ship st."
+      }, 
+      {
+       "typeByID(NewAddress_ZipPostalCode)": "95050"
+      }, 
+      {
+       "typeByID(NewAddress_PhoneNumber)": "4081234567"
+      }, 
+      {
+       "selectByID(NewAddress_StateProvinceId)": "California"
+      }, 
+      "clickByName(nextstep)", 
+      "clickByName(nextstep)", 
+      "clickByName(nextstep)", 
+      "clickByName(nextstep)", 
+      "clickByName(nextstep)", 
+      "clickByCSS(input.button-1.order-completed-continue-button)"
+     ], 
+     "label": "checkout as guest"
+    }
+   ], 
+   "timeout": "60s", 
+   "browser": "Chrome"
+  }
+ }, 
+ "version": "1.13.0", 
+ "included-configs": [], 
+ "services": [
+  {
+   "local": [
+    {
+     "metrics": [
+      "cpu", 
+      "mem", 
+      "bytes-sent", 
+      "bytes-recv", 
+      "disk-read", 
+      "disk-write", 
+      "disk-space", 
+      "engine-loop", 
+      "conn-all"
+     ]
+    }
+   ], 
+   "module": "monitoring"
+  }, 
+  {
+   "module": "capturehar"
+  }, 
+  {
+   "module": "screenshoter"
+  }, 
+  {
+   "module": "capturehar"
+  }, 
+  {
+   "module": "screenshoter"
+  }
+ ], 
+ "execution": [
+  {
+   "files": [], 
+   "scenario": "NOP_SC3.py", 
+   "locations": {
+    "us-west-1": 1
+   }, 
+   "throughput": {
+    "local": null
+   }, 
+   "concurrency": {
+    "local": 1, 
+    "cloud": 1
+   }, 
+   "executor": "selenium", 
+   "hold-for": "10m"
+  }, 
+  {
+   "files": [], 
+   "concurrency": {
+    "local": 1, 
+    "cloud": 1
+   }, 
+   "scenario": "NOP_SC3-Selenium", 
+   "locations": {
+    "azure-eu-west-2": 1
+   }, 
+   "throughput": {
+    "local": null
+   }, 
+   "iterations": 1, 
+   "executor": "selenium"
+  }
+ ]
+}

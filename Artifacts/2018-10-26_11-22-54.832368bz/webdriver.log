@@ -1,0 +1,140 @@
+[1540578177.009][INFO]: COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1540578177.012][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1540578177.012][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1540578177.657][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension=/var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/.org.chromium.Chromium.qoSE8Y/internal --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/.org.chromium.Chromium.UevggL data:,
+[1540578179.248][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1540578179.291][INFO]: RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363)",
+      "userDataDir": "/var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/.org.chromium.Chromium.UevggL"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Mac OS X",
+   "rotatable": false,
+   "setWindowRect": true,
+   "~~~": "..."
+}
+[1540578179.294][INFO]: COMMAND SetImplicitWait {
+   "ms": 60000.0,
+   "sessionId": "cf29df1eb5d72f86afa4c3f287c5e5a1"
+}
+[1540578179.294][INFO]: RESPONSE SetImplicitWait
+[1540578179.295][INFO]: COMMAND SetImplicitWait {
+   "ms": 60000.0,
+   "sessionId": "cf29df1eb5d72f86afa4c3f287c5e5a1"
+}
+[1540578179.295][INFO]: RESPONSE SetImplicitWait
+[1540578179.296][INFO]: COMMAND Navigate {
+   "sessionId": "cf29df1eb5d72f86afa4c3f287c5e5a1",
+   "url": "http://demo-caapm.bzm-presales.com/nopcommerce"
+}
+[1540578179.296][INFO]: Waiting for pending navigations...
+[1540578179.297][INFO]: Done waiting for pending navigations. Status: ok
+[1540578179.576][INFO]: Waiting for pending navigations...
+[1540578179.712][INFO]: Done waiting for pending navigations. Status: ok
+[1540578179.712][INFO]: RESPONSE Navigate
+[1540578179.714][INFO]: COMMAND FindElement {
+   "sessionId": "cf29df1eb5d72f86afa4c3f287c5e5a1",
+   "using": "id",
+   "value": "small-searchterms"
+}
+[1540578179.714][INFO]: Waiting for pending navigations...
+[1540578179.715][INFO]: Done waiting for pending navigations. Status: ok

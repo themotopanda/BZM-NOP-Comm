@@ -1,0 +1,31 @@
+timeStamp,elapsed,Latency,label,responseCode,responseMessage,success,allThreads,bytes
+1540577441882,1192,0,go to home page,,,true,1,2
+1540577443075,6644,0,"search ""apple""",,,true,1,2
+1540577449720,4619,0,click macbook,,,true,1,2
+1540577454340,3054,0,add macbook to cart,,,true,1,2
+1540577457396,3593,0,"click ""books""",,,true,1,2
+1540577460990,3066,0,add fahrenheit 451 to cart,,,true,1,2
+1540577464056,3065,0,"click ""accessories""",,"WebDriverException: Message: unknown error: Element <a href=""/nopCommerce/apparel"">...</a> is not clickable at point (474, 15). Other element would receive the click: <p class=""content"">...</p>
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)
+",false,1,2
+1540577470524,6294,0,go to home page,,,true,1,2
+1540577476819,6547,0,"search ""apple""",,,true,1,2
+1540577483367,4332,0,click macbook,,,true,1,2
+1540577487700,3058,0,add macbook to cart,,,true,1,2
+1540577490759,3753,0,"click ""books""",,,true,1,2
+1540577494514,3058,0,add fahrenheit 451 to cart,,,true,1,2
+1540577497573,3052,0,"click ""accessories""",,"WebDriverException: Message: unknown error: Element <a href=""/nopCommerce/apparel"">...</a> is not clickable at point (474, 15). Other element would receive the click: <p class=""content"">...</p>
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)
+",false,1,2
+1540577503977,1123,0,go to home page,,,true,1,2
+1540577505101,6555,0,"search ""apple""",,,true,1,2
+1540577511656,4479,0,click macbook,,,true,1,2
+1540577516137,3068,0,add macbook to cart,,,true,1,2
+1540577519205,3508,0,"click ""books""",,,true,1,2
+1540577522714,3055,0,add fahrenheit 451 to cart,,,true,1,2
+1540577525771,3058,0,"click ""accessories""",,"WebDriverException: Message: unknown error: Element <a href=""/nopCommerce/apparel"">...</a> is not clickable at point (474, 15). Other element would receive the click: <p class=""content"">...</p>
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)
+",false,1,2

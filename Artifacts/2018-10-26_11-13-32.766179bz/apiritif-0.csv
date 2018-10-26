@@ -1,0 +1,71 @@
+timeStamp,elapsed,Latency,label,responseCode,responseMessage,success,allThreads,bytes
+1540577617104,1364,0,go to home page,,,true,1,2
+1540577618469,6691,0,"search ""apple""",,,true,1,2
+1540577625161,5175,0,click macbook,,,true,1,2
+1540577630338,3070,0,add macbook to cart,,,true,1,2
+1540577633408,3611,0,"click ""books""",,,true,1,2
+1540577637020,3068,0,add fahrenheit 451 to cart,,,true,1,2
+1540577640088,3057,0,"click ""downloads""",,"WebDriverException: Message: unknown error: Element <a href=""/nopCommerce/digital-downloads"">...</a> is not clickable at point (621, 15). Other element would receive the click: <p class=""content"">...</p>
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)
+",false,1,2
+1540577646715,1443,0,go to home page,,,true,1,2
+1540577648159,6577,0,"search ""apple""",,,true,1,2
+1540577654736,6791,0,click macbook,,,true,1,2
+1540577661528,3058,0,add macbook to cart,,,true,1,2
+1540577664587,3521,0,"click ""books""",,,true,1,2
+1540577668109,3059,0,add fahrenheit 451 to cart,,,true,1,2
+1540577671169,3062,0,"click ""downloads""",,"WebDriverException: Message: unknown error: Element <a href=""/nopCommerce/digital-downloads"">...</a> is not clickable at point (621, 15). Other element would receive the click: <p class=""content"">...</p>
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)
+",false,1,2
+1540577677683,1227,0,go to home page,,,true,1,2
+1540577678911,6592,0,"search ""apple""",,,true,1,2
+1540577685503,4511,0,click macbook,,,true,1,2
+1540577690015,3059,0,add macbook to cart,,,true,1,2
+1540577693075,3694,0,"click ""books""",,,true,1,2
+1540577696770,3049,0,add fahrenheit 451 to cart,,,true,1,2
+1540577699820,3056,0,"click ""downloads""",,"WebDriverException: Message: unknown error: Element <a href=""/nopCommerce/digital-downloads"">...</a> is not clickable at point (621, 15). Other element would receive the click: <p class=""content"">...</p>
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)
+",false,1,2
+1540577706588,1267,0,go to home page,,,true,1,2
+1540577707856,6534,0,"search ""apple""",,,true,1,2
+1540577714390,7091,0,click macbook,,,true,1,2
+1540577721482,3064,0,add macbook to cart,,,true,1,2
+1540577724547,3605,0,"click ""books""",,,true,1,2
+1540577728153,3059,0,add fahrenheit 451 to cart,,,true,1,2
+1540577731212,3055,0,"click ""downloads""",,"WebDriverException: Message: unknown error: Element <a href=""/nopCommerce/digital-downloads"">...</a> is not clickable at point (621, 20). Other element would receive the click: <p class=""content"">...</p>
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)
+",false,1,2
+1540577737661,1306,0,go to home page,,,true,1,2
+1540577738968,6690,0,"search ""apple""",,,true,1,2
+1540577745659,5731,0,click macbook,,,true,1,2
+1540577751390,3061,0,add macbook to cart,,,true,1,2
+1540577754453,3576,0,"click ""books""",,,true,1,2
+1540577758030,3059,0,add fahrenheit 451 to cart,,,true,1,2
+1540577761090,3053,0,"click ""downloads""",,"WebDriverException: Message: unknown error: Element <a href=""/nopCommerce/digital-downloads"">...</a> is not clickable at point (621, 15). Other element would receive the click: <p class=""content"">...</p>
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)
+",false,1,2
+1540577767597,1404,0,go to home page,,,true,1,2
+1540577769002,6590,0,"search ""apple""",,,true,1,2
+1540577775593,4850,0,click macbook,,,true,1,2
+1540577780444,3070,0,add macbook to cart,,,true,1,2
+1540577783514,3622,0,"click ""books""",,,true,1,2
+1540577787138,3076,0,add fahrenheit 451 to cart,,,true,1,2
+1540577790214,3047,0,"click ""downloads""",,"WebDriverException: Message: unknown error: Element <a href=""/nopCommerce/digital-downloads"">...</a> is not clickable at point (621, 20). Other element would receive the click: <p class=""content"">...</p>
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)
+",false,1,2
+1540577796891,1241,0,go to home page,,,true,1,2
+1540577798133,6546,0,"search ""apple""",,,true,1,2
+1540577804680,4971,0,click macbook,,,true,1,2
+1540577809652,3066,0,add macbook to cart,,,true,1,2
+1540577812719,3587,0,"click ""books""",,,true,1,2
+1540577816307,3061,0,add fahrenheit 451 to cart,,,true,1,2
+1540577819369,3050,0,"click ""downloads""",,"WebDriverException: Message: unknown error: Element <a href=""/nopCommerce/digital-downloads"">...</a> is not clickable at point (621, 15). Other element would receive the click: <p class=""content"">...</p>
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)
+",false,1,2

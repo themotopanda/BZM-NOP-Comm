@@ -1,0 +1,24 @@
+======================================================================
+ERROR: test_requests (NOP_SC3.NOPCommerceTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/chefe02/Desktop/presales_cert/NOP_SC3.py", line 71, in test_requests
+    selff.criver.find_element(By.LINK_TEXT, _tpl.apply(u'Apparel')).click()
+NameError: global name 'selff' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 31.922s
+
+FAILED (errors=1)
+======================================================================
+ERROR: test_requests (NOP_SC3.NOPCommerceTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/chefe02/Desktop/presales_cert/NOP_SC3.py", line 71, in test_requests
+    sleep(3)
+NameError: global name 'selff' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 31.783s
+
+FAILED (errors=1)

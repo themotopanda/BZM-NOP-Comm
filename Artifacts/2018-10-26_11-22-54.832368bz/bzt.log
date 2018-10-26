@@ -1,0 +1,172 @@
+[2018-10-26 11:22:54,764 INFO root] Taurus CLI Tool v1.13.0
+[2018-10-26 11:22:54,764 DEBUG root] Command-line options: {'verbose': None, 'no_system_configs': None, 'quiet': None, 'log': '/var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/bzt_7JQPUz.log', 'option': None, 'aliases': []}
+[2018-10-26 11:22:54,765 DEBUG root] Python: CPython 2.7.15
+[2018-10-26 11:22:54,765 DEBUG root] OS: ('Darwin', 'chefe02mac947', '17.7.0', 'Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64', 'x86_64', 'i386')
+[2018-10-26 11:22:54,765 INFO root] Starting with configs: ['NOP_SC3-SY.yaml']
+[2018-10-26 11:22:54,765 DEBUG root] Using personal config: /Users/chefe02/.bzt-rc
+[2018-10-26 11:22:54,765 INFO Engine] Configuring...
+[2018-10-26 11:22:54,766 DEBUG Engine] No machine configs dir: /usr/local/Cellar/bzt/1.13.0/libexec/bin/../etc/bzt.d
+[2018-10-26 11:22:54,766 DEBUG Engine] Base configs list: ['/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/resources/base-config.yml']
+[2018-10-26 11:22:54,766 DEBUG Engine.Configuration] Configs: ['/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/resources/base-config.yml']
+[2018-10-26 11:22:54,766 DEBUG Engine.Configuration] Reading /usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/resources/base-config.yml as YAML
+[2018-10-26 11:22:54,792 DEBUG Engine] User configs list: ['/Users/chefe02/.bzt-rc', 'NOP_SC3-SY.yaml']
+[2018-10-26 11:22:54,793 DEBUG Engine.Configuration] Configs: ['/Users/chefe02/.bzt-rc', 'NOP_SC3-SY.yaml']
+[2018-10-26 11:22:54,793 DEBUG Engine.Configuration] Reading /Users/chefe02/.bzt-rc as YAML
+[2018-10-26 11:22:54,797 DEBUG Engine.Configuration] Reading NOP_SC3-SY.yaml as YAML
+[2018-10-26 11:22:54,807 DEBUG Engine.Configuration] Configs: ['/Users/chefe02/.bzt-rc', 'NOP_SC3-SY.yaml']
+[2018-10-26 11:22:54,808 DEBUG Engine.Configuration] Reading /Users/chefe02/.bzt-rc as YAML
+[2018-10-26 11:22:54,813 DEBUG Engine.Configuration] Reading NOP_SC3-SY.yaml as YAML
+[2018-10-26 11:22:54,832 DEBUG Engine] Requesting updates info: http://gettaurus.org/updates/?version=1.13.0&installID=macos-8c85905fb9f6
+[2018-10-26 11:22:54,832 DEBUG HTTPClient] Making HTTP request GET http://gettaurus.org/updates/?version=1.13.0&installID=macos-8c85905fb9f6
+[2018-10-26 11:22:54,832 INFO Engine] Artifacts dir: /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz
+[2018-10-26 11:22:54,837 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/effective
+[2018-10-26 11:22:54,840 DEBUG urllib3.connectionpool] Starting new HTTP connection (1): gettaurus.org:80
+[2018-10-26 11:22:54,841 DEBUG Engine.Configuration] Dumping YAML config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/effective.yml
+[2018-10-26 11:22:54,870 DEBUG Engine.Configuration] Dumping JSON config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/effective.json
+[2018-10-26 11:22:54,871 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/merged.yml
+[2018-10-26 11:22:54,872 DEBUG Engine.Configuration] Dumping YAML config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/merged.yml
+[2018-10-26 11:22:54,881 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/merged.json
+[2018-10-26 11:22:54,882 DEBUG Engine.Configuration] Dumping JSON config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/merged.json
+[2018-10-26 11:22:54,883 DEBUG Engine] Add existing artifact (move=False): NOP_SC3-SY.yaml
+[2018-10-26 11:22:54,883 DEBUG Engine] Copying NOP_SC3-SY.yaml to /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/NOP_SC3-SY.yaml
+[2018-10-26 11:22:54,883 DEBUG Engine.Environment] Replace 'TAURUS_ARTIFACTS_DIR' in environment
+[2018-10-26 11:22:54,884 DEBUG root] Closing log handler: /var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/bzt_7JQPUz.log
+[2018-10-26 11:22:55,425 DEBUG root] Switched writing logs to /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/bzt.log
+[2018-10-26 11:22:55,425 DEBUG root] Linting config
+[2018-10-26 11:22:55,429 INFO Engine] Preparing...
+[2018-10-26 11:22:55,430 DEBUG Engine] Module config: consolidator {'class': u'bzt.modules.aggregator.ConsolidatingAggregator'}
+[2018-10-26 11:22:55,430 DEBUG root] Importing module: bzt.modules.aggregator
+[2018-10-26 11:22:55,522 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/aggregator.pyc'>
+[2018-10-26 11:22:55,522 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2018-10-26 11:22:55,522 DEBUG Engine] Module config: monitoring {'class': u'bzt.modules.monitoring.Monitoring'}
+[2018-10-26 11:22:55,522 DEBUG root] Importing module: bzt.modules.monitoring
+[2018-10-26 11:22:55,523 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/monitoring.pyc'>
+[2018-10-26 11:22:55,524 DEBUG Engine] Module config: capturehar {'class': u'bzt.modules.blazemeter.ServiceStubCaptureHAR'}
+[2018-10-26 11:22:55,524 DEBUG root] Importing module: bzt.modules.blazemeter
+[2018-10-26 11:22:55,530 DEBUG easyprocess] version=0.2.3
+[2018-10-26 11:22:55,532 DEBUG pyvirtualdisplay] version=0.2.1
+[2018-10-26 11:22:55,533 DEBUG root] Loading class: 'ServiceStubCaptureHAR' from <module 'bzt.modules.blazemeter' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/blazemeter.pyc'>
+[2018-10-26 11:22:55,533 DEBUG Engine] Module config: screenshoter {'class': u'bzt.modules.blazemeter.ServiceStubScreenshoter'}
+[2018-10-26 11:22:55,533 DEBUG root] Importing module: bzt.modules.blazemeter
+[2018-10-26 11:22:55,533 DEBUG root] Loading class: 'ServiceStubScreenshoter' from <module 'bzt.modules.blazemeter' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/blazemeter.pyc'>
+[2018-10-26 11:22:55,533 DEBUG Engine] Module config: local {'class': u'bzt.modules.provisioning.Local'}
+[2018-10-26 11:22:55,533 DEBUG root] Importing module: bzt.modules.provisioning
+[2018-10-26 11:22:55,534 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/provisioning.pyc'>
+[2018-10-26 11:22:55,534 DEBUG Engine] Module config: selenium {'class': u'bzt.modules.selenium.SeleniumExecutor'}
+[2018-10-26 11:22:55,534 DEBUG root] Importing module: bzt.modules.selenium
+[2018-10-26 11:22:55,535 DEBUG root] Loading class: 'SeleniumExecutor' from <module 'bzt.modules.selenium' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/selenium.pyc'>
+[2018-10-26 11:22:55,535 DEBUG Engine.local] Preparing executor: selenium/4424705424
+[2018-10-26 11:22:55,535 DEBUG Engine] Module config: nose {'class': u'bzt.modules.python.ApiritifNoseExecutor'}
+[2018-10-26 11:22:55,535 DEBUG root] Importing module: bzt.modules.python
+[2018-10-26 11:22:55,549 DEBUG root] Loading class: 'ApiritifNoseExecutor' from <module 'bzt.modules.python' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/python/__init__.pyc'>
+[2018-10-26 11:22:55,550 DEBUG urllib3.connectionpool] http://gettaurus.org:80 "GET /updates/?version=1.13.0&installID=macos-8c85905fb9f6 HTTP/1.1" 200 59
+[2018-10-26 11:22:55,550 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/test_requests.py
+[2018-10-26 11:22:55,551 DEBUG Engine] Taurus updates info: {u'needsUpgrade': True, u'latest': u'1.13.1'}
+[2018-10-26 11:22:55,551 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/webdriver.log
+[2018-10-26 11:22:55,551 WARNING Engine] There is newer version of Taurus 1.13.1 available, consider upgrading. What's new: http://gettaurus.org/docs/Changelog/
+[2018-10-26 11:22:55,551 DEBUG Engine.nose.SeleniumScriptBuilder] Generating Test Case test methods
+[2018-10-26 11:22:55,552 DEBUG Engine.nose.SeleniumScriptBuilder] Generating setUp test method
+[2018-10-26 11:22:55,552 DEBUG Engine.nose.SeleniumScriptBuilder] Generating tearDown test method
+[2018-10-26 11:22:55,552 DEBUG Engine.nose.SeleniumScriptBuilder] Generating test method test_requests
+[2018-10-26 11:22:55,555 DEBUG Engine] Module config: final-stats {'class': u'bzt.modules.reporting.FinalStatus'}
+[2018-10-26 11:22:55,556 DEBUG root] Importing module: bzt.modules.reporting
+[2018-10-26 11:22:55,556 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/reporting.pyc'>
+[2018-10-26 11:22:55,556 DEBUG Engine] Module config: console {'class': u'bzt.modules.console.ConsoleStatusReporter'}
+[2018-10-26 11:22:55,556 DEBUG root] Importing module: bzt.modules.console
+[2018-10-26 11:22:55,556 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/console.pyc'>
+[2018-10-26 11:22:55,563 DEBUG Engine.Configuration] Dumping YAML config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/effective.yml
+[2018-10-26 11:22:55,588 DEBUG Engine.Configuration] Dumping JSON config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/effective.json
+[2018-10-26 11:22:55,589 INFO Engine] Starting...
+[2018-10-26 11:22:55,589 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x107be6190>
+[2018-10-26 11:22:55,589 DEBUG Engine] Startup <bzt.modules.blazemeter.ServiceStubCaptureHAR object at 0x109384350>
+[2018-10-26 11:22:55,589 WARNING Engine.capturehar] Stub for service 'capturehar', use cloud provisioning to have it working
+[2018-10-26 11:22:55,589 DEBUG Engine] Startup <bzt.modules.blazemeter.ServiceStubScreenshoter object at 0x1093cab90>
+[2018-10-26 11:22:55,589 WARNING Engine.screenshoter] Stub for service 'screenshoter', use cloud provisioning to have it working
+[2018-10-26 11:22:55,589 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x107be63d0>
+[2018-10-26 11:22:55,590 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x107c010d0>
+[2018-10-26 11:22:55,590 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x1095290d0>
+[2018-10-26 11:22:55,590 INFO Engine.console] Waiting for results...
+[2018-10-26 11:22:55,590 DEBUG Engine] Startup <bzt.modules.provisioning.Local object at 0x107bba5d0>
+[2018-10-26 11:22:55,590 DEBUG Engine.local] Delay setup for selenium/NOP_SC3-Selenium: 0(start-at) + 0(delay) = 0
+[2018-10-26 11:22:55,593 DEBUG Engine.Configuration] Dumping YAML config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/effective.yml
+[2018-10-26 11:22:55,622 DEBUG Engine.Configuration] Dumping JSON config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/effective.json
+[2018-10-26 11:22:55,623 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2018-10-26 11:22:55,623 DEBUG root] Leveled up log file verbosity
+[2018-10-26 11:22:55,623 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/apiritif-
+[2018-10-26 11:22:55,623 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/nose.out
+[2018-10-26 11:22:55,624 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/nose.err
+[2018-10-26 11:22:55,624 DEBUG bzt.utils] Executing shell: ['/usr/local/Cellar/bzt/1.13.0/libexec/bin/python2.7', '-m', 'apiritif.loadgen', '--result-file-template', '/Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/apiritif-%s.csv', '--concurrency', '1', '--iterations', '1', '/Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/test_requests.py'] at /Users/chefe02/Desktop/presales_cert
+[2018-10-26 11:22:55,630 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2018-10-26 11:22:55,848 INFO Engine.console] Waiting for finish...
+[2018-10-26 11:23:23,319 WARNING Engine] Please wait for graceful shutdown...
+[2018-10-26 11:23:23,322 DEBUG root] Leveled up log file verbosity
+[2018-10-26 11:23:23,322 INFO Engine] Shutting down...
+[2018-10-26 11:23:23,325 DEBUG Engine] Current stop reason: 
+[2018-10-26 11:23:23,326 DEBUG Engine.local] Shutdown selenium/NOP_SC3-Selenium
+[2018-10-26 11:23:24,330 INFO Engine.nose] Terminating process PID 47776 with signal 15 (59 tries left)
+[2018-10-26 11:23:25,336 INFO Engine.nose] Terminating process PID 47776 with signal 15 (58 tries left)
+[2018-10-26 11:23:25,341 DEBUG Engine.selenium] Selenium tests ran for 29.7178900242 seconds
+[2018-10-26 11:23:25,343 DEBUG Engine.console] Restoring logging streams, [<logging.StreamHandler object at 0x107bb1c10>]/{<logging.StreamHandler object at 0x107bb1c10>: <open file '<stdout>', mode 'w' at 0x106349150>}
+[2018-10-26 11:23:25,347 DEBUG Engine.Configuration] Dumping YAML config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/effective.yml
+[2018-10-26 11:23:25,372 DEBUG Engine.Configuration] Dumping JSON config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/effective.json
+[2018-10-26 11:23:25,374 WARNING root] Keyboard interrupt
+[2018-10-26 11:23:25,374 DEBUG root] KeyboardInterrupt: 
+Traceback (most recent call last):
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/cli.py", line 261, in perform
+    self.engine.run()
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/engine.py", line 226, in run
+    reraise(exc_info, exc_value)
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/engine.py", line 206, in run
+    self._wait()
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/engine.py", line 254, in _wait
+    time.sleep(delay)
+KeyboardInterrupt
+[2018-10-26 11:23:25,374 INFO Engine] Post-processing...
+[2018-10-26 11:23:25,374 DEBUG Engine.local] Post-process selenium/NOP_SC3-Selenium
+[2018-10-26 11:23:25,374 DEBUG Engine.nose.FileReader] Reading: /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/nose.out
+[2018-10-26 11:23:25,374 DEBUG Engine.nose.FileReader] Reading: /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/nose.out
+[2018-10-26 11:23:25,723 DEBUG Engine.local] Exception in post_process of SeleniumExecutor: Empty results, most likely NOP_SC3-Selenium (SeleniumExecutor) failed. Actual reason for this can be found in logs under /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz Traceback (most recent call last):
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/provisioning.py", line 172, in post_process
+    raise ToolError(message, diagnostics)
+ToolError: Empty results, most likely NOP_SC3-Selenium (SeleniumExecutor) failed. Actual reason for this can be found in logs under /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz
+
+[2018-10-26 11:23:25,723 DEBUG Engine] post_process: Empty results, most likely NOP_SC3-Selenium (SeleniumExecutor) failed. Actual reason for this can be found in logs under /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz
+Traceback (most recent call last):
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/engine.py", line 296, in post_process
+    module.post_process()
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/provisioning.py", line 181, in post_process
+    reraise(exc_info, exc_value)
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/provisioning.py", line 172, in post_process
+    raise ToolError(message, diagnostics)
+ToolError: Empty results, most likely NOP_SC3-Selenium (SeleniumExecutor) failed. Actual reason for this can be found in logs under /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz
+
+[2018-10-26 11:23:25,724 DEBUG Engine.nose.ApiritifLoadReader.JTLReader.IncrementalCSVReader.FileReader] Reading: /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/apiritif-0.csv
+[2018-10-26 11:23:25,724 DEBUG Engine.nose.ApiritifLoadReader] Buffer len: 0; Known errors count: 0
+[2018-10-26 11:23:25,724 DEBUG Engine.consolidator] Consolidator buffer[0]: []
+[2018-10-26 11:23:25,724 INFO Engine.final-stats] Test duration: 0:00:30
+[2018-10-26 11:23:25,724 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2018-10-26 11:23:25,727 DEBUG Engine.Configuration] Dumping YAML config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/effective.yml
+[2018-10-26 11:23:25,759 DEBUG Engine.Configuration] Dumping JSON config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/effective.json
+[2018-10-26 11:23:25,760 DEBUG root] Child Process Error: Empty results, most likely NOP_SC3-Selenium (SeleniumExecutor) failed. Actual reason for this can be found in logs under /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz
+[2018-10-26 11:23:25,761 DEBUG root] ApiritifNoseExecutor STDOUT:
+2018-10-26 11:22:55,932:INFO:47776:123145558499328:loadgen:Total workers: 1
+2018-10-26 11:22:55,939:INFO:47779:123145558499328:loadgen:Adding worker: idx=0	concurrency=1	results=/Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/apiritif-0.csv
+2018-10-26 11:22:59,295:INFO:47779:123145533071360:apiritif.recorder:Transaction started:: start_time=1540578179.295,name=go to home page
+2018-10-26 11:22:59,712:INFO:47779:123145533071360:apiritif.recorder:Transaction ended:: duration=0.417,name=go to home page
+2018-10-26 11:22:59,712:INFO:47779:123145533071360:apiritif.recorder:Transaction started:: start_time=1540578179.713,name=search "apple"
+[2018-10-26 11:23:25,761 DEBUG root] ToolError: Empty results, most likely NOP_SC3-Selenium (SeleniumExecutor) failed. Actual reason for this can be found in logs under /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz
+Traceback (most recent call last):
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/cli.py", line 268, in perform
+    self.engine.post_process()
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/engine.py", line 311, in post_process
+    reraise(exc_info, exc_value)
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/engine.py", line 296, in post_process
+    module.post_process()
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/provisioning.py", line 181, in post_process
+    reraise(exc_info, exc_value)
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/provisioning.py", line 172, in post_process
+    raise ToolError(message, diagnostics)
+ToolError: Empty results, most likely NOP_SC3-Selenium (SeleniumExecutor) failed. Actual reason for this can be found in logs under /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz
+[2018-10-26 11:23:25,761 INFO root] Artifacts dir: /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz
+[2018-10-26 11:23:25,761 WARNING root] Done performing with code: 1
+[2018-10-26 11:23:25,761 DEBUG root] Closing log handler: /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-22-54.832368bz/bzt.log

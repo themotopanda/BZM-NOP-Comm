@@ -1,0 +1,41 @@
+timeStamp,elapsed,Latency,label,responseCode,responseMessage,success,allThreads,bytes
+1540578371231,1140,0,go to home page,,,true,1,2
+1540578372373,6556,0,"search ""apple""",,,true,1,2
+1540578378930,5164,0,click macbook,,,true,1,2
+1540578384094,3064,0,add macbook to cart,,,true,1,2
+1540578387165,3540,0,"click ""books""",,,true,1,2
+1540578390707,3068,0,add fahrenheit 451 to cart,,,true,1,2
+1540578393776,3064,0,"click ""accessories""",,"WebDriverException: Message: unknown error: Element <a href=""/nopCommerce/apparel"">...</a> is not clickable at point (474, 15). Other element would receive the click: <p class=""content"">...</p>
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)
+",false,1,2
+1540578400245,1121,0,go to home page,,,true,1,2
+1540578401367,6553,0,"search ""apple""",,,true,1,2
+1540578407921,4721,0,click macbook,,,true,1,2
+1540578412644,3064,0,add macbook to cart,,,true,1,2
+1540578415709,3516,0,"click ""books""",,,true,1,2
+1540578419225,3066,0,add fahrenheit 451 to cart,,,true,1,2
+1540578422293,3064,0,"click ""accessories""",,"WebDriverException: Message: unknown error: Element <a href=""/nopCommerce/apparel"">...</a> is not clickable at point (474, 15). Other element would receive the click: <p class=""content"">...</p>
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)
+",false,1,2
+1540578428677,1134,0,go to home page,,,true,1,2
+1540578429812,6570,0,"search ""apple""",,,true,1,2
+1540578436384,5221,0,click macbook,,,true,1,2
+1540578441606,3063,0,add macbook to cart,,,true,1,2
+1540578444670,3514,0,"click ""books""",,,true,1,2
+1540578448186,3051,0,add fahrenheit 451 to cart,,,true,1,2
+1540578451238,3055,0,"click ""accessories""",,"WebDriverException: Message: unknown error: Element <a href=""/nopCommerce/apparel"">...</a> is not clickable at point (474, 15). Other element would receive the click: <p class=""content"">...</p>
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)
+",false,1,2
+1540578457562,1114,0,go to home page,,,true,1,2
+1540578458677,6573,0,"search ""apple""",,,true,1,2
+1540578465251,4439,0,click macbook,,,true,1,2
+1540578469692,3066,0,add macbook to cart,,,true,1,2
+1540578472759,3534,0,"click ""books""",,,true,1,2
+1540578476293,3063,0,add fahrenheit 451 to cart,,,true,1,2
+1540578479357,3055,0,"click ""accessories""",,"WebDriverException: Message: unknown error: Element <a href=""/nopCommerce/apparel"">...</a> is not clickable at point (474, 15). Other element would receive the click: <p class=""content"">...</p>
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)
+",false,1,2

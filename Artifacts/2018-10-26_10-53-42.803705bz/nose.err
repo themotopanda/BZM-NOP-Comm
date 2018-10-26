@@ -1,0 +1,78 @@
+======================================================================
+ERROR: test_requests (NOP_SC3.NOPCommerceTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/chefe02/Desktop/presales_cert/NOP_SC3.py", line 71, in test_requests
+    selff.criver.find_element(By.LINK_TEXT, _tpl.apply(u'Apparel')).click()
+NameError: global name 'selff' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 32.198s
+
+FAILED (errors=1)
+======================================================================
+ERROR: test_requests (NOP_SC3.NOPCommerceTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/chefe02/Desktop/presales_cert/NOP_SC3.py", line 71, in test_requests
+    selff.criver.find_element(By.LINK_TEXT, _tpl.apply(u'Apparel')).click()
+NameError: global name 'selff' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 31.427s
+
+FAILED (errors=1)
+======================================================================
+ERROR: test_requests (NOP_SC3.NOPCommerceTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/chefe02/Desktop/presales_cert/NOP_SC3.py", line 71, in test_requests
+    selff.criver.find_element(By.LINK_TEXT, _tpl.apply(u'Apparel')).click()
+NameError: global name 'selff' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 53.128s
+
+FAILED (errors=1)
+======================================================================
+ERROR: test_requests (NOP_SC3.NOPCommerceTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/chefe02/Desktop/presales_cert/NOP_SC3.py", line 41, in test_requests
+    self.driver.find_element(By.ID, _tpl.apply(u'small-searchterms')).click()
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 966, in find_element
+    'value': value})['value']
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)
+
+
+----------------------------------------------------------------------
+Ran 1 test in 7.681s
+
+FAILED (errors=1)
+======================================================================
+ERROR: test_requests (NOP_SC3.NOPCommerceTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/chefe02/Desktop/presales_cert/NOP_SC3.py", line 41, in test_requests
+    self.driver.find_element(By.ID, _tpl.apply(u'small-searchterms')).click()
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 966, in find_element
+    'value': value})['value']
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)
+
+
+----------------------------------------------------------------------
+Ran 1 test in 7.715s
+
+FAILED (errors=1)

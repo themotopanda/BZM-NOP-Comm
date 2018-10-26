@@ -1,0 +1,3 @@
+2018-10-26 11:07:59,472:INFO:46274:123145339310080:loadgen:Total workers: 1
+2018-10-26 11:07:59,481:INFO:46277:123145339310080:loadgen:Adding worker: idx=0	concurrency=1	results=/Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-07-58.543689bz/apiritif-0.csv
+2018-10-26 11:08:46,526:INFO:46277:123145386938368:apiritif.recorder:Transaction started:: start_time=1540577326.526,name=go to home page

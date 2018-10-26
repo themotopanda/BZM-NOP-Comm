@@ -1,0 +1,21 @@
+timeStamp,elapsed,Latency,label,responseCode,responseMessage,success,allThreads,bytes
+1540577936476,1285,0,go to home page,,,true,1,2
+1540577937762,6646,0,"search ""apple""",,,true,1,2
+1540577944410,4589,0,click macbook,,,true,1,2
+1540577949000,3068,0,add macbook to cart,,,true,1,2
+1540577952074,3533,0,"click ""books""",,,true,1,2
+1540577955609,3053,0,add fahrenheit 451 to cart,,,true,1,2
+1540577958663,3057,0,"click ""downloads""",,"WebDriverException: Message: unknown error: Element <a href=""/nopCommerce/digital-downloads"">...</a> is not clickable at point (621, 15). Other element would receive the click: <p class=""content"">...</p>
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)
+",false,1,2
+1540577965328,1163,0,go to home page,,,true,1,2
+1540577966492,6589,0,"search ""apple""",,,true,1,2
+1540577973082,4432,0,click macbook,,,true,1,2
+1540577977515,3065,0,add macbook to cart,,,true,1,2
+1540577980581,3513,0,"click ""books""",,,true,1,2
+1540577984095,3050,0,add fahrenheit 451 to cart,,,true,1,2
+1540577987146,3057,0,"click ""downloads""",,"WebDriverException: Message: unknown error: Element <a href=""/nopCommerce/digital-downloads"">...</a> is not clickable at point (621, 15). Other element would receive the click: <p class=""content"">...</p>
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64)
+",false,1,2

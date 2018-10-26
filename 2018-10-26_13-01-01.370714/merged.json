@@ -1,0 +1,15 @@
+{
+ "execution": [
+  {
+   "scenario": {
+    "script": "NOP_SC2.jmx"
+   }, 
+   "executor": "jmeter"
+  }
+ ], 
+ "modules": {
+  "blazemeter": {
+   "token": "********"
+  }
+ }
+}

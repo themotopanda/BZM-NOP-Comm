@@ -1,0 +1,36 @@
+{
+ "services": [
+  "capturehar", 
+  "screenshoter"
+ ], 
+ "execution": [
+  {
+   "locations": {
+    "us-west-1": 1
+   }, 
+   "scenario": {
+    "script": "NOP_SC3.py"
+   }, 
+   "hold-for": "10m", 
+   "concurrency": {
+    "local": 1, 
+    "cloud": 1
+   }, 
+   "executor": "selenium"
+  }
+ ], 
+ "modules": {
+  "blazemeter": {
+   "test": "NOP_SC3-Selenium", 
+   "project": "presales_cert", 
+   "token": "********", 
+   "workspace": "litterbox"
+  }, 
+  "nose": {
+   "ignore-unknown-actions": true
+  }
+ }, 
+ "settings": {
+  "artifacts-dir": "/Users/chefe02/Desktop/presales_cert/Artifacts/%Y-%m-%d_%H-%M-%S.%fbz"
+ }
+}

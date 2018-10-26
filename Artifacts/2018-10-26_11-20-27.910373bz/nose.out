@@ -1,0 +1,5 @@
+2018-10-26 11:20:29,100:INFO:47484:123145482141696:loadgen:Total workers: 1
+2018-10-26 11:20:29,107:INFO:47489:123145482141696:loadgen:Adding worker: idx=0	concurrency=1	results=/Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-20-27.910373bz/apiritif-0.csv
+2018-10-26 11:20:32,681:INFO:47489:123145375764480:apiritif.recorder:Transaction started:: start_time=1540578032.682,name=go to home page
+2018-10-26 11:20:33,963:INFO:47489:123145375764480:apiritif.recorder:Transaction ended:: duration=1.282,name=go to home page
+2018-10-26 11:20:33,964:INFO:47489:123145375764480:apiritif.recorder:Transaction started:: start_time=1540578033.964,name=search "apple"

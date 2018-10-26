@@ -1,0 +1,103 @@
+2018-10-26 11:13:33,844:INFO:46735:123145516376064:loadgen:Total workers: 1
+2018-10-26 11:13:33,851:INFO:46738:123145516376064:loadgen:Adding worker: idx=0	concurrency=1	results=/Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_11-13-32.766179bz/apiritif-0.csv
+2018-10-26 11:13:37,105:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577617.105,name=go to home page
+2018-10-26 11:13:38,469:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=1.364,name=go to home page
+2018-10-26 11:13:38,469:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577618.470,name=search "apple"
+2018-10-26 11:13:45,161:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=6.691,name=search "apple"
+2018-10-26 11:13:45,161:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577625.161,name=click macbook
+2018-10-26 11:13:50,337:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=5.176,name=click macbook
+2018-10-26 11:13:50,338:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577630.338,name=add macbook to cart
+2018-10-26 11:13:53,408:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.070,name=add macbook to cart
+2018-10-26 11:13:53,408:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577633.409,name=click "books"
+2018-10-26 11:13:57,020:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.611,name=click "books"
+2018-10-26 11:13:57,020:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577637.020,name=add fahrenheit 451 to cart
+2018-10-26 11:14:00,088:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.068,name=add fahrenheit 451 to cart
+2018-10-26 11:14:00,088:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577640.089,name=click "downloads"
+2018-10-26 11:14:03,146:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.057,name=click "downloads"
+2018-10-26 11:14:06,715:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577646.715,name=go to home page
+2018-10-26 11:14:08,158:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=1.443,name=go to home page
+2018-10-26 11:14:08,159:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577648.159,name=search "apple"
+2018-10-26 11:14:14,736:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=6.577,name=search "apple"
+2018-10-26 11:14:14,736:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577654.737,name=click macbook
+2018-10-26 11:14:21,528:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=6.791,name=click macbook
+2018-10-26 11:14:21,528:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577661.529,name=add macbook to cart
+2018-10-26 11:14:24,587:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.059,name=add macbook to cart
+2018-10-26 11:14:24,587:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577664.588,name=click "books"
+2018-10-26 11:14:28,108:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.521,name=click "books"
+2018-10-26 11:14:28,109:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577668.109,name=add fahrenheit 451 to cart
+2018-10-26 11:14:31,168:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.060,name=add fahrenheit 451 to cart
+2018-10-26 11:14:31,169:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577671.169,name=click "downloads"
+2018-10-26 11:14:34,231:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.062,name=click "downloads"
+2018-10-26 11:14:37,683:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577677.683,name=go to home page
+2018-10-26 11:14:38,910:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=1.228,name=go to home page
+2018-10-26 11:14:38,911:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577678.911,name=search "apple"
+2018-10-26 11:14:45,503:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=6.592,name=search "apple"
+2018-10-26 11:14:45,503:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577685.504,name=click macbook
+2018-10-26 11:14:50,015:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=4.511,name=click macbook
+2018-10-26 11:14:50,015:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577690.016,name=add macbook to cart
+2018-10-26 11:14:53,075:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.059,name=add macbook to cart
+2018-10-26 11:14:53,075:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577693.076,name=click "books"
+2018-10-26 11:14:56,769:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.694,name=click "books"
+2018-10-26 11:14:56,770:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577696.770,name=add fahrenheit 451 to cart
+2018-10-26 11:14:59,820:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.050,name=add fahrenheit 451 to cart
+2018-10-26 11:14:59,820:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577699.821,name=click "downloads"
+2018-10-26 11:15:02,877:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.057,name=click "downloads"
+2018-10-26 11:15:06,588:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577706.588,name=go to home page
+2018-10-26 11:15:07,855:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=1.267,name=go to home page
+2018-10-26 11:15:07,856:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577707.856,name=search "apple"
+2018-10-26 11:15:14,390:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=6.534,name=search "apple"
+2018-10-26 11:15:14,390:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577714.391,name=click macbook
+2018-10-26 11:15:21,482:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=7.091,name=click macbook
+2018-10-26 11:15:21,482:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577721.483,name=add macbook to cart
+2018-10-26 11:15:24,546:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.064,name=add macbook to cart
+2018-10-26 11:15:24,547:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577724.547,name=click "books"
+2018-10-26 11:15:28,152:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.605,name=click "books"
+2018-10-26 11:15:28,153:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577728.153,name=add fahrenheit 451 to cart
+2018-10-26 11:15:31,212:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.059,name=add fahrenheit 451 to cart
+2018-10-26 11:15:31,212:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577731.213,name=click "downloads"
+2018-10-26 11:15:34,268:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.055,name=click "downloads"
+2018-10-26 11:15:37,661:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577737.661,name=go to home page
+2018-10-26 11:15:38,967:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=1.307,name=go to home page
+2018-10-26 11:15:38,968:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577738.968,name=search "apple"
+2018-10-26 11:15:45,658:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=6.691,name=search "apple"
+2018-10-26 11:15:45,659:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577745.659,name=click macbook
+2018-10-26 11:15:51,390:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=5.731,name=click macbook
+2018-10-26 11:15:51,391:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577751.391,name=add macbook to cart
+2018-10-26 11:15:54,453:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.062,name=add macbook to cart
+2018-10-26 11:15:54,453:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577754.453,name=click "books"
+2018-10-26 11:15:58,029:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.576,name=click "books"
+2018-10-26 11:15:58,030:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577758.030,name=add fahrenheit 451 to cart
+2018-10-26 11:16:01,089:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.059,name=add fahrenheit 451 to cart
+2018-10-26 11:16:01,090:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577761.090,name=click "downloads"
+2018-10-26 11:16:04,143:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.053,name=click "downloads"
+2018-10-26 11:16:07,597:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577767.598,name=go to home page
+2018-10-26 11:16:09,002:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=1.404,name=go to home page
+2018-10-26 11:16:09,002:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577769.003,name=search "apple"
+2018-10-26 11:16:15,592:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=6.590,name=search "apple"
+2018-10-26 11:16:15,593:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577775.593,name=click macbook
+2018-10-26 11:16:20,443:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=4.850,name=click macbook
+2018-10-26 11:16:20,444:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577780.444,name=add macbook to cart
+2018-10-26 11:16:23,514:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.070,name=add macbook to cart
+2018-10-26 11:16:23,514:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577783.515,name=click "books"
+2018-10-26 11:16:27,137:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.623,name=click "books"
+2018-10-26 11:16:27,138:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577787.138,name=add fahrenheit 451 to cart
+2018-10-26 11:16:30,214:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.076,name=add fahrenheit 451 to cart
+2018-10-26 11:16:30,214:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577790.215,name=click "downloads"
+2018-10-26 11:16:33,262:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.048,name=click "downloads"
+2018-10-26 11:16:36,891:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577796.892,name=go to home page
+2018-10-26 11:16:38,133:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=1.241,name=go to home page
+2018-10-26 11:16:38,133:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577798.134,name=search "apple"
+2018-10-26 11:16:44,680:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=6.546,name=search "apple"
+2018-10-26 11:16:44,680:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577804.681,name=click macbook
+2018-10-26 11:16:49,652:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=4.972,name=click macbook
+2018-10-26 11:16:49,652:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577809.653,name=add macbook to cart
+2018-10-26 11:16:52,719:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.066,name=add macbook to cart
+2018-10-26 11:16:52,719:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577812.719,name=click "books"
+2018-10-26 11:16:56,307:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.588,name=click "books"
+2018-10-26 11:16:56,307:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577816.308,name=add fahrenheit 451 to cart
+2018-10-26 11:16:59,369:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.062,name=add fahrenheit 451 to cart
+2018-10-26 11:16:59,369:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577819.370,name=click "downloads"
+2018-10-26 11:17:02,420:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=3.051,name=click "downloads"
+2018-10-26 11:17:05,663:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577825.664,name=go to home page
+2018-10-26 11:17:07,071:INFO:46738:123145568055296:apiritif.recorder:Transaction ended:: duration=1.408,name=go to home page
+2018-10-26 11:17:07,072:INFO:46738:123145568055296:apiritif.recorder:Transaction started:: start_time=1540577827.072,name=search "apple"

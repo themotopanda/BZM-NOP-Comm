@@ -33,17 +33,17 @@ class NOPCommerceTest(unittest.TestCase):
         self.driver.implicitly_wait(60.0)
 
         with apiritif.transaction_logged(u'go to home page'):
-            self.driver.get(_tpl.apply(u'http://demo.bzm-presales.com/nopcommerce'))
+            self.driver.get(_tpl.apply(u'http://store-caapm.bzm-presales.com/nopcommerce'))
 
 
         with apiritif.transaction_logged(u'search "apple"'):
             sleep(3)
             self.driver.find_element(By.ID, _tpl.apply(u'small-searchterms')).click()
-            sleep(3)
+            sleep(1)
             self.driver.find_element(By.ID, _tpl.apply('small-searchterms')).clear()
-            sleep(3)
+            sleep(1)
             self.driver.find_element(By.ID, _tpl.apply('small-searchterms')).send_keys(_tpl.apply('apple'))
-            sleep(3)
+            sleep(1)
             self.driver.find_element(By.ID, _tpl.apply(u'small-search-box-form')).submit()
 
 
@@ -68,13 +68,15 @@ class NOPCommerceTest(unittest.TestCase):
 
 
         with apiritif.transaction_logged(u'click "accessories"'):
-            sleep(10)
-            self.driver.find_element(By.LINK_TEXT, _tpl.apply(u'Accessories')).click()
+            sleep(3)
+            self.driver.find_element(By.LINK_TEXT, _tpl.apply(u'Apparel')).click()
+            sleep(3)
+            self.driver.find_element(By.XPATH, _tpl.apply(u'/html/body/div[6]/div[3]/div[2]/div[2]/div/div[2]/div[1]/div/div[3]/div/h2/a')).click()
 
 
         with apiritif.transaction_logged(u'add sunglasses to cart'):
             sleep(3)
-            self.driver.find_element(By.XPATH, _tpl.apply(u"(//input[@value='Add to cart'])[2]")).click()
+            self.driver.find_element(By.XPATH, _tpl.apply(u'/html/body/div[6]/div[3]/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div[2]/div[3]/div[2]/input[1]')).click()
 
 
         with apiritif.transaction_logged(u'checkout as guest'):
