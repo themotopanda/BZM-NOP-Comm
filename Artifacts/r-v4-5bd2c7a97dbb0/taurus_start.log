@@ -1,0 +1,509 @@
+start
+user data: {"command":"\/usr\/local\/bztcloud\/cloud-launcher.sh https:\/\/a.blazemeter.com\/api\/v4\/taurus\/r-v4-5bd2c7a97dbb0\/original-config https:\/\/a.blazemeter.com\/api\/v4\/taurus\/r-v4-5bd2c7a97dbb0\/custom-config","environmentVars":["EVENTS_URL=https:\/\/a.blazemeter.com\/api\/v4\/taurus\/r-v4-5bd2c7a97dbb0\/events","SESSION_TOKEN=ci12NC01YmQyYzdhOTdkYmIwOjE1NDE3NDk5MzY6MDFjNjE4Y2Q1NTRiYzc3Yjc1YmZlODUyMGJkMGU2MDVkMzViNTc4YTY3MDVhM2M5NWVlNTcyMjlhMjgyNzZmMTEyOTNjYTdhZDM3MTU5Mjk0ZWNhOTNiYmQ4ZTU0OWZmY2I1N2NmMGFjNzFlOTI1M2EzNThlNWQzZTY2MzliOTc=","FILE_NAME=NOP_SC2.jmx","SCRIPT_TYPE=jmeter","LC_ALL=en_US.UTF-8","TAURUS_BZTREMOTE_URL="]}
+command: /usr/local/bztcloud/cloud-launcher.sh https://a.blazemeter.com/api/v4/taurus/r-v4-5bd2c7a97dbb0/original-config https://a.blazemeter.com/api/v4/taurus/r-v4-5bd2c7a97dbb0/custom-config
+env vars:  -e EVENTS_URL=https://a.blazemeter.com/api/v4/taurus/r-v4-5bd2c7a97dbb0/events -e SESSION_TOKEN=ci12NC01YmQyYzdhOTdkYmIwOjE1NDE3NDk5MzY6MDFjNjE4Y2Q1NTRiYzc3Yjc1YmZlODUyMGJkMGU2MDVkMzViNTc4YTY3MDVhM2M5NWVlNTcyMjlhMjgyNzZmMTEyOTNjYTdhZDM3MTU5Mjk0ZWNhOTNiYmQ4ZTU0OWZmY2I1N2NmMGFjNzFlOTI1M2EzNThlNWQzZTY2MzliOTc= -e FILE_NAME=NOP_SC2.jmx -e SCRIPT_TYPE=jmeter -e LC_ALL=en_US.UTF-8 -e TAURUS_BZTREMOTE_URL=
+Name: bzt
+Version: 1.12.1
+Summary: Taurus Tool for Continuous Testing
+Home-page: http://gettaurus.org/
+Author: Andrey Pokhilko
+Author-email: andrey@blazemeter.com
+License: Apache 2.0
+Location: /usr/local/lib/python2.7/dist-packages
+Requires: apiritif, progressbar33, cssselect, pytest, terminaltables, colorlog, hdrpy, urwid, astunparse, Appium-Python-Client, pyvirtualdisplay, lxml, selenium, pyyaml, nose, requests, psutil, ipaddress, colorama
+---
+Name: bztcloud
+Version: 0.3.6
+Summary: Taurus Cloud Modules
+Home-page: https://github.com/Blazemeter/taurus-cloud/
+Author: Andrey Pokhilko
+Author-email: andrey@blazemeter.com
+License: UNKNOWN
+Location: /usr/local/lib/python2.7/dist-packages
+Requires: boto3, bzt, pyscreenshot, browsermob-proxy, pillow, cssselect, requests, yq, python-dateutil, pyvirtualdisplay
+---
+Name: apiritif
+Version: 0.6.5
+Summary: Python framework for API testing
+Home-page: https://github.com/Blazemeter/apiritif
+Author: Dmitri Pribysh
+Author-email: pribysh@blazemeter.com
+License: Apache 2.0
+Location: /usr/local/lib/python2.7/dist-packages
+Requires: requests, jsonpath-rw, lxml
+07:52:57 INFO: Taurus CLI Tool v1.12.1
+07:52:57 INFO: Starting with configs: ['./taurus-custom-config.yml', './taurus-original-config.yml', '/usr/local/bztcloud/final-overrides.yml']
+07:52:57 INFO: Configuring...
+07:52:57 INFO: Artifacts dir: /tmp/artifacts
+07:52:58 INFO: Preparing...
+07:53:00 WARNING: Path not exists: /root/.bzt/jmeter-taurus/auto
+07:53:00 WARNING: Could not find location at path: artifacts-dir
+07:53:00 WARNING: Could not find location at path: artifacts-dir
+07:53:00 WARNING: Could not find location at path: artifacts-dir
+07:53:00 WARNING: Could not find location at path: artifacts-dir
+07:53:00 INFO: Starting shell command: atop -a -w atop.binlog 15
+07:53:01 INFO: Starting shell command: /usr/local/bztcloud/jetlag-download.sh
+07:53:02 INFO: Starting shell command: /usr/local/bztcloud/jetlag-run.sh
+07:53:02 INFO: Starting shell command: /usr/local/bztcloud/jetpack-download.sh
+07:53:03 INFO: Starting shell command: /usr/local/bztcloud/jetpack-run.sh
+07:53:03 INFO: Starting new HTTPS connection (1): s3.amazonaws.com
+07:53:10 INFO: 1 obsolete CookieManagers are found and fixed
+07:53:17 WARNING: No BlazeMeter API key provided, will upload anonymously
+07:53:17 INFO: Starting...
+07:53:18 INFO: Starting virtual display[(1024, 768)]: :1001
+07:53:18 INFO: Setting bsh port for jmeter/default-scenario-6382363 to 9000
+07:53:18 INFO: Got start command
+07:53:18 INFO: Allowed to proceed with start
+07:53:18 INFO: Waiting for results...
+07:53:39 INFO: Current: 1 vu	1 succ	0 fail	0.880 avg rt	/	Cumulative: 0.880 avg rt, 0% failures
+07:53:42 INFO: Current: 1 vu	1 succ	0 fail	0.088 avg rt	/	Cumulative: 0.441 avg rt, 0% failures
+07:53:43 INFO: Current: 2 vu	1 succ	0 fail	0.291 avg rt	/	Cumulative: 0.377 avg rt, 0% failures
+07:53:45 INFO: Current: 2 vu	1 succ	0 fail	0.253 avg rt	/	Cumulative: 0.357 avg rt, 0% failures
+07:53:47 INFO: Current: 2 vu	1 succ	0 fail	0.095 avg rt	/	Cumulative: 0.312 avg rt, 0% failures
+07:53:50 INFO: Current: 2 vu	2 succ	0 fail	0.182 avg rt	/	Cumulative: 0.286 avg rt, 0% failures
+07:53:53 INFO: Current: 3 vu	2 succ	0 fail	0.235 avg rt	/	Cumulative: 0.261 avg rt, 0% failures
+07:53:55 INFO: Current: 3 vu	2 succ	0 fail	0.265 avg rt	/	Cumulative: 0.261 avg rt, 0% failures
+07:53:57 INFO: Current: 3 vu	3 succ	0 fail	0.192 avg rt	/	Cumulative: 0.243 avg rt, 0% failures
+07:53:59 INFO: Current: 3 vu	2 succ	0 fail	0.168 avg rt	/	Cumulative: 0.236 avg rt, 0% failures
+07:54:00 INFO: Current: 4 vu	1 succ	0 fail	0.213 avg rt	/	Cumulative: 0.229 avg rt, 0% failures
+07:54:02 INFO: Current: 4 vu	1 succ	0 fail	0.099 avg rt	/	Cumulative: 0.227 avg rt, 0% failures
+07:54:05 INFO: Current: 4 vu	3 succ	0 fail	0.182 avg rt	/	Cumulative: 0.222 avg rt, 0% failures
+07:54:07 INFO: Current: 4 vu	3 succ	0 fail	0.179 avg rt	/	Cumulative: 0.212 avg rt, 0% failures
+07:54:10 INFO: Current: 5 vu	2 succ	0 fail	0.189 avg rt	/	Cumulative: 0.213 avg rt, 0% failures
+07:54:11 INFO: Current: 5 vu	4 succ	0 fail	0.165 avg rt	/	Cumulative: 0.209 avg rt, 0% failures
+07:54:12 INFO: Current: 5 vu	2 succ	0 fail	0.212 avg rt	/	Cumulative: 0.209 avg rt, 0% failures
+07:54:13 INFO: Current: 5 vu	2 succ	0 fail	0.168 avg rt	/	Cumulative: 0.207 avg rt, 0% failures
+07:54:14 INFO: Current: 5 vu	3 succ	0 fail	0.147 avg rt	/	Cumulative: 0.204 avg rt, 0% failures
+07:54:15 INFO: Current: 5 vu	2 succ	0 fail	0.210 avg rt	/	Cumulative: 0.204 avg rt, 0% failures
+07:54:17 INFO: Current: 5 vu	2 succ	0 fail	0.144 avg rt	/	Cumulative: 0.201 avg rt, 0% failures
+07:54:19 INFO: Current: 6 vu	4 succ	0 fail	0.197 avg rt	/	Cumulative: 0.202 avg rt, 0% failures
+07:54:20 INFO: Current: 6 vu	1 succ	0 fail	0.212 avg rt	/	Cumulative: 0.202 avg rt, 0% failures
+07:54:21 INFO: Current: 6 vu	4 succ	0 fail	0.200 avg rt	/	Cumulative: 0.202 avg rt, 0% failures
+07:54:22 INFO: Current: 6 vu	2 succ	0 fail	0.182 avg rt	/	Cumulative: 0.202 avg rt, 0% failures
+07:54:24 INFO: Current: 6 vu	2 succ	0 fail	0.089 avg rt	/	Cumulative: 0.196 avg rt, 0% failures
+07:54:25 INFO: Current: 6 vu	3 succ	0 fail	0.244 avg rt	/	Cumulative: 0.198 avg rt, 0% failures
+07:54:27 INFO: Current: 7 vu	4 succ	0 fail	0.230 avg rt	/	Cumulative: 0.200 avg rt, 0% failures
+07:54:28 INFO: Current: 7 vu	5 succ	0 fail	0.182 avg rt	/	Cumulative: 0.198 avg rt, 0% failures
+07:54:29 INFO: Current: 7 vu	2 succ	0 fail	0.155 avg rt	/	Cumulative: 0.197 avg rt, 0% failures
+07:54:30 INFO: Current: 7 vu	4 succ	0 fail	0.203 avg rt	/	Cumulative: 0.197 avg rt, 0% failures
+07:54:31 INFO: Current: 7 vu	2 succ	0 fail	0.166 avg rt	/	Cumulative: 0.196 avg rt, 0% failures
+07:54:32 INFO: Current: 7 vu	3 succ	0 fail	0.122 avg rt	/	Cumulative: 0.194 avg rt, 0% failures
+07:54:33 INFO: Current: 7 vu	3 succ	0 fail	0.183 avg rt	/	Cumulative: 0.194 avg rt, 0% failures
+07:54:34 INFO: Current: 7 vu	4 succ	0 fail	0.216 avg rt	/	Cumulative: 0.195 avg rt, 0% failures
+07:54:35 INFO: Current: 8 vu	2 succ	0 fail	0.153 avg rt	/	Cumulative: 0.194 avg rt, 0% failures
+07:54:36 INFO: Current: 8 vu	4 succ	0 fail	0.176 avg rt	/	Cumulative: 0.193 avg rt, 0% failures
+07:54:37 INFO: Current: 8 vu	3 succ	0 fail	0.206 avg rt	/	Cumulative: 0.194 avg rt, 0% failures
+07:54:38 INFO: Current: 8 vu	3 succ	0 fail	0.145 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:54:39 INFO: Current: 8 vu	4 succ	0 fail	0.206 avg rt	/	Cumulative: 0.193 avg rt, 0% failures
+07:54:40 INFO: Current: 8 vu	4 succ	0 fail	0.317 avg rt	/	Cumulative: 0.197 avg rt, 0% failures
+07:54:42 INFO: Current: 8 vu	3 succ	0 fail	0.092 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:54:43 INFO: Current: 8 vu	5 succ	0 fail	0.229 avg rt	/	Cumulative: 0.193 avg rt, 0% failures
+07:54:44 INFO: Current: 9 vu	4 succ	0 fail	0.155 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:54:45 INFO: Current: 9 vu	3 succ	0 fail	0.234 avg rt	/	Cumulative: 0.193 avg rt, 0% failures
+07:54:46 INFO: Current: 9 vu	6 succ	0 fail	0.184 avg rt	/	Cumulative: 0.193 avg rt, 0% failures
+07:54:47 INFO: Current: 9 vu	2 succ	0 fail	0.136 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:54:48 INFO: Current: 9 vu	6 succ	0 fail	0.119 avg rt	/	Cumulative: 0.189 avg rt, 0% failures
+07:54:50 INFO: Current: 9 vu	3 succ	0 fail	0.213 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:54:52 INFO: Current: 9 vu	8 succ	0 fail	0.177 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:54:54 INFO: Current: 10 vu	4 succ	0 fail	0.161 avg rt	/	Cumulative: 0.189 avg rt, 0% failures
+07:54:55 INFO: Current: 10 vu	6 succ	0 fail	0.214 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:54:56 INFO: Current: 10 vu	4 succ	0 fail	0.197 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:54:57 INFO: Current: 10 vu	5 succ	0 fail	0.192 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:54:58 INFO: Current: 10 vu	4 succ	0 fail	0.131 avg rt	/	Cumulative: 0.189 avg rt, 0% failures
+07:54:59 INFO: Current: 10 vu	4 succ	0 fail	0.151 avg rt	/	Cumulative: 0.188 avg rt, 0% failures
+07:55:00 INFO: Current: 10 vu	4 succ	0 fail	0.195 avg rt	/	Cumulative: 0.188 avg rt, 0% failures
+07:55:01 INFO: Current: 10 vu	6 succ	0 fail	0.155 avg rt	/	Cumulative: 0.187 avg rt, 0% failures
+07:55:02 INFO: Current: 11 vu	5 succ	0 fail	0.179 avg rt	/	Cumulative: 0.187 avg rt, 0% failures
+07:55:03 INFO: Current: 11 vu	5 succ	0 fail	0.199 avg rt	/	Cumulative: 0.187 avg rt, 0% failures
+07:55:04 INFO: Current: 11 vu	4 succ	0 fail	0.238 avg rt	/	Cumulative: 0.188 avg rt, 0% failures
+07:55:05 INFO: Current: 11 vu	6 succ	0 fail	0.139 avg rt	/	Cumulative: 0.187 avg rt, 0% failures
+07:55:07 INFO: Current: 11 vu	5 succ	0 fail	0.177 avg rt	/	Cumulative: 0.186 avg rt, 0% failures
+07:55:08 INFO: Current: 11 vu	7 succ	0 fail	0.209 avg rt	/	Cumulative: 0.187 avg rt, 0% failures
+07:55:09 INFO: Current: 11 vu	3 succ	0 fail	0.200 avg rt	/	Cumulative: 0.187 avg rt, 0% failures
+07:55:10 INFO: Current: 11 vu	3 succ	0 fail	0.171 avg rt	/	Cumulative: 0.187 avg rt, 0% failures
+07:55:11 INFO: Current: 12 vu	6 succ	0 fail	0.210 avg rt	/	Cumulative: 0.187 avg rt, 0% failures
+07:55:12 INFO: Current: 12 vu	3 succ	0 fail	0.245 avg rt	/	Cumulative: 0.188 avg rt, 0% failures
+07:55:14 INFO: Current: 12 vu	4 succ	0 fail	0.274 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:55:15 INFO: Current: 12 vu	6 succ	0 fail	0.238 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:55:16 INFO: Current: 12 vu	6 succ	0 fail	0.177 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:55:17 INFO: Current: 12 vu	4 succ	0 fail	0.150 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:55:18 INFO: Current: 12 vu	8 succ	0 fail	0.165 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:55:19 INFO: Current: 12 vu	3 succ	0 fail	0.137 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:55:20 INFO: Current: 13 vu	5 succ	0 fail	0.224 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:55:21 INFO: Current: 13 vu	7 succ	0 fail	0.175 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:55:22 INFO: Current: 13 vu	6 succ	0 fail	0.163 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:55:23 INFO: Current: 13 vu	5 succ	0 fail	0.244 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:55:24 INFO: Current: 13 vu	6 succ	0 fail	0.222 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:55:25 INFO: Current: 13 vu	5 succ	0 fail	0.124 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:55:26 INFO: Current: 13 vu	6 succ	0 fail	0.184 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:55:27 INFO: Current: 13 vu	6 succ	0 fail	0.175 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:55:28 INFO: Current: 13 vu	8 succ	0 fail	0.364 avg rt	/	Cumulative: 0.194 avg rt, 0% failures
+07:55:29 INFO: Current: 13 vu	6 succ	0 fail	0.160 avg rt	/	Cumulative: 0.193 avg rt, 0% failures
+07:55:30 INFO: Current: 14 vu	6 succ	0 fail	0.190 avg rt	/	Cumulative: 0.193 avg rt, 0% failures
+07:55:31 INFO: Current: 14 vu	9 succ	0 fail	0.190 avg rt	/	Cumulative: 0.193 avg rt, 0% failures
+07:55:32 INFO: Current: 14 vu	6 succ	0 fail	0.162 avg rt	/	Cumulative: 0.193 avg rt, 0% failures
+07:55:33 INFO: Current: 14 vu	6 succ	0 fail	0.156 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:55:34 INFO: Current: 14 vu	8 succ	0 fail	0.191 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:55:35 INFO: Current: 14 vu	3 succ	0 fail	0.204 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:55:36 INFO: Current: 14 vu	10 succ	0 fail	0.175 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:55:37 INFO: Current: 14 vu	4 succ	0 fail	0.175 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:55:38 INFO: Current: 15 vu	8 succ	0 fail	0.207 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:55:39 INFO: Current: 15 vu	6 succ	0 fail	0.212 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:55:40 INFO: Current: 15 vu	7 succ	0 fail	0.204 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:55:41 INFO: Current: 15 vu	5 succ	0 fail	0.178 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:55:42 INFO: Current: 15 vu	4 succ	0 fail	0.130 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:55:43 INFO: Current: 15 vu	13 succ	0 fail	0.190 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:55:44 INFO: Current: 15 vu	2 succ	0 fail	0.244 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:55:45 INFO: Current: 15 vu	9 succ	0 fail	0.196 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:55:46 INFO: Current: 15 vu	5 succ	0 fail	0.165 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:55:48 INFO: Current: 16 vu	7 succ	0 fail	0.206 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:55:49 INFO: Current: 16 vu	8 succ	0 fail	0.180 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:55:50 INFO: Current: 16 vu	7 succ	0 fail	0.120 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:55:51 INFO: Current: 16 vu	8 succ	0 fail	0.268 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:55:52 INFO: Current: 16 vu	6 succ	0 fail	0.165 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:55:53 INFO: Current: 16 vu	4 succ	0 fail	0.130 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:55:54 INFO: Current: 16 vu	11 succ	0 fail	0.210 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:55:55 INFO: Current: 16 vu	6 succ	0 fail	0.193 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:55:56 INFO: Current: 17 vu	6 succ	0 fail	0.188 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:55:57 INFO: Current: 17 vu	7 succ	0 fail	0.212 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:55:58 INFO: Current: 17 vu	9 succ	0 fail	0.231 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:55:59 INFO: Current: 17 vu	6 succ	0 fail	0.168 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:56:00 INFO: Current: 17 vu	8 succ	0 fail	0.128 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:01 INFO: Current: 17 vu	9 succ	0 fail	0.179 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:02 INFO: Current: 17 vu	8 succ	0 fail	0.203 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:03 INFO: Current: 17 vu	9 succ	0 fail	0.200 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:04 INFO: Current: 17 vu	5 succ	0 fail	0.154 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:05 INFO: Current: 18 vu	10 succ	0 fail	0.156 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:56:06 INFO: Current: 18 vu	6 succ	0 fail	0.234 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:07 INFO: Current: 18 vu	9 succ	0 fail	0.177 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:56:08 INFO: Current: 18 vu	6 succ	0 fail	0.184 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:56:09 INFO: Current: 18 vu	9 succ	0 fail	0.183 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:56:10 INFO: Current: 18 vu	10 succ	0 fail	0.169 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:56:11 INFO: Current: 18 vu	5 succ	0 fail	0.153 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:56:12 INFO: Current: 18 vu	14 succ	0 fail	0.238 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:13 INFO: Current: 18 vu	3 succ	0 fail	0.189 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:14 INFO: Current: 19 vu	12 succ	0 fail	0.184 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:15 INFO: Current: 19 vu	5 succ	0 fail	0.190 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:16 INFO: Current: 19 vu	9 succ	0 fail	0.205 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:17 INFO: Current: 19 vu	8 succ	0 fail	0.175 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:18 INFO: Current: 19 vu	11 succ	0 fail	0.157 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:56:19 INFO: Current: 19 vu	8 succ	0 fail	0.205 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:56:20 INFO: Current: 19 vu	10 succ	0 fail	0.170 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:56:21 INFO: Current: 19 vu	10 succ	0 fail	0.169 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:56:22 INFO: Current: 19 vu	8 succ	0 fail	0.234 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:56:23 INFO: Current: 20 vu	9 succ	0 fail	0.203 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:56:24 INFO: Current: 20 vu	8 succ	0 fail	0.209 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:56:25 INFO: Current: 20 vu	11 succ	0 fail	0.219 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:26 INFO: Current: 20 vu	9 succ	0 fail	0.165 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:27 INFO: Current: 20 vu	10 succ	0 fail	0.195 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:28 INFO: Current: 20 vu	10 succ	0 fail	0.189 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:29 INFO: Current: 20 vu	8 succ	0 fail	0.203 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:30 INFO: Current: 20 vu	10 succ	0 fail	0.149 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:56:31 INFO: Current: 20 vu	8 succ	0 fail	0.176 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:56:32 INFO: Current: 20 vu	11 succ	0 fail	0.224 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:33 INFO: Current: 20 vu	5 succ	0 fail	0.241 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:34 INFO: Current: 20 vu	12 succ	0 fail	0.207 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:35 INFO: Current: 20 vu	10 succ	0 fail	0.156 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:36 INFO: Current: 20 vu	5 succ	0 fail	0.178 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:37 INFO: Current: 20 vu	10 succ	0 fail	0.202 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:39 INFO: Current: 20 vu	12 succ	0 fail	0.161 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:40 INFO: Current: 20 vu	9 succ	0 fail	0.198 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:41 INFO: Current: 20 vu	9 succ	0 fail	0.229 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:42 INFO: Current: 20 vu	9 succ	0 fail	0.206 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:43 INFO: Current: 20 vu	8 succ	0 fail	0.190 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:44 INFO: Current: 20 vu	9 succ	0 fail	0.180 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:45 INFO: Current: 20 vu	9 succ	0 fail	0.183 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:46 INFO: Current: 20 vu	10 succ	0 fail	0.205 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:47 INFO: Current: 20 vu	6 succ	0 fail	0.204 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:48 INFO: Current: 20 vu	12 succ	0 fail	0.179 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:49 INFO: Current: 20 vu	8 succ	0 fail	0.183 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:50 INFO: Current: 20 vu	11 succ	0 fail	0.190 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:51 INFO: Current: 20 vu	9 succ	0 fail	0.183 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:52 INFO: Current: 20 vu	7 succ	0 fail	0.147 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:53 INFO: Current: 20 vu	11 succ	0 fail	0.192 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:54 INFO: Current: 20 vu	8 succ	0 fail	0.182 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:55 INFO: Current: 20 vu	10 succ	0 fail	0.217 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:56:56 INFO: Current: 20 vu	10 succ	0 fail	0.126 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:56:57 INFO: Current: 20 vu	6 succ	0 fail	0.199 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:56:58 INFO: Current: 20 vu	10 succ	0 fail	0.211 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:56:59 INFO: Current: 20 vu	11 succ	0 fail	0.173 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:00 INFO: Current: 20 vu	7 succ	0 fail	0.175 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:01 INFO: Current: 20 vu	9 succ	0 fail	0.193 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:02 INFO: Current: 20 vu	13 succ	0 fail	0.167 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:03 INFO: Current: 20 vu	7 succ	0 fail	0.165 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:04 INFO: Current: 20 vu	10 succ	0 fail	0.205 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:05 INFO: Current: 20 vu	11 succ	0 fail	0.221 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:06 INFO: Current: 20 vu	5 succ	0 fail	0.206 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:07 INFO: Current: 20 vu	13 succ	0 fail	0.184 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:08 INFO: Current: 20 vu	6 succ	0 fail	0.166 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:09 INFO: Current: 20 vu	9 succ	0 fail	0.194 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:10 INFO: Current: 20 vu	10 succ	0 fail	0.167 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:11 INFO: Current: 20 vu	8 succ	0 fail	0.238 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:12 INFO: Current: 20 vu	9 succ	0 fail	0.182 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:13 INFO: Current: 20 vu	10 succ	0 fail	0.188 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:14 INFO: Current: 20 vu	8 succ	0 fail	0.161 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:15 INFO: Current: 20 vu	10 succ	0 fail	0.200 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:16 INFO: Current: 20 vu	10 succ	0 fail	0.217 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:17 INFO: Current: 20 vu	9 succ	0 fail	0.221 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:18 INFO: Current: 20 vu	10 succ	0 fail	0.170 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:19 INFO: Current: 20 vu	8 succ	0 fail	0.132 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:20 INFO: Current: 20 vu	10 succ	0 fail	0.188 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:21 INFO: Current: 20 vu	7 succ	0 fail	0.239 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:22 INFO: Current: 20 vu	11 succ	0 fail	0.151 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:23 INFO: Current: 20 vu	5 succ	0 fail	0.218 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:24 INFO: Current: 20 vu	11 succ	0 fail	0.213 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:25 INFO: Current: 20 vu	9 succ	0 fail	0.166 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:26 INFO: Current: 20 vu	9 succ	0 fail	0.196 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:27 INFO: Current: 20 vu	11 succ	0 fail	0.169 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:28 INFO: Current: 20 vu	7 succ	0 fail	0.165 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:29 INFO: Current: 20 vu	8 succ	0 fail	0.190 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:30 INFO: Current: 20 vu	11 succ	0 fail	0.260 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:31 INFO: Current: 20 vu	8 succ	0 fail	0.162 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:32 INFO: Current: 20 vu	10 succ	0 fail	0.185 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:33 INFO: Current: 20 vu	12 succ	0 fail	0.225 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:34 INFO: Current: 20 vu	6 succ	0 fail	0.212 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:35 INFO: Current: 20 vu	8 succ	0 fail	0.154 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:36 INFO: Current: 20 vu	11 succ	0 fail	0.211 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:37 INFO: Current: 20 vu	7 succ	0 fail	0.162 avg rt	/	Cumulative: 0.190 avg rt, 0% failures
+07:57:38 INFO: Current: 20 vu	12 succ	0 fail	0.233 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:57:39 INFO: Current: 20 vu	5 succ	0 fail	0.190 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:57:40 INFO: Current: 20 vu	12 succ	0 fail	0.204 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:57:41 INFO: Current: 20 vu	7 succ	0 fail	0.147 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:57:42 INFO: Current: 20 vu	9 succ	0 fail	0.207 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:57:43 INFO: Current: 20 vu	9 succ	0 fail	0.200 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:57:44 INFO: Current: 20 vu	10 succ	0 fail	0.203 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:57:45 INFO: Current: 20 vu	9 succ	0 fail	0.153 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:57:46 INFO: Current: 20 vu	10 succ	0 fail	0.188 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:57:47 INFO: Current: 20 vu	8 succ	0 fail	0.222 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:57:48 INFO: Current: 20 vu	10 succ	0 fail	0.177 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:57:49 INFO: Current: 20 vu	8 succ	0 fail	0.186 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:57:50 INFO: Current: 20 vu	10 succ	0 fail	0.185 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:57:51 INFO: Current: 20 vu	9 succ	0 fail	0.189 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:57:52 INFO: Current: 20 vu	9 succ	0 fail	0.197 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:57:53 INFO: Current: 20 vu	4 succ	0 fail	0.157 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:57:54 INFO: Current: 20 vu	12 succ	0 fail	0.203 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:57:55 ERROR: Failed long polling request (sleep 1): HTTPSConnectionPool(host='a.blazemeter.com', port=443): Read timed out. (read timeout=60.0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bztcloud/__init__.py", line 388, in get_command
+    res = self._request(self.url, data={'token': self.session_token})
+  File "/usr/local/lib/python2.7/dist-packages/bzt/bza.py", line 91, in _request
+    response = self.http_request(method=log_method, url=url, data=data, headers=headers, timeout=self.timeout)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+ReadTimeout: HTTPSConnectionPool(host='a.blazemeter.com', port=443): Read timed out. (read timeout=60.0)
+
+07:57:55 INFO: Current: 20 vu	10 succ	0 fail	0.202 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:57:56 INFO: Current: 20 vu	7 succ	0 fail	0.195 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:57:57 INFO: Current: 20 vu	9 succ	0 fail	0.203 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:57:58 INFO: Current: 20 vu	12 succ	0 fail	0.218 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:57:59 INFO: Current: 20 vu	3 succ	0 fail	0.137 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:00 INFO: Current: 20 vu	14 succ	0 fail	0.227 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:01 INFO: Current: 20 vu	7 succ	0 fail	0.149 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:02 INFO: Current: 20 vu	13 succ	0 fail	0.157 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:03 INFO: Current: 20 vu	6 succ	0 fail	0.244 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:04 INFO: Current: 20 vu	13 succ	0 fail	0.261 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:05 INFO: Current: 20 vu	8 succ	0 fail	0.193 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:06 INFO: Current: 20 vu	8 succ	0 fail	0.142 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:07 INFO: Current: 20 vu	9 succ	0 fail	0.245 avg rt	/	Cumulative: 0.192 avg rt, 0% failures
+07:58:08 INFO: Current: 20 vu	8 succ	0 fail	0.175 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:09 INFO: Current: 20 vu	12 succ	0 fail	0.154 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:10 INFO: Current: 20 vu	6 succ	0 fail	0.194 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:11 INFO: Current: 20 vu	11 succ	0 fail	0.219 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:12 INFO: Current: 20 vu	8 succ	0 fail	0.140 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:13 INFO: Current: 20 vu	7 succ	0 fail	0.201 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:14 INFO: Current: 20 vu	14 succ	0 fail	0.203 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:15 INFO: Current: 20 vu	3 succ	0 fail	0.234 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:16 INFO: Current: 20 vu	12 succ	0 fail	0.176 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:17 INFO: Current: 20 vu	8 succ	0 fail	0.161 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:18 INFO: Current: 20 vu	5 succ	0 fail	0.169 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:19 INFO: Current: 20 vu	12 succ	0 fail	0.208 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:20 INFO: Current: 20 vu	9 succ	0 fail	0.159 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:21 INFO: Current: 20 vu	9 succ	0 fail	0.173 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:22 INFO: Current: 20 vu	11 succ	0 fail	0.193 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:23 INFO: Current: 20 vu	8 succ	0 fail	0.213 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:24 INFO: Current: 20 vu	9 succ	0 fail	0.235 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:25 INFO: Current: 20 vu	7 succ	0 fail	0.155 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:26 INFO: Current: 20 vu	10 succ	0 fail	0.200 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:27 INFO: Current: 20 vu	8 succ	0 fail	0.143 avg rt	/	Cumulative: 0.191 avg rt, 0% failures
+07:58:28 WARNING: Please wait for graceful shutdown...
+07:58:28 INFO: Shutting down...
+07:58:29 INFO: Terminating process PID 90 with signal 15 (59 tries left)
+07:58:30 INFO: Terminating process PID 90 with signal 15 (58 tries left)
+07:58:30 INFO: Post-processing...
+07:58:30 INFO: Test duration: 0:05:10
+07:58:30 INFO: Samples count: 1915, 0.00% failures
+07:58:30 INFO: Average times: total 0.191, latency 0.128, connect 0.008
+07:58:30 INFO: Percentiles:
++---------------+---------------+
+| Percentile, % | Resp. Time, s |
++---------------+---------------+
+|           0.0 |         0.078 |
+|          50.0 |         0.213 |
+|          90.0 |         0.268 |
+|          95.0 |           0.3 |
+|          99.0 |         0.358 |
+|          99.9 |          0.58 |
+|         100.0 |          0.88 |
++---------------+---------------+
+07:58:30 INFO: Request label stats:
++------------------------+--------+---------+--------+-------+
+| label                  | status |    succ | avg_rt | error |
++------------------------+--------+---------+--------+-------+
+| add book to cart       |   OK   | 100.00% |  0.106 |       |
+| add macbook to cart    |   OK   | 100.00% |  0.108 |       |
+| add sunglasses to cart |   OK   | 100.00% |  0.102 |       |
+| click macbook          |   OK   | 100.00% |  0.227 |       |
+| click on sunglasses    |   OK   | 100.00% |  0.216 |       |
+| search "apple"         |   OK   | 100.00% |  0.261 |       |
+| search "fahr"          |   OK   | 100.00% |  0.254 |       |
+| search sunglasses      |   OK   | 100.00% |  0.248 |       |
++------------------------+--------+---------+--------+-------+
+07:58:30 INFO: Sending remaining KPI data to server...
+07:58:30 INFO: Background task was not completed, shutting it down: atop -a -w atop.binlog 15
+07:58:31 INFO: Terminating process PID 162 with signal 15 (59 tries left)
+07:58:32 INFO: Terminating process PID 162 with signal 15 (58 tries left)
+07:58:32 INFO: Background task was not completed, shutting it down: /usr/local/bztcloud/jetlag-run.sh
+07:58:33 INFO: Terminating process PID 193 with signal 15 (59 tries left)
+07:58:34 INFO: Terminating process PID 193 with signal 15 (58 tries left)
+07:58:34 INFO: Starting shell command: /usr/local/bztcloud/process-cleanup.sh
+07:58:40 INFO: Artifacts dir: /tmp/artifacts
+07:58:40 INFO: Done performing with code: 0
++ '[' -f /tmp/cloud-shutdown.lock ']'
++ touch /tmp/cloud-shutdown.lock
++ LOG=/tmp/artifacts/admin/cloud-shutdown.log
++ SSE=AES256
+++ dirname /usr/local/bztcloud/cloud-shutdown.sh
++ current_dir=/usr/local/bztcloud
++ . /usr/local/bztcloud/consts.sh
+++ TAURUS_ORIGINAL_CONFIG=taurus-original-config.yml
+++ TAURUS_TEMP_ORIGINAL_CONFIG=tmp-taurus-base-config.yml
+++ TAURUS_CUSTOM_CONFIG=taurus-custom-config.yml
+++ CLOUD_SHUTDOWN_SCRIPT=/usr/local/bztcloud/cloud-shutdown.sh
+++ ADMIN_ARTIFACTS_DIR=/tmp/artifacts/admin
+++ JETPACK_JAR_FILENAME=/root/blazemeter-jetpack.jar
+++ JAVA_OPTIONS=-Dfile.encoding=UTF-8
++ . /usr/local/bztcloud/utils.sh
++ echo_log /tmp/artifacts/admin/cloud-shutdown.log 'starting cloud shutdown'
++ log_path=/tmp/artifacts/admin/cloud-shutdown.log
++ shift
+++ date '+%Y-%m-%d %H:%M:%S.%4N:'
++ echo 2018-10-26 07:58:40.3654: 'starting cloud shutdown'
++ export AWS_ACCESS_KEY_ID=ASIA27ZZ6HCK6JG2MBPV
++ AWS_ACCESS_KEY_ID=ASIA27ZZ6HCK6JG2MBPV
++ export AWS_SECRET_ACCESS_KEY=Bb86o1Yiyt2AQhQ5x5sqT+l6ggAsZwCjLs1LehU7
++ AWS_SECRET_ACCESS_KEY=Bb86o1Yiyt2AQhQ5x5sqT+l6ggAsZwCjLs1LehU7
++ '[' -z FQoGZXIvYXdzECkaDJZE/ZBvS0OTe8iIfyLjA8wI/DVWKZs2xsByYjdUa1fu96bG6PMLweOyGVDVQMKyPZjvPBdhPa4j9k9xvjYGWfqZF82RlYS6thy+dXkFC38fI5x161wtxf4WfNswxs5fsl68tr35JkwBZqn7ETaJ+Ag3xoLaxLC4NozwcHBeksFg3DrlvkA475KMOxJ+ue/GdEW1vgk1FK35bIX25VMFAZiik3rhRmzxacxnu57Vk46Q5whcJav7PjQIPP009zJQi9oqvNUhtg4WOofUt2G2TpDDG9JboRHWr7Cblz1oWq1PM7s9ax+koyGgRRXQ+dMnwHU+D59LYx7cldzGnJE2eyqN3MCMvFD6453rZiiAq7uJjrJzbsDg9y+c0HhYHVhuxkKWa3hQ+0ozEJIeoj2RHzt/XIC5I69n0ndI8PnizrZ/sY8h0WtdJQAqxl4ixst9FNdHv8Kg5MLWoS5BSFJRb7e/77KzwtgeKVgMFKBofAIzdi4WLdLUy0JTIPDF+0KRtwiuVY+m0ZO0wNoFh6r5KeP7wQevEXPXqeAhNLZKsvz9lCxDaZqv/F4ILpA0XVj6Ig87pn7idPXxF6kpCcrhN3i/j95T6CZB9p48CY16Jivsu8KQqMT0wS5vGlbVg/qfqW0+KFk0NdYJ03KA9NOQrOcXmyjZj8veBQ== ']'
++ export AWS_SECURITY_TOKEN=FQoGZXIvYXdzECkaDJZE/ZBvS0OTe8iIfyLjA8wI/DVWKZs2xsByYjdUa1fu96bG6PMLweOyGVDVQMKyPZjvPBdhPa4j9k9xvjYGWfqZF82RlYS6thy+dXkFC38fI5x161wtxf4WfNswxs5fsl68tr35JkwBZqn7ETaJ+Ag3xoLaxLC4NozwcHBeksFg3DrlvkA475KMOxJ+ue/GdEW1vgk1FK35bIX25VMFAZiik3rhRmzxacxnu57Vk46Q5whcJav7PjQIPP009zJQi9oqvNUhtg4WOofUt2G2TpDDG9JboRHWr7Cblz1oWq1PM7s9ax+koyGgRRXQ+dMnwHU+D59LYx7cldzGnJE2eyqN3MCMvFD6453rZiiAq7uJjrJzbsDg9y+c0HhYHVhuxkKWa3hQ+0ozEJIeoj2RHzt/XIC5I69n0ndI8PnizrZ/sY8h0WtdJQAqxl4ixst9FNdHv8Kg5MLWoS5BSFJRb7e/77KzwtgeKVgMFKBofAIzdi4WLdLUy0JTIPDF+0KRtwiuVY+m0ZO0wNoFh6r5KeP7wQevEXPXqeAhNLZKsvz9lCxDaZqv/F4ILpA0XVj6Ig87pn7idPXxF6kpCcrhN3i/j95T6CZB9p48CY16Jivsu8KQqMT0wS5vGlbVg/qfqW0+KFk0NdYJ03KA9NOQrOcXmyjZj8veBQ==
++ AWS_SECURITY_TOKEN=FQoGZXIvYXdzECkaDJZE/ZBvS0OTe8iIfyLjA8wI/DVWKZs2xsByYjdUa1fu96bG6PMLweOyGVDVQMKyPZjvPBdhPa4j9k9xvjYGWfqZF82RlYS6thy+dXkFC38fI5x161wtxf4WfNswxs5fsl68tr35JkwBZqn7ETaJ+Ag3xoLaxLC4NozwcHBeksFg3DrlvkA475KMOxJ+ue/GdEW1vgk1FK35bIX25VMFAZiik3rhRmzxacxnu57Vk46Q5whcJav7PjQIPP009zJQi9oqvNUhtg4WOofUt2G2TpDDG9JboRHWr7Cblz1oWq1PM7s9ax+koyGgRRXQ+dMnwHU+D59LYx7cldzGnJE2eyqN3MCMvFD6453rZiiAq7uJjrJzbsDg9y+c0HhYHVhuxkKWa3hQ+0ozEJIeoj2RHzt/XIC5I69n0ndI8PnizrZ/sY8h0WtdJQAqxl4ixst9FNdHv8Kg5MLWoS5BSFJRb7e/77KzwtgeKVgMFKBofAIzdi4WLdLUy0JTIPDF+0KRtwiuVY+m0ZO0wNoFh6r5KeP7wQevEXPXqeAhNLZKsvz9lCxDaZqv/F4ILpA0XVj6Ig87pn7idPXxF6kpCcrhN3i/j95T6CZB9p48CY16Jivsu8KQqMT0wS5vGlbVg/qfqW0+KFk0NdYJ03KA9NOQrOcXmyjZj8veBQ==
++ echo_log /tmp/artifacts/admin/cloud-shutdown.log 'generating artifacts.zip'
++ log_path=/tmp/artifacts/admin/cloud-shutdown.log
++ shift
+++ date '+%Y-%m-%d %H:%M:%S.%4N:'
++ echo 2018-10-26 07:58:40.3674: 'generating artifacts.zip'
++ cd /tmp/artifacts
++ admin_files=("__blazemeter_to_taurus.yaml" "__taurus_config.yml" "effective.yml" "effective.json" "merged.yml" "merged.json" "exported.jetlag.ldjson" "final-overrides.yml" "taurus-base-config.yml" "tmp-taurus-base-config.yml" "taurus-custom-config.yml" "taurus_start.log" "jetlag-download.log" "jetlag.log" "jetpack-download.log" "jetpack.log" "jetpack.properties" "cloud-config.log")
++ declare -a admin_files
++ for f in '"${admin_files[@]}"'
++ '[' -f __blazemeter_to_taurus.yaml ']'
++ for f in '"${admin_files[@]}"'
++ '[' -f __taurus_config.yml ']'
++ for f in '"${admin_files[@]}"'
++ '[' -f effective.yml ']'
++ mv effective.yml /tmp/artifacts/admin/
++ for f in '"${admin_files[@]}"'
++ '[' -f effective.json ']'
++ mv effective.json /tmp/artifacts/admin/
++ for f in '"${admin_files[@]}"'
++ '[' -f merged.yml ']'
++ mv merged.yml /tmp/artifacts/admin/
++ for f in '"${admin_files[@]}"'
++ '[' -f merged.json ']'
++ mv merged.json /tmp/artifacts/admin/
++ for f in '"${admin_files[@]}"'
++ '[' -f exported.jetlag.ldjson ']'
++ mv exported.jetlag.ldjson /tmp/artifacts/admin/
++ for f in '"${admin_files[@]}"'
++ '[' -f final-overrides.yml ']'
++ mv final-overrides.yml /tmp/artifacts/admin/
++ for f in '"${admin_files[@]}"'
++ '[' -f taurus-base-config.yml ']'
++ for f in '"${admin_files[@]}"'
++ '[' -f tmp-taurus-base-config.yml ']'
++ mv tmp-taurus-base-config.yml /tmp/artifacts/admin/
++ for f in '"${admin_files[@]}"'
++ '[' -f taurus-custom-config.yml ']'
++ mv taurus-custom-config.yml /tmp/artifacts/admin/
++ for f in '"${admin_files[@]}"'
++ '[' -f taurus_start.log ']'
++ mv taurus_start.log /tmp/artifacts/admin/
++ for f in '"${admin_files[@]}"'
++ '[' -f jetlag-download.log ']'
++ mv jetlag-download.log /tmp/artifacts/admin/
++ for f in '"${admin_files[@]}"'
++ '[' -f jetlag.log ']'
++ mv jetlag.log /tmp/artifacts/admin/
++ for f in '"${admin_files[@]}"'
++ '[' -f jetpack-download.log ']'
++ mv jetpack-download.log /tmp/artifacts/admin/
++ for f in '"${admin_files[@]}"'
++ '[' -f jetpack.log ']'
++ mv jetpack.log /tmp/artifacts/admin/
++ for f in '"${admin_files[@]}"'
++ '[' -f jetpack.properties ']'
++ for f in '"${admin_files[@]}"'
++ '[' -f cloud-config.log ']'
++ rm -f /tmp/artifacts/process-cleanup.log
++ zip -r /tmp/artifacts/artifacts.zip . -x admin/atop.binlog admin/cloud-config.log admin/cloud-launcher.log admin/cloud-shutdown.log admin/effective.json admin/effective.yml admin/exported.jetlag.ldjson admin/final-overrides.yml admin/jetlag-download.log admin/jetlag.log admin/jetpack-download.log admin/jetpack.log admin/merged.json admin/merged.yml admin/taurus-custom-config.yml admin/taurus_start.log admin/tmp-taurus-base-config.yml admin/update_bzt.log -x admin/
+  adding: jmeter.err (stored 0%)
+  adding: bzt.log (deflated 83%)
+  adding: lost+found/ (stored 0%)
+  adding: jmeter.out (deflated 32%)
+  adding: jmeter.log (deflated 82%)
+  adding: NOP_SC2.jmx (deflated 92%)
+  adding: modified_NOP_SC2.jmx (deflated 91%)
+  adding: taurus-original-config.yml (stored 0%)
+  adding: error.jtl (deflated 20%)
+  adding: kpi.jtl (deflated 87%)
+  adding: jmeter-bzt.properties (deflated 47%)
++ echo_log /tmp/artifacts/admin/cloud-shutdown.log 'uploading artifacts.zip'
++ log_path=/tmp/artifacts/admin/cloud-shutdown.log
++ shift
+++ date '+%Y-%m-%d %H:%M:%S.%4N:'
++ echo 2018-10-26 07:58:40.4160: 'uploading artifacts.zip'
++ unzip -l /tmp/artifacts/artifacts.zip
++ yq -r '.modules["cloud-utils"]["aws-params"]' /tmp/artifacts/admin/taurus-custom-config.yml
++ python -m bztcloud.helpers.S3 /tmp/artifacts/artifacts.zip /tmp/artifacts/artifacts.zip.tail.bz
++ echo_log /tmp/artifacts/admin/cloud-shutdown.log 'uploading bzt.log'
++ log_path=/tmp/artifacts/admin/cloud-shutdown.log
++ shift
+++ date '+%Y-%m-%d %H:%M:%S.%4N:'
++ echo 2018-10-26 07:58:41.1371: 'uploading bzt.log'
++ yq -r '.modules["cloud-utils"]["aws-params"]' /tmp/artifacts/admin/taurus-custom-config.yml
++ python -m bztcloud.helpers.S3 /tmp/artifacts/bzt.log
++ echo_log /tmp/artifacts/admin/cloud-shutdown.log 'generating admin-artifacts.zip'
++ log_path=/tmp/artifacts/admin/cloud-shutdown.log
++ shift
+++ date '+%Y-%m-%d %H:%M:%S.%4N:'
++ echo 2018-10-26 07:58:41.7662: 'generating admin-artifacts.zip'
++ cd /tmp/artifacts/admin
++ '[' -f atop.binlog ']'
++ atop -r atop.binlog -L160
++ zip -r /tmp/artifacts/admin-artifacts.zip .
+  adding: effective.json (deflated 73%)
+  adding: exported.jetlag.ldjson (deflated 90%)
+  adding: merged.json (deflated 64%)
+  adding: merged.yml (deflated 60%)
+  adding: tmp-taurus-base-config.yml (deflated 92%)
+  adding: cloud-shutdown.log (deflated 64%)
+  adding: final-overrides.yml (deflated 12%)
+  adding: jetpack.log (stored 0%)
+  adding: effective.yml (deflated 69%)
+  adding: cloud-launcher.log (deflated 58%)
+  adding: jetpack-download.log (stored 0%)
+  adding: cloud-config.log (deflated 51%)
+  adding: taurus-custom-config.yml (deflated 64%)
+  adding: taurus_start.log

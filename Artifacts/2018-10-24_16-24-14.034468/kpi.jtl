@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,bytes,grpThreads,allThreads,Latency,Hostname,Connect
+1540423461142,1091,"search ""apple""",200,OK,Thread Group 1-1,true,592734,1,1,308,chefe02mac947,105
+1540423462442,912,click macbook,200,OK,Thread Group 1-1,true,399871,1,1,185,chefe02mac947,0
+1540423463355,134,add macbook to cart,200,OK,Thread Group 1-1,true,2565,1,1,133,chefe02mac947,0
+1540423463490,526,search sunglasses,200,OK,Thread Group 1-1,true,54398,1,1,191,chefe02mac947,0
+1540423464019,693,click on sunglasses,200,OK,Thread Group 1-1,true,64801,1,1,166,chefe02mac947,0
+1540423464714,132,add sunglasses to cart,200,OK,Thread Group 1-1,true,3857,1,1,132,chefe02mac947,0
+1540423464848,691,"search ""fahr""",200,OK,Thread Group 1-1,true,61382,1,1,187,chefe02mac947,0
+1540423465540,140,add book to cart,200,OK,Thread Group 1-1,true,5178,1,1,139,chefe02mac947,0

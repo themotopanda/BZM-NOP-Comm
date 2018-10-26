@@ -1,0 +1,826 @@
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:53:01                                --------------                                25s elapsed
+PRC | sys    0.82s |  user   1.39s | #proc      7 |  #trun      2 | #tslpi     7 |  #tslpu     0 | #zombie    0 |  clones  2122 |              |  #exit      0 |
+CPU | sys      26% |  user     41% | irq       0% |  idle     57% | wait     26% |               | steal    49% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys      12% |  user     21% | irq       0% |  idle     28% | cpu000 w 15% |               | steal    24% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys      14% |  user     19% | irq       0% |  idle     29% | cpu001 w 12% |               | steal    26% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    0.52 |  avg5    0.11 | avg15   0.04 |               |              |  csw    65866 | intr   57177 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    7.1G | cache 419.0M |  buff   23.9M | slab   58.8M |  shmem   8.8M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom 926.3M |  vmlim   3.9G |
+DSK |         xvda |  busy     28% | read   12366 |  write   1613 | KiB/r     30 |  KiB/w     87 | MBr/s   14.6 |  MBw/s    5.5 | avq     7.30 |  avio 0.60 ms |
+DSK |        xvda1 |  busy     28% | read   12334 |  write   1613 | KiB/r     30 |  KiB/w     87 | MBr/s   14.6 |  MBw/s    5.5 | avq     7.30 |  avio 0.60 ms |
+DSK |         xvdb |  busy     11% | read     804 |  write   3726 | KiB/r     24 |  KiB/w    126 | MBr/s    0.8 |  MBw/s   18.5 | avq    19.39 |  avio 0.69 ms |
+DSK |        xvdb1 |  busy     10% | read      94 |  write   3725 | KiB/r     27 |  KiB/w    126 | MBr/s    0.1 |  MBw/s   18.5 | avq    20.28 |  avio 0.79 ms |
+NET | transport    |  tcpi      71 | tcpo      77 |  udpi      12 | udpo      12 |  tcpao      6 | tcppo      0 |  tcprs      0 | tcpie      0 |  udpie      0 |
+NET | network      |  ipi       97 | ipo       88 |  ipfrw      0 | deliv     83 |               |              |               | icmpi      0 |  icmpo      7 |
+NET | eth0      0% |  pcki      99 | pcko      90 |  sp   10 Gbps | si   27 Kbps |  so    9 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+                   *** system and process activity since boot ***
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+   84 98f1d2da22dc  0.26s  0.69s 310.4M 56580K 26064K   184K root     root     N-   -    2 S     0   3% python         
+   90 98f1d2da22dc  0.37s  0.55s 372.4M 60456K  2084K     0K root     root     N-   -    2 S     1   3% python         
+  162 98f1d2da22dc  0.17s  0.15s  4504K   700K     0K     0K root     root     N-   -    1 S     1   1% sh             
+    1 98f1d2da22dc  0.02s  0.00s  4504K  1540K 42088K   112K root     root     N-   -    1 S     0   0% cloud-launcher 
+  164 98f1d2da22dc  0.00s  0.00s 309.4M 41172K     0K     0K root     root     N-   -    1 R     0   0% python         
+  163 98f1d2da22dc  0.00s  0.00s 23596K  7228K   524K     4K root     root     N-   -    1 R     0   0% atop           
+   83 98f1d2da22dc  0.00s  0.00s 20976K  3196K     4K     0K root     root     N-   -    1 S     0   0% bash           
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:53:17                                --------------                                16s elapsed
+PRC | sys    2.07s |  user  11.78s | #proc     82 |  #trun      7 | #tslpi    32 |  #tslpu     0 | #zombie    1 |  clones   188 |              |  #exit     70 |
+CPU | sys      17% |  user    176% | irq       0% |  idle      3% | wait      3% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       9% |  user     87% | irq       0% |  idle      2% | cpu000 w  1% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       7% |  user     89% | irq       0% |  idle      2% | cpu001 w  2% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    1.00 |  avg5    0.24 | avg15   0.08 |               |              |  csw    29338 | intr   15205 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    6.8G | cache 479.4M |  buff   24.3M | slab   60.5M |  shmem   8.9M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom   1.4G |  vmlim   3.9G |
+DSK |         xvda |  busy     20% | read    2647 |  write     72 | KiB/r     20 |  KiB/w    115 | MBr/s    3.3 |  MBw/s    0.5 | avq     1.39 |  avio 1.09 ms |
+DSK |        xvda1 |  busy     20% | read    2647 |  write     72 | KiB/r     20 |  KiB/w    115 | MBr/s    3.3 |  MBw/s    0.5 | avq     1.39 |  avio 1.09 ms |
+DSK |         xvdb |  busy      2% | read       2 |  write   1204 | KiB/r     10 |  KiB/w    128 | MBr/s    0.0 |  MBw/s    9.4 | avq     9.11 |  avio 0.27 ms |
+DSK |        xvdb1 |  busy      2% | read       2 |  write   1204 | KiB/r     10 |  KiB/w    128 | MBr/s    0.0 |  MBw/s    9.4 | avq     9.11 |  avio 0.27 ms |
+NET | transport    |  tcpi    1099 | tcpo     893 |  udpi      18 | udpo      18 |  tcpao      9 | tcppo      0 |  tcprs      0 | tcpie      0 |  udpie      0 |
+NET | network      |  ipi     1119 | ipo      912 |  ipfrw      0 | deliv   1117 |               |              |               | icmpi      0 |  icmpo      1 |
+NET | eth0      0% |  pcki    1119 | pcko     912 |  sp   10 Gbps | si 4193 Kbps |  so   31 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+  324 98f1d2da22dc  0.24s  4.64s   4.2G 165.6M  6560K   176K root     root     N-   -   13 S     1  33% java           
+  301 98f1d2da22dc  0.17s  2.42s   4.4G 95700K  5976K    32K root     root     N-   -   15 S     1  17% java           
+  272 ?             0.11s  1.91s     0K     0K      -      - root     -        NE   0    0 E     -  13% <java>         
+  197 ?             0.10s  1.18s     0K     0K      -      - root     -        NE   0    0 E     -   9% <java>         
+  230 ?             0.25s  0.12s     0K     0K      -      - root     -        NE   0    0 E     -   2% <jmeter.sh>    
+  193 98f1d2da22dc  0.22s  0.11s  4504K   708K     0K     0K root     root     N-   -    1 S     1   2% sh             
+  317 98f1d2da22dc  0.17s  0.16s  4504K   700K     4K     0K root     root     N-   -    1 S     1   2% PluginsManager 
+  164 ?             0.20s  0.13s     0K     0K      -      - root     -        -E   0    0 E     -   2% <sh>           
+  194 ?             0.19s  0.14s     0K     0K      -      - root     -        NE   0    0 E     -   2% <sh>           
+  201 98f1d2da22dc  0.16s  0.16s     0K     0K     4K     0K root     root     N-   -    1 Z     0   2% sh             
+   84 98f1d2da22dc  0.06s  0.19s 143.4M  9784K 17092K  8240K root     root     --   -    2 R     0   2% python         
+  174 ?             0.02s  0.09s     0K     0K      -      - root     -        NE   0    0 E     -   1% <curl>         
+  188 ?             0.02s  0.09s     0K     0K      -      - root     -        NE   0    0 E     -   1% <curl>         
+  291 ?             0.05s  0.06s     0K     0K      -      - root     -        NE   0    0 E     -   1% <curl>         
+  298 ?             0.03s  0.08s     0K     0K      -      - root     -        NE   0    0 E     -   1% <curl>         
+  181 ?             0.02s  0.08s     0K     0K      -      - root     -        NE   0    0 E     -   1% <curl>         
+  258 ?             0.00s  0.08s     0K     0K      -      - root     -        NE   0    0 E     -   1% <java>         
+  218 ?             0.01s  0.06s     0K     0K      -      - root     -        NE   0    0 E     -   0% <java>         
+  237 ?             0.00s  0.06s     0K     0K      -      - root     -        NE   0    0 E     -   0% <java>         
+  192 ?             0.04s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <wget>         
+  163 98f1d2da22dc  0.00s  0.01s   548K   -16K     0K     4K root     root     --   -    1 R     0   0% atop           
+  201 ?             0.01s  0.00s     0K     0K      -      - root     -        -E   0    0 E     -   0% <sh>           
+  195 98f1d2da22dc  0.00s  0.00s  4504K  1700K 23804K    48K root     root     N-   -    1 S     1   0% jetlag-run.sh  
+  168 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <dirname>      
+  169 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <bash>         
+  170 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <bash>         
+  172 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <bash>         
+  173 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <sh>           
+  171 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <bash>         
+  176 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <bash>         
+  177 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <bash>         
+  179 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <bash>         
+  180 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <sh>           
+  178 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <bash>         
+  183 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <bash>         
+  184 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <bash>         
+  186 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <bash>         
+  187 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <sh>           
+  185 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <bash>         
+  191 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <bash>         
+  190 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <timeout>      
+  167 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <bash>         
+  196 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <dirname>      
+  199 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <dirname>      
+  200 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <dirname>      
+  198 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <bash>         
+  208 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <dirname>      
+  210 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <dirname>      
+  207 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <bash>         
+  231 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <dirname>      
+  232 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <uname>        
+  233 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <which>        
+  234 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <dirname>      
+  235 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <dirname>      
+  238 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <awk>          
+  236 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <jmeter.sh>    
+  251 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <dirname>      
+  252 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <jmeter>       
+  253 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <uname>        
+  254 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <which>        
+  255 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <dirname>      
+  256 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <dirname>      
+  259 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <awk>          
+  257 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <jmeter>       
+  271 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <uname>        
+  286 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <jetlag-run.s> 
+  287 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <jetlag-run.s> 
+  289 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <jetlag-run.s> 
+  290 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <sh>           
+  288 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <jetlag-run.s> 
+  293 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <jetlag-run.s> 
+  294 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <jetlag-run.s> 
+  296 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <jetlag-run.s> 
+  297 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <sh>           
+  295 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <jetlag-run.s> 
+  300 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <jetlag-run.s> 
+  250 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <jmeter>       
+  323 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <dirname>      
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:53:32                                --------------                                15s elapsed
+PRC | sys    1.12s |  user  11.75s | #proc     50 |  #trun      4 | #tslpi    52 |  #tslpu     0 | #zombie    0 |  clones    94 |              |  #exit     37 |
+CPU | sys      11% |  user    175% | irq       0% |  idle     10% | wait      4% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       3% |  user     97% | irq       0% |  idle      0% | cpu001 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       8% |  user     78% | irq       0% |  idle     10% | cpu000 w  4% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    1.36 |  avg5    0.36 | avg15   0.12 |               |              |  csw    17517 | intr   12005 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    6.6G | cache 523.9M |  buff   24.6M | slab   61.7M |  shmem   8.9M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom   1.6G |  vmlim   3.9G |
+DSK |         xvda |  busy     14% | read     990 |  write    492 | KiB/r     46 |  KiB/w     72 | MBr/s    3.0 |  MBw/s    2.3 | avq     2.64 |  avio 1.42 ms |
+DSK |        xvda1 |  busy     14% | read     990 |  write    492 | KiB/r     46 |  KiB/w     72 | MBr/s    3.0 |  MBw/s    2.3 | avq     2.64 |  avio 1.42 ms |
+DSK |         xvdb |  busy      0% | read       0 |  write     20 | KiB/r      0 |  KiB/w     14 | MBr/s    0.0 |  MBw/s    0.0 | avq     1.00 |  avio 0.20 ms |
+DSK |        xvdb1 |  busy      0% | read       0 |  write     20 | KiB/r      0 |  KiB/w     14 | MBr/s    0.0 |  MBw/s    0.0 | avq     1.00 |  avio 0.20 ms |
+NET | transport    |  tcpi      84 | tcpo     107 |  udpi       8 | udpo       8 |  tcpao     12 | tcppo      0 |  tcprs      0 | tcpie      0 |  udpie      0 |
+NET | network      |  ipi       92 | ipo      114 |  ipfrw      0 | deliv     92 |               |              |               | icmpi      0 |  icmpo      0 |
+NET | eth0      0% |  pcki      92 | pcko     114 |  sp   10 Gbps | si  310 Kbps |  so   10 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+  388 98f1d2da22dc  0.78s 10.62s   4.4G 312.2M  4952K    44K root     root     N-   -   26 S     0  76% java           
+  324 ?             0.03s  0.38s     0K     0K      -      - root     -        -E   0    0 E     -   3% <java>         
+   84 98f1d2da22dc  0.06s  0.31s  1040K  1004K 13404K   228K root     root     --   -    2 S     0   2% python         
+  346 98f1d2da22dc  0.18s  0.16s  4504K  1720K     0K    32K root     root     N-   -    1 S     0   2% jmeter.sh      
+  301 98f1d2da22dc  0.01s  0.06s     0K   116K     0K     0K root     root     --   -   15 S     1   0% java           
+  353 ?             0.01s  0.06s     0K     0K      -      - root     -        NE   0    0 E     -   0% <java>         
+  374 ?             0.00s  0.07s     0K     0K      -      - root     -        NE   0    0 E     -   0% <java>         
+  345 98f1d2da22dc  0.02s  0.04s 205.9M 37796K 34032K     4K root     root     N-   -    3 S     1   0% Xvfb           
+  317 ?             0.02s  0.02s     0K     0K      -      - root     -        -E   0    0 E     -   0% <PluginsManag> 
+  404 ?             0.00s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <xkbcomp>      
+  163 98f1d2da22dc  0.00s  0.01s   160K   160K     0K     8K root     root     --   -    1 R     0   0% atop           
+  342 ?             0.01s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <Xvfb>         
+  366 98f1d2da22dc  0.00s  0.00s  4504K  1616K     0K    32K root     root     N-   -    1 S     0   0% jmeter         
+  343 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   1    0 E     -   0% <xauth>        
+  344 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   1    0 E     -   0% <xauth>        
+  347 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <dirname>      
+  348 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <uname>        
+  349 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <which>        
+  350 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <dirname>      
+  351 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <dirname>      
+  354 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <awk>          
+  352 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <jmeter.sh>    
+  367 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <dirname>      
+  368 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <jmeter>       
+  369 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <uname>        
+  370 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <which>        
+  371 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <dirname>      
+  372 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <dirname>      
+  375 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <awk>          
+  373 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <jmeter>       
+  387 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <uname>        
+  392 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  403 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <sh>           
+  405 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  407 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  412 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  413 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  416 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  417 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  418 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  421 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  422 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  423 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  430 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:53:47                                --------------                                15s elapsed
+PRC | sys    0.08s |  user   2.30s | #proc     24 |  #trun      1 | #tslpi    59 |  #tslpu     0 | #zombie    0 |  clones    59 |              |  #exit     11 |
+CPU | sys       3% |  user    110% | irq       0% |  idle     81% | wait      6% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       2% |  user     68% | irq       0% |  idle     28% | cpu001 w  2% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       2% |  user     43% | irq       0% |  idle     52% | cpu000 w  3% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    1.42 |  avg5    0.42 | avg15   0.15 |               |              |  csw     7521 | intr   16261 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    6.6G | cache 561.8M |  buff   24.6M | slab   63.3M |  shmem   8.9M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom   1.6G |  vmlim   3.9G |
+DSK |         xvda |  busy      5% | read      17 |  write    813 | KiB/r     17 |  KiB/w    123 | MBr/s    0.0 |  MBw/s    6.6 | avq    26.65 |  avio 0.91 ms |
+DSK |        xvda1 |  busy      5% | read      17 |  write    813 | KiB/r     17 |  KiB/w    123 | MBr/s    0.0 |  MBw/s    6.6 | avq    26.65 |  avio 0.91 ms |
+DSK |         xvdb |  busy      0% | read       0 |  write      5 | KiB/r      0 |  KiB/w     20 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |        xvdb1 |  busy      0% | read       0 |  write      5 | KiB/r      0 |  KiB/w     20 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+NET | transport    |  tcpi     269 | tcpo     440 |  udpi       2 | udpo       2 |  tcpao     62 | tcppo      0 |  tcprs      0 | tcpie      0 |  udpie      0 |
+NET | network      |  ipi      271 | ipo      442 |  ipfrw      0 | deliv    271 |               |              |               | icmpi      0 |  icmpo      0 |
+NET | eth0      0% |  pcki     272 | pcko     443 |  sp   10 Gbps | si  449 Kbps |  so   42 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+  388 98f1d2da22dc  0.04s  1.80s  3084K -3612K    24K     8K root     root     --   -   29 S     0  12% java           
+   84 98f1d2da22dc  0.03s  0.35s  7796K  8104K   160K    20K root     root     --   -    2 S     1   3% python         
+  301 98f1d2da22dc  0.01s  0.13s     0K  1064K    96K    28K root     root     --   -   16 S     1   1% java           
+  163 98f1d2da22dc  0.00s  0.02s   -12K   -12K     0K     4K root     root     --   -    1 R     1   0% atop           
+  432 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  433 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  434 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  437 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  439 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  440 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  442 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  443 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  444 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  445 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  446 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:54:02                                --------------                                15s elapsed
+PRC | sys    0.21s |  user   2.89s | #proc     22 |  #trun      1 | #tslpi    62 |  #tslpu     0 | #zombie    0 |  clones   189 |              |  #exit      9 |
+CPU | sys       6% |  user    105% | irq       0% |  idle     78% | wait     10% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       3% |  user     82% | irq       0% |  idle     10% | cpu000 w  5% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       2% |  user     23% | irq       0% |  idle     68% | cpu001 w  6% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    1.32 |  avg5    0.45 | avg15   0.16 |               |              |  csw    22506 | intr   22956 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    6.5G | cache 581.7M |  buff   28.9M | slab   72.0M |  shmem   8.9M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom   1.7G |  vmlim   3.9G |
+DSK |         xvda |  busy     12% | read    1093 |  write   1722 | KiB/r      8 |  KiB/w     18 | MBr/s    0.6 |  MBw/s    2.1 | avq     3.07 |  avio 0.62 ms |
+DSK |        xvda1 |  busy     12% | read    1093 |  write   1722 | KiB/r      8 |  KiB/w     18 | MBr/s    0.6 |  MBw/s    2.1 | avq     3.07 |  avio 0.62 ms |
+DSK |         xvdb |  busy      0% | read       0 |  write      8 | KiB/r      0 |  KiB/w      9 | MBr/s    0.0 |  MBw/s    0.0 | avq     1.00 |  avio 0.50 ms |
+DSK |        xvdb1 |  busy      0% | read       0 |  write      8 | KiB/r      0 |  KiB/w      9 | MBr/s    0.0 |  MBw/s    0.0 | avq     1.00 |  avio 0.50 ms |
+NET | transport    |  tcpi     703 | tcpo    1193 |  udpi       6 | udpo       6 |  tcpao    148 | tcppo      0 |  tcprs      0 | tcpie      0 |  udpie      0 |
+NET | network      |  ipi      709 | ipo     1131 |  ipfrw      0 | deliv    709 |               |              |               | icmpi      0 |  icmpo      0 |
+NET | eth0      0% |  pcki     709 | pcko    1131 |  sp   10 Gbps | si  969 Kbps |  so  181 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+  388 98f1d2da22dc  0.06s  1.21s  3084K 10612K     0K    48K root     root     --   -   32 S     0   8% java           
+  301 98f1d2da22dc  0.07s  1.01s 10404K  9652K    16K    36K root     root     --   -   16 S     1   7% java           
+   84 98f1d2da22dc  0.06s  0.66s  3856K  3808K     0K    12K root     root     --   -    2 S     0   5% python         
+   90 98f1d2da22dc  0.01s  0.01s   256K  1148K     0K     0K root     root     --   -    2 S     0   0% python         
+  163 98f1d2da22dc  0.01s  0.00s     0K     0K     0K     8K root     root     --   -    1 R     1   0% atop           
+  448 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  449 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  450 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  461 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  462 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  464 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  467 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  468 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  469 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:54:17                                --------------                                15s elapsed
+PRC | sys    0.18s |  user   3.64s | #proc     22 |  #trun      1 | #tslpi    68 |  #tslpu     0 | #zombie    0 |  clones  3696 |              |  #exit      9 |
+CPU | sys      31% |  user     72% | irq       0% |  idle     62% | wait     35% |               | steal     1% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys      11% |  user     41% | irq       0% |  idle     33% | cpu000 w 14% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys      19% |  user     30% | irq       0% |  idle     29% | cpu001 w 21% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    1.41 |  avg5    0.51 | avg15   0.19 |               |              |  csw   111058 | intr  110746 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    6.2G | cache 785.0M |  buff   64.5M | slab  128.3M |  shmem   8.9M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom   1.7G |  vmlim   3.9G |
+DSK |         xvda |  busy     58% | read    1619 |  write  22016 | KiB/r      7 |  KiB/w     15 | MBr/s    0.8 |  MBw/s   22.0 | avq    10.28 |  avio 0.36 ms |
+DSK |        xvda1 |  busy     58% | read    1619 |  write  22016 | KiB/r      7 |  KiB/w     15 | MBr/s    0.8 |  MBw/s   22.0 | avq    10.28 |  avio 0.36 ms |
+DSK |         xvdb |  busy      0% | read       0 |  write      3 | KiB/r      0 |  KiB/w     29 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |        xvdb1 |  busy      0% | read       0 |  write      3 | KiB/r      0 |  KiB/w     29 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+NET | transport    |  tcpi     883 | tcpo    1506 |  udpi       2 | udpo       2 |  tcpao    201 | tcppo      0 |  tcprs      0 | tcpie      0 |  udpie      0 |
+NET | network      |  ipi      885 | ipo     1468 |  ipfrw      0 | deliv    885 |               |              |               | icmpi      0 |  icmpo      0 |
+NET | eth0      0% |  pcki     885 | pcko    1468 |  sp   10 Gbps | si 1257 Kbps |  so  188 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+  301 98f1d2da22dc  0.04s  1.55s     0K  9636K     0K    44K root     root     --   -   17 S     1  11% java           
+  388 98f1d2da22dc  0.07s  1.31s  5140K  2700K     0K    12K root     root     --   -   37 S     0   9% java           
+   84 98f1d2da22dc  0.05s  0.77s  3312K  3232K     0K    32K root     root     --   -    2 S     1   6% python         
+  163 98f1d2da22dc  0.01s  0.01s    56K    56K     0K     4K root     root     --   -    1 R     1   0% atop           
+  490 ?             0.01s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  472 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  477 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  478 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  479 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  480 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  481 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  492 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  493 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:54:32                                --------------                                15s elapsed
+PRC | sys    0.17s |  user   3.11s | #proc     23 |  #trun      1 | #tslpi    71 |  #tslpu     0 | #zombie    0 |  clones  5521 |              |  #exit     10 |
+CPU | sys      22% |  user     67% | irq       0% |  idle    104% | wait      6% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys      13% |  user     32% | irq       0% |  idle     51% | cpu001 w  3% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       9% |  user     35% | irq       0% |  idle     53% | cpu000 w  2% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    1.66 |  avg5    0.62 | avg15   0.23 |               |              |  csw    52939 | intr   51425 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    6.2G | cache 769.4M |  buff   67.5M | slab  130.4M |  shmem   8.9M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom   1.6G |  vmlim   3.9G |
+DSK |         xvda |  busy      6% | read     520 |  write   1039 | KiB/r     25 |  KiB/w     41 | MBr/s    0.9 |  MBw/s    2.8 | avq     5.47 |  avio 0.62 ms |
+DSK |        xvda1 |  busy      6% | read     441 |  write   1039 | KiB/r     26 |  KiB/w     41 | MBr/s    0.8 |  MBw/s    2.8 | avq     5.46 |  avio 0.65 ms |
+DSK |         xvdb |  busy      0% | read      39 |  write     19 | KiB/r     27 |  KiB/w      7 | MBr/s    0.1 |  MBw/s    0.0 | avq     2.00 |  avio 0.28 ms |
+DSK |        xvdb1 |  busy      0% | read      32 |  write     19 | KiB/r     32 |  KiB/w      7 | MBr/s    0.1 |  MBw/s    0.0 | avq     2.00 |  avio 0.31 ms |
+NET | transport    |  tcpi    1189 | tcpo    2068 |  udpi       4 | udpo       4 |  tcpao    275 | tcppo      0 |  tcprs      0 | tcpie      0 |  udpie      0 |
+NET | network      |  ipi     1193 | ipo     1989 |  ipfrw      0 | deliv   1193 |               |              |               | icmpi      0 |  icmpo      0 |
+NET | eth0      0% |  pcki    1194 | pcko    1990 |  sp   10 Gbps | si 1463 Kbps |  so  272 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+  388 98f1d2da22dc  0.09s  1.02s  3252K  2304K     0K    64K root     root     --   -   40 S     0   7% java           
+  301 98f1d2da22dc  0.04s  1.06s     0K 19296K     0K    56K root     root     --   -   17 S     1   7% java           
+   84 98f1d2da22dc  0.04s  1.01s  1152K  1396K     0K    36K root     root     --   -    2 S     1   7% python         
+  163 98f1d2da22dc  0.00s  0.01s     8K     8K     0K     4K root     root     --   -    1 R     1   0% atop           
+  499 ?             0.00s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  494 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  495 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  496 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  498 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  501 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  502 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  503 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  504 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  515 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:54:47                                --------------                                15s elapsed
+PRC | sys    0.20s |  user   1.89s | #proc     23 |  #trun      1 | #tslpi    71 |  #tslpu     0 | #zombie    0 |  clones    11 |              |  #exit     10 |
+CPU | sys       2% |  user     13% | irq       0% |  idle    185% | wait      0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user      8% | irq       0% |  idle     90% | cpu001 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user      5% | irq       0% |  idle     95% | cpu000 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    1.36 |  avg5    0.60 | avg15   0.23 |               |              |  csw    11342 | intr   11911 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    6.2G | cache 769.5M |  buff   67.5M | slab  130.9M |  shmem   8.9M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom   1.6G |  vmlim   3.9G |
+NET | transport    |  tcpi    1529 | tcpo    2556 |  udpi       2 | udpo       2 |  tcpao    346 | tcppo      0 |  tcprs      0 | tcpie      0 |  udpie      0 |
+NET | network      |  ipi     1531 | ipo     2558 |  ipfrw      0 | deliv   1531 |               |              |               | icmpi      0 |  icmpo      0 |
+NET | eth0      0% |  pcki    1531 | pcko    2558 |  sp   10 Gbps | si 2007 Kbps |  so  255 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+  388 98f1d2da22dc  0.11s  1.07s  1028K 30384K     0K     4K root     root     --   -   41 S     0   8% java           
+   84 98f1d2da22dc  0.07s  0.68s  -476K  -444K     0K    24K root     root     --   -    2 S     0   5% python         
+  301 98f1d2da22dc  0.02s  0.13s     0K -15.5M     0K     8K root     root     --   -   16 S     1   1% java           
+  163 98f1d2da22dc  0.00s  0.01s     0K     0K     0K     8K root     root     --   -    1 R     1   0% atop           
+  516 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  517 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  518 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  519 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  520 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  522 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  523 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  524 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  525 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  526 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:55:02                                --------------                                15s elapsed
+PRC | sys    0.17s |  user   2.56s | #proc     21 |  #trun      1 | #tslpi    74 |  #tslpu     0 | #zombie    0 |  clones    19 |              |  #exit      8 |
+CPU | sys       1% |  user     17% | irq       0% |  idle    180% | wait      1% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       0% |  user     10% | irq       0% |  idle     89% | cpu000 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user      7% | irq       0% |  idle     91% | cpu001 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    1.06 |  avg5    0.57 | avg15   0.22 |               |              |  csw    12779 | intr   14522 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    6.2G | cache 769.5M |  buff   67.5M | slab  131.4M |  shmem   8.9M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom   1.6G |  vmlim   3.9G |
+DSK |         xvda |  busy      1% | read       0 |  write    402 | KiB/r      0 |  KiB/w     81 | MBr/s    0.0 |  MBw/s    2.1 | avq    29.30 |  avio 0.23 ms |
+DSK |        xvda1 |  busy      1% | read       0 |  write    402 | KiB/r      0 |  KiB/w     81 | MBr/s    0.0 |  MBw/s    2.1 | avq    29.30 |  avio 0.23 ms |
+DSK |         xvdb |  busy      0% | read       1 |  write      9 | KiB/r      4 |  KiB/w     16 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |        xvdb1 |  busy      0% | read       1 |  write      9 | KiB/r      4 |  KiB/w     16 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+NET | transport    |  tcpi    1912 | tcpo    3274 |  udpi       2 | udpo       2 |  tcpao    426 | tcppo      0 |  tcprs      0 | tcpie      0 |  udpie      0 |
+NET | network      |  ipi     1914 | ipo     3174 |  ipfrw      0 | deliv   1914 |               |              |               | icmpi      0 |  icmpo      0 |
+NET | eth0      0% |  pcki    1915 | pcko    3175 |  sp   10 Gbps | si 2449 Kbps |  so  407 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+  388 98f1d2da22dc  0.11s  1.18s  2056K   564K     0K    32K root     root     --   -   43 S     0   9% java           
+   84 98f1d2da22dc  0.02s  0.72s   192K    96K     0K    32K root     root     --   -    2 S     0   5% python         
+  301 98f1d2da22dc  0.02s  0.62s     0K  1096K     0K    44K root     root     --   -   17 S     1   4% java           
+  163 98f1d2da22dc  0.00s  0.01s     0K     0K     0K     4K root     root     --   -    1 R     1   0% atop           
+  530 ?             0.01s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  540 ?             0.00s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  542 ?             0.01s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  544 ?             0.00s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  545 ?             0.00s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  527 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  529 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  541 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:55:17                                --------------                                15s elapsed
+PRC | sys    0.26s |  user   2.46s | #proc     23 |  #trun      1 | #tslpi    76 |  #tslpu     0 | #zombie    0 |  clones    23 |              |  #exit     10 |
+CPU | sys       2% |  user     17% | irq       1% |  idle    181% | wait      0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user      8% | irq       1% |  idle     91% | cpu001 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user      9% | irq       0% |  idle     90% | cpu000 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    0.82 |  avg5    0.55 | avg15   0.22 |               |              |  csw    13669 | intr   15723 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    6.2G | cache 769.6M |  buff   67.5M | slab  131.9M |  shmem   8.9M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom   1.6G |  vmlim   3.9G |
+DSK |         xvdb |  busy      0% | read       0 |  write      3 | KiB/r      0 |  KiB/w      6 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |        xvdb1 |  busy      0% | read       0 |  write      3 | KiB/r      0 |  KiB/w      6 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+NET | transport    |  tcpi    2078 | tcpo    3513 |  udpi       4 | udpo       4 |  tcpao    454 | tcppo      0 |  tcprs      1 | tcpie      0 |  udpie      0 |
+NET | network      |  ipi     2082 | ipo     3422 |  ipfrw      0 | deliv   2082 |               |              |               | icmpi      0 |  icmpo      0 |
+NET | eth0      0% |  pcki    2082 | pcko    3422 |  sp   10 Gbps | si 2695 Kbps |  so  426 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+   84 98f1d2da22dc  0.05s  0.86s  2112K  2208K     0K    32K root     root     --   -    2 S     1   6% python         
+  388 98f1d2da22dc  0.10s  0.76s  2056K   588K     0K    12K root     root     --   -   45 S     0   6% java           
+  301 98f1d2da22dc  0.05s  0.79s     0K 12648K     0K    20K root     root     --   -   17 S     1   6% java           
+   90 98f1d2da22dc  0.00s  0.02s     0K    60K     0K     0K root     root     --   -    2 S     1   0% python         
+  163 98f1d2da22dc  0.01s  0.00s     0K     0K     0K     4K root     root     --   -    1 R     1   0% atop           
+  548 ?             0.00s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  549 ?             0.01s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  550 ?             0.01s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  554 ?             0.01s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  555 ?             0.01s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  556 ?             0.01s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  557 ?             0.00s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  568 ?             0.00s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  552 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  553 ?             0.00s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:55:32                                --------------                                15s elapsed
+PRC | sys    0.27s |  user   1.89s | #proc     22 |  #trun      1 | #tslpi    76 |  #tslpu     0 | #zombie    0 |  clones    10 |              |  #exit      9 |
+CPU | sys       2% |  user     13% | irq       1% |  idle    185% | wait      0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user      7% | irq       0% |  idle     92% | cpu000 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user      6% | irq       0% |  idle     93% | cpu001 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    0.64 |  avg5    0.52 | avg15   0.22 |               |              |  csw    14464 | intr   16841 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    6.2G | cache 769.6M |  buff   67.5M | slab  132.6M |  shmem   8.9M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom   1.6G |  vmlim   3.9G |
+DSK |         xvda |  busy      0% | read       0 |  write     57 | KiB/r      0 |  KiB/w      7 | MBr/s    0.0 |  MBw/s    0.0 | avq     1.00 |  avio 0.07 ms |
+DSK |        xvda1 |  busy      0% | read       0 |  write     57 | KiB/r      0 |  KiB/w      7 | MBr/s    0.0 |  MBw/s    0.0 | avq     1.00 |  avio 0.07 ms |
+DSK |         xvdb |  busy      0% | read       0 |  write     12 | KiB/r      0 |  KiB/w      7 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |        xvdb1 |  busy      0% | read       0 |  write     12 | KiB/r      0 |  KiB/w      7 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+NET | transport    |  tcpi    2439 | tcpo    4141 |  udpi       2 | udpo       2 |  tcpao    544 | tcppo      0 |  tcprs      0 | tcpie      0 |  udpie      0 |
+NET | network      |  ipi     2441 | ipo     4085 |  ipfrw      0 | deliv   2441 |               |              |               | icmpi      0 |  icmpo      0 |
+NET | eth0      0% |  pcki    2441 | pcko    4085 |  sp   10 Gbps | si 3226 Kbps |  so  448 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+  388 98f1d2da22dc  0.16s  0.87s  1028K 15940K     0K    32K root     root     --   -   46 S     0   7% java           
+   84 98f1d2da22dc  0.04s  0.92s  -768K  -864K     0K    28K root     root     --   -    2 S     0   6% python         
+  301 98f1d2da22dc  0.02s  0.05s     0K -10.0M     0K    24K root     root     --   -   16 S     1   0% java           
+  163 98f1d2da22dc  0.00s  0.01s     4K     4K     0K     8K root     root     --   -    1 R     1   0% atop           
+  569 ?             0.00s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  570 ?             0.00s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  571 ?             0.01s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  572 ?             0.00s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  573 ?             0.01s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  575 ?             0.01s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  576 ?             0.01s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  577 ?             0.00s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  578 ?             0.01s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:55:47                                --------------                                15s elapsed
+PRC | sys    0.31s |  user   2.98s | #proc     21 |  #trun      1 | #tslpi    78 |  #tslpu     0 | #zombie    0 |  clones    20 |              |  #exit      8 |
+CPU | sys       2% |  user     20% | irq       1% |  idle    177% | wait      0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user     11% | irq       0% |  idle     88% | cpu000 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user      9% | irq       1% |  idle     89% | cpu001 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    0.57 |  avg5    0.51 | avg15   0.22 |               |              |  csw    15425 | intr   18535 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    6.2G | cache 769.7M |  buff   67.5M | slab  133.2M |  shmem   8.9M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom   1.6G |  vmlim   3.9G |
+DSK |         xvda |  busy      0% | read       0 |  write      3 | KiB/r      0 |  KiB/w      4 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |        xvda1 |  busy      0% | read       0 |  write      3 | KiB/r      0 |  KiB/w      4 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |         xvdb |  busy      0% | read       0 |  write      6 | KiB/r      0 |  KiB/w     17 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |        xvdb1 |  busy      0% | read       0 |  write      6 | KiB/r      0 |  KiB/w     17 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+NET | transport    |  tcpi    2748 | tcpo    4672 |  udpi       0 | udpo       0 |  tcpao    630 | tcppo      0 |  tcprs      0 | tcpie      0 |  udpie      0 |
+NET | network      |  ipi     2748 | ipo     4603 |  ipfrw      0 | deliv   2748 |               |              |               | icmpi      0 |  icmpo      0 |
+NET | eth0      0% |  pcki    2749 | pcko    4604 |  sp   10 Gbps | si 3373 Kbps |  so  513 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+  388 98f1d2da22dc  0.17s  1.12s  2056K  7856K     0K    12K root     root     --   -   48 S     0   9% java           
+   84 98f1d2da22dc  0.06s  1.02s -2500K -2372K     0K    44K root     root     --   -    2 S     0   7% python         
+  301 98f1d2da22dc  0.02s  0.76s  1028K  4348K     0K    24K root     root     --   -   16 S     1   5% java           
+  163 98f1d2da22dc  0.01s  0.01s     0K     0K     0K     4K root     root     --   -    1 R     1   0% atop           
+  581 ?             0.00s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  592 ?             0.00s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  593 ?             0.02s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  598 ?             0.01s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  579 ?             0.01s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  594 ?             0.00s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  595 ?             0.00s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  597 ?             0.01s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:56:02                                --------------                                15s elapsed
+PRC | sys    0.34s |  user   2.50s | #proc     23 |  #trun      1 | #tslpi    81 |  #tslpu     0 | #zombie    0 |  clones    21 |              |  #exit     10 |
+CPU | sys       2% |  user     17% | irq       1% |  idle    180% | wait      0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user     10% | irq       0% |  idle     88% | cpu000 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user      7% | irq       1% |  idle     92% | cpu001 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    0.44 |  avg5    0.48 | avg15   0.21 |               |              |  csw    17155 | intr   20784 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    6.2G | cache 769.8M |  buff   67.5M | slab  133.9M |  shmem   8.9M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom   1.6G |  vmlim   3.9G |
+DSK |         xvda |  busy      0% | read       0 |  write      5 | KiB/r      0 |  KiB/w     15 | MBr/s    0.0 |  MBw/s    0.0 | avq     1.00 |  avio 0.80 ms |
+DSK |        xvda1 |  busy      0% | read       0 |  write      5 | KiB/r      0 |  KiB/w     15 | MBr/s    0.0 |  MBw/s    0.0 | avq     1.00 |  avio 0.80 ms |
+DSK |         xvdb |  busy      0% | read       0 |  write      7 | KiB/r      0 |  KiB/w      9 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |        xvdb1 |  busy      0% | read       0 |  write      7 | KiB/r      0 |  KiB/w      9 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+NET | transport    |  tcpi    3062 | tcpo    5301 |  udpi       2 | udpo       2 |  tcpao    705 | tcppo      0 |  tcprs      0 | tcpie      0 |  udpie      0 |
+NET | network      |  ipi     3064 | ipo     5152 |  ipfrw      0 | deliv   3064 |               |              |               | icmpi      0 |  icmpo      0 |
+NET | eth0      0% |  pcki    3064 | pcko    5152 |  sp   10 Gbps | si 3690 Kbps |  so  633 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+   84 98f1d2da22dc  0.09s  1.01s   832K   680K     0K    32K root     root     --   -    2 S     0   7% python         
+  388 98f1d2da22dc  0.17s  0.85s  2056K     0K     0K    32K root     root     --   -   50 S     0   7% java           
+  301 98f1d2da22dc  0.03s  0.51s     0K   644K     0K    40K root     root     --   -   17 S     1   4% java           
+  600 ?             0.01s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  603 ?             0.00s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  604 ?             0.00s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  614 ?             0.01s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  615 ?             0.01s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  616 ?             0.01s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  617 ?             0.00s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  619 ?             0.01s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  599 ?             0.00s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  601 ?             0.00s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  163 98f1d2da22dc  0.00s  0.00s     0K     0K     0K     4K root     root     --   -    1 R     1   0% atop           
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:56:17                                --------------                                15s elapsed
+PRC | sys    0.33s |  user   3.01s | #proc     21 |  #trun      2 | #tslpi    84 |  #tslpu     0 | #zombie    0 |  clones    21 |              |  #exit      8 |
+CPU | sys       3% |  user     20% | irq       1% |  idle    177% | wait      0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user     13% | irq       0% |  idle     85% | cpu000 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user      7% | irq       1% |  idle     92% | cpu001 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    0.41 |  avg5    0.48 | avg15   0.21 |               |              |  csw    17724 | intr   23168 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    6.1G | cache 769.8M |  buff   67.5M | slab  134.6M |  shmem   8.9M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom   1.6G |  vmlim   3.9G |
+DSK |         xvda |  busy      0% | read       0 |  write      2 | KiB/r      0 |  KiB/w      8 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |        xvda1 |  busy      0% | read       0 |  write      2 | KiB/r      0 |  KiB/w      8 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |         xvdb |  busy      0% | read       0 |  write      5 | KiB/r      0 |  KiB/w     29 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |        xvdb1 |  busy      0% | read       0 |  write      5 | KiB/r      0 |  KiB/w     29 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+NET | transport    |  tcpi    3386 | tcpo    5772 |  udpi       4 | udpo       4 |  tcpao    774 | tcppo      0 |  tcprs      0 | tcpie      0 |  udpie      0 |
+NET | network      |  ipi     3390 | ipo     5670 |  ipfrw      0 | deliv   3390 |               |              |               | icmpi      0 |  icmpo      0 |
+NET | eth0      0% |  pcki    3391 | pcko    5671 |  sp   10 Gbps | si 4463 Kbps |  so  641 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+  388 98f1d2da22dc  0.18s  1.58s  2056K 11460K     0K    16K root     root     --   -   52 S     0  12% java           
+   84 98f1d2da22dc  0.05s  1.07s  1444K  1628K     0K    48K root     root     --   -    2 S     1   8% python         
+  301 98f1d2da22dc  0.00s  0.24s     0K   616K     0K    16K root     root     --   -   19 S     1   2% java           
+  625 ?             0.02s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  629 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  631 ?             0.02s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+   90 98f1d2da22dc  0.00s  0.02s     0K    36K     0K     0K root     root     --   -    2 S     0   0% python         
+  622 ?             0.01s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  623 ?             0.01s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  624 ?             0.01s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  627 ?             0.01s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  628 ?             0.01s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  163 98f1d2da22dc  0.00s  0.01s     4K     4K     0K     8K root     root     --   -    1 R     1   0% atop           
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:56:32                                --------------                                15s elapsed
+PRC | sys    0.46s |  user   5.62s | #proc     22 |  #trun      1 | #tslpi    83 |  #tslpu     0 | #zombie    0 |  clones    10 |              |  #exit      9 |
+CPU | sys       3% |  user     38% | irq       1% |  idle    158% | wait      0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       2% |  user     22% | irq       1% |  idle     75% | cpu001 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user     16% | irq       0% |  idle     83% | cpu000 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    0.39 |  avg5    0.47 | avg15   0.22 |               |              |  csw    18370 | intr   24149 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    6.1G | cache 769.9M |  buff   67.5M | slab  135.3M |  shmem   8.9M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom   1.6G |  vmlim   3.9G |
+DSK |         xvdb |  busy      0% | read       0 |  write     11 | KiB/r      0 |  KiB/w      6 | MBr/s    0.0 |  MBw/s    0.0 | avq     6.00 |  avio 0.36 ms |
+DSK |        xvdb1 |  busy      0% | read       0 |  write     11 | KiB/r      0 |  KiB/w      6 | MBr/s    0.0 |  MBw/s    0.0 | avq     6.00 |  avio 0.36 ms |
+DSK |         xvda |  busy      0% | read       0 |  write     10 | KiB/r      0 |  KiB/w      9 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |        xvda1 |  busy      0% | read       0 |  write     10 | KiB/r      0 |  KiB/w      9 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+NET | transport    |  tcpi    3688 | tcpo    6260 |  udpi       2 | udpo       2 |  tcpao    823 | tcppo      0 |  tcprs      0 | tcpie      1 |  udpie      0 |
+NET | network      |  ipi     3690 | ipo     6178 |  ipfrw      0 | deliv   3690 |               |              |               | icmpi      0 |  icmpo      0 |
+NET | eth0      0% |  pcki    3690 | pcko    6178 |  sp   10 Gbps | si 4753 Kbps |  so  690 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+  388 98f1d2da22dc  0.20s  3.67s  1028K  8452K     0K    36K root     root     --   -   53 S     0  26% java           
+   84 98f1d2da22dc  0.09s  1.29s   864K  1192K     0K    44K root     root     --   -    2 S     0   9% python         
+  301 98f1d2da22dc  0.04s  0.48s     0K 18856K     0K    36K root     root     --   -   16 S     1   3% java           
+  641 ?             0.01s  0.03s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  646 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  649 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  643 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  644 ?             0.03s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  645 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  647 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  650 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  163 98f1d2da22dc  0.01s  0.01s     4K     4K     0K     4K root     root     --   -    1 R     1   0% atop           
+  648 ?             0.00s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:56:47                                --------------                                15s elapsed
+PRC | sys    0.43s |  user   4.26s | #proc     22 |  #trun      1 | #tslpi    84 |  #tslpu     0 | #zombie    0 |  clones    16 |              |  #exit      9 |
+CPU | sys       3% |  user     29% | irq       1% |  idle    168% | wait      0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user     17% | irq       0% |  idle     81% | cpu000 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user     11% | irq       1% |  idle     86% | cpu001 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    0.37 |  avg5    0.46 | avg15   0.22 |               |              |  csw    18388 | intr   24191 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    6.1G | cache 770.0M |  buff   67.6M | slab  135.9M |  shmem   8.9M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom   1.6G |  vmlim   3.9G |
+DSK |         xvda |  busy      0% | read       0 |  write      3 | KiB/r      0 |  KiB/w      5 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |        xvda1 |  busy      0% | read       0 |  write      3 | KiB/r      0 |  KiB/w      5 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |         xvdb |  busy      0% | read       0 |  write      6 | KiB/r      0 |  KiB/w     30 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |        xvdb1 |  busy      0% | read       0 |  write      6 | KiB/r      0 |  KiB/w     30 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+NET | transport    |  tcpi    3622 | tcpo    6188 |  udpi       4 | udpo       4 |  tcpao    835 | tcppo      0 |  tcprs      0 | tcpie      0 |  udpie      0 |
+NET | network      |  ipi     3626 | ipo     6109 |  ipfrw      0 | deliv   3626 |               |              |               | icmpi      0 |  icmpo      0 |
+NET | eth0      0% |  pcki    3626 | pcko    6109 |  sp   10 Gbps | si 4563 Kbps |  so  678 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+  388 98f1d2da22dc  0.19s  2.27s     0K -1344K     0K    20K root     root     --   -   53 S     0  16% java           
+   84 98f1d2da22dc  0.07s  1.21s   960K   960K     0K    48K root     root     --   -    2 S     0   9% python         
+  301 98f1d2da22dc  0.02s  0.59s     0K   616K     0K    24K root     root     --   -   17 S     1   4% java           
+  652 ?             0.04s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  651 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  654 ?             0.01s  0.03s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  664 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  653 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  662 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  663 ?             0.02s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  665 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  666 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  163 98f1d2da22dc  0.00s  0.01s    -4K    -4K     0K     4K root     root     --   -    1 R     1   0% atop           
+   90 98f1d2da22dc  0.00s  0.00s     0K     8K     0K     0K root     root     --   -    2 S     0   0% python         
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:57:02                                --------------                                15s elapsed
+PRC | sys    0.51s |  user   2.83s | #proc     22 |  #trun      1 | #tslpi    84 |  #tslpu     0 | #zombie    0 |  clones    18 |              |  #exit      9 |
+CPU | sys       3% |  user     19% | irq       1% |  idle    176% | wait      0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       2% |  user     12% | irq       0% |  idle     86% | cpu000 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       2% |  user      7% | irq       1% |  idle     90% | cpu001 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    0.29 |  avg5    0.44 | avg15   0.21 |               |              |  csw    19144 | intr   23920 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    6.1G | cache 770.1M |  buff   67.6M | slab  136.4M |  shmem   8.9M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom   1.6G |  vmlim   3.9G |
+DSK |         xvdb |  busy      0% | read       0 |  write      9 | KiB/r      0 |  KiB/w      9 | MBr/s    0.0 |  MBw/s    0.0 | avq     7.00 |  avio 0.44 ms |
+DSK |        xvdb1 |  busy      0% | read       0 |  write      9 | KiB/r      0 |  KiB/w      9 | MBr/s    0.0 |  MBw/s    0.0 | avq     7.00 |  avio 0.44 ms |
+DSK |         xvda |  busy      0% | read       0 |  write      5 | KiB/r      0 |  KiB/w     16 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |        xvda1 |  busy      0% | read       0 |  write      5 | KiB/r      0 |  KiB/w     16 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+NET | transport    |  tcpi    3693 | tcpo    6295 |  udpi       0 | udpo       0 |  tcpao    821 | tcppo      0 |  tcprs      0 | tcpie      0 |  udpie      0 |
+NET | network      |  ipi     3693 | ipo     6117 |  ipfrw      0 | deliv   3693 |               |              |               | icmpi      0 |  icmpo      0 |
+NET | eth0      0% |  pcki    3694 | pcko    6118 |  sp   10 Gbps | si 4642 Kbps |  so  753 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+   84 98f1d2da22dc  0.09s  1.15s -2212K -2212K     0K    40K root     root     --   -    2 S     0   8% python         
+  388 98f1d2da22dc  0.23s  0.83s     0K     0K     0K    32K root     root     --   -   53 S     0   7% java           
+  301 98f1d2da22dc  0.02s  0.68s     0K  1664K     0K    40K root     root     --   -   17 S     1   5% java           
+  671 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  672 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  682 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  683 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  684 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  667 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  668 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  669 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  670 ?             0.03s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  163 98f1d2da22dc  0.01s  0.01s     4K     4K     0K     8K root     root     --   -    1 R     1   0% atop           
+   90 98f1d2da22dc  0.00s  0.00s     0K  1616K     0K     0K root     root     --   -    2 S     0   0% python         
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:57:17                                --------------                                15s elapsed
+PRC | sys    0.45s |  user   1.95s | #proc     23 |  #trun      1 | #tslpi    82 |  #tslpu     0 | #zombie    0 |  clones    12 |              |  #exit     10 |
+CPU | sys       3% |  user     14% | irq       1% |  idle    182% | wait      0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       2% |  user      7% | irq       1% |  idle     91% | cpu001 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user      7% | irq       0% |  idle     91% | cpu000 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    0.23 |  avg5    0.42 | avg15   0.21 |               |              |  csw    18597 | intr   24111 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    6.1G | cache 770.1M |  buff   67.6M | slab  136.8M |  shmem   8.9M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom   1.6G |  vmlim   3.9G |
+DSK |         xvdb |  busy      0% | read       0 |  write      1 | KiB/r      0 |  KiB/w     28 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |        xvdb1 |  busy      0% | read       0 |  write      1 | KiB/r      0 |  KiB/w     28 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+NET | transport    |  tcpi    3632 | tcpo    6093 |  udpi       4 | udpo       4 |  tcpao    799 | tcppo      0 |  tcprs      0 | tcpie      0 |  udpie      0 |
+NET | network      |  ipi     3636 | ipo     6057 |  ipfrw      0 | deliv   3636 |               |              |               | icmpi      0 |  icmpo      0 |
+NET | eth0      0% |  pcki    3636 | pcko    6057 |  sp   10 Gbps | si 4711 Kbps |  so  616 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+   84 98f1d2da22dc  0.10s  1.11s  2020K  1924K     0K    32K root     root     --   -    2 S     0   8% python         
+  388 98f1d2da22dc  0.19s  0.63s     0K -1156K     0K    16K root     root     --   -   52 S     0   5% java           
+  301 98f1d2da22dc  0.00s  0.04s     0K     0K     0K     4K root     root     --   -   16 S     1   0% java           
+  687 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  696 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  688 ?             0.02s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  689 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  690 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  691 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  692 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  693 ?             0.02s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  694 ?             0.02s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  695 ?             0.02s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+   90 98f1d2da22dc  0.00s  0.01s     0K -1612K     0K     0K root     root     --   -    2 S     0   0% python         
+  163 98f1d2da22dc  0.00s  0.00s     0K     0K     0K     4K root     root     --   -    1 R     1   0% atop           
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:57:32                                --------------                                15s elapsed
+PRC | sys    0.39s |  user   2.37s | #proc     21 |  #trun      1 | #tslpi    82 |  #tslpu     0 | #zombie    0 |  clones    17 |              |  #exit      8 |
+CPU | sys       2% |  user     16% | irq       1% |  idle    180% | wait      0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user      9% | irq       1% |  idle     89% | cpu001 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user      7% | irq       0% |  idle     91% | cpu000 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    0.17 |  avg5    0.39 | avg15   0.20 |               |              |  csw    18413 | intr   23611 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    6.1G | cache 770.2M |  buff   67.6M | slab  137.1M |  shmem   8.9M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom   1.6G |  vmlim   3.9G |
+DSK |         xvda |  busy      0% | read       0 |  write     13 | KiB/r      0 |  KiB/w      9 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |        xvda1 |  busy      0% | read       0 |  write     13 | KiB/r      0 |  KiB/w      9 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |         xvdb |  busy      0% | read       0 |  write     24 | KiB/r      0 |  KiB/w     12 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |        xvdb1 |  busy      0% | read       0 |  write     24 | KiB/r      0 |  KiB/w     12 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+NET | transport    |  tcpi    3507 | tcpo    6087 |  udpi       2 | udpo       2 |  tcpao    796 | tcppo      0 |  tcprs      0 | tcpie      0 |  udpie      0 |
+NET | network      |  ipi     3509 | ipo     5895 |  ipfrw      0 | deliv   3509 |               |              |               | icmpi      0 |  icmpo      0 |
+NET | eth0      0% |  pcki    3509 | pcko    5895 |  sp   10 Gbps | si 4360 Kbps |  so  745 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+   84 98f1d2da22dc  0.08s  1.14s  -480K  -480K     0K    60K root     root     --   -    2 S     0   8% python         
+  388 98f1d2da22dc  0.17s  0.57s     0K -2052K     0K    36K root     root     --   -   52 S     0   5% java           
+  301 98f1d2da22dc  0.03s  0.48s     0K   192K     0K    48K root     root     --   -   16 S     1   3% java           
+  697 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  711 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  712 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  713 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  707 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  708 ?             0.00s  0.03s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  709 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  710 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  163 98f1d2da22dc  0.00s  0.01s    -4K    -4K     0K     0K root     root     --   -    1 R     1   0% atop           
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:57:47                                --------------                                15s elapsed
+PRC | sys    0.45s |  user   2.31s | #proc     23 |  #trun      1 | #tslpi    83 |  #tslpu     0 | #zombie    0 |  clones    18 |              |  #exit     10 |
+CPU | sys       3% |  user     16% | irq       1% |  idle    181% | wait      0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user      8% | irq       0% |  idle     90% | cpu001 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       2% |  user      8% | irq       0% |  idle     90% | cpu000 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    0.14 |  avg5    0.37 | avg15   0.20 |               |              |  csw    18924 | intr   24451 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    6.1G | cache 770.3M |  buff   67.6M | slab  137.3M |  shmem   8.9M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom   1.6G |  vmlim   3.9G |
+NET | transport    |  tcpi    3714 | tcpo    6325 |  udpi       2 | udpo       2 |  tcpao    854 | tcppo      0 |  tcprs      0 | tcpie      0 |  udpie      0 |
+NET | network      |  ipi     3716 | ipo     6242 |  ipfrw      0 | deliv   3716 |               |              |               | icmpi      0 |  icmpo      0 |
+NET | eth0      0% |  pcki    3717 | pcko    6243 |  sp   10 Gbps | si 4417 Kbps |  so  685 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+   84 98f1d2da22dc  0.11s  1.14s   192K   192K     0K    40K root     root     --   -    2 S     0   8% python         
+  388 98f1d2da22dc  0.13s  0.58s     0K -4104K     0K    16K root     root     --   -   52 S     0   5% java           
+  301 98f1d2da22dc  0.03s  0.41s     0K   120K     0K    20K root     root     --   -   17 S     1   3% java           
+  717 ?             0.01s  0.03s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  727 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  728 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  729 ?             0.03s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  730 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  714 ?             0.03s  0.00s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  715 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  716 ?             0.02s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  718 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  731 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  163 98f1d2da22dc  0.00s  0.01s     0K     0K     0K     8K root     root     --   -    1 R     1   0% atop           
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:58:02                                --------------                                15s elapsed
+PRC | sys    0.43s |  user   2.31s | #proc     21 |  #trun      1 | #tslpi    83 |  #tslpu     0 | #zombie    0 |  clones    18 |              |  #exit      8 |
+CPU | sys       3% |  user     15% | irq       1% |  idle    181% | wait      0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user      7% | irq       1% |  idle     91% | cpu001 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user      8% | irq       0% |  idle     90% | cpu000 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    0.10 |  avg5    0.36 | avg15   0.20 |               |              |  csw    19668 | intr   24365 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    6.1G | cache 770.5M |  buff   67.6M | slab  137.5M |  shmem   8.9M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom   1.6G |  vmlim   3.9G |
+DSK |         xvda |  busy      0% | read       8 |  write      9 | KiB/r     13 |  KiB/w     11 | MBr/s    0.0 |  MBw/s    0.0 | avq     1.00 |  avio 0.24 ms |
+DSK |        xvda1 |  busy      0% | read       8 |  write      9 | KiB/r     13 |  KiB/w     11 | MBr/s    0.0 |  MBw/s    0.0 | avq     1.00 |  avio 0.24 ms |
+DSK |         xvdb |  busy      0% | read       0 |  write      7 | KiB/r      0 |  KiB/w     12 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |        xvdb1 |  busy      0% | read       0 |  write      7 | KiB/r      0 |  KiB/w     12 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+NET | transport    |  tcpi    3593 | tcpo    6242 |  udpi       4 | udpo       4 |  tcpao    820 | tcppo      0 |  tcprs      0 | tcpie      0 |  udpie      0 |
+NET | network      |  ipi     3597 | ipo     6034 |  ipfrw      0 | deliv   3597 |               |              |               | icmpi      0 |  icmpo      0 |
+NET | eth0      0% |  pcki    3597 | pcko    6034 |  sp   10 Gbps | si 4400 Kbps |  so  779 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+   84 98f1d2da22dc  0.08s  1.22s -1540K -1424K   104K    52K root     root     --   -    2 S     0   9% python         
+  388 98f1d2da22dc  0.17s  0.55s     0K -4616K     0K    36K root     root     --   -   52 S     0   5% java           
+  301 98f1d2da22dc  0.02s  0.37s     0K  2360K     0K    44K root     root     --   -   17 S     1   3% java           
+  732 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  734 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  735 ?             0.01s  0.03s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  736 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  737 ?             0.03s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  738 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  739 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  733 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  163 98f1d2da22dc  0.01s  0.01s     4K     4K     0K     4K root     root     --   -    1 R     1   0% atop           
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:58:17                                --------------                                15s elapsed
+PRC | sys    0.48s |  user   1.80s | #proc     22 |  #trun      1 | #tslpi    82 |  #tslpu     0 | #zombie    0 |  clones    11 |              |  #exit      9 |
+CPU | sys       3% |  user     13% | irq       1% |  idle    183% | wait      0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       2% |  user      9% | irq       0% |  idle     89% | cpu000 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user      4% | irq       1% |  idle     94% | cpu001 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    0.08 |  avg5    0.34 | avg15   0.19 |               |              |  csw    18261 | intr   22962 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    6.1G | cache 770.5M |  buff   67.6M | slab  137.5M |  shmem   8.9M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom   1.6G |  vmlim   3.9G |
+DSK |         xvdb |  busy      0% | read       0 |  write      6 | KiB/r      0 |  KiB/w     26 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |        xvdb1 |  busy      0% | read       0 |  write      6 | KiB/r      0 |  KiB/w     26 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+NET | transport    |  tcpi    3485 | tcpo    5879 |  udpi       4 | udpo       4 |  tcpao    784 | tcppo      0 |  tcprs      0 | tcpie      0 |  udpie      0 |
+NET | network      |  ipi     3489 | ipo     5839 |  ipfrw      0 | deliv   3489 |               |              |               | icmpi      0 |  icmpo      0 |
+NET | eth0      0% |  pcki    3490 | pcko    5840 |  sp   10 Gbps | si 4251 Kbps |  so  608 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+   84 98f1d2da22dc  0.09s  1.12s   484K   560K     0K    40K root     root     --   -    2 S     1   8% python         
+  388 98f1d2da22dc  0.22s  0.47s     0K -3592K     0K    12K root     root     --   -   52 S     0   5% java           
+  301 98f1d2da22dc  0.00s  0.06s     0K     0K     0K     8K root     root     --   -   16 S     1   0% java           
+  752 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  757 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  751 ?             0.02s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  753 ?             0.02s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  754 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  755 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  756 ?             0.02s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  758 ?             0.02s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  759 ?             0.02s  0.01s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+   90 98f1d2da22dc  0.01s  0.01s     0K     4K     0K     0K root     root     --   -    2 S     0   0% python         
+  163 98f1d2da22dc  0.00s  0.01s    -4K    -4K     0K     4K root     root     --   -    1 R     1   0% atop           
+
+
+ATOP - 98f1d2da22dc                                2018/10/26  07:58:32                                --------------                                15s elapsed
+PRC | sys    0.65s |  user   2.65s | #proc     21 |  #trun      1 | #tslpi    22 |  #tslpu     0 | #zombie    1 |  clones    26 |              |  #exit     13 |
+CPU | sys       2% |  user     18% | irq       1% |  idle    179% | wait      0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user     10% | irq       1% |  idle     88% | cpu001 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+cpu | sys       1% |  user      8% | irq       0% |  idle     90% | cpu000 w  0% |               | steal     0% |  guest     0% | curf 2.30GHz |  curscal   ?% |
+CPL | avg1    0.14 |  avg5    0.34 | avg15   0.19 |               |              |  csw    17513 | intr   20575 |               |              |  numcpu     2 |
+MEM | tot     7.8G |  free    6.5G | cache 772.1M |  buff   67.6M | slab  136.3M |  shmem   8.9M | shrss   0.0M |  vmbal   0.0M | hptot   0.0M |  hpuse   0.0M |
+SWP | tot     0.0M |  free    0.0M |              |               |              |               |              |               | vmcom   1.0G |  vmlim   3.9G |
+DSK |         xvda |  busy      0% | read      16 |  write      7 | KiB/r     97 |  KiB/w     18 | MBr/s    0.1 |  MBw/s    0.0 | avq     1.00 |  avio 1.91 ms |
+DSK |        xvda1 |  busy      0% | read      16 |  write      7 | KiB/r     97 |  KiB/w     18 | MBr/s    0.1 |  MBw/s    0.0 | avq     1.00 |  avio 1.91 ms |
+DSK |         xvdb |  busy      0% | read       0 |  write     20 | KiB/r      0 |  KiB/w      8 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+DSK |        xvdb1 |  busy      0% | read       0 |  write     20 | KiB/r      0 |  KiB/w      8 | MBr/s    0.0 |  MBw/s    0.0 | avq     0.00 |  avio 0.00 ms |
+NET | transport    |  tcpi    2906 | tcpo    5255 |  udpi       4 | udpo       4 |  tcpao    525 | tcppo      0 |  tcprs      0 | tcpie      0 |  udpie      0 |
+NET | network      |  ipi     2910 | ipo     4836 |  ipfrw      0 | deliv   2910 |               |              |               | icmpi      0 |  icmpo      0 |
+NET | eth0      0% |  pcki    2910 | pcko    4836 |  sp   10 Gbps | si 3333 Kbps |  so  779 Kbps | erri       0 |  erro       0 | drpi       0 |  drpo       0 |
+
+  PID CID          SYSCPU USRCPU  VGROW  RGROW  RDDSK  WRDSK RUID     EUID     ST EXC  THR S CPUNR  CPU CMD            
+   84 98f1d2da22dc  0.05s  1.18s -1860K -1764K 42648K   716K root     root     --   -    2 S     1   8% python         
+   90 ?             0.40s  0.63s     0K     0K      -      - root     -        NS  15    0 E     -   7% <python>       
+  301 98f1d2da22dc  0.04s  0.67s     0K  2560K     0K    56K root     root     --   -   16 S     1   5% java           
+  345 ?             0.02s  0.03s     0K     0K      -      - root     -        NE   0    0 E     -   0% <Xvfb>         
+  761 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  762 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  772 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  773 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  778 ?             0.02s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  760 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  771 ?             0.01s  0.02s     0K     0K      -      - root     -        NE   0    0 E     -   0% <netstat>      
+  388 ?             0.02s  0.00s     0K     0K      -      - root     -        -E   0    0 E     -   0% <java>         
+  163 98f1d2da22dc  0.00s  0.00s     0K     0K     0K     8K root     root     --   -    1 R     1   0% atop           
+  162 98f1d2da22dc  0.00s  0.00s -4504K  -700K     0K     0K root     root     --   -    1 Z     1   0% sh             
+  366 ?             0.00s  0.00s     0K     0K      -      - root     -        -E   0    0 E     -   0% <jmeter>       
+  346 ?             0.00s  0.00s     0K     0K      -      - root     -        -E   0    0 E     -   0% <jmeter.sh>    
+  162 ?             0.00s  0.00s     0K     0K      -      - root     -        -S  15    0 E     -   0% <sh>           

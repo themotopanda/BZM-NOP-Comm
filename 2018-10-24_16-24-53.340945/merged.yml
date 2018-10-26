@@ -1,9 +1,0 @@
----
-execution:
-- executor: jmeter
-  scenario:
-    script: NOP_SC2.jmx
-modules:
-  blazemeter:
-    token: '********'
-
