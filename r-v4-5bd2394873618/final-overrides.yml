@@ -1,6 +1,0 @@
----
-provisioning: local
-
-services:
-- module: final-notifier
-- module: dynjmx
