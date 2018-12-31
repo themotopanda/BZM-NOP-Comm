@@ -1,7 +1,7 @@
 execution:
 - executor: jmeter
   ramp-up: 3m
-  hold-for: 5m
+  hold-for: 2m
   concurrency:
     local: 20
     cloud: 20

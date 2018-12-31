@@ -1,0 +1,68 @@
+{
+ "scenarios": {
+  "NOP_SC2.jmx": {
+   "script": "NOP_SC2.jmx"
+  }
+ }, 
+ "settings": {
+  "env": {
+   "OBJC_DISABLE_INITIALIZE_FORK_SAFETY": "YES"
+  }
+ }, 
+ "modules": {
+  "blazemeter": {
+   "workspace": "litterbox"
+  }, 
+  "gatling": {
+   "properties": {
+    "gatling.data.file.bufferSize": 256
+   }
+  }, 
+  "grinder": {
+   "properties": {
+    "grinder.useConsole": false
+   }
+  }, 
+  "jmeter": {
+   "properties": {
+    "jmeter.save.saveservice.autoflush": "true", 
+    "jmeter.save.saveservice.connect_time": "true", 
+    "summariser.name": "", 
+    "jmeterengine.force.system.exit": "true"
+   }
+  }
+ }, 
+ "local-bzt-version": "1.13.0", 
+ "services": [
+  {
+   "local": [
+    {
+     "metrics": [
+      "cpu", 
+      "mem", 
+      "bytes-sent", 
+      "bytes-recv", 
+      "disk-read", 
+      "disk-write", 
+      "disk-space", 
+      "engine-loop", 
+      "conn-all"
+     ]
+    }
+   ], 
+   "module": "monitoring"
+  }
+ ], 
+ "execution": [
+  {
+   "scenario": "NOP_SC2.jmx", 
+   "ramp-up": "3m", 
+   "locations": {
+    "us-west-1": 1
+   }, 
+   "concurrency": 20, 
+   "executor": "jmeter", 
+   "hold-for": "2m"
+  }
+ ]
+}
