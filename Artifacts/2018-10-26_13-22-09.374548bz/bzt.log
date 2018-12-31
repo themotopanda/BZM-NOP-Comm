@@ -1,0 +1,504 @@
+[2018-10-26 13:22:08,878 INFO root] Taurus CLI Tool v1.13.0
+[2018-10-26 13:22:08,879 DEBUG root] Command-line options: {'verbose': None, 'no_system_configs': None, 'quiet': None, 'log': '/var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/bzt_Hu2jF4.log', 'option': None, 'aliases': ['cloud']}
+[2018-10-26 13:22:08,879 DEBUG root] Python: CPython 2.7.15
+[2018-10-26 13:22:08,879 DEBUG root] OS: ('Darwin', 'chefe02mac947', '17.7.0', 'Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64', 'x86_64', 'i386')
+[2018-10-26 13:22:08,879 INFO root] Starting with configs: ['NOP_SC2_Jenkins.yaml']
+[2018-10-26 13:22:08,879 DEBUG root] Using personal config: /Users/chefe02/.bzt-rc
+[2018-10-26 13:22:08,879 INFO Engine] Configuring...
+[2018-10-26 13:22:08,880 DEBUG Engine] No machine configs dir: /usr/local/Cellar/bzt/1.13.0/libexec/bin/../etc/bzt.d
+[2018-10-26 13:22:08,880 DEBUG Engine] Base configs list: ['/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/resources/base-config.yml']
+[2018-10-26 13:22:08,880 DEBUG Engine.Configuration] Configs: ['/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/resources/base-config.yml']
+[2018-10-26 13:22:08,882 DEBUG Engine.Configuration] Reading /usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/resources/base-config.yml as YAML
+[2018-10-26 13:22:08,920 DEBUG Engine] User configs list: ['/Users/chefe02/.bzt-rc', 'NOP_SC2_Jenkins.yaml']
+[2018-10-26 13:22:08,920 DEBUG Engine.Configuration] Configs: ['/Users/chefe02/.bzt-rc', 'NOP_SC2_Jenkins.yaml']
+[2018-10-26 13:22:08,921 DEBUG Engine.Configuration] Reading /Users/chefe02/.bzt-rc as YAML
+[2018-10-26 13:22:09,343 DEBUG Engine.Configuration] Reading NOP_SC2_Jenkins.yaml as YAML
+[2018-10-26 13:22:09,348 DEBUG Engine.Configuration] Configs: ['/Users/chefe02/.bzt-rc', 'NOP_SC2_Jenkins.yaml']
+[2018-10-26 13:22:09,348 DEBUG Engine.Configuration] Reading /Users/chefe02/.bzt-rc as YAML
+[2018-10-26 13:22:09,353 DEBUG Engine.Configuration] Reading NOP_SC2_Jenkins.yaml as YAML
+[2018-10-26 13:22:09,374 DEBUG Engine] Requesting updates info: http://gettaurus.org/updates/?version=1.13.0&installID=jenkins-8c85905fb9f6
+[2018-10-26 13:22:09,374 INFO Engine] Artifacts dir: /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz
+[2018-10-26 13:22:09,374 DEBUG HTTPClient] Making HTTP request GET http://gettaurus.org/updates/?version=1.13.0&installID=jenkins-8c85905fb9f6
+[2018-10-26 13:22:09,380 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz/effective
+[2018-10-26 13:22:09,385 DEBUG urllib3.connectionpool] Starting new HTTP connection (1): gettaurus.org:80
+[2018-10-26 13:22:09,385 DEBUG Engine.Configuration] Dumping YAML config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz/effective.yml
+[2018-10-26 13:22:09,430 DEBUG Engine.Configuration] Dumping JSON config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz/effective.json
+[2018-10-26 13:22:09,431 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz/merged.yml
+[2018-10-26 13:22:09,432 DEBUG Engine.Configuration] Dumping YAML config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz/merged.yml
+[2018-10-26 13:22:09,436 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz/merged.json
+[2018-10-26 13:22:09,437 DEBUG Engine.Configuration] Dumping JSON config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz/merged.json
+[2018-10-26 13:22:09,437 DEBUG Engine] Add existing artifact (move=False): NOP_SC2_Jenkins.yaml
+[2018-10-26 13:22:09,438 DEBUG Engine] Copying NOP_SC2_Jenkins.yaml to /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz/NOP_SC2_Jenkins.yaml
+[2018-10-26 13:22:09,438 DEBUG Engine.Environment] Replace 'TAURUS_ARTIFACTS_DIR' in environment
+[2018-10-26 13:22:09,439 DEBUG root] Closing log handler: /var/folders/5f/vzk4zj_95sndkt7khp6l85jhnvgy8l/T/bzt_Hu2jF4.log
+[2018-10-26 13:22:09,844 DEBUG root] Switched writing logs to /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz/bzt.log
+[2018-10-26 13:22:09,845 DEBUG root] Linting config
+[2018-10-26 13:22:09,850 INFO Engine] Preparing...
+[2018-10-26 13:22:09,850 DEBUG Engine] Module config: consolidator {'class': u'bzt.modules.aggregator.ConsolidatingAggregator'}
+[2018-10-26 13:22:09,850 DEBUG root] Importing module: bzt.modules.aggregator
+[2018-10-26 13:22:10,044 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/aggregator.pyc'>
+[2018-10-26 13:22:10,044 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2018-10-26 13:22:10,045 DEBUG Engine] Module config: monitoring {'class': u'bzt.modules.monitoring.Monitoring'}
+[2018-10-26 13:22:10,045 DEBUG root] Importing module: bzt.modules.monitoring
+[2018-10-26 13:22:10,047 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/monitoring.pyc'>
+[2018-10-26 13:22:10,047 DEBUG Engine] Module config: cloud {'class': u'bzt.modules.blazemeter.CloudProvisioning', 'default-location': u'us-central1-a'}
+[2018-10-26 13:22:10,047 DEBUG root] Importing module: bzt.modules.blazemeter
+[2018-10-26 13:22:10,062 DEBUG easyprocess] version=0.2.3
+[2018-10-26 13:22:10,065 DEBUG pyvirtualdisplay] version=0.2.1
+[2018-10-26 13:22:10,066 DEBUG root] Loading class: 'CloudProvisioning' from <module 'bzt.modules.blazemeter' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/blazemeter.pyc'>
+[2018-10-26 13:22:10,067 DEBUG Engine] Module config: blazemeter {'project': u'BlazeDemo', 'token': '********', 'workspace': u'litterbox', 'test': u'NOP_SC2 Taurus/Jenkins', 'report-name': u'NOP_SC2_Jenkins', 'class': u'bzt.modules.blazemeter.BlazeMeterUploader'}
+[2018-10-26 13:22:10,067 DEBUG root] Importing module: bzt.modules.blazemeter
+[2018-10-26 13:22:10,067 DEBUG root] Loading class: 'BlazeMeterUploader' from <module 'bzt.modules.blazemeter' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/blazemeter.pyc'>
+[2018-10-26 13:22:10,067 DEBUG Engine.cloud] Installing http client
+[2018-10-26 13:22:10,067 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/accounts None
+[2018-10-26 13:22:10,067 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/accounts
+[2018-10-26 13:22:10,120 DEBUG urllib3.connectionpool] http://gettaurus.org:80 "GET /updates/?version=1.13.0&installID=jenkins-8c85905fb9f6 HTTP/1.1" 200 59
+[2018-10-26 13:22:10,121 DEBUG Engine] Taurus updates info: {u'needsUpgrade': True, u'latest': u'1.13.1'}
+[2018-10-26 13:22:10,121 WARNING Engine] There is newer version of Taurus 1.13.1 available, consider upgrading. What's new: http://gettaurus.org/docs/Changelog/
+[2018-10-26 13:22:10,133 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com:443
+[2018-10-26 13:22:10,559 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/accounts HTTP/1.1" 200 2183
+[2018-10-26 13:22:10,560 DEBUG Engine.cloud] Response [200]: {
+    "limit": 10,
+    "skip": 0,
+    "total": 2,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 153221,
+            "name": "BlazeMeter Demo",
+            "thumbnailUrl": "https://www.blazemeter.com/s
+[2018-10-26 13:22:10,561 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces?accountId=153221&enabled=true&limit=100 None
+[2018-10-26 13:22:10,561 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/workspaces?accountId=153221&enabled=true&limit=100
+[2018-10-26 13:22:10,785 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces?accountId=153221&enabled=true&limit=100 HTTP/1.1" 200 2196
+[2018-10-26 13:22:10,786 DEBUG Engine.cloud] Response [200]: {
+    "limit": 100,
+    "skip": 0,
+    "total": 3,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 215524,
+            "name": "CD Presales WorkSpace",
+            "userId": 358935,
+            "created
+[2018-10-26 13:22:10,787 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces?accountId=190324&enabled=true&limit=100 None
+[2018-10-26 13:22:10,787 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/workspaces?accountId=190324&enabled=true&limit=100
+[2018-10-26 13:22:10,988 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces?accountId=190324&enabled=true&limit=100 HTTP/1.1" 200 2190
+[2018-10-26 13:22:10,989 DEBUG Engine.cloud] Response [200]: {
+    "limit": 100,
+    "skip": 0,
+    "total": 3,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 184063,
+            "name": "demo workspace",
+            "userId": 407077,
+            "created": 1513
+[2018-10-26 13:22:10,990 DEBUG Engine] Module config: jmeter {'properties': {'jmeter.save.saveservice.autoflush': u'true', 'jmeter.save.saveservice.connect_time': u'true', 'summariser.name': u'', 'jmeterengine.force.system.exit': u'true'}, 'plugins': [u'jpgc-casutg', u'jpgc-dummy', u'jpgc-ffw', u'jpgc-fifo', u'jpgc-functions', u'jpgc-json', u'jpgc-perfmon', u'jpgc-prmctl', u'jpgc-tst'], 'class': u'bzt.modules.jmeter.JMeterExecutor', 'protocol-handlers': {'http': u'bzt.jmx.http.HTTPProtocolHandler'}}
+[2018-10-26 13:22:10,990 DEBUG root] Importing module: bzt.modules.jmeter
+[2018-10-26 13:22:11,004 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/jmeter.pyc'>
+[2018-10-26 13:22:11,005 DEBUG Engine.cloud.ProjectFinder] Parsed test link: None
+[2018-10-26 13:22:11,005 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/user None
+[2018-10-26 13:22:11,005 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/user
+[2018-10-26 13:22:11,211 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/user HTTP/1.1" 200 2102
+[2018-10-26 13:22:11,215 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 407077,
+        "email": "felicia.chen@blazemeter.com",
+        "access": 1540585327,
+        "login": 1538602495,
+        "firstName": "felicia",
+        "lastName": "chen",
+        
+[2018-10-26 13:22:11,216 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/accounts None
+[2018-10-26 13:22:11,216 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/accounts
+[2018-10-26 13:22:11,444 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/accounts HTTP/1.1" 200 2183
+[2018-10-26 13:22:11,444 DEBUG Engine.cloud] Response [200]: {
+    "limit": 10,
+    "skip": 0,
+    "total": 2,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 153221,
+            "name": "BlazeMeter Demo",
+            "thumbnailUrl": "https://www.blazemeter.com/s
+[2018-10-26 13:22:11,445 DEBUG Engine.cloud.ProjectFinder] Using default account: {u'taurusCloudUrl': None, u'updated': 1535533318, u'migratedToV4': None, u'disclaimerMessage': None, u'appUrl': u'https://a.blazemeter.com', u'owner': {u'displayName': u'felicia chen', u'id': 407077, u'email': u'felicia.chen@blazemeter.com'}, u'membersCount': 2, u'thumbnailUrl': None, u'inviteContactEmail': None, u'apiKeyExpiration': 3650, u'workspacesCount': 3, u'name': u'Default Account', u'created': 1513707945, u'legacyApiKeysDisabled': False, u'totangoId': None, u'id': 190324, u'inviteContactName': None, u'jetLagUrl': u'https://s3.amazonaws.com/blazemeter-jetlag/snapshots/jetlag-1.6.6-2018-08-12-14-47-jar-with-dependencies.jar', u'salesforceId': None, u'sessionDelayedStart': 180}
+[2018-10-26 13:22:11,445 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces?accountId=190324&enabled=true&limit=100 None
+[2018-10-26 13:22:11,445 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/workspaces?accountId=190324&enabled=true&limit=100
+[2018-10-26 13:22:11,640 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces?accountId=190324&enabled=true&limit=100 HTTP/1.1" 200 2190
+[2018-10-26 13:22:11,641 DEBUG Engine.cloud] Response [200]: {
+    "limit": 100,
+    "skip": 0,
+    "total": 3,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 184063,
+            "name": "demo workspace",
+            "userId": 407077,
+            "created": 1513
+[2018-10-26 13:22:11,641 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/projects?workspaceId=188407&name=BlazeDemo None
+[2018-10-26 13:22:11,641 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/projects?workspaceId=188407&name=BlazeDemo
+[2018-10-26 13:22:11,833 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/projects?workspaceId=188407&name=BlazeDemo HTTP/1.1" 200 407
+[2018-10-26 13:22:11,834 DEBUG Engine.cloud] Response [200]: {
+    "limit": 10,
+    "skip": 0,
+    "total": 1,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 285643,
+            "name": "BlazeDemo",
+            "userId": 407077,
+            "description": null,
+
+[2018-10-26 13:22:11,835 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/multi-tests?projectId=285643&name=NOP_SC2+Taurus%2FJenkins None
+[2018-10-26 13:22:11,835 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/multi-tests?projectId=285643&name=NOP_SC2+Taurus%2FJenkins
+[2018-10-26 13:22:12,023 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/multi-tests?projectId=285643&name=NOP_SC2+Taurus%2FJenkins HTTP/1.1" 200 126
+[2018-10-26 13:22:12,024 DEBUG Engine.cloud] Response [200]: {
+    "limit": 10,
+    "skip": 0,
+    "total": 0,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": []
+}
+[2018-10-26 13:22:12,024 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/tests?projectId=285643&name=NOP_SC2+Taurus%2FJenkins None
+[2018-10-26 13:22:12,024 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/tests?projectId=285643&name=NOP_SC2+Taurus%2FJenkins
+[2018-10-26 13:22:12,221 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/tests?projectId=285643&name=NOP_SC2+Taurus%2FJenkins HTTP/1.1" 200 1461
+[2018-10-26 13:22:12,222 DEBUG Engine.cloud] Response [200]: {
+    "limit": 10,
+    "skip": 0,
+    "total": 1,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 6382642,
+            "name": "NOP_SC2 Taurus/Jenkins",
+            "isNewTest": true,
+            "userI
+[2018-10-26 13:22:12,223 DEBUG Engine.cloud.ProjectFinder] Detected test type: standard
+[2018-10-26 13:22:12,223 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/188407 None
+[2018-10-26 13:22:12,224 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/workspaces/188407
+[2018-10-26 13:22:12,539 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/188407 HTTP/1.1" 200 None
+[2018-10-26 13:22:12,612 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 188407,
+        "name": "litterbox",
+        "userId": 407077,
+        "created": 1515721294,
+        "updated": 1522438252,
+        "enabled": true,
+        "dedicatedIpsEnabled": tr
+[2018-10-26 13:22:12,632 DEBUG Engine.jmeter] Extract {'script': u'./NOP_SC2.jmx'} into scenarios
+[2018-10-26 13:22:12,638 DEBUG Engine.cloud] All resource files are: [u'/Users/chefe02/.jenkins/workspace/presales_cert/NopComm BZM Taurus/NOP_SC2.jmx']
+[2018-10-26 13:22:12,638 DEBUG Engine.cloud] Replace file names in config: [u'/Users/chefe02/.jenkins/workspace/presales_cert/NopComm BZM Taurus/NOP_SC2.jmx'] with [u'NOP_SC2.jmx']
+[2018-10-26 13:22:12,638 DEBUG Engine.cloud] Replaced /Users/chefe02/.jenkins/workspace/presales_cert/NopComm BZM Taurus/NOP_SC2.jmx with NOP_SC2.jmx
+[2018-10-26 13:22:12,640 DEBUG Engine] New artifact filename: /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz/cloud
+[2018-10-26 13:22:12,641 DEBUG root] Dumping YAML config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz/cloud.yml
+[2018-10-26 13:22:12,647 DEBUG root] Dumping JSON config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz/cloud.json
+[2018-10-26 13:22:12,648 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/web/elfinder/6382642?cmd=open&target=s1_Lw None
+[2018-10-26 13:22:12,648 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/web/elfinder/6382642?cmd=open&target=s1_Lw
+[2018-10-26 13:22:13,080 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/web/elfinder/6382642?cmd=open&target=s1_Lw HTTP/1.1" 200 1634
+[2018-10-26 13:22:13,081 DEBUG Engine.cloud] Response [200]: {"cwd":{"name":"data","size":0,"mime":"directory","read":1,"write":1,"parent_id":"users","hash":"s1_Lw","rootRev":"","options":{"path":"","url":"","tmbUrl":"","disabled":["mkdir","archive","zipdl","extract","chmod"],"separator":"\/","copyOverwrite":1,"uplo
+[2018-10-26 13:22:13,082 DEBUG Engine.cloud] Test files: [u'NOP_SC2.jmx', u'taurus.yml']
+[2018-10-26 13:22:13,082 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/web/elfinder/6382642?cmd=rm&targets[]=s1_Tk9QX1NDMi5qbXg&targets[]=s1_dGF1cnVzLnltbA None
+[2018-10-26 13:22:13,082 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/web/elfinder/6382642?cmd=rm&targets[]=s1_Tk9QX1NDMi5qbXg&targets[]=s1_dGF1cnVzLnltbA
+[2018-10-26 13:22:13,416 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/web/elfinder/6382642?cmd=rm&targets[]=s1_Tk9QX1NDMi5qbXg&targets[]=s1_dGF1cnVzLnltbA HTTP/1.1" 200 795
+[2018-10-26 13:22:13,417 DEBUG Engine.cloud] Response [200]: {"removed":["s1_Tk9QX1NDMi5qbXg","s1_dGF1cnVzLnltbA"],"changed":[{"name":"data","size":0,"mime":"directory","read":1,"write":1,"parent_id":"users","hash":"s1_Lw","rootRev":"","options":{"path":"","url":"","tmbUrl":"","disabled":["mkdir","archive","zipdl","
+[2018-10-26 13:22:13,417 DEBUG Engine.cloud] Successfully deleted 2 test files
+[2018-10-26 13:22:13,422 DEBUG Engine.cloud] Uploading files into the test: [u'/Users/chefe02/.jenkins/workspace/presales_cert/NopComm BZM Taurus/NOP_SC2.jmx']
+[2018-10-26 13:22:13,429 DEBUG Engine.cloud] Request: POST https://a.blazemeter.com/api/v4/tests/6382642/files --===============8887884124833800191==
+Content-Disposition: file; name="script"; filename="taurus.yml"
+Content-Type: application/octet-stream
+
+---
+execution:
+- concurrency: 20
+  executor: jmeter
+  hold-for: 2m
+  locations:
+    us-west-1: 1
+  ramp-up: 3
+[2018-10-26 13:22:13,429 DEBUG HTTPClient] Making HTTP request POST https://a.blazemeter.com/api/v4/tests/6382642/files
+[2018-10-26 13:22:14,370 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/tests/6382642/files HTTP/1.1" 201 1124
+[2018-10-26 13:22:14,371 DEBUG Engine.cloud] Response [201]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 6382642,
+        "isNewTest": true,
+        "lastRunTime": 1540543141,
+        "name": "NOP_SC2 Taurus/Jenkins",
+        "userId": 407077,
+        "creatorClientId": "Taurus",
+       
+[2018-10-26 13:22:14,371 DEBUG Engine.cloud] Request: PATCH https://a.blazemeter.com/api/v4/tests/6382642 {
+ "configuration": {
+  "executionType": null
+ }
+}
+[2018-10-26 13:22:14,371 DEBUG HTTPClient] Making HTTP request PATCH https://a.blazemeter.com/api/v4/tests/6382642
+[2018-10-26 13:22:14,786 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "PATCH /api/v4/tests/6382642 HTTP/1.1" 200 1645
+[2018-10-26 13:22:14,787 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 6382642,
+        "isNewTest": true,
+        "lastRunTime": 1540543141,
+        "name": "NOP_SC2 Taurus/Jenkins",
+        "userId": 407077,
+        "creatorClientId": "Taurus",
+       
+[2018-10-26 13:22:14,787 DEBUG Engine.cloud] Request: PATCH https://a.blazemeter.com/api/v4/tests/6382642 {
+ "configuration": {
+  "plugins": {
+   "reportEmail": {
+    "enabled": false
+   }
+  }
+ }
+}
+[2018-10-26 13:22:14,787 DEBUG HTTPClient] Making HTTP request PATCH https://a.blazemeter.com/api/v4/tests/6382642
+[2018-10-26 13:22:15,091 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "PATCH /api/v4/tests/6382642 HTTP/1.1" 200 1645
+[2018-10-26 13:22:15,092 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 6382642,
+        "isNewTest": true,
+        "lastRunTime": 1540543141,
+        "name": "NOP_SC2 Taurus/Jenkins",
+        "userId": 407077,
+        "creatorClientId": "Taurus",
+       
+[2018-10-26 13:22:15,092 DEBUG Engine] Module config: final-stats {'class': u'bzt.modules.reporting.FinalStatus'}
+[2018-10-26 13:22:15,093 DEBUG root] Importing module: bzt.modules.reporting
+[2018-10-26 13:22:15,099 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/reporting.pyc'>
+[2018-10-26 13:22:15,100 DEBUG Engine] Module config: console {'class': u'bzt.modules.console.ConsoleStatusReporter'}
+[2018-10-26 13:22:15,100 DEBUG root] Importing module: bzt.modules.console
+[2018-10-26 13:22:15,100 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from '/usr/local/Cellar/bzt/1.13.0/libexec/lib/python2.7/site-packages/bzt/modules/console.pyc'>
+[2018-10-26 13:22:15,432 DEBUG Engine.Configuration] Dumping YAML config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz/effective.yml
+[2018-10-26 13:22:15,725 DEBUG Engine.Configuration] Dumping JSON config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz/effective.json
+[2018-10-26 13:22:15,726 INFO Engine] Starting...
+[2018-10-26 13:22:15,726 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x1043efad0>
+[2018-10-26 13:22:15,726 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x1043ef150>
+[2018-10-26 13:22:15,726 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x105cfde90>
+[2018-10-26 13:22:15,726 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x105b71090>
+[2018-10-26 13:22:15,726 INFO Engine.console] Waiting for results...
+[2018-10-26 13:22:15,726 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x105cd2d90>
+[2018-10-26 13:22:15,726 DEBUG Engine] Startup <bzt.modules.blazemeter.CloudProvisioning object at 0x1043a6950>
+[2018-10-26 13:22:15,726 INFO Engine.cloud.ProjectFinder.CloudTaurusTest] Initiating cloud test with https://a.blazemeter.com ...
+[2018-10-26 13:22:15,726 DEBUG Engine.cloud] Request: POST https://a.blazemeter.com/api/v4/tests/6382642/start None
+[2018-10-26 13:22:15,726 DEBUG HTTPClient] Making HTTP request POST https://a.blazemeter.com/api/v4/tests/6382642/start
+[2018-10-26 13:22:25,569 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/tests/6382642/start HTTP/1.1" 202 1217
+[2018-10-26 13:22:25,569 DEBUG Engine.cloud] Response [202]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 18441928,
+        "name": "NOP_SC2 Taurus/Jenkins",
+        "userId": 407077,
+        "runnerUserId": 407077,
+        "parallelTestsInWorkspace": 3,
+        "parallelTestsInAccount": 
+[2018-10-26 13:22:25,570 INFO Engine.cloud] Started cloud test: https://a.blazemeter.com/app/#/masters/18441928
+[2018-10-26 13:22:25,698 DEBUG Engine.cloud] Request: PATCH https://a.blazemeter.com/api/v4/masters/18441928 {
+ "name": "NOP_SC2_Jenkins"
+}
+[2018-10-26 13:22:25,698 DEBUG HTTPClient] Making HTTP request PATCH https://a.blazemeter.com/api/v4/masters/18441928
+[2018-10-26 13:22:25,915 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "PATCH /api/v4/masters/18441928 HTTP/1.1" 200 1086
+[2018-10-26 13:22:25,915 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 18441928,
+        "name": "NOP_SC2_Jenkins",
+        "userId": 407077,
+        "runnerUserId": 407077,
+        "parallelTestsInWorkspace": 3,
+        "parallelTestsInAccount": 3,
+    
+[2018-10-26 13:22:25,917 DEBUG Engine.Configuration] Dumping YAML config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz/effective.yml
+[2018-10-26 13:22:25,942 DEBUG Engine.Configuration] Dumping JSON config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz/effective.json
+[2018-10-26 13:22:25,943 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2018-10-26 13:22:26,139 INFO Engine.cloud] Cloud test status: CREATE
+[2018-10-26 13:22:31,154 INFO Engine.cloud] Cloud test status: BOOT_STARTING
+[2018-10-26 13:23:36,446 INFO Engine.cloud] Cloud test status: TAURUS_ENGINE_READY
+[2018-10-26 13:24:21,514 INFO Engine.cloud] Cloud test status: DATA_RECEIVED
+[2018-10-26 13:24:22,383 INFO Engine.console] Current: 1 vu	1 succ	0 fail	3.425 avg rt	/	Cumulative: 3.425 avg rt, 0% failures
+[2018-10-26 13:24:39,313 INFO Engine.console] Current: 5 vu	1 succ	0 fail	2.857 avg rt	/	Cumulative: 2.968 avg rt, 0% failures
+[2018-10-26 13:25:00,395 INFO Engine.console] Current: 7 vu	1 succ	0 fail	2.777 avg rt	/	Cumulative: 2.996 avg rt, 0% failures
+[2018-10-26 13:25:20,478 INFO Engine.console] Current: 9 vu	2 succ	0 fail	3.897 avg rt	/	Cumulative: 3.047 avg rt, 0% failures
+[2018-10-26 13:25:42,838 INFO Engine.console] Current: 12 vu	1 succ	0 fail	4.655 avg rt	/	Cumulative: 3.392 avg rt, 0% failures
+[2018-10-26 13:26:03,315 INFO Engine.console] Current: 14 vu	1 succ	0 fail	3.971 avg rt	/	Cumulative: 3.711 avg rt, 0% failures
+[2018-10-26 13:26:26,386 INFO Engine.console] Current: 16 vu	2 succ	0 fail	4.749 avg rt	/	Cumulative: 3.922 avg rt, 0% failures
+[2018-10-26 13:26:47,388 INFO Engine.console] Current: 19 vu	1 succ	0 fail	3.919 avg rt	/	Cumulative: 4.073 avg rt, 0% failures
+[2018-10-26 13:27:07,493 INFO Engine.console] Current: 20 vu	3 succ	0 fail	4.796 avg rt	/	Cumulative: 4.232 avg rt, 0% failures
+[2018-10-26 13:27:27,592 INFO Engine.console] Current: 20 vu	4 succ	0 fail	5.277 avg rt	/	Cumulative: 4.329 avg rt, 0% failures
+[2018-10-26 13:27:48,859 INFO Engine.console] Current: 20 vu	1 succ	0 fail	4.951 avg rt	/	Cumulative: 4.377 avg rt, 0% failures
+[2018-10-26 13:28:09,448 INFO Engine.console] Current: 20 vu	3 succ	0 fail	4.699 avg rt	/	Cumulative: 4.453 avg rt, 0% failures
+[2018-10-26 13:28:29,688 INFO Engine.console] Current: 20 vu	1 succ	0 fail	6.811 avg rt	/	Cumulative: 4.510 avg rt, 0% failures
+[2018-10-26 13:28:48,969 INFO Engine.cloud] Cloud test status: FINALIZING
+[2018-10-26 13:28:48,969 INFO Engine.cloud] Test was stopped in the cloud: FINALIZING
+[2018-10-26 13:28:49,621 WARNING Engine] Please wait for graceful shutdown...
+[2018-10-26 13:28:49,621 DEBUG root] Leveled up log file verbosity
+[2018-10-26 13:28:49,621 INFO Engine] Shutting down...
+[2018-10-26 13:28:49,621 DEBUG Engine] Current stop reason: None
+[2018-10-26 13:28:49,623 DEBUG Engine.Configuration] Dumping YAML config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz/effective.yml
+[2018-10-26 13:28:49,642 DEBUG Engine.Configuration] Dumping JSON config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz/effective.json
+[2018-10-26 13:28:49,642 INFO Engine] Post-processing...
+[2018-10-26 13:28:49,643 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/masters/18441928/full None
+[2018-10-26 13:28:49,643 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/masters/18441928/full
+[2018-10-26 13:28:49,851 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/masters/18441928/full HTTP/1.1" 200 7370
+[2018-10-26 13:28:49,852 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 18441928,
+        "name": "NOP_SC2_Jenkins",
+        "userId": 407077,
+        "runnerUserId": 407077,
+        "created": 1540585345,
+        "updated": 1540585345,
+        "parallelT
+[2018-10-26 13:28:49,852 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/data/labels?master_id=18441928 None
+[2018-10-26 13:28:49,852 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/data/labels?master_id=18441928
+[2018-10-26 13:28:50,061 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/data/labels?master_id=18441928 HTTP/1.1" 200 1760
+[2018-10-26 13:28:50,061 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": "ALL",
+            "name": "ALL",
+            "sessions": [
+                "r-v4-5bd377816f667"
+            ]
+        },
+        {
+            "id": "5e509f7866b3691a4e
+[2018-10-26 13:28:50,061 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/data/kpis?interval=1&from=1540585690&master_ids%5B%5D=18441928&kpis%5B%5D=t&kpis%5B%5D=lt&kpis%5B%5D=by&kpis%5B%5D=n&kpis%5B%5D=ec&kpis%5B%5D=ts&kpis%5B%5D=na&labels%5B%5D=ALL&labels%5B%5D=5e509f7866b3691a4ec375003d0715b8&labels%5B%5D=d1047c744d8b89eb2dabb8c39b3d6ea8&labels%5B%5D=4fd62466f8c8377aef26de62f16cec20&labels%5B%5D=4d64ad9b371dad0c476df83f4feb5f36&labels%5B%5D=404ba6f509e3758f4253d729e137c255&labels%5B%5D=b56a291c70c5441594f6afddb5f335b9&labels%5B%5D=99dbd8f418fc8fbaebee44eef520cba2&labels%5B%5D=b23b9bd61f90a07c37a1b60e8e954eae None
+[2018-10-26 13:28:50,062 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/data/kpis?interval=1&from=1540585690&master_ids%5B%5D=18441928&kpis%5B%5D=t&kpis%5B%5D=lt&kpis%5B%5D=by&kpis%5B%5D=n&kpis%5B%5D=ec&kpis%5B%5D=ts&kpis%5B%5D=na&labels%5B%5D=ALL&labels%5B%5D=5e509f7866b3691a4ec375003d0715b8&labels%5B%5D=d1047c744d8b89eb2dabb8c39b3d6ea8&labels%5B%5D=4fd62466f8c8377aef26de62f16cec20&labels%5B%5D=4d64ad9b371dad0c476df83f4feb5f36&labels%5B%5D=404ba6f509e3758f4253d729e137c255&labels%5B%5D=b56a291c70c5441594f6afddb5f335b9&labels%5B%5D=99dbd8f418fc8fbaebee44eef520cba2&labels%5B%5D=b23b9bd61f90a07c37a1b60e8e954eae
+[2018-10-26 13:28:50,272 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/data/kpis?interval=1&from=1540585690&master_ids%5B%5D=18441928&kpis%5B%5D=t&kpis%5B%5D=lt&kpis%5B%5D=by&kpis%5B%5D=n&kpis%5B%5D=ec&kpis%5B%5D=ts&kpis%5B%5D=na&labels%5B%5D=ALL&labels%5B%5D=5e509f7866b3691a4ec375003d0715b8&labels%5B%5D=d1047c744d8b89eb2dabb8c39b3d6ea8&labels%5B%5D=4fd62466f8c8377aef26de62f16cec20&labels%5B%5D=4d64ad9b371dad0c476df83f4feb5f36&labels%5B%5D=404ba6f509e3758f4253d729e137c255&labels%5B%5D=b56a291c70c5441594f6afddb5f335b9&labels%5B%5D=99dbd8f418fc8fbaebee44eef520cba2&labels%5B%5D=b23b9bd61f90a07c37a1b60e8e954eae HTTP/1.1" 200 1616
+[2018-10-26 13:28:50,273 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "labelId": "5e509f7866b3691a4ec375003d0715b8",
+            "labelName": "add book to cart",
+            "label": "add book to cart",
+            "kpis": [
+                {
+  
+[2018-10-26 13:28:50,273 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/masters/18441928/reports/aggregatereport/data None
+[2018-10-26 13:28:50,273 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/masters/18441928/reports/aggregatereport/data
+[2018-10-26 13:28:50,489 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/masters/18441928/reports/aggregatereport/data HTTP/1.1" 200 6368
+[2018-10-26 13:28:50,489 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "labelId": "ALL",
+            "labelName": "ALL",
+            "samples": 495,
+            "avgResponseTime": 4455.291,
+            "90line": 5187,
+            "95line": 5311,
+
+[2018-10-26 13:28:50,490 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/masters/18441928/reports/errorsreport/data?noDataError=false None
+[2018-10-26 13:28:50,490 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/masters/18441928/reports/errorsreport/data?noDataError=false
+[2018-10-26 13:28:50,687 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/masters/18441928/reports/errorsreport/data?noDataError=false HTTP/1.1" 200 61
+[2018-10-26 13:28:50,688 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": []
+}
+[2018-10-26 13:28:50,690 DEBUG Engine.consolidator] Consolidator buffer[3]: [1540585688, 1540585689, 1540585690]
+[2018-10-26 13:28:50,691 DEBUG Engine.consolidator] Merging into 1540585688
+[2018-10-26 13:28:50,691 DEBUG Engine.consolidator] Merging 1540585688
+[2018-10-26 13:28:50,695 DEBUG Engine.consolidator] Processed datapoint: 1540585688/None
+[2018-10-26 13:28:50,695 DEBUG Engine.consolidator] Merging into 1540585689
+[2018-10-26 13:28:50,695 DEBUG Engine.consolidator] Merging 1540585689
+[2018-10-26 13:28:50,699 DEBUG Engine.consolidator] Processed datapoint: 1540585689/None
+[2018-10-26 13:28:50,699 DEBUG Engine.consolidator] Merging into 1540585690
+[2018-10-26 13:28:50,700 DEBUG Engine.consolidator] Merging 1540585690
+[2018-10-26 13:28:50,703 DEBUG Engine.consolidator] Processed datapoint: 1540585690/None
+[2018-10-26 13:28:50,704 INFO Engine.final-stats] Test duration: 0:06:34
+[2018-10-26 13:28:50,704 INFO Engine.final-stats] Samples count: 555, 0.00% failures
+[2018-10-26 13:28:50,704 INFO Engine.final-stats] Average times: total 4.544, latency 4.173, connect 0.000
+[2018-10-26 13:28:50,705 INFO Engine.final-stats] Percentiles:
++---------------+---------------+
+| Percentile, % | Resp. Time, s |
++---------------+---------------+
+|          90.0 |         3.425 |
+|          95.0 |         3.425 |
+|          99.0 |         3.425 |
++---------------+---------------+
+[2018-10-26 13:28:51,229 INFO Engine.final-stats] Request label stats:
++------------------------+--------+---------+--------+-------+
+| label                  | status |    succ | avg_rt | error |
++------------------------+--------+---------+--------+-------+
+| add book to cart       |   OK   | 100.00% |  4.352 |       |
+| add macbook to cart    |   OK   | 100.00% |  4.083 |       |
+| add sunglasses to cart |   OK   | 100.00% |  4.233 |       |
+| click macbook          |   OK   | 100.00% |  4.782 |       |
+| click on sunglasses    |   OK   | 100.00% |  4.640 |       |
+| search "apple"         |   OK   | 100.00% |  4.723 |       |
+| search "fahr"          |   OK   | 100.00% |  4.776 |       |
+| search sunglasses      |   OK   | 100.00% |  4.736 |       |
++------------------------+--------+---------+--------+-------+
+[2018-10-26 13:28:51,229 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2018-10-26 13:28:51,229 INFO Engine.final-stats] Test duration: 0:06:34
+[2018-10-26 13:28:51,229 INFO Engine.final-stats] Samples count: 555, 0.00% failures
+[2018-10-26 13:28:51,229 INFO Engine.final-stats] Average times: total 4.544, latency 4.173, connect 0.000
+[2018-10-26 13:28:51,229 INFO Engine.final-stats] Percentiles:
++---------------+---------------+
+| Percentile, % | Resp. Time, s |
++---------------+---------------+
+|          90.0 |         3.425 |
+|          95.0 |         3.425 |
+|          99.0 |         3.425 |
++---------------+---------------+
+[2018-10-26 13:28:51,230 INFO Engine.final-stats] Request label stats:
++------------------------+--------+---------+--------+-------+
+| label                  | status |    succ | avg_rt | error |
++------------------------+--------+---------+--------+-------+
+| add book to cart       |   OK   | 100.00% |  4.352 |       |
+| add macbook to cart    |   OK   | 100.00% |  4.083 |       |
+| add sunglasses to cart |   OK   | 100.00% |  4.233 |       |
+| click macbook          |   OK   | 100.00% |  4.782 |       |
+| click on sunglasses    |   OK   | 100.00% |  4.640 |       |
+| search "apple"         |   OK   | 100.00% |  4.723 |       |
+| search "fahr"          |   OK   | 100.00% |  4.776 |       |
+| search sunglasses      |   OK   | 100.00% |  4.736 |       |
++------------------------+--------+---------+--------+-------+
+[2018-10-26 13:28:51,231 INFO Engine.final-stats] Dumping final status as XML: ./final_stats.xml
+[2018-10-26 13:28:51,235 DEBUG Engine.Configuration] Dumping YAML config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz/effective.yml
+[2018-10-26 13:28:51,254 DEBUG Engine.Configuration] Dumping JSON config into /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz/effective.json
+[2018-10-26 13:28:51,255 INFO root] Artifacts dir: /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz
+[2018-10-26 13:28:51,255 INFO root] Done performing with code: 0
+[2018-10-26 13:28:51,255 DEBUG root] Closing log handler: /Users/chefe02/Desktop/presales_cert/Artifacts/2018-10-26_13-22-09.374548bz/bzt.log

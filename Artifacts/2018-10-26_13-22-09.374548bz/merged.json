@@ -1,0 +1,37 @@
+{
+ "execution": [
+  {
+   "scenario": {
+    "script": "./NOP_SC2.jmx"
+   }, 
+   "ramp-up": "3m", 
+   "locations": {
+    "us-west-1": 1
+   }, 
+   "concurrency": {
+    "local": 20, 
+    "cloud": 20
+   }, 
+   "executor": "jmeter", 
+   "hold-for": "2m"
+  }
+ ], 
+ "modules": {
+  "blazemeter": {
+   "test": "NOP_SC2 Taurus/Jenkins", 
+   "report-name": "NOP_SC2_Jenkins", 
+   "token": "********", 
+   "workspace": "litterbox", 
+   "project": "BlazeDemo"
+  }
+ }, 
+ "reporting": [
+  {
+   "dump-xml": "./final_stats.xml", 
+   "module": "final-stats"
+  }
+ ], 
+ "settings": {
+  "artifacts-dir": "/Users/chefe02/Desktop/presales_cert/Artifacts/%Y-%m-%d_%H-%M-%S.%fbz"
+ }
+}
