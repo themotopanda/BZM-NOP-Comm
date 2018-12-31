@@ -1,0 +1,25 @@
+---
+execution:
+- concurrency:
+    cloud: 20
+    local: 20
+  executor: jmeter
+  hold-for: 5m
+  locations:
+    us-west-1: 1
+  ramp-up: 3m
+  scenario:
+    script: ./NOP_SC2.jmx
+modules:
+  blazemeter:
+    project: BlazeDemo
+    report-name: NOP_SC2_Jenkins
+    test: NOP_SC2 Taurus/Jenkins
+    token: '********'
+    workspace: litterbox
+reporting:
+- dump-xml: ./final_stats.xml
+  module: final-stats
+settings:
+  artifacts-dir: /Users/chefe02/Desktop/presales_cert/Artifacts/%Y-%m-%d_%H-%M-%S.%fbz
+

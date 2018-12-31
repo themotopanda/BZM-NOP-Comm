@@ -1,0 +1,45 @@
+---
+execution:
+- concurrency: 20
+  executor: jmeter
+  hold-for: 5m
+  locations:
+    us-west-1: 1
+  ramp-up: 3m
+  scenario: NOP_SC2.jmx
+local-bzt-version: 1.13.0
+modules:
+  blazemeter:
+    workspace: litterbox
+  gatling:
+    properties:
+      gatling.data.file.bufferSize: 256
+  grinder:
+    properties:
+      grinder.useConsole: false
+  jmeter:
+    properties:
+      jmeter.save.saveservice.autoflush: 'true'
+      jmeter.save.saveservice.connect_time: 'true'
+      jmeterengine.force.system.exit: 'true'
+      summariser.name: ''
+scenarios:
+  NOP_SC2.jmx:
+    script: NOP_SC2.jmx
+services:
+- local:
+  - metrics:
+    - cpu
+    - mem
+    - bytes-sent
+    - bytes-recv
+    - disk-read
+    - disk-write
+    - disk-space
+    - engine-loop
+    - conn-all
+  module: monitoring
+settings:
+  env:
+    OBJC_DISABLE_INITIALIZE_FORK_SAFETY: 'YES'
+

@@ -1,0 +1,1337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1204" lt="17" ts="1546292992432" s="false" lb="search &quot;apple&quot;" rc="200" rm="Embedded resource download error:https://collector-axa.cloud.ca.com/api/1/urn:ca:tenantId:C9DAE40F-4E4E-4DC8-AF2F-72B99D7678A4/urn:ca:appId:BlazeMeter-NopCommerce/bajs?agent=browser code:Non HTTP response code: org.apache.http.ConnectionClosedException message:Non HTTP response message: Premature end of chunk coded message body: closing chunk expected, " tn="Thread Group 1-13" dt="text" de="utf-8" by="204100" ng="20" na="20">
+  <httpSample t="17" lt="17" ts="1546292992432" s="true" lb="http://demo.bzm-presales.com/nopCommerce/search?q=apple" rc="302" rm="Moved Temporarily" tn="Thread Group 1-13" dt="text" de="" by="714" ng="20" na="20">
+    <responseHeader class="java.lang.String">HTTP/1.1 302 Moved Temporarily
+Server: Cisco Umbrella
+Date: Mon, 31 Dec 2018 21:49:52 GMT
+Content-Type: text/html
+Content-Length: 192
+Connection: keep-alive
+Set-Cookie: X-OpenDNS-Session=b5eb000e0a05d0443d095f107780cc02ae549270f744_556d9fb6; Path=/; Expires=Mon, 31-Dec-18 21:54:52 GMT
+Location: http://demo.bzm-presales.com.x.b5eb000e0a05d0443d095f107780cc02ae54.9270f744.id.opendns.com/h/demo.bzm-presales.com/nopCommerce/search?X-OpenDNS-Session=_b5eb000e0a05d0443d095f107780cc02ae549270f744_556d9fb6_q=apple
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://demo.bzm-presales.com/nopCommerce/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate
+Host: demo.bzm-presales.com
+</requestHeader>
+    <java.net.URL>http://demo.bzm-presales.com/nopCommerce/search?q=apple</java.net.URL>
+  </httpSample>
+  <httpSample t="78" lt="78" ts="1546292992449" s="true" lb="http://demo.bzm-presales.com.x.b5eb000e0a05d0443d095f107780cc02ae54.9270f744.id.opendns.com/h/demo.bzm-presales.com/nopCommerce/search?X-OpenDNS-Session=_b5eb000e0a05d0443d095f107780cc02ae549270f744_556d9fb6_q=apple" rc="302" rm="Moved Temporarily" tn="Thread Group 1-13" dt="text" de="" by="497" ng="20" na="20">
+    <responseHeader class="java.lang.String">HTTP/1.1 302 Moved Temporarily
+Server: Cisco Umbrella
+Date: Mon, 31 Dec 2018 21:49:52 GMT
+Content-Type: text/html
+Content-Length: 192
+Connection: keep-alive
+Location: http://demo.bzm-presales.com/nopCommerce/search?X-OpenDNS-Session=_b5eb000e0a05d0443d095f107780cc02ae549270f744_556d9fb6_q=apple
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://demo.bzm-presales.com/nopCommerce/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate
+Host: demo.bzm-presales.com.x.b5eb000e0a05d0443d095f107780cc02ae54.9270f744.id.opendns.com
+</requestHeader>
+    <java.net.URL>http://demo.bzm-presales.com.x.b5eb000e0a05d0443d095f107780cc02ae54.9270f744.id.opendns.com/h/demo.bzm-presales.com/nopCommerce/search?X-OpenDNS-Session=_b5eb000e0a05d0443d095f107780cc02ae549270f744_556d9fb6_q=apple</java.net.URL>
+  </httpSample>
+  <httpSample t="16" lt="16" ts="1546292992527" s="true" lb="http://demo.bzm-presales.com/nopCommerce/search?X-OpenDNS-Session=_b5eb000e0a05d0443d095f107780cc02ae549270f744_556d9fb6_q=apple" rc="302" rm="Moved Temporarily" tn="Thread Group 1-13" dt="text" de="" by="396" ng="20" na="20">
+    <responseHeader class="java.lang.String">HTTP/1.1 302 Moved Temporarily
+Server: Cisco Umbrella
+Date: Mon, 31 Dec 2018 21:49:52 GMT
+Content-Type: text/html
+Content-Length: 192
+Connection: keep-alive
+Location: /nopCommerce/search?q=apple
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://demo.bzm-presales.com/nopCommerce/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate
+Host: demo.bzm-presales.com
+</requestHeader>
+    <java.net.URL>http://demo.bzm-presales.com/nopCommerce/search?X-OpenDNS-Session=_b5eb000e0a05d0443d095f107780cc02ae549270f744_556d9fb6_q=apple</java.net.URL>
+  </httpSample>
+  <httpSample t="366" lt="217" ts="1546292992543" s="true" lb="http://demo.bzm-presales.com/nopCommerce/search?q=apple" rc="200" rm="OK" tn="Thread Group 1-13" dt="text" de="utf-8" by="35994" ng="20" na="20">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 31 Dec 2018 21:49:52 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 34683
+Connection: keep-alive
+Set-Cookie: AWSALB=YfRl5A3JQiGmnitsIR8xV26ZGZL+bI0ZS0cvRi1CMm0qysrrpkzD+9uWypYI0OrWG5nPdIK/UTH9v1wOkqMJu/sA14X14dANfFP3Qa6nCA+akWwrW9BKue0S4h8I; Expires=Mon, 07 Jan 2019 21:49:52 GMT; Path=/
+Cache-Control: private
+Server: Microsoft-IIS/8.5
+x-wily-info: Clear guid=063E9472AC1F095C00D5CBC732432303
+CorIDForInternalResponseCorrelation: 063E9472AC1F095C00D5CBC732432303
+x-wily-servlet: Encrypt1 ZqlIXmfhkfYXNEtTwqHC3P34HflOg6ZiVZI1mQTnItqPlpxGdavMJGbxs12k6gIF59k1bQP9WMDAVwzsIgA/rgu9MwtGWzOGh8nGd5Cd3koUlXfhDXAD/iJGMTKSTxeEDjuXUQVquXI3Ha6Uhr1O72vHkgHuBsSAqC56E5wUfKRj+7QNtM5e4C8YZmNhAOdVzG/hj2KSXr2qYb4kpHm4UQ==
+Set-Cookie: Nop.customer=e283e65f-c6a4-4034-b6a7-1ced4311d6e9; expires=Tue, 31-Dec-2019 21:49:51 GMT; path=/; HttpOnly
+Set-Cookie: x-apm-brtm-response-bt-page-search=bs%3D-1%2Cbt%3D-1%2Cbtc%3D-1%2CapmAgentHost%3DTbYOzdI40z8X2kchssYr4Q%3D%3D%2CapmAgentName%3DySdNe6maG77xoTKmIOtuuA%3D%3D%2CapmUserId%3DesLbZ0O7dQL%2Fv5WanNh1IhGqgUWdIcK9lTwSiX9mBpEBXkEuyh0QyrwqYWWyXXLd%2CapmAgentProcess%3D0nLzzg8W%2FfGypM3bFYProw%3D%3D%2CstartTime%3D1546292991090; expires=Mon, 31-Dec-2018 21:49:54 GMT; path=/
+Set-Cookie: x-apm-brtm-servertime=1546292991090; path=/
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://demo.bzm-presales.com/nopCommerce/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate
+Host: demo.bzm-presales.com
+</requestHeader>
+    <java.net.URL>http://demo.bzm-presales.com/nopCommerce/search?q=apple</java.net.URL>
+  </httpSample>
+  <httpSample t="333" lt="332" ts="1546292992919" s="false" lb="https://collector-axa.cloud.ca.com/api/1/urn:ca:tenantId:C9DAE40F-4E4E-4DC8-AF2F-72B99D7678A4/urn:ca:appId:BlazeMeter-NopCommerce/bajs?agent=browser" rc="Non HTTP response code: org.apache.http.ConnectionClosedException" rm="Non HTTP response message: Premature end of chunk coded message body: closing chunk expected" tn="Thread Group 1-13" dt="text" de="UTF-8" by="1842" ng="20" na="20">
+    <responseHeader class="java.lang.String"></responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://demo.bzm-presales.com/nopCommerce/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate
+Host: collector-axa.cloud.ca.com
+</requestHeader>
+    <responseData class="java.lang.String">org.apache.http.ConnectionClosedException: Premature end of chunk coded message body: closing chunk expected
+	at org.apache.http.impl.io.ChunkedInputStream.getChunkSize(ChunkedInputStream.java:266)
+	at org.apache.http.impl.io.ChunkedInputStream.nextChunk(ChunkedInputStream.java:225)
+	at org.apache.http.impl.io.ChunkedInputStream.read(ChunkedInputStream.java:184)
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:238)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.util.zip.GZIPInputStream.read(GZIPInputStream.java:117)
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:70)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:135)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:148)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.readResponse(HTTPSamplerBase.java:1814)
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.readResponse(HTTPAbstractImpl.java:446)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:475)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase$ASyncSample.call(HTTPSamplerBase.java:2034)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase$ASyncSample.call(HTTPSamplerBase.java:2002)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</responseData>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>https://collector-axa.cloud.ca.com/api/1/urn:ca:tenantId:C9DAE40F-4E4E-4DC8-AF2F-72B99D7678A4/urn:ca:appId:BlazeMeter-NopCommerce/bajs?agent=browser</java.net.URL>
+  </httpSample>
+  <httpSample t="194" lt="193" ts="1546292992919" s="true" lb="http://demo.bzm-presales.com/nopCommerce/Content/jquery-ui-themes/smoothness/jquery-ui-1.10.3.custom.min.css" rc="200" rm="OK" tn="Thread Group 1-13" dt="text" de="" by="5802" ng="20" na="20">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 31 Dec 2018 21:49:53 GMT
+Content-Type: text/css
+Connection: keep-alive
+Set-Cookie: AWSALB=GJdH1TeouICrE982DGvwbGPYw1CgzimL94QpAjRHhefalg+Dmn/xpKUMieE8gbhH1l0euyS/prnIPVfm6XokVzhcfsW+taFWySCqbtdpEOujmJMxKlN+cAt/Tse0; Expires=Mon, 07 Jan 2019 21:49:53 GMT; Path=/
+Cache-Control: max-age=604800
+Last-Modified: Thu, 16 Jun 2016 18:58:02 GMT
+Accept-Ranges: bytes
+ETag: &quot;0d9ba11c8d11:0&quot;
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+Content-Length: 5287
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://demo.bzm-presales.com/nopCommerce/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate
+Host: demo.bzm-presales.com
+</requestHeader>
+    <java.net.URL>http://demo.bzm-presales.com/nopCommerce/Content/jquery-ui-themes/smoothness/jquery-ui-1.10.3.custom.min.css</java.net.URL>
+  </httpSample>
+  <httpSample t="274" lt="197" ts="1546292992919" s="true" lb="http://demo.bzm-presales.com/nopCommerce/Themes/DefaultClean/Content/css/styles.css" rc="200" rm="OK" tn="Thread Group 1-13" dt="text" de="" by="21090" ng="20" na="20">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 31 Dec 2018 21:49:53 GMT
+Content-Type: text/css
+Connection: keep-alive
+Set-Cookie: AWSALB=ryRHTWdX272vR09tKjDfPh11PqENSoDGQImJGKjQgh7wMMkSZv1HQuvXVPT6Dhf0X1/hCmkHmr6M6MANTcu1cBrFk+8meKDcZ4l9ye4O32QQejmfmwTKESJPz/Zy; Expires=Mon, 07 Jan 2019 21:49:53 GMT; Path=/
+Cache-Control: max-age=604800
+Last-Modified: Wed, 15 Mar 2017 00:09:21 GMT
+Accept-Ranges: bytes
+ETag: &quot;804e3a65209dd21:0&quot;
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+Content-Length: 20571
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://demo.bzm-presales.com/nopCommerce/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate
+Host: demo.bzm-presales.com
+</requestHeader>
+    <java.net.URL>http://demo.bzm-presales.com/nopCommerce/Themes/DefaultClean/Content/css/styles.css</java.net.URL>
+  </httpSample>
+  <httpSample t="343" lt="193" ts="1546292992919" s="true" lb="http://demo.bzm-presales.com/nopCommerce/Scripts/jquery-1.10.2.min.js" rc="200" rm="OK" tn="Thread Group 1-13" dt="text" de="" by="33455" ng="20" na="20">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 31 Dec 2018 21:49:53 GMT
+Content-Type: application/javascript
+Connection: keep-alive
+Set-Cookie: AWSALB=YaFKMbOzVN0ggVFCkIhTkwhflJThMtPVv5ft34AmGnx8cnw+aRiYSl6tjAwq5bkBGphhPYCoegDlk3DSxqZrl1o1dlMGhB3r4kecA/LyUo2gtS1Ywy3QYDxF3PjQ; Expires=Mon, 07 Jan 2019 21:49:53 GMT; Path=/
+Cache-Control: max-age=604800
+Last-Modified: Tue, 06 Dec 2016 23:09:52 GMT
+Accept-Ranges: bytes
+ETag: &quot;0a074d91550d21:0&quot;
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+Content-Length: 32923
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://demo.bzm-presales.com/nopCommerce/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate
+Host: demo.bzm-presales.com
+</requestHeader>
+    <java.net.URL>http://demo.bzm-presales.com/nopCommerce/Scripts/jquery-1.10.2.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="209" lt="208" ts="1546292992919" s="true" lb="http://demo.bzm-presales.com/nopCommerce/Scripts/jquery.validate.min.js" rc="200" rm="OK" tn="Thread Group 1-13" dt="text" de="" by="7328" ng="20" na="20">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 31 Dec 2018 21:49:53 GMT
+Content-Type: application/javascript
+Connection: keep-alive
+Set-Cookie: AWSALB=pGal03GJspCl8lSqSDQ+9lJ8RST23RZS0DBrDyGLJfzZEPQxO6qyFRGeCsdRVm+/Dh4XfevNXYgRpDMObGkNha9TZlOGj0cOa52ziyS0cyNbZVmOemyOVXoMoUhu; Expires=Mon, 07 Jan 2019 21:49:53 GMT; Path=/
+Cache-Control: max-age=604800
+Last-Modified: Wed, 18 Nov 2015 18:34:17 GMT
+Accept-Ranges: bytes
+ETag: &quot;80da33bb2f22d11:0&quot;
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+Content-Length: 6796
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://demo.bzm-presales.com/nopCommerce/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate
+Host: demo.bzm-presales.com
+</requestHeader>
+    <java.net.URL>http://demo.bzm-presales.com/nopCommerce/Scripts/jquery.validate.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="195" lt="195" ts="1546292992919" s="true" lb="http://demo.bzm-presales.com/nopCommerce/Scripts/jquery.validate.unobtrusive.min.js" rc="200" rm="OK" tn="Thread Group 1-13" dt="text" de="" by="2834" ng="20" na="20">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 31 Dec 2018 21:49:53 GMT
+Content-Type: application/javascript
+Connection: keep-alive
+Set-Cookie: AWSALB=8NDhXbeh/gxSd/z9uNa+LaG8Hz6h60J84ECUEtYGu0hRfQ+aoP3OKSGQJAjcdfuwNMC6kKBnAi2JtZauDwGRXyRmEgCD5IBqbvhgmSfWDq42jzlHn3pdfUxYdVqN; Expires=Mon, 07 Jan 2019 21:49:53 GMT; Path=/
+Cache-Control: max-age=604800
+Last-Modified: Wed, 18 Nov 2015 18:34:17 GMT
+Accept-Ranges: bytes
+ETag: &quot;80da33bb2f22d11:0&quot;
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+Content-Length: 2302
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://demo.bzm-presales.com/nopCommerce/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate
+Host: demo.bzm-presales.com
+</requestHeader>
+    <java.net.URL>http://demo.bzm-presales.com/nopCommerce/Scripts/jquery.validate.unobtrusive.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="523" lt="203" ts="1546292993113" s="true" lb="http://demo.bzm-presales.com/nopCommerce/Scripts/jquery-ui-1.10.3.custom.min.js" rc="200" rm="OK" tn="Thread Group 1-13" dt="text" de="" by="61025" ng="20" na="20">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 31 Dec 2018 21:49:53 GMT
+Content-Type: application/javascript
+Connection: keep-alive
+Set-Cookie: AWSALB=9azMf6qEb36DpbbMzNYBQVmI40HBRZoGlHE0E3qJIq8GatuK+cRyHitdqD9cr6sxUDBJ6+a2eRQckR6aeMd55K+WHXy72yUPvLvF9DDbUBDNnKXFQzJw6g2wDGRT; Expires=Mon, 07 Jan 2019 21:49:53 GMT; Path=/
+Cache-Control: max-age=604800
+Last-Modified: Wed, 18 Nov 2015 18:34:17 GMT
+Accept-Ranges: bytes
+ETag: &quot;80da33bb2f22d11:0&quot;
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+Content-Length: 60492
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://demo.bzm-presales.com/nopCommerce/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate
+Host: demo.bzm-presales.com
+</requestHeader>
+    <java.net.URL>http://demo.bzm-presales.com/nopCommerce/Scripts/jquery-ui-1.10.3.custom.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="201" lt="200" ts="1546292993114" s="true" lb="http://demo.bzm-presales.com/nopCommerce/Scripts/jquery-migrate-1.2.1.min.js" rc="200" rm="OK" tn="Thread Group 1-13" dt="text" de="" by="3604" ng="20" na="20">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 31 Dec 2018 21:49:53 GMT
+Content-Type: application/javascript
+Connection: keep-alive
+Set-Cookie: AWSALB=Cm7/2C33fvV9qTDz7+Uazm7wVyd+LUXQtO2WRCEpiaHLMJv/saL5MFon1nbdasjnsZwcuAZWdey2upZAV8gN58DQr5poiVssGFpFSqmsB2tkLbgsvE4HZseTNHND; Expires=Mon, 07 Jan 2019 21:49:53 GMT; Path=/
+Cache-Control: max-age=604800
+Last-Modified: Wed, 18 Nov 2015 18:34:17 GMT
+Accept-Ranges: bytes
+ETag: &quot;80da33bb2f22d11:0&quot;
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+Content-Length: 3072
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://demo.bzm-presales.com/nopCommerce/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate
+Host: demo.bzm-presales.com
+</requestHeader>
+    <java.net.URL>http://demo.bzm-presales.com/nopCommerce/Scripts/jquery-migrate-1.2.1.min.js</java.net.URL>
+  </httpSample>
+  <httpSample t="186" lt="186" ts="1546292993128" s="true" lb="http://demo.bzm-presales.com/nopCommerce/Scripts/public.common.js" rc="200" rm="OK" tn="Thread Group 1-13" dt="text" de="" by="1856" ng="20" na="20">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 31 Dec 2018 21:49:53 GMT
+Content-Type: application/javascript
+Connection: keep-alive
+Set-Cookie: AWSALB=QDWv7aoruywaQh//StDfStH6DrXMYsGeGvgvXxvLA4OtFe8W4c/d9oElIB1AlEPD4YXtzJwgDgAE/lE1JxppiR5EjYiUeVKzzpdNjv8P0NdyX8zEdyVgdJkF7m9t; Expires=Mon, 07 Jan 2019 21:49:53 GMT; Path=/
+Cache-Control: max-age=604800
+Last-Modified: Wed, 15 Mar 2017 00:09:21 GMT
+Accept-Ranges: bytes
+ETag: &quot;804e3a65209dd21:0&quot;
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+Content-Length: 1324
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://demo.bzm-presales.com/nopCommerce/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate
+Host: demo.bzm-presales.com
+</requestHeader>
+    <java.net.URL>http://demo.bzm-presales.com/nopCommerce/Scripts/public.common.js</java.net.URL>
+  </httpSample>
+  <httpSample t="187" lt="187" ts="1546292993194" s="true" lb="http://demo.bzm-presales.com/nopCommerce/Scripts/public.ajaxcart.js" rc="200" rm="OK" tn="Thread Group 1-13" dt="text" de="" by="1359" ng="20" na="20">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 31 Dec 2018 21:49:53 GMT
+Content-Type: application/javascript
+Connection: keep-alive
+Set-Cookie: AWSALB=jX5Qkg/HOU/L8COcqRW0V7/0yJoXrEVd0Ws4K4+Nwvg/IS/fzOGAf34qjnmRIGy9sm2hAa47AqJ4PqeZ966hQgPw3i9dCLPZzZr8y7it3B+W5o5HFjFHPtU0kdQB; Expires=Mon, 07 Jan 2019 21:49:53 GMT; Path=/
+Cache-Control: max-age=604800
+Last-Modified: Tue, 21 Feb 2017 23:36:04 GMT
+Accept-Ranges: bytes
+ETag: &quot;08a3f449b8cd21:0&quot;
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+Content-Length: 829
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://demo.bzm-presales.com/nopCommerce/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate
+Host: demo.bzm-presales.com
+</requestHeader>
+    <java.net.URL>http://demo.bzm-presales.com/nopCommerce/Scripts/public.ajaxcart.js</java.net.URL>
+  </httpSample>
+  <httpSample t="206" lt="205" ts="1546292993253" s="true" lb="http://demo.bzm-presales.com/nopcommerce/content/images/thumbs/0000079.jpeg" rc="200" rm="OK" tn="Thread Group 1-13" dt="bin" de="" by="4396" ng="20" na="20">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 31 Dec 2018 21:49:53 GMT
+Content-Type: image/jpeg
+Content-Length: 3923
+Connection: keep-alive
+Set-Cookie: AWSALB=0SU7W2ntn65/UsTs0eX8xAXD13EOsT4gmlFcQTDU6kUu1A4MxMktKnkCZrKUkF6sTfJjmaBuwOtWhEtmXYk7DmE7cIfMPuDGMa1aI/oKT5vAQEN2yB/NItCmLiaj; Expires=Mon, 07 Jan 2019 21:49:53 GMT; Path=/
+Cache-Control: max-age=604800
+Last-Modified: Thu, 16 Nov 2017 22:45:54 GMT
+Accept-Ranges: bytes
+ETag: &quot;b57e55a92c5fd31:0&quot;
+Server: Microsoft-IIS/8.5
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://demo.bzm-presales.com/nopCommerce/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate
+Host: demo.bzm-presales.com
+</requestHeader>
+    <java.net.URL>http://demo.bzm-presales.com/nopcommerce/content/images/thumbs/0000079.jpeg</java.net.URL>
+  </httpSample>
+  <httpSample t="195" lt="195" ts="1546292993262" s="true" lb="http://demo.bzm-presales.com/nopcommerce/content/images/thumbs/0000040_apple-icam_415.jpeg" rc="200" rm="OK" tn="Thread Group 1-13" dt="bin" de="" by="11550" ng="20" na="20">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 31 Dec 2018 21:49:53 GMT
+Content-Type: image/jpeg
+Content-Length: 11076
+Connection: keep-alive
+Set-Cookie: AWSALB=/ombDfX7hGx8udiywWPpKEDiargNenpWjAER9NBv2BQ4x1oHM+22OwckQMJ8HXxV75riItE1aKmaqF4wwiT29F6txzgmdpFTByi3xF7vM//LA2W2UhcwX9hx1iaW; Expires=Mon, 07 Jan 2019 21:49:53 GMT; Path=/
+Cache-Control: max-age=604800
+Last-Modified: Thu, 16 Nov 2017 22:26:48 GMT
+Accept-Ranges: bytes
+ETag: &quot;2864f8fd295fd31:0&quot;
+Server: Microsoft-IIS/8.5
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://demo.bzm-presales.com/nopCommerce/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate
+Host: demo.bzm-presales.com
+</requestHeader>
+    <java.net.URL>http://demo.bzm-presales.com/nopcommerce/content/images/thumbs/0000040_apple-icam_415.jpeg</java.net.URL>
+  </httpSample>
+  <httpSample t="93" lt="91" ts="1546292993315" s="true" lb="http://demo.bzm-presales.com/nopcommerce/content/images/thumbs/0000024_apple-macbook-pro-13-inch_415.jpeg" rc="200" rm="OK" tn="Thread Group 1-13" dt="bin" de="" by="10358" ng="20" na="20">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 31 Dec 2018 21:49:53 GMT
+Content-Type: image/jpeg
+Content-Length: 9885
+Connection: keep-alive
+Set-Cookie: AWSALB=tK8cchIxzcFYTBLdMVd1Xxtx4no5WxkW38gFP7TQbj2P4vxTrhL1cxTUSegaq+43Gf+1ZKH2EMNJifCFTUbvOiMbRoRLbZh5a19fpR5Dnht7zznXqsvucK2r/cOW; Expires=Mon, 07 Jan 2019 21:49:53 GMT; Path=/
+Cache-Control: max-age=604800
+Last-Modified: Thu, 16 Nov 2017 22:18:50 GMT
+Accept-Ranges: bytes
+ETag: &quot;2d122ce1285fd31:0&quot;
+Server: Microsoft-IIS/8.5
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://demo.bzm-presales.com/nopCommerce/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate
+Host: demo.bzm-presales.com
+</requestHeader>
+    <java.net.URL>http://demo.bzm-presales.com/nopcommerce/content/images/thumbs/0000024_apple-macbook-pro-13-inch_415.jpeg</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 31 Dec 2018 21:49:52 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 34683
+Connection: keep-alive
+Set-Cookie: AWSALB=YfRl5A3JQiGmnitsIR8xV26ZGZL+bI0ZS0cvRi1CMm0qysrrpkzD+9uWypYI0OrWG5nPdIK/UTH9v1wOkqMJu/sA14X14dANfFP3Qa6nCA+akWwrW9BKue0S4h8I; Expires=Mon, 07 Jan 2019 21:49:52 GMT; Path=/
+Cache-Control: private
+Server: Microsoft-IIS/8.5
+x-wily-info: Clear guid=063E9472AC1F095C00D5CBC732432303
+CorIDForInternalResponseCorrelation: 063E9472AC1F095C00D5CBC732432303
+x-wily-servlet: Encrypt1 ZqlIXmfhkfYXNEtTwqHC3P34HflOg6ZiVZI1mQTnItqPlpxGdavMJGbxs12k6gIF59k1bQP9WMDAVwzsIgA/rgu9MwtGWzOGh8nGd5Cd3koUlXfhDXAD/iJGMTKSTxeEDjuXUQVquXI3Ha6Uhr1O72vHkgHuBsSAqC56E5wUfKRj+7QNtM5e4C8YZmNhAOdVzG/hj2KSXr2qYb4kpHm4UQ==
+Set-Cookie: Nop.customer=e283e65f-c6a4-4034-b6a7-1ced4311d6e9; expires=Tue, 31-Dec-2019 21:49:51 GMT; path=/; HttpOnly
+Set-Cookie: x-apm-brtm-response-bt-page-search=bs%3D-1%2Cbt%3D-1%2Cbtc%3D-1%2CapmAgentHost%3DTbYOzdI40z8X2kchssYr4Q%3D%3D%2CapmAgentName%3DySdNe6maG77xoTKmIOtuuA%3D%3D%2CapmUserId%3DesLbZ0O7dQL%2Fv5WanNh1IhGqgUWdIcK9lTwSiX9mBpEBXkEuyh0QyrwqYWWyXXLd%2CapmAgentProcess%3D0nLzzg8W%2FfGypM3bFYProw%3D%3D%2CstartTime%3D1546292991090; expires=Mon, 31-Dec-2018 21:49:54 GMT; path=/
+Set-Cookie: x-apm-brtm-servertime=1546292991090; path=/
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://demo.bzm-presales.com/nopCommerce/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate
+Host: demo.bzm-presales.com
+</requestHeader>
+  <responseData class="java.lang.String">&#xd;
+&#xd;
+&lt;!DOCTYPE html&gt;&#xd;
+&lt;html class=&quot;html-search-page&quot;&gt;&#xd;
+&lt;head&gt;&#xd;
+    &lt;title&gt;BlazeMeter Demo Product Store - CA APM. Search&lt;/title&gt;&#xd;
+    &lt;meta http-equiv=&quot;Content-type&quot; content=&quot;text/html;charset=UTF-8&quot; /&gt;&#xd;
+    &lt;meta name=&quot;description&quot; content=&quot;&quot; /&gt;&#xd;
+    &lt;meta name=&quot;keywords&quot; content=&quot;&quot; /&gt;&#xd;
+    &lt;meta name=&quot;generator&quot; content=&quot;nopCommerce&quot; /&gt;&#xd;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;&#xd;
+    &lt;script type=&quot;text/javascript&quot; id=&quot;ca_eum_ba&quot; src=&quot;https://collector-axa.cloud.ca.com//api/1/urn:ca:tenantId:C9DAE40F-4E4E-4DC8-AF2F-72B99D7678A4/urn:ca:appId:BlazeMeter-NopCommerce/bajs?agent=browser&quot; data-profileUrl=&quot;https://collector-axa.cloud.ca.com//api/1/urn:ca:tenantId:C9DAE40F-4E4E-4DC8-AF2F-72B99D7678A4/urn:ca:appId:BlazeMeter-NopCommerce/profile?agent=browser&quot; data-tenantID=&quot;C9DAE40F-4E4E-4DC8-AF2F-72B99D7678A4&quot; data-appID=&quot;BlazeMeter-NopCommerce&quot; data-appKey=&quot;3be001c0-b93d-11e8-a82c-91a0f3b0280c&quot; async=&quot;true&quot; &gt;&lt;/script&gt;&#xd;
+&#xd;
+    &#xd;
+    &#xd;
+    &#xd;
+    &lt;link href=&quot;/nopCommerce/Content/jquery-ui-themes/smoothness/jquery-ui-1.10.3.custom.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;&#xd;
+&lt;link href=&quot;/nopCommerce/Themes/DefaultClean/Content/css/styles.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;&#xd;
+&#xd;
+    &lt;script src=&quot;/nopCommerce/Scripts/jquery-1.10.2.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#xd;
+&lt;script src=&quot;/nopCommerce/Scripts/jquery.validate.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#xd;
+&lt;script src=&quot;/nopCommerce/Scripts/jquery.validate.unobtrusive.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#xd;
+&lt;script src=&quot;/nopCommerce/Scripts/jquery-ui-1.10.3.custom.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#xd;
+&lt;script src=&quot;/nopCommerce/Scripts/jquery-migrate-1.2.1.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#xd;
+&lt;script src=&quot;/nopCommerce/Scripts/public.common.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#xd;
+&lt;script src=&quot;/nopCommerce/Scripts/public.ajaxcart.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#xd;
+&#xd;
+    &#xd;
+    &#xd;
+    &#xd;
+    &#xd;
+    &#xd;
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;http://demo.bzm-presales.com/nopcommerce/favicon.ico&quot; /&gt;&#xd;
+    &lt;!--Powered by nopCommerce - http://www.nopCommerce.com--&gt;&#xd;
+&lt;/head&gt;&#xd;
+&lt;body&gt;&#xd;
+    &#xd;
+&#xd;
+&#xd;
+&#xd;
+&lt;div class=&quot;ajax-loading-block-window&quot; style=&quot;display: none&quot;&gt;&#xd;
+&lt;/div&gt;&#xd;
+&lt;div id=&quot;dialog-notifications-success&quot; title=&quot;Notification&quot; style=&quot;display:none;&quot;&gt;&#xd;
+&lt;/div&gt;&#xd;
+&lt;div id=&quot;dialog-notifications-error&quot; title=&quot;Error&quot; style=&quot;display:none;&quot;&gt;&#xd;
+&lt;/div&gt;&#xd;
+&lt;div id=&quot;dialog-notifications-warning&quot; title=&quot;Warning&quot; style=&quot;display:none;&quot;&gt;&#xd;
+&lt;/div&gt;&#xd;
+&lt;div id=&quot;bar-notification&quot; class=&quot;bar-notification&quot;&gt;&#xd;
+    &lt;span class=&quot;close&quot; title=&quot;Close&quot;&gt;&amp;nbsp;&lt;/span&gt;&#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&lt;!--[if lte IE 7]&gt;&#xd;
+    &lt;div style=&quot;clear:both;height:59px;text-align:center;position:relative;&quot;&gt;&#xd;
+        &lt;a href=&quot;http://www.microsoft.com/windows/internet-explorer/default.aspx&quot; target=&quot;_blank&quot;&gt;&#xd;
+            &lt;img src=&quot;/nopCommerce/Themes/DefaultClean/Content/images/ie_warning.jpg&quot; height=&quot;42&quot; width=&quot;820&quot; alt=&quot;You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today.&quot; /&gt;&#xd;
+        &lt;/a&gt;&#xd;
+    &lt;/div&gt;&#xd;
+&lt;![endif]--&gt;&#xd;
+&#xd;
+&#xd;
+&lt;div class=&quot;master-wrapper-page&quot;&gt;&#xd;
+    &#xd;
+    &lt;div class=&quot;header&quot;&gt;&#xd;
+    &#xd;
+    &lt;div class=&quot;header-upper&quot;&gt;&#xd;
+        &lt;div class=&quot;header-selectors-wrapper&quot;&gt;&#xd;
+            &#xd;
+                &lt;div class=&quot;currency-selector&quot;&gt;&#xd;
+&lt;select id=&quot;customerCurrency&quot; name=&quot;customerCurrency&quot; onchange=&quot;setLocation(this.value);&quot;&gt;&lt;option selected=&quot;selected&quot; value=&quot;/nopcommerce/changecurrency/1?returnurl=%2fnopcommerce%2fsearch%3fq%3dapple&quot;&gt;US Dollar&lt;/option&gt;&#xd;
+&lt;option value=&quot;/nopcommerce/changecurrency/6?returnurl=%2fnopcommerce%2fsearch%3fq%3dapple&quot;&gt;Euro&lt;/option&gt;&#xd;
+&lt;/select&gt;&#xd;
+    &lt;/div&gt;&#xd;
+&#xd;
+            &#xd;
+            &#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;header-links-wrapper&quot;&gt;&#xd;
+            &lt;div class=&quot;header-links&quot;&gt;&#xd;
+    &lt;ul&gt;&#xd;
+        &#xd;
+            &lt;li&gt;&lt;a href=&quot;/nopCommerce/register&quot; class=&quot;ico-register&quot;&gt;Register&lt;/a&gt;&lt;/li&gt;&#xd;
+            &lt;li&gt;&lt;a href=&quot;/nopCommerce/login&quot; class=&quot;ico-login&quot;&gt;Log in&lt;/a&gt;&lt;/li&gt;&#xd;
+                            &lt;li&gt;&#xd;
+                &lt;a href=&quot;/nopCommerce/wishlist&quot; class=&quot;ico-wishlist&quot;&gt;&#xd;
+                    &lt;span class=&quot;wishlist-label&quot;&gt;Wishlist&lt;/span&gt;&#xd;
+                    &lt;span class=&quot;wishlist-qty&quot;&gt;(0)&lt;/span&gt;&#xd;
+                &lt;/a&gt;&#xd;
+            &lt;/li&gt;&#xd;
+                    &lt;li id=&quot;topcartlink&quot;&gt;&#xd;
+                &lt;a href=&quot;/nopCommerce/cart&quot; class=&quot;ico-cart&quot;&gt;&#xd;
+                    &lt;span class=&quot;cart-label&quot;&gt;Shopping cart&lt;/span&gt;&#xd;
+                    &lt;span class=&quot;cart-qty&quot;&gt;(0)&lt;/span&gt;&#xd;
+                &lt;/a&gt;&#xd;
+            &lt;/li&gt;&#xd;
+        &#xd;
+    &lt;/ul&gt;&#xd;
+            &lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+            $(document).ready(function () {&#xd;
+                $(&apos;.header&apos;).on(&apos;mouseenter&apos;, &apos;#topcartlink&apos;, function () {&#xd;
+                    $(&apos;#flyout-cart&apos;).addClass(&apos;active&apos;);&#xd;
+                });&#xd;
+                $(&apos;.header&apos;).on(&apos;mouseleave&apos;, &apos;#topcartlink&apos;, function () {&#xd;
+                    $(&apos;#flyout-cart&apos;).removeClass(&apos;active&apos;);&#xd;
+                });&#xd;
+                $(&apos;.header&apos;).on(&apos;mouseenter&apos;, &apos;#flyout-cart&apos;, function () {&#xd;
+                    $(&apos;#flyout-cart&apos;).addClass(&apos;active&apos;);&#xd;
+                });&#xd;
+                $(&apos;.header&apos;).on(&apos;mouseleave&apos;, &apos;#flyout-cart&apos;, function () {&#xd;
+                    $(&apos;#flyout-cart&apos;).removeClass(&apos;active&apos;);&#xd;
+                });&#xd;
+            });&#xd;
+        &lt;/script&gt;&#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+            &lt;div id=&quot;flyout-cart&quot; class=&quot;flyout-cart&quot;&gt;&#xd;
+    &lt;div class=&quot;mini-shopping-cart&quot;&gt;&#xd;
+        &lt;div class=&quot;count&quot;&gt;&#xd;
+You have no items in your shopping cart.        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;header-lower&quot;&gt;&#xd;
+        &lt;div class=&quot;header-logo&quot;&gt;&#xd;
+            &lt;a href=&quot;/nopCommerce/&quot;&gt;&#xd;
+    &lt;img title=&quot;&quot; alt=&quot;BlazeMeter Demo Product Store (CA-APM)&quot; src=&quot;http://demo.bzm-presales.com/nopcommerce/content/images/thumbs/0000079.jpeg&quot;&gt;&#xd;
+&lt;/a&gt;&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;search-box store-search-box&quot;&gt;&#xd;
+            &lt;form action=&quot;/nopCommerce/search&quot; id=&quot;small-search-box-form&quot; method=&quot;get&quot;&gt;    &lt;input type=&quot;text&quot; class=&quot;search-box-text&quot; id=&quot;small-searchterms&quot; autocomplete=&quot;off&quot; name=&quot;q&quot; placeholder=&quot;Search store&quot; /&gt;&#xd;
+    &lt;input type=&quot;submit&quot; class=&quot;button-1 search-box-button&quot; value=&quot;Search&quot; /&gt;&#xd;
+        &lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+            $(&quot;#small-search-box-form&quot;).submit(function(event) {&#xd;
+                if ($(&quot;#small-searchterms&quot;).val() == &quot;&quot;) {&#xd;
+                    alert(&apos;Please enter some search keyword&apos;);&#xd;
+                    $(&quot;#small-searchterms&quot;).focus();&#xd;
+                    event.preventDefault();&#xd;
+                }&#xd;
+            });&#xd;
+        &lt;/script&gt;&#xd;
+        &#xd;
+            &lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+                $(document).ready(function() {&#xd;
+                    $(&apos;#small-searchterms&apos;).autocomplete({&#xd;
+                            delay: 500,&#xd;
+                            minLength: 3,&#xd;
+                            source: &apos;/nopCommerce/catalog/searchtermautocomplete&apos;,&#xd;
+                            appendTo: &apos;.search-box&apos;,&#xd;
+                            select: function(event, ui) {&#xd;
+                                $(&quot;#small-searchterms&quot;).val(ui.item.label);&#xd;
+                                setLocation(ui.item.producturl);&#xd;
+                                return false;&#xd;
+                            }&#xd;
+                        })&#xd;
+                        .data(&quot;ui-autocomplete&quot;)._renderItem = function(ul, item) {&#xd;
+                            var t = item.label;&#xd;
+                            //html encode&#xd;
+                            t = htmlEncode(t);&#xd;
+                            return $(&quot;&lt;li&gt;&lt;/li&gt;&quot;)&#xd;
+                                .data(&quot;item.autocomplete&quot;, item)&#xd;
+                                .append(&quot;&lt;a&gt;&lt;span&gt;&quot; + t + &quot;&lt;/span&gt;&lt;/a&gt;&quot;)&#xd;
+                                .appendTo(ul);&#xd;
+                        };&#xd;
+                });&#xd;
+            &lt;/script&gt;&#xd;
+        &#xd;
+&lt;/form&gt;&#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+    &lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+        AjaxCart.init(false, &apos;.header-links .cart-qty&apos;, &apos;.header-links .wishlist-qty&apos;, &apos;#flyout-cart&apos;);&#xd;
+    &lt;/script&gt;&#xd;
+    &lt;div class=&quot;header-menu&quot;&gt;&#xd;
+        &#xd;
+&#xd;
+&lt;ul class=&quot;top-menu&quot;&gt;&#xd;
+    &#xd;
+    &#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/computers&quot;&gt;Computers&#xd;
+        &lt;/a&gt;&#xd;
+                &lt;div class=&quot;sublist-toggle&quot;&gt;&lt;/div&gt;&#xd;
+                &lt;ul class=&quot;sublist first-level&quot;&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/desktops&quot;&gt;Desktops&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/notebooks&quot;&gt;Notebooks&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/software&quot;&gt;Software&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+                &lt;/ul&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/electronics&quot;&gt;Electronics&#xd;
+        &lt;/a&gt;&#xd;
+                &lt;div class=&quot;sublist-toggle&quot;&gt;&lt;/div&gt;&#xd;
+                &lt;ul class=&quot;sublist first-level&quot;&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/camera-photo&quot;&gt;Camera &amp;amp; photo&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/cell-phones&quot;&gt;Cell phones&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/others&quot;&gt;Others&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+                &lt;/ul&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/apparel&quot;&gt;Apparel&#xd;
+        &lt;/a&gt;&#xd;
+                &lt;div class=&quot;sublist-toggle&quot;&gt;&lt;/div&gt;&#xd;
+                &lt;ul class=&quot;sublist first-level&quot;&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/shoes&quot;&gt;Shoes&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/clothing&quot;&gt;Clothing&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/accessories&quot;&gt;Accessories&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+                &lt;/ul&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/digital-downloads&quot;&gt;Digital downloads&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/books&quot;&gt;Books&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/jewelry&quot;&gt;Jewelry&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/gift-cards&quot;&gt;Gift Cards&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+                                &#xd;
+&lt;/ul&gt;&#xd;
+&#xd;
+    &lt;div class=&quot;menu-toggle&quot;&gt;Categories&lt;/div&gt;&#xd;
+    &lt;ul class=&quot;top-menu mobile&quot;&gt;&#xd;
+        &#xd;
+            &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/computers&quot;&gt;Computers&#xd;
+        &lt;/a&gt;&#xd;
+                &lt;div class=&quot;sublist-toggle&quot;&gt;&lt;/div&gt;&#xd;
+                &lt;ul class=&quot;sublist first-level&quot;&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/desktops&quot;&gt;Desktops&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/notebooks&quot;&gt;Notebooks&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/software&quot;&gt;Software&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+                &lt;/ul&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/electronics&quot;&gt;Electronics&#xd;
+        &lt;/a&gt;&#xd;
+                &lt;div class=&quot;sublist-toggle&quot;&gt;&lt;/div&gt;&#xd;
+                &lt;ul class=&quot;sublist first-level&quot;&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/camera-photo&quot;&gt;Camera &amp;amp; photo&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/cell-phones&quot;&gt;Cell phones&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/others&quot;&gt;Others&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+                &lt;/ul&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/apparel&quot;&gt;Apparel&#xd;
+        &lt;/a&gt;&#xd;
+                &lt;div class=&quot;sublist-toggle&quot;&gt;&lt;/div&gt;&#xd;
+                &lt;ul class=&quot;sublist first-level&quot;&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/shoes&quot;&gt;Shoes&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/clothing&quot;&gt;Clothing&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/accessories&quot;&gt;Accessories&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+                &lt;/ul&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/digital-downloads&quot;&gt;Digital downloads&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/books&quot;&gt;Books&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/jewelry&quot;&gt;Jewelry&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/gift-cards&quot;&gt;Gift Cards&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+                                                                &#xd;
+    &lt;/ul&gt;&#xd;
+    &lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+        $(document).ready(function () {&#xd;
+            $(&apos;.menu-toggle&apos;).click(function () {&#xd;
+                $(this).siblings(&apos;.top-menu.mobile&apos;).slideToggle(&apos;slow&apos;);&#xd;
+            });&#xd;
+            $(&apos;.top-menu.mobile .sublist-toggle&apos;).click(function () {&#xd;
+                $(this).siblings(&apos;.sublist&apos;).slideToggle(&apos;slow&apos;);&#xd;
+            });&#xd;
+        });&#xd;
+    &lt;/script&gt;&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;master-wrapper-content&quot;&gt;&#xd;
+        &#xd;
+&#xd;
+        &lt;div class=&quot;master-column-wrapper&quot;&gt;&#xd;
+            &#xd;
+&#xd;
+&lt;div class=&quot;side-2&quot;&gt;&#xd;
+&#xd;
+    &lt;div class=&quot;block block-category-navigation&quot;&gt;&#xd;
+        &lt;div class=&quot;title&quot;&gt;&#xd;
+            &lt;strong&gt;Categories&lt;/strong&gt;&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;listbox&quot;&gt;&#xd;
+            &lt;ul class=&quot;list&quot;&gt;&#xd;
+    &lt;li class=&quot;inactive&quot;&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/computers&quot;&gt;Computers&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li class=&quot;inactive&quot;&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/electronics&quot;&gt;Electronics&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li class=&quot;inactive&quot;&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/apparel&quot;&gt;Apparel&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li class=&quot;inactive&quot;&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/digital-downloads&quot;&gt;Digital downloads&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li class=&quot;inactive&quot;&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/books&quot;&gt;Books&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li class=&quot;inactive&quot;&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/jewelry&quot;&gt;Jewelry&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+    &lt;li class=&quot;inactive&quot;&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/gift-cards&quot;&gt;Gift Cards&#xd;
+        &lt;/a&gt;&#xd;
+&#xd;
+    &lt;/li&gt;&#xd;
+            &lt;/ul&gt;&#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;block block-manufacturer-navigation&quot;&gt;&#xd;
+        &lt;div class=&quot;title&quot;&gt;&#xd;
+            &lt;strong&gt;Manufacturers&lt;/strong&gt;&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;listbox&quot;&gt;&#xd;
+            &lt;ul class=&quot;list&quot;&gt;&#xd;
+                    &lt;li class=&quot;inactive&quot;&gt;&lt;a href=&quot;/nopCommerce/apple&quot;&gt;Apple&lt;/a&gt;&#xd;
+                    &lt;/li&gt;&#xd;
+                    &lt;li class=&quot;inactive&quot;&gt;&lt;a href=&quot;/nopCommerce/hp&quot;&gt;HP&lt;/a&gt;&#xd;
+                    &lt;/li&gt;&#xd;
+            &lt;/ul&gt;&#xd;
+                &lt;div class=&quot;view-all&quot;&gt;&#xd;
+                    &lt;a href=&quot;/nopCommerce/manufacturer/all&quot;&gt;View all&lt;/a&gt;&#xd;
+                &lt;/div&gt;&#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;block block-popular-tags&quot;&gt;&#xd;
+        &lt;div class=&quot;title&quot;&gt;&#xd;
+            &lt;strong&gt;Popular tags&lt;/strong&gt;&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;listbox&quot;&gt;&#xd;
+            &lt;div class=&quot;tags&quot;&gt;&#xd;
+                &lt;ul&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/nopCommerce/producttag/4/apparel&quot; style=&quot;font-size:100%;&quot;&gt;apparel&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/nopCommerce/producttag/8/awesome&quot; style=&quot;font-size:150%;&quot;&gt;awesome&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/nopCommerce/producttag/10/book&quot; style=&quot;font-size:85%;&quot;&gt;book&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/nopCommerce/producttag/12/camera&quot; style=&quot;font-size:85%;&quot;&gt;camera&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/nopCommerce/producttag/11/cell&quot; style=&quot;font-size:85%;&quot;&gt;cell&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/nopCommerce/producttag/9/compact&quot; style=&quot;font-size:90%;&quot;&gt;compact&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/nopCommerce/producttag/6/computer&quot; style=&quot;font-size:120%;&quot;&gt;computer&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/nopCommerce/producttag/3/cool&quot; style=&quot;font-size:150%;&quot;&gt;cool&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/nopCommerce/producttag/16/digital&quot; style=&quot;font-size:85%;&quot;&gt;digital&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/nopCommerce/producttag/15/game&quot; style=&quot;font-size:85%;&quot;&gt;game&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/nopCommerce/producttag/14/jeans&quot; style=&quot;font-size:85%;&quot;&gt;jeans&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/nopCommerce/producttag/13/jewelry&quot; style=&quot;font-size:85%;&quot;&gt;jewelry&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/nopCommerce/producttag/1/nice&quot; style=&quot;font-size:90%;&quot;&gt;nice&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/nopCommerce/producttag/5/shirt&quot; style=&quot;font-size:85%;&quot;&gt;shirt&lt;/a&gt;&lt;/li&gt;&#xd;
+                        &lt;li&gt;&lt;a href=&quot;/nopCommerce/producttag/7/shoes&quot; style=&quot;font-size:85%;&quot;&gt;shoes&lt;/a&gt;&lt;/li&gt;&#xd;
+                &lt;/ul&gt;&#xd;
+            &lt;/div&gt;&#xd;
+                &lt;div class=&quot;view-all&quot;&gt;&#xd;
+                    &lt;a href=&quot;/nopCommerce/producttag/all&quot;&gt;View all&lt;/a&gt;&#xd;
+                &lt;/div&gt;&#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+&lt;div class=&quot;center-2&quot;&gt;&#xd;
+    &#xd;
+    &#xd;
+&lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+    $(document).ready(function () {&#xd;
+&#xd;
+        $(&quot;#adv&quot;).click(toggleAdvancedSearch);&#xd;
+&#xd;
+        toggleAdvancedSearch();&#xd;
+    });&#xd;
+&#xd;
+    function toggleAdvancedSearch() {&#xd;
+&#xd;
+        if ($(&apos;#adv&apos;).is(&apos;:checked&apos;)) {&#xd;
+            $(&apos;#advanced-search-block&apos;).show();&#xd;
+        }&#xd;
+        else {&#xd;
+            $(&apos;#advanced-search-block&apos;).hide();&#xd;
+        }&#xd;
+    }&#xd;
+&lt;/script&gt;&#xd;
+&lt;div class=&quot;page search-page&quot;&gt;&#xd;
+    &lt;div class=&quot;page-title&quot;&gt;&#xd;
+        &lt;h1&gt;Search&lt;/h1&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;page-body&quot;&gt;&#xd;
+        &lt;div class=&quot;search-input&quot;&gt;&#xd;
+&lt;form action=&quot;/nopCommerce/search&quot; method=&quot;get&quot;&gt;                &lt;div class=&quot;fieldset&quot;&gt;&#xd;
+                    &lt;div class=&quot;form-fields&quot;&gt;&#xd;
+                        &lt;div class=&quot;basic-search&quot;&gt;&#xd;
+                            &lt;div class=&quot;inputs&quot;&gt;&#xd;
+                                &lt;label for=&quot;q&quot;&gt;Search keyword:&lt;/label&gt;&#xd;
+                                &lt;input class=&quot;search-text&quot; id=&quot;q&quot; name=&quot;q&quot; type=&quot;text&quot; value=&quot;apple&quot; /&gt;&#xd;
+                            &lt;/div&gt;&#xd;
+                            &#xd;
+                            &lt;div class=&quot;inputs reversed&quot;&gt;&#xd;
+                                &lt;input id=&quot;adv&quot; name=&quot;adv&quot; type=&quot;checkbox&quot; value=&quot;true&quot; /&gt;&lt;input name=&quot;adv&quot; type=&quot;hidden&quot; value=&quot;false&quot; /&gt;&#xd;
+                                &lt;label for=&quot;adv&quot;&gt;Advanced search&lt;/label&gt;&#xd;
+                            &lt;/div&gt;&#xd;
+                        &lt;/div&gt;&#xd;
+                        &lt;div class=&quot;advanced-search&quot; id=&quot;advanced-search-block&quot;&gt;&#xd;
+                                &lt;div class=&quot;inputs&quot;&gt;&#xd;
+                                    &lt;label for=&quot;cid&quot;&gt;Category:&lt;/label&gt;&#xd;
+                                    &lt;select data-val=&quot;true&quot; data-val-number=&quot;The field Category must be a number.&quot; id=&quot;cid&quot; name=&quot;cid&quot;&gt;&lt;option selected=&quot;selected&quot; value=&quot;0&quot;&gt;All&lt;/option&gt;&#xd;
+&lt;option value=&quot;1&quot;&gt;Computers&lt;/option&gt;&#xd;
+&lt;option value=&quot;2&quot;&gt;Computers &amp;gt;&amp;gt; Desktops&lt;/option&gt;&#xd;
+&lt;option value=&quot;3&quot;&gt;Computers &amp;gt;&amp;gt; Notebooks&lt;/option&gt;&#xd;
+&lt;option value=&quot;4&quot;&gt;Computers &amp;gt;&amp;gt; Software&lt;/option&gt;&#xd;
+&lt;option value=&quot;5&quot;&gt;Electronics&lt;/option&gt;&#xd;
+&lt;option value=&quot;6&quot;&gt;Electronics &amp;gt;&amp;gt; Camera &amp;amp; photo&lt;/option&gt;&#xd;
+&lt;option value=&quot;7&quot;&gt;Electronics &amp;gt;&amp;gt; Cell phones&lt;/option&gt;&#xd;
+&lt;option value=&quot;8&quot;&gt;Electronics &amp;gt;&amp;gt; Others&lt;/option&gt;&#xd;
+&lt;option value=&quot;9&quot;&gt;Apparel&lt;/option&gt;&#xd;
+&lt;option value=&quot;10&quot;&gt;Apparel &amp;gt;&amp;gt; Shoes&lt;/option&gt;&#xd;
+&lt;option value=&quot;11&quot;&gt;Apparel &amp;gt;&amp;gt; Clothing&lt;/option&gt;&#xd;
+&lt;option value=&quot;12&quot;&gt;Apparel &amp;gt;&amp;gt; Accessories&lt;/option&gt;&#xd;
+&lt;option value=&quot;13&quot;&gt;Digital downloads&lt;/option&gt;&#xd;
+&lt;option value=&quot;14&quot;&gt;Books&lt;/option&gt;&#xd;
+&lt;option value=&quot;15&quot;&gt;Jewelry&lt;/option&gt;&#xd;
+&lt;option value=&quot;16&quot;&gt;Gift Cards&lt;/option&gt;&#xd;
+&lt;/select&gt;&#xd;
+                                &lt;/div&gt;&#xd;
+                                &lt;div class=&quot;inputs reversed&quot;&gt;&#xd;
+                                    &lt;input id=&quot;isc&quot; name=&quot;isc&quot; type=&quot;checkbox&quot; value=&quot;true&quot; /&gt;&lt;input name=&quot;isc&quot; type=&quot;hidden&quot; value=&quot;false&quot; /&gt;&#xd;
+                                    &lt;label for=&quot;isc&quot;&gt;Automatically search sub categories&lt;/label&gt;&#xd;
+                                &lt;/div&gt;&#xd;
+                                                            &lt;div class=&quot;inputs&quot;&gt;&#xd;
+                                    &lt;label for=&quot;mid&quot;&gt;Manufacturer:&lt;/label&gt;&#xd;
+                                    &lt;select data-val=&quot;true&quot; data-val-number=&quot;The field Manufacturer must be a number.&quot; id=&quot;mid&quot; name=&quot;mid&quot;&gt;&lt;option selected=&quot;selected&quot; value=&quot;0&quot;&gt;All&lt;/option&gt;&#xd;
+&lt;option value=&quot;1&quot;&gt;Apple&lt;/option&gt;&#xd;
+&lt;option value=&quot;2&quot;&gt;HP&lt;/option&gt;&#xd;
+&lt;option value=&quot;3&quot;&gt;Nike&lt;/option&gt;&#xd;
+&lt;/select&gt;&#xd;
+                                &lt;/div&gt;&#xd;
+                                                        &lt;div class=&quot;inputs&quot;&gt;&#xd;
+                                &lt;label&gt;Price range:&lt;/label&gt;&#xd;
+                                &lt;span class=&quot;price-range&quot;&gt;&#xd;
+                                    From&#xd;
+                                    &lt;input class=&quot;price-from&quot; id=&quot;pf&quot; name=&quot;pf&quot; type=&quot;text&quot; value=&quot;&quot; /&gt;&#xd;
+                                    to&#xd;
+                                    &lt;input class=&quot;price-to&quot; id=&quot;pt&quot; name=&quot;pt&quot; type=&quot;text&quot; value=&quot;&quot; /&gt;&#xd;
+                                &lt;/span&gt;&#xd;
+                            &lt;/div&gt;&#xd;
+                            &lt;div class=&quot;inputs reversed&quot;&gt;&#xd;
+                                &lt;input id=&quot;sid&quot; name=&quot;sid&quot; type=&quot;checkbox&quot; value=&quot;true&quot; /&gt;&lt;input name=&quot;sid&quot; type=&quot;hidden&quot; value=&quot;false&quot; /&gt;&#xd;
+                                &lt;label for=&quot;sid&quot;&gt;Search In product descriptions&lt;/label&gt;&#xd;
+                            &lt;/div&gt;&#xd;
+                            &#xd;
+                        &lt;/div&gt;&#xd;
+                    &lt;/div&gt;&#xd;
+                &lt;/div&gt;&#xd;
+                &lt;div class=&quot;buttons&quot;&gt;&#xd;
+                    &lt;input type=&quot;submit&quot; class=&quot;button-1 search-button&quot; value=&quot;Search&quot; /&gt;&#xd;
+                &lt;/div&gt;&#xd;
+&lt;/form&gt;        &lt;/div&gt;&#xd;
+&#xd;
+&lt;div class=&quot;product-selectors&quot;&gt;&#xd;
+    &#xd;
+        &lt;div class=&quot;product-viewmode&quot;&gt;&#xd;
+            &lt;span&gt;View as&lt;/span&gt;&#xd;
+                &lt;a class=&quot;viewmode-icon grid selected&quot; href=&quot;http://demo.bzm-presales.com/nopcommerce/search?q=apple&amp;amp;viewmode=grid&quot; title=&quot;Grid&quot;&gt;Grid&lt;/a&gt;&#xd;
+                &lt;a class=&quot;viewmode-icon list &quot; href=&quot;http://demo.bzm-presales.com/nopcommerce/search?q=apple&amp;amp;viewmode=list&quot; title=&quot;List&quot;&gt;List&lt;/a&gt;&#xd;
+        &lt;/div&gt;&#xd;
+            &lt;div class=&quot;product-sorting&quot;&gt;&#xd;
+            &lt;span&gt;Sort by&lt;/span&gt;&#xd;
+            &lt;select id=&quot;products-orderby&quot; name=&quot;products-orderby&quot; onchange=&quot;setLocation(this.value);&quot;&gt;&lt;option selected=&quot;selected&quot; value=&quot;http://demo.bzm-presales.com/nopcommerce/search?q=apple&amp;amp;orderby=0&quot;&gt;Position&lt;/option&gt;&#xd;
+&lt;option value=&quot;http://demo.bzm-presales.com/nopcommerce/search?q=apple&amp;amp;orderby=5&quot;&gt;Name: A to Z&lt;/option&gt;&#xd;
+&lt;option value=&quot;http://demo.bzm-presales.com/nopcommerce/search?q=apple&amp;amp;orderby=6&quot;&gt;Name: Z to A&lt;/option&gt;&#xd;
+&lt;option value=&quot;http://demo.bzm-presales.com/nopcommerce/search?q=apple&amp;amp;orderby=10&quot;&gt;Price: Low to High&lt;/option&gt;&#xd;
+&lt;option value=&quot;http://demo.bzm-presales.com/nopcommerce/search?q=apple&amp;amp;orderby=11&quot;&gt;Price: High to Low&lt;/option&gt;&#xd;
+&lt;option value=&quot;http://demo.bzm-presales.com/nopcommerce/search?q=apple&amp;amp;orderby=15&quot;&gt;Created on&lt;/option&gt;&#xd;
+&lt;/select&gt;&#xd;
+        &lt;/div&gt;&#xd;
+            &lt;div class=&quot;product-page-size&quot;&gt;&#xd;
+            &lt;span&gt;Display&lt;/span&gt;&#xd;
+            &lt;select id=&quot;products-pagesize&quot; name=&quot;products-pagesize&quot; onchange=&quot;setLocation(this.value);&quot;&gt;&lt;option value=&quot;http://demo.bzm-presales.com/nopcommerce/search?q=apple&amp;amp;pagesize=3&quot;&gt;3&lt;/option&gt;&#xd;
+&lt;option selected=&quot;selected&quot; value=&quot;http://demo.bzm-presales.com/nopcommerce/search?q=apple&amp;amp;pagesize=6&quot;&gt;6&lt;/option&gt;&#xd;
+&lt;option value=&quot;http://demo.bzm-presales.com/nopcommerce/search?q=apple&amp;amp;pagesize=9&quot;&gt;9&lt;/option&gt;&#xd;
+&lt;option value=&quot;http://demo.bzm-presales.com/nopcommerce/search?q=apple&amp;amp;pagesize=18&quot;&gt;18&lt;/option&gt;&#xd;
+&lt;/select&gt;&#xd;
+            &lt;span&gt;per page&lt;/span&gt;&#xd;
+        &lt;/div&gt;&#xd;
+&lt;/div&gt;        &#xd;
+        &lt;div class=&quot;search-results&quot;&gt;&#xd;
+                        &#xd;
+                &lt;div class=&quot;product-grid&quot;&gt;&#xd;
+                    &lt;div class=&quot;item-grid&quot;&gt;&#xd;
+                            &lt;div class=&quot;item-box&quot;&gt;&#xd;
+                                &#xd;
+&lt;div class=&quot;product-item&quot; data-productid=&quot;17&quot;&gt;&#xd;
+    &lt;div class=&quot;picture&quot;&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/apple-icam&quot; title=&quot;Show details for Apple iCam&quot;&gt;&#xd;
+            &lt;img alt=&quot;Picture of Apple iCam&quot; src=&quot;http://demo.bzm-presales.com/nopcommerce/content/images/thumbs/0000040_apple-icam_415.jpeg&quot; title=&quot;Show details for Apple iCam&quot; /&gt;&#xd;
+        &lt;/a&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;details&quot;&gt;&#xd;
+        &lt;h2 class=&quot;product-title&quot;&gt;&#xd;
+            &lt;a href=&quot;/nopCommerce/apple-icam&quot;&gt;Apple iCam&lt;/a&gt;&#xd;
+        &lt;/h2&gt;&#xd;
+                    &lt;div class=&quot;product-rating-box&quot; title=&quot;1 review(s)&quot;&gt;&#xd;
+                &lt;div class=&quot;rating&quot;&gt;&#xd;
+                    &lt;div style=&quot;width: 100%&quot;&gt;&#xd;
+                    &lt;/div&gt;&#xd;
+                &lt;/div&gt;&#xd;
+            &lt;/div&gt;&#xd;
+        &lt;div class=&quot;description&quot;&gt;&#xd;
+            Photography becomes smart&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;add-info&quot;&gt;&#xd;
+            &#xd;
+            &lt;div class=&quot;prices&quot;&gt;&#xd;
+                &lt;span class=&quot;price actual-price&quot;&gt;$1,300.00&lt;/span&gt;&#xd;
+                            &lt;/div&gt;&#xd;
+            &#xd;
+            &lt;div class=&quot;buttons&quot;&gt;&#xd;
+                &#xd;
+                    &lt;input type=&quot;button&quot; value=&quot;Add to cart&quot; class=&quot;button-2 product-box-add-to-cart-button&quot; onclick=&quot;AjaxCart.addproducttocart_catalog(&apos;/nopCommerce/addproducttocart/catalog/17/1/1&apos;);return false;&quot; /&gt;&#xd;
+                                    &lt;input type=&quot;button&quot; value=&quot;Add to compare list&quot; title=&quot;Add to compare list&quot; class=&quot;button-2 add-to-compare-list-button&quot; onclick=&quot;AjaxCart.addproducttocomparelist(&apos;/nopCommerce/compareproducts/add/17&apos;);return false;&quot; /&gt;&#xd;
+                                    &lt;input type=&quot;button&quot; value=&quot;Add to wishlist&quot; title=&quot;Add to wishlist&quot; class=&quot;button-2 add-to-wishlist-button&quot; onclick=&quot;AjaxCart.addproducttocart_catalog(&apos;/nopCommerce/addproducttocart/catalog/17/2/1&apos;);return false;&quot; /&gt;&#xd;
+            &lt;/div&gt;&#xd;
+            &#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+                            &lt;/div&gt;&#xd;
+                            &lt;div class=&quot;item-box&quot;&gt;&#xd;
+                                &#xd;
+&lt;div class=&quot;product-item&quot; data-productid=&quot;4&quot;&gt;&#xd;
+    &lt;div class=&quot;picture&quot;&gt;&#xd;
+        &lt;a href=&quot;/nopCommerce/apple-macbook-pro-13-inch&quot; title=&quot;Show details for Apple MacBook Pro 13-inch&quot;&gt;&#xd;
+            &lt;img alt=&quot;Picture of Apple MacBook Pro 13-inch&quot; src=&quot;http://demo.bzm-presales.com/nopcommerce/content/images/thumbs/0000024_apple-macbook-pro-13-inch_415.jpeg&quot; title=&quot;Show details for Apple MacBook Pro 13-inch&quot; /&gt;&#xd;
+        &lt;/a&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;details&quot;&gt;&#xd;
+        &lt;h2 class=&quot;product-title&quot;&gt;&#xd;
+            &lt;a href=&quot;/nopCommerce/apple-macbook-pro-13-inch&quot;&gt;Apple MacBook Pro 13-inch&lt;/a&gt;&#xd;
+        &lt;/h2&gt;&#xd;
+                    &lt;div class=&quot;product-rating-box&quot; title=&quot;1 review(s)&quot;&gt;&#xd;
+                &lt;div class=&quot;rating&quot;&gt;&#xd;
+                    &lt;div style=&quot;width: 80%&quot;&gt;&#xd;
+                    &lt;/div&gt;&#xd;
+                &lt;/div&gt;&#xd;
+            &lt;/div&gt;&#xd;
+        &lt;div class=&quot;description&quot;&gt;&#xd;
+            A groundbreaking Retina display. A new force-sensing trackpad. All-flash architecture. Powerful dual-core and quad-core Intel processors. Together, these features take the notebook to a new level of performance. And they will do the same for you in everything you create.&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;add-info&quot;&gt;&#xd;
+            &#xd;
+            &lt;div class=&quot;prices&quot;&gt;&#xd;
+                &lt;span class=&quot;price actual-price&quot;&gt;$1,800.00&lt;/span&gt;&#xd;
+                            &lt;/div&gt;&#xd;
+            &#xd;
+            &lt;div class=&quot;buttons&quot;&gt;&#xd;
+                &#xd;
+                    &lt;input type=&quot;button&quot; value=&quot;Add to cart&quot; class=&quot;button-2 product-box-add-to-cart-button&quot; onclick=&quot;AjaxCart.addproducttocart_catalog(&apos;/nopCommerce/addproducttocart/catalog/4/1/1&apos;);return false;&quot; /&gt;&#xd;
+                                    &lt;input type=&quot;button&quot; value=&quot;Add to compare list&quot; title=&quot;Add to compare list&quot; class=&quot;button-2 add-to-compare-list-button&quot; onclick=&quot;AjaxCart.addproducttocomparelist(&apos;/nopCommerce/compareproducts/add/4&apos;);return false;&quot; /&gt;&#xd;
+                                    &lt;input type=&quot;button&quot; value=&quot;Add to wishlist&quot; title=&quot;Add to wishlist&quot; class=&quot;button-2 add-to-wishlist-button&quot; onclick=&quot;AjaxCart.addproducttocart_catalog(&apos;/nopCommerce/addproducttocart/catalog/4/2/1&apos;);return false;&quot; /&gt;&#xd;
+            &lt;/div&gt;&#xd;
+            &#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+                            &lt;/div&gt;&#xd;
+                    &lt;/div&gt;&#xd;
+                &lt;/div&gt;&#xd;
+            &#xd;
+        &lt;/div&gt;&#xd;
+        &#xd;
+    &lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+    &#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+        &lt;/div&gt;&#xd;
+        &#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;footer&quot;&gt;&#xd;
+    &lt;div class=&quot;footer-upper&quot;&gt;&#xd;
+        &lt;div class=&quot;footer-block information&quot;&gt;&#xd;
+            &lt;div class=&quot;title&quot;&gt;&#xd;
+                &lt;strong&gt;Information&lt;/strong&gt;&#xd;
+            &lt;/div&gt;&#xd;
+            &lt;ul class=&quot;list&quot;&gt;&#xd;
+                    &lt;li&gt;&lt;a href=&quot;/nopCommerce/sitemap&quot;&gt;Sitemap&lt;/a&gt;&lt;/li&gt;&#xd;
+                                    &lt;li&gt;&lt;a href=&quot;/nopCommerce/shipping-returns&quot;&gt;Shipping &amp;amp; returns&lt;/a&gt;&lt;/li&gt;&#xd;
+                    &lt;li&gt;&lt;a href=&quot;/nopCommerce/privacy-notice&quot;&gt;Privacy notice&lt;/a&gt;&lt;/li&gt;&#xd;
+                    &lt;li&gt;&lt;a href=&quot;/nopCommerce/conditions-of-use&quot;&gt;Conditions of Use&lt;/a&gt;&lt;/li&gt;&#xd;
+                    &lt;li&gt;&lt;a href=&quot;/nopCommerce/about-us&quot;&gt;About us&lt;/a&gt;&lt;/li&gt;&#xd;
+                &lt;li&gt;&lt;a href=&quot;/nopCommerce/contactus&quot;&gt;Contact us&lt;/a&gt;&lt;/li&gt;&#xd;
+            &lt;/ul&gt;&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;footer-block customer-service&quot;&gt;&#xd;
+            &lt;div class=&quot;title&quot;&gt;&#xd;
+                &lt;strong&gt;Customer service&lt;/strong&gt;&#xd;
+            &lt;/div&gt;&#xd;
+            &lt;ul class=&quot;list&quot;&gt;&#xd;
+                &lt;li&gt;&lt;a href=&quot;/nopCommerce/search&quot;&gt;Search&lt;/a&gt; &lt;/li&gt;&#xd;
+                    &lt;li&gt;&lt;a href=&quot;/nopCommerce/news&quot;&gt;News&lt;/a&gt;&lt;/li&gt;&#xd;
+                                    &lt;li&gt;&lt;a href=&quot;/nopCommerce/blog&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;&#xd;
+                                                    &lt;li&gt;&lt;a href=&quot;/nopCommerce/recentlyviewedproducts&quot;&gt;Recently viewed products&lt;/a&gt;&lt;/li&gt;&#xd;
+                                    &lt;li&gt;&lt;a href=&quot;/nopCommerce/compareproducts&quot;&gt;Compare products list&lt;/a&gt;&lt;/li&gt;&#xd;
+                                    &lt;li&gt;&lt;a href=&quot;/nopCommerce/newproducts&quot;&gt;New products&lt;/a&gt;&lt;/li&gt;&#xd;
+                            &lt;/ul&gt;&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;footer-block my-account&quot;&gt;&#xd;
+            &lt;div class=&quot;title&quot;&gt;&#xd;
+                &lt;strong&gt;My account&lt;/strong&gt;&#xd;
+            &lt;/div&gt;&#xd;
+            &lt;ul class=&quot;list&quot;&gt;&#xd;
+                &lt;li&gt;&lt;a href=&quot;/nopCommerce/customer/info&quot;&gt;My account&lt;/a&gt;&lt;/li&gt;&#xd;
+                &lt;li&gt;&lt;a href=&quot;/nopCommerce/order/history&quot;&gt;Orders&lt;/a&gt;&lt;/li&gt;&#xd;
+                &lt;li&gt;&lt;a href=&quot;/nopCommerce/customer/addresses&quot;&gt;Addresses&lt;/a&gt;&lt;/li&gt;&#xd;
+                    &lt;li&gt;&lt;a href=&quot;/nopCommerce/cart&quot;&gt;Shopping cart&lt;/a&gt;&lt;/li&gt;&#xd;
+                                    &lt;li&gt;&lt;a href=&quot;/nopCommerce/wishlist&quot;&gt;Wishlist&lt;/a&gt;&lt;/li&gt;&#xd;
+                                    &lt;li&gt;&lt;a href=&quot;/nopCommerce/vendor/apply&quot;&gt;Apply for vendor account&lt;/a&gt;&lt;/li&gt;&#xd;
+                            &lt;/ul&gt;&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;footer-block follow-us&quot;&gt;&#xd;
+            &lt;div class=&quot;social&quot;&gt;&#xd;
+                &lt;div class=&quot;title&quot;&gt;&#xd;
+                    &lt;strong&gt;Follow us&lt;/strong&gt;&#xd;
+                &lt;/div&gt;&#xd;
+                &lt;ul class=&quot;networks&quot;&gt;&#xd;
+		&lt;li class=&quot;facebook&quot;&gt;&lt;a href=&quot;http://www.facebook.com/nopCommerce&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;&#xd;
+			&lt;li class=&quot;twitter&quot;&gt;&lt;a href=&quot;https://twitter.com/nopCommerce&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;&#xd;
+			&lt;li class=&quot;rss&quot;&gt;&lt;a href=&quot;/nopCommerce/news/rss/1&quot;&gt;RSS&lt;/a&gt;&lt;/li&gt;&#xd;
+			&lt;li class=&quot;youtube&quot;&gt;&lt;a href=&quot;http://www.youtube.com/user/nopCommerce&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt;&lt;/li&gt;&#xd;
+			&lt;li class=&quot;google-plus&quot;&gt;&lt;a href=&quot;https://plus.google.com/+nopcommerce&quot; target=&quot;_blank&quot;&gt;Google+&lt;/a&gt;&lt;/li&gt;&#xd;
+&lt;/ul&gt;&#xd;
+            &lt;/div&gt;&#xd;
+            &lt;div class=&quot;newsletter&quot;&gt;&#xd;
+    &lt;div class=&quot;title&quot;&gt;&#xd;
+        &lt;strong&gt;Newsletter&lt;/strong&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;newsletter-subscribe&quot; id=&quot;newsletter-subscribe-block&quot;&gt;&#xd;
+        &lt;div class=&quot;newsletter-email&quot;&gt;&#xd;
+            &lt;input class=&quot;newsletter-subscribe-text&quot; id=&quot;newsletter-email&quot; name=&quot;NewsletterEmail&quot; placeholder=&quot;Enter your email here...&quot; type=&quot;text&quot; value=&quot;&quot; /&gt;&#xd;
+            &lt;input type=&quot;button&quot; value=&quot;Subscribe&quot; id=&quot;newsletter-subscribe-button&quot; class=&quot;button-1 newsletter-subscribe-button&quot; /&gt;&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div class=&quot;newsletter-validation&quot;&gt;&#xd;
+            &lt;span id=&quot;subscribe-loading-progress&quot; style=&quot;display: none;&quot; class=&quot;please-wait&quot;&gt;Wait...&lt;/span&gt;&#xd;
+            &lt;span class=&quot;field-validation-valid&quot; data-valmsg-for=&quot;NewsletterEmail&quot; data-valmsg-replace=&quot;true&quot;&gt;&lt;/span&gt;&#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;newsletter-result&quot; id=&quot;newsletter-result-block&quot;&gt;&lt;/div&gt;&#xd;
+    &lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+        function newsletter_subscribe(subscribe) {&#xd;
+            var subscribeProgress = $(&quot;#subscribe-loading-progress&quot;);&#xd;
+            subscribeProgress.show();&#xd;
+            var postData = {&#xd;
+                subscribe: subscribe,&#xd;
+                email: $(&quot;#newsletter-email&quot;).val()&#xd;
+            };&#xd;
+            $.ajax({&#xd;
+                cache: false,&#xd;
+                type: &quot;POST&quot;,&#xd;
+                url: &quot;/nopCommerce/subscribenewsletter&quot;,&#xd;
+                data: postData,&#xd;
+                success: function(data) {&#xd;
+                    subscribeProgress.hide();&#xd;
+                    $(&quot;#newsletter-result-block&quot;).html(data.Result);&#xd;
+                    if (data.Success) {&#xd;
+                        $(&apos;#newsletter-subscribe-block&apos;).hide();&#xd;
+                        $(&apos;#newsletter-result-block&apos;).show();&#xd;
+                    } else {&#xd;
+                        $(&apos;#newsletter-result-block&apos;).fadeIn(&quot;slow&quot;).delay(2000).fadeOut(&quot;slow&quot;);&#xd;
+                    }&#xd;
+                },&#xd;
+                error: function(xhr, ajaxOptions, thrownError) {&#xd;
+                    alert(&apos;Failed to subscribe.&apos;);&#xd;
+                    subscribeProgress.hide();&#xd;
+                }&#xd;
+            });&#xd;
+        }&#xd;
+&#xd;
+        $(document).ready(function () {&#xd;
+            $(&apos;#newsletter-subscribe-button&apos;).click(function () {&#xd;
+                    newsletter_subscribe(&apos;true&apos;);&#xd;
+            });&#xd;
+            $(&quot;#newsletter-email&quot;).keydown(function (event) {&#xd;
+                if (event.keyCode == 13) {&#xd;
+                    $(&quot;#newsletter-subscribe-button&quot;).click();&#xd;
+                    return false;&#xd;
+                }&#xd;
+            });&#xd;
+        });&#xd;
+    &lt;/script&gt;&#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;div class=&quot;footer-lower&quot;&gt;&#xd;
+        &lt;div class=&quot;footer-info&quot;&gt;&#xd;
+            &lt;span class=&quot;footer-disclaimer&quot;&gt;Copyright &amp;copy; 2018 BlazeMeter Demo Product Store (CA-APM). All rights reserved.&lt;/span&gt;&#xd;
+        &lt;/div&gt;&#xd;
+            &lt;div class=&quot;footer-powered-by&quot;&gt;&#xd;
+                &#xd;
+                Powered by &lt;a href=&quot;http://www.nopcommerce.com/&quot;&gt;nopCommerce&lt;/a&gt;&#xd;
+            &lt;/div&gt;&#xd;
+        &#xd;
+    &lt;/div&gt;&#xd;
+    &#xd;
+&lt;/div&gt;&#xd;
+&lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+    $(document).ready(function () {&#xd;
+        $(&apos;.footer-block .title&apos;).click(function () {&#xd;
+            var e = window, a = &apos;inner&apos;;&#xd;
+            if (!(&apos;innerWidth&apos; in window)) {&#xd;
+                a = &apos;client&apos;;&#xd;
+                e = document.documentElement || document.body;&#xd;
+            }&#xd;
+            var result = { width: e[a + &apos;Width&apos;], height: e[a + &apos;Height&apos;] };&#xd;
+            if (result.width &lt; 769) {&#xd;
+                $(this).siblings(&apos;.list&apos;).slideToggle(&apos;slow&apos;);&#xd;
+            }&#xd;
+        });&#xd;
+    });&#xd;
+&lt;/script&gt;&#xd;
+&lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+    $(document).ready(function () {&#xd;
+        $(&apos;.block .title&apos;).click(function () {&#xd;
+            var e = window, a = &apos;inner&apos;;&#xd;
+            if (!(&apos;innerWidth&apos; in window)) {&#xd;
+                a = &apos;client&apos;;&#xd;
+                e = document.documentElement || document.body;&#xd;
+            }&#xd;
+            var result = { width: e[a + &apos;Width&apos;], height: e[a + &apos;Height&apos;] };&#xd;
+            if (result.width &lt; 1001) {&#xd;
+                $(this).siblings(&apos;.listbox&apos;).slideToggle(&apos;slow&apos;);&#xd;
+            }&#xd;
+        });&#xd;
+    });&#xd;
+&lt;/script&gt;&#xd;
+&lt;/div&gt;&#xd;
+&#xd;
+&#xd;
+    &#xd;
+    &#xd;
+&lt;/body&gt;&#xd;
+&lt;/html&gt;&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <redirectLocation class="java.lang.String">http://demo.bzm-presales.com.x.b5eb000e0a05d0443d095f107780cc02ae54.9270f744.id.opendns.com/h/demo.bzm-presales.com/nopCommerce/search?X-OpenDNS-Session=_b5eb000e0a05d0443d095f107780cc02ae549270f744_556d9fb6_q=apple</redirectLocation>
+  <java.net.URL>http://demo.bzm-presales.com/nopCommerce/search?q=apple</java.net.URL>
+</httpSample>
+
+</testResults>
